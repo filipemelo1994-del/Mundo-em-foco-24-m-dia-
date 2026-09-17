@@ -1,0 +1,16 @@
+[
+  {
+    "id":"portal-pronto-para-noticias",
+    "published":true,
+    "category":"MUNDO EM FOCO 24",
+    "title":"Mundo em Foco 24 prepara nova fase do portal de notícias",
+    "summary":"Portal passa a contar com estrutura para manchetes completas, imagens, busca e páginas individuais de matérias.",
+    "location":"RECIFE",
+    "date":"16 SET 2026",
+    "image":"assets/logo-site.png",
+    "imageAlt":"Logo Mundo em Foco 24",
+    "credit":"Mundo em Foco 24",
+    "body":["O Mundo em Foco 24 está estruturando seu portal para reunir em um só lugar as principais notícias de Recife, Pernambuco, Brasil e mundo.","A nova estrutura permite que cada publicação tenha manchete completa, resumo, imagem, data, localização, créditos, fontes e texto integral. As matérias publicadas também poderão ser encontradas pela busca do portal.","Este conteúdo é uma publicação institucional de teste e será substituído na capa conforme novas matérias jornalísticas forem adicionadas."],
+    "sources":[]
+  }
+]
