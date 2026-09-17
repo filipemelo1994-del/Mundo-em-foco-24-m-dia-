@@ -1,5 +1,19 @@
 [
   {
+    "id":"enchentes-vale-ribeira-emergencia-16-09-2026",
+    "published":true,
+    "category":"CLIMA",
+    "title":"Enchentes deixam cerca de 2 mil afetados e levam cidades do Vale do Ribeira a decretar emergência",
+    "summary":"Fortes chuvas provocaram inundações no sul de São Paulo; municípios decretaram emergência, famílias seguem desabrigadas e 19 abrigos foram montados na região.",
+    "location":"VALE DO RIBEIRA, SP",
+    "date":"16 SET 2026",
+    "image":"https://static.poder360.com.br/uploads/2026/09/alagamento-em-vale-do-ribeira-848x477.jpeg",
+    "imageAlt":"Equipes da Defesa Civil e de resgate percorrem área alagada no Vale do Ribeira",
+    "credit":"Defesa Civil de São Paulo / Divulgação",
+    "body":["Cinco municípios do Vale do Ribeira — Eldorado, Registro, Ribeira, Iporanga e Barra do Turvo — e a cidade de Piracaia decretaram situação de emergência após as fortes chuvas que atingiram o estado de São Paulo. Segundo informações divulgadas pela Defesa Civil e reproduzidas pela Agência Brasil, cerca de 2 mil pessoas foram afetadas pelas inundações nos últimos dias.","Em Registro, 28 famílias permaneciam desabrigadas, enquanto Sete Barras contabilizava outras 25. O rio Ribeira de Iguape continuava transbordando em alguns trechos nesta quarta-feira (16), mantendo áreas rurais de Sete Barras, Registro e Pariquera-Açu inundadas.","As autoridades montaram 19 abrigos em seis municípios para receber famílias atingidas. Cinco escolas estaduais também foram disponibilizadas. Em Registro, um homem de 100 anos que ficou isolado em sua residência precisou ser resgatado com apoio de helicópteros da Polícia Militar.","Em Ribeira, Iporanga e Eldorado, o recuo das águas já permitia o início da limpeza de algumas residências. Até a atualização divulgada pelas autoridades, não havia registro de mortos ou feridos em decorrência das enchentes especificamente no Vale do Ribeira.","O governo paulista enviou medicamentos, itens de ajuda humanitária e 159 mil frascos de hipoclorito de sódio para auxiliar no tratamento de água nas residências. Mais de 7 mil itens, entre kits de limpeza, higiene e dormitório, cestas básicas e água, também foram destinados à região.","As equipes da Defesa Civil seguem acompanhando os níveis dos rios e trabalhando em conjunto com as prefeituras. Moradores de áreas sujeitas a alagamentos e deslizamentos devem acompanhar os alertas oficiais e evitar atravessar trechos inundados."],
+    "sources":[{"name":"Agência Brasil — Chuvas em SP: cidades do Vale do Ribeira estão em estado de emergência","url":"https://agenciabrasil.ebc.com.br/educacao/noticia/2026-09/chuvas-em-sp-cidades-do-vale-do-ribeira-estao-em-estado-de-emergencia"},{"name":"Poder360 — Chuvas em SP: cidades do Vale do Ribeira estão em estado de emergência","url":"https://www.poder360.com.br/poder-brasil/chuvas-em-sp-cidades-do-vale-do-ribeira-estao-em-estado-de-emergencia/"}]
+  },
+  {
     "id":"copom-selic-1375-16-09-2026",
     "published":true,
     "category":"ECONOMIA",
