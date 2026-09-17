@@ -1,5 +1,19 @@
 [
   {
+    "id":"copom-selic-1375-16-09-2026",
+    "published":true,
+    "category":"ECONOMIA",
+    "title":"Copom reduz Selic para 13,75% ao ano no quinto corte consecutivo",
+    "summary":"Banco Central cortou a taxa básica em 0,25 ponto percentual, por unanimidade, e manteve tom de cautela diante do cenário externo e da inflação.",
+    "location":"BRASÍLIA, DF",
+    "date":"16 SET 2026",
+    "image":"https://imagens.ebc.com.br/4P4kLfGygwh7yN8EJAMIaG0PqTM%3D/1170x700/smart/https%3A//agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/20231025_150203.jpg?itok=55thhM0a",
+    "imageAlt":"Fachada do Banco Central do Brasil, em Brasília",
+    "credit":"Rafa Neddermeyer / Agência Brasil",
+    "body":["O Comitê de Política Monetária (Copom) do Banco Central reduziu nesta quarta-feira (16) a taxa Selic em 0,25 ponto percentual, de 14% para 13,75% ao ano. A decisão foi unânime e marcou o quinto corte consecutivo da taxa básica de juros.","A Selic é a principal referência da política monetária brasileira e influencia o custo do crédito, financiamentos, investimentos e a remuneração de aplicações financeiras. Mesmo após a nova redução, o Banco Central indicou que seguirá cauteloso na condução dos juros.","No comunicado sobre a decisão, o Copom destacou incertezas no ambiente externo, incluindo os conflitos no Oriente Médio e a política monetária de economias avançadas. No cenário doméstico, o comitê apontou moderação gradual da atividade econômica, mercado de trabalho ainda aquecido e desaceleração recente da inflação.","Segundo dados divulgados pela Agência Brasil, o IPCA acumulado em 12 meses recuou para 4,22% em agosto. A meta contínua de inflação é de 3%, com intervalo de tolerância entre 1,5% e 4,5%.","Juros básicos menores tendem a reduzir gradualmente o custo do crédito e estimular consumo e produção, embora a transmissão da Selic para empréstimos e financiamentos não seja imediata nem uniforme. As próximas decisões do Copom dependerão da evolução da inflação, da atividade econômica e dos riscos internos e externos."],
+    "sources":[{"name":"Agência Brasil — BC reduz juros básicos para 13,75% ao ano","url":"https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bc-reduz-juros-basicos-para-1375-ao-ano"},{"name":"Banco Central do Brasil — Histórico das taxas de juros básicas","url":"https://www.bcb.gov.br/controleinflacao/historicotaxasjuros"}]
+  },
+  {
     "id":"operacao-forca-integrada-iv-16-09-2026",
     "published":true,
     "category":"SEGURANÇA",
