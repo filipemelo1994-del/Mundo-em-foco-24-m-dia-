@@ -1,5 +1,77 @@
 [
   {
+    "id": "petroleo-cai-2-oferta-saudita-18-09-2026",
+    "published": true,
+    "category": "ECONOMIA",
+    "title": "Petróleo cai 2% com redução dos temores sobre oferta saudita",
+    "summary": "Brent recua para US$ 102,68 por barril nesta sexta-feira, enquanto o mercado acompanha a recuperação de rotas alternativas de exportação saudita.",
+    "location": "MUNDO",
+    "date": "18 SET 2026",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Oil%20platform%20Brazil%20%281%29.jpg?width=1600",
+    "imageAlt": "Plataforma de petróleo em imagem ilustrativa",
+    "credit": "Wikimedia Commons / imagem ilustrativa",
+    "body": [
+      "Os preços do petróleo caíram cerca de 2% nesta sexta-feira (18), na terceira sessão consecutiva de perdas, com diminuição dos receios de interrupções prolongadas no fornecimento da Arábia Saudita.",
+      "O Brent recuou US$ 2,14, para US$ 102,68 por barril, enquanto o petróleo norte-americano WTI caiu US$ 1,83, para US$ 100,08.",
+      "O mercado reagiu à recuperação da capacidade de transporte saudita e ao aumento de embarques por rotas alternativas via Omã. Estoques mais elevados em importantes mercados também ajudaram a aliviar a pressão sobre os preços.",
+      "Apesar da queda, as tensões no Oriente Médio continuam sendo acompanhadas pelos investidores por causa dos riscos para rotas estratégicas de transporte de energia."
+    ],
+    "sources": [
+      {
+        "name": "Reuters — Oil prices fall 2% on easing fears over Saudi supply disruption",
+        "url": "https://www.reuters.com/business/energy/oil-prices-fall-1-hopes-limited-supply-disruptions-2026-09-18/"
+      }
+    ]
+  },
+  {
+    "id": "mega-sena-bolao-101-milhoes-18-09-2026",
+    "published": true,
+    "category": "BRASIL",
+    "title": "Bolão de Presidente Venceslau leva R$ 101,9 milhões na Mega-Sena",
+    "summary": "Aposta com nove cotas acertou as seis dezenas do concurso 3.059; próximo sorteio tem prêmio estimado em R$ 28 milhões.",
+    "location": "PRESIDENTE VENCESLAU, SP",
+    "date": "18 SET 2026",
+    "image": "https://agenciabrasil.ebc.com.br/sites/default/files/styles/1170x700/public/thumbnails/image/mega_sena_marcello_casal_jr_agencia_brasil.jpg",
+    "imageAlt": "Mega-Sena",
+    "credit": "Marcello Casal Jr. / Agência Brasil",
+    "body": [
+      "Um bolão com nove cotas realizado em Presidente Venceslau, no interior de São Paulo, acertou as seis dezenas do concurso 3.059 da Mega-Sena, sorteado na quinta-feira (17).",
+      "O prêmio é de R$ 101.970.706,13. A aposta foi feita na lotérica Cantinho da Sorte e marcou sete números.",
+      "As dezenas sorteadas foram 01, 02, 07, 18, 33 e 35. Outras 98 apostas acertaram cinco dezenas e receberão R$ 31.664,29 cada; 6.697 apostas fizeram a quadra e receberão R$ 763,77 cada.",
+      "O próximo concurso será realizado no domingo (20), com prêmio principal estimado em R$ 28 milhões."
+    ],
+    "sources": [
+      {
+        "name": "Agência Brasil — Bolão de Presidente Venceslau leva R$ 101 milhões na Mega-Sena",
+        "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-09/bolao-de-presidente-venceslau-sp-leva-r-101-milhoes-na-mega-sena"
+      }
+    ]
+  },
+  {
+    "id": "brasil-colombia-sul-americano-volei-18-09-2026",
+    "published": true,
+    "category": "ESPORTES",
+    "title": "Brasil bate Colômbia e segue 100% no Sul-Americano masculino de vôlei",
+    "summary": "Seleção vence por 3 sets a 0 no Maracanãzinho e chega à terceira vitória em três partidas.",
+    "location": "RIO DE JANEIRO, RJ",
+    "date": "18 SET 2026",
+    "image": "https://agenciabrasil.ebc.com.br/sites/default/files/styles/1170x700/public/thumbnails/image/volei_masculino_brasil_mauricio_val_cbv.jpg",
+    "imageAlt": "Seleção brasileira masculina de vôlei",
+    "credit": "Maurício Val / Fotoclic / CBV",
+    "body": [
+      "A seleção brasileira masculina de vôlei manteve os 100% de aproveitamento no Campeonato Sul-Americano ao derrotar a Colômbia por 3 sets a 0 na quinta-feira (17), no Maracanãzinho, no Rio de Janeiro.",
+      "As parciais foram 25/23, 25/14 e 25/16. O Brasil chegou à terceira vitória em três jogos e soma nove pontos, mesma pontuação da Argentina, mas ainda sem perder sets.",
+      "Darlan foi o maior pontuador da partida, com 19 pontos. O torneio reúne seis seleções em cinco rodadas, e o campeão garante vaga antecipada nos Jogos Olímpicos de Los Angeles 2028.",
+      "O Brasil volta à quadra no sábado (19), às 11h, contra a Venezuela. No domingo (20), às 10h, enfrenta a Argentina na rodada que encerra o torneio."
+    ],
+    "sources": [
+      {
+        "name": "Agência Brasil — Brasil bate Colômbia e segue 100% no Sul-Americano masculino de vôlei",
+        "url": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-09/brasil-bate-colombia-e-segue-100-no-sul-americano-masculino-de-volei"
+      }
+    ]
+  },
+  {
     "id": "bolsa-familia-reajuste-15-outubro-17-09-2026",
     "published": true,
     "category": "ECONOMIA",
