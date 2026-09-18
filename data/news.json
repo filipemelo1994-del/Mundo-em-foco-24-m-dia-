@@ -1,5 +1,33 @@
 [
   {
+    "id": "bolsa-familia-reajuste-15-outubro-17-09-2026",
+    "published": true,
+    "category": "ECONOMIA",
+    "title": "Bolsa Família terá reajuste de 15% a partir de outubro",
+    "summary": "Valor mínimo garantido passa de R$ 600 para R$ 691, enquanto o benefício médio estimado sobe de R$ 675 para R$ 777.",
+    "location": "BRASÍLIA, DF",
+    "date": "17 SET 2026",
+    "image": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bolsa-familia-e-reajustado-em-15-medida-vale-partir-de-outubro",
+    "imageAlt": "Bolsa Família",
+    "credit": "Agência Brasil",
+    "body": [
+      "O Bolsa Família terá os valores reajustados em 15,04%. O valor mínimo garantido por família passa de R$ 600 para R$ 691, e o benefício médio estimado pelo governo sobe de R$ 675 para R$ 777.",
+      "A correção usa como referência a inflação acumulada pelo INPC entre março de 2023 e agosto de 2026. O decreto foi assinado nesta quinta-feira (17) e produz efeitos financeiros a partir de 1º de outubro.",
+      "Também foram atualizados componentes do programa: o Benefício de Renda de Cidadania passa para R$ 164 por integrante; o Benefício Primeira Infância, para R$ 173; e o Benefício Variável Familiar, para R$ 58.",
+      "O valor efetivamente recebido continua variando conforme a composição de cada família e os benefícios aos quais seus integrantes têm direito. Os pagamentos da folha de outubro começam no dia 19, conforme o calendário por final do NIS."
+    ],
+    "sources": [
+      {
+        "name": "Agência Brasil — Bolsa Família é reajustado em 15%; medida vale a partir de outubro",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bolsa-familia-e-reajustado-em-15-medida-vale-partir-de-outubro"
+      },
+      {
+        "name": "MDS — Bolsa Família",
+        "url": "https://www.gov.br/mds/pt-br/acoes-e-programas/bolsa-familia"
+      }
+    ]
+  },
+  {
     "id": "linha-sul-metro-recife-retomada-17-09-2026",
     "published": true,
     "category": "RECIFE/RMR",
