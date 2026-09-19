@@ -1,5 +1,173 @@
 [
   {
+    "id": "expedicao-the-gap-abismos-atlantico-18-09-2026",
+    "published": true,
+    "category": "CIÊNCIA",
+    "title": "Expedição brasileira vai investigar os abismos do Atlântico",
+    "summary": "Missão The Gap parte de Fortaleza para explorar a Zona de Fratura Romanche, uma formação submarina de cerca de mil quilômetros entre o Nordeste brasileiro e a África.",
+    "location": "ATLÂNTICO EQUATORIAL",
+    "date": "18 SET 2026",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Atlantic_Ocean_-_en.png?width=1600",
+    "imageAlt": "Mapa do Oceano Atlântico, imagem ilustrativa",
+    "credit": "Wikimedia Commons / imagem ilustrativa",
+    "body": [
+      "Uma expedição científica com participação brasileira parte de Fortaleza no domingo (20) para investigar uma das regiões mais profundas e pouco conhecidas do Atlântico Equatorial: a Zona de Fratura Romanche.",
+      "Batizada de The Gap, a missão vai explorar uma formação submarina de aproximadamente mil quilômetros, composta por montanhas e vales e situada entre a costa Nordeste do Brasil e a África Ocidental.",
+      "A pesquisa será realizada a partir do navio Falkor (too) e contará com veículos robóticos para observar e mapear ambientes de grande profundidade. O trabalho pode ampliar o conhecimento sobre geologia, biodiversidade e ecossistemas das zonas abissais.",
+      "A expedição coloca pesquisadores e tecnologia de exploração oceânica diante de ambientes ainda pouco documentados, onde pressão extrema, ausência de luz e relevo complexo tornam a investigação especialmente desafiadora."
+    ],
+    "sources": [
+      {
+        "name": "Agência Brasil — Expedição científica brasileira investiga abismos do Atlântico",
+        "url": "https://agenciabrasil.ebc.com.br/"
+      }
+    ]
+  },
+  {
+    "id": "recife-realidade-virtual-vacinacao-neurodivergentes-18-09-2026",
+    "published": true,
+    "category": "RECIFE/RMR",
+    "title": "Recife usa realidade virtual para facilitar vacinação de crianças neurodivergentes",
+    "summary": "Sala na Policlínica Lessa de Andrade utiliza óculos de realidade virtual para tornar a imunização mais acolhedora e reduzir estímulos associados ao procedimento.",
+    "location": "RECIFE, PE",
+    "date": "18 SET 2026",
+    "image": "https://www2.recife.pe.gov.br/sites/default/files/styles/imagem_slide_home/public/realidade_virtual_vacinacao.jpg",
+    "imageAlt": "Atendimento de vacinação com recurso de realidade virtual",
+    "credit": "Prefeitura do Recife",
+    "body": [
+      "A rede municipal do Recife passou a utilizar realidade virtual como apoio à vacinação de crianças neurodivergentes na Policlínica Lessa de Andrade, na Madalena.",
+      "A iniciativa, chamada Vacina Divertida com Realidade Virtual, busca tornar a experiência de imunização mais confortável para crianças com condições como transtorno do espectro autista e outros transtornos do neurodesenvolvimento.",
+      "Com os óculos, a criança pode direcionar a atenção para uma experiência virtual durante o atendimento. A estratégia integra medidas de acolhimento que procuram reduzir medo, ansiedade e desconforto diante da aplicação da vacina.",
+      "A proposta combina tecnologia e saúde pública em um atendimento adaptado às necessidades individuais, ampliando alternativas para famílias que enfrentam dificuldades durante procedimentos de saúde."
+    ],
+    "sources": [
+      {
+        "name": "Prefeitura do Recife — Recife avança com vacinação para crianças neurodivergentes com sala que utiliza realidade virtual",
+        "url": "https://www2.recife.pe.gov.br/noticias/18/09/2026/recife-avanca-com-vacinacao-para-criancas-neurodivergentes-com-sala-que-utiliza"
+      }
+    ]
+  },
+  {
+    "id": "pix-novas-regras-fraudes-cobranca-hibrida-18-09-2026",
+    "published": true,
+    "category": "ECONOMIA",
+    "title": "Pix terá novas regras para fraudes, cobrança híbrida e contas-salário",
+    "summary": "Banco Central anunciou mudanças que reforçam mecanismos de segurança e ampliam funcionalidades do sistema de pagamentos a partir de 2027.",
+    "location": "BRASÍLIA, DF",
+    "date": "18 SET 2026",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Logo_-_pix_powered_by_Banco_Central_(Brazil,_2020).png?width=1200",
+    "imageAlt": "Logotipo do Pix",
+    "credit": "Banco Central / Wikimedia Commons",
+    "body": [
+      "O Banco Central anunciou mudanças no regulamento do Pix para ampliar funcionalidades e reforçar a segurança do sistema de pagamentos instantâneos.",
+      "Entre as novidades está a autorização para uso do Pix Automático em contas-salário a partir de julho de 2027. Outra mudança é a regulamentação da cobrança híbrida, que reúne boleto e QR Code Pix no mesmo documento e deverá valer a partir de fevereiro de 2027.",
+      "As normas também alteram procedimentos de entrada, suspensão e saída de instituições participantes. Em determinados casos, a exclusão do Pix poderá ter efeito imediato, sem o prazo de 30 dias usado atualmente.",
+      "Segundo o Banco Central, o objetivo é aprimorar a proteção dos usuários e o funcionamento da infraestrutura, ao mesmo tempo em que novas formas de pagamento são incorporadas ao sistema."
+    ],
+    "sources": [
+      {
+        "name": "Agência Brasil — Pix terá novas regras para fraudes, cobrança híbrida e contas-salário",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/pix-tera-novas-regras-para-fraudes-cobranca-hibrida-e-contas-salario"
+      }
+    ]
+  },
+  {
+    "id": "robos-china-expo-hangzhou-18-09-2026",
+    "published": true,
+    "category": "TECNOLOGIA",
+    "title": "Robôs mostram aplicações para trabalhos reais em exposição na China",
+    "summary": "Evento em Hangzhou reúne drones, cães-robôs e máquinas especializadas para demonstrar como a robótica pode atuar fora dos laboratórios.",
+    "location": "HANGZHOU, CHINA",
+    "date": "18 SET 2026",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/ANYmal_C_at_Bauma_2022.jpg?width=1600",
+    "imageAlt": "Robô quadrúpede, imagem ilustrativa",
+    "credit": "Wikimedia Commons / imagem ilustrativa",
+    "body": [
+      "Uma exposição de habilidades robóticas em Hangzhou, no leste da China, está colocando máquinas diante de tarefas voltadas a aplicações do mundo real.",
+      "Imagens divulgadas pela Reuters mostram drones realizando entregas, cães-robôs equipados com sensores, robôs quadrúpedes com braços mecânicos movimentando objetos e equipamentos voltados a atividades como pintura.",
+      "A demonstração evidencia uma etapa importante da indústria: levar robôs para além de protótipos e avaliar sua capacidade de executar tarefas úteis em ambientes de trabalho.",
+      "A robótica chinesa tem avançado em áreas como logística, inspeção, manufatura e serviços, enquanto empresas buscam reduzir custos e aumentar a confiabilidade dessas máquinas."
+    ],
+    "sources": [
+      {
+        "name": "Reuters Connect — Robots to take on real-world jobs at application skills expo in Hangzhou",
+        "url": "https://www.reutersconnect.com/item/china-robots-to-take-on-real-world-jobs-at-application-skills-expo-in-hangzhou/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX09XU0hCQzExODY1MzI"
+      }
+    ]
+  },
+  {
+    "id": "anthropic-laboratorio-biologia-ia-medicamentos-18-09-2026",
+    "published": true,
+    "category": "INTELIGÊNCIA ARTIFICIAL",
+    "title": "Anthropic cria laboratório de biologia e amplia aposta em IA para pesquisa de medicamentos",
+    "summary": "Empresa responsável pelo Claude montou laboratório físico na região da Baía de São Francisco para aproximar inteligência artificial de experimentos biológicos.",
+    "location": "CALIFÓRNIA, EUA",
+    "date": "18 SET 2026",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Laboratory_bench.jpg?width=1600",
+    "imageAlt": "Laboratório de biologia, imagem ilustrativa",
+    "credit": "Wikimedia Commons / imagem ilustrativa",
+    "body": [
+      "A Anthropic, empresa responsável pelo Claude, montou um laboratório físico de biologia na região da Baía de São Francisco enquanto amplia sua atuação em inteligência artificial aplicada à pesquisa de medicamentos, segundo a Reuters.",
+      "A estrutura permite que trabalhos computacionais sejam conectados a experimentos reais de laboratório. Essa integração é importante porque hipóteses geradas ou analisadas por sistemas de IA precisam ser testadas fisicamente antes de avançarem na pesquisa biomédica.",
+      "A iniciativa insere a Anthropic em uma corrida mais ampla para usar inteligência artificial em etapas da descoberta de fármacos, incluindo análise de dados biológicos e apoio ao desenho de experimentos.",
+      "O projeto ainda está ligado à pesquisa pré-clínica; portanto, a existência do laboratório não significa que novos medicamentos estejam prontos para uso em pacientes."
+    ],
+    "sources": [
+      {
+        "name": "Reuters — Anthropic quietly sets up biology lab as it ramps AI drug program",
+        "url": "https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/"
+      }
+    ]
+  },
+  {
+    "id": "hackathon-seguranca-recife-19-09-2026",
+    "published": true,
+    "category": "RECIFE/RMR",
+    "title": "Recife reúne 150 participantes em hackathon para criar soluções de segurança",
+    "summary": "Maratona de inovação aberta terá seis desafios públicos e equipes multidisciplinares trabalhando com tecnologia e dados para propor soluções para a cidade.",
+    "location": "RECIFE, PE",
+    "date": "18 SET 2026",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hackathon.jpg?width=1600",
+    "imageAlt": "Participantes em hackathon, imagem ilustrativa",
+    "credit": "Wikimedia Commons / imagem ilustrativa",
+    "body": [
+      "A Prefeitura do Recife realiza neste sábado (19) o Hackathon Segurança Recife, uma maratona de inovação aberta voltada à criação de soluções para desafios públicos da capital pernambucana.",
+      "O evento atingiu a lotação de 150 participantes, entre desenvolvedores, estudantes, jovens e profissionais de inovação. As equipes, com oito a dez integrantes, trabalharão em seis trilhas temáticas ligadas a problemas disponibilizados no Banco de Oportunidades da plataforma Coreto.",
+      "A maratona será realizada na Uninassau, unidade Graças, das 8h às 19h, com participação de comunidades e organizações do ecossistema tecnológico local.",
+      "A proposta é transformar dados e problemas reais da administração pública em protótipos e soluções práticas, aproximando talentos de tecnologia das demandas de proteção cidadã."
+    ],
+    "sources": [
+      {
+        "name": "Prefeitura do Recife — Hackathon Segurança Recife",
+        "url": "https://www2.recife.pe.gov.br/noticias/18/09/2026/prefeitura-do-recife-realiza-hackathon-na-tematica-de-seguranca-com-foco-em"
+      }
+    ]
+  },
+  {
+    "id": "ministerio-estuda-canetas-emagrecedoras-sus-18-09-2026",
+    "published": true,
+    "category": "SAÚDE",
+    "title": "Ministério da Saúde estuda oferta responsável de canetas emagrecedoras no SUS",
+    "summary": "Pasta avalia critérios para possível incorporação de medicamentos contra obesidade; ainda não há liberação geral nem data definida para oferta nacional.",
+    "location": "BRASIL",
+    "date": "18 SET 2026",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/SUS_apenas.jpg?width=1200",
+    "imageAlt": "Identidade do Sistema Único de Saúde",
+    "credit": "Wikimedia Commons / imagem ilustrativa",
+    "body": [
+      "O Ministério da Saúde informou que conduz estudos para avaliar a disponibilização de medicamentos conhecidos como canetas emagrecedoras para pacientes do Sistema Único de Saúde com obesidade.",
+      "A pasta afirma que a eventual oferta deverá ocorrer de forma responsável, com critérios clínicos definidos. O trabalho considera evidências sobre medicamentos para obesidade e experiências em acompanhamento de pacientes.",
+      "O governo também destaca iniciativas para ampliar a produção nacional desses medicamentos. Segundo o Ministério, já existem 14 produtos registrados no país relacionados a esse segmento.",
+      "A medida ainda está em avaliação. Isso significa que não existe, neste momento, acesso geral e imediato às canetas pelo SUS para toda pessoa com obesidade; critérios, protocolo e implementação dependem da conclusão dos estudos e das etapas de incorporação."
+    ],
+    "sources": [
+      {
+        "name": "Ministério da Saúde — Canetas emagrecedoras serão disponibilizadas de forma responsável no SUS, diz ministro",
+        "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/canetas-emagrecedoras-serao-disponibilizadas-de-forma-responsavel-no-sus-diz-ministro"
+      }
+    ]
+  },
+  {
     "id": "data-center-tier-iii-recife-18-09-2026",
     "published": true,
     "category": "TECNOLOGIA",
