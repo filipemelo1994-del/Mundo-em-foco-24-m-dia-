@@ -1,5 +1,35 @@
 [
   {
+    "id": "nova-especie-felino-bolivia-19-09-2026",
+    "published": true,
+    "category": "CIÊNCIA",
+    "title": "Nova espécie de felino é identificada nas florestas da Bolívia",
+    "summary": "Leopardus tilcayo é a primeira espécie viva de felino formalmente descrita pela ciência em mais de um século.",
+    "location": "YUNGAS, BOLÍVIA",
+    "date": "19 SET 2026",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Leopardus%20tilcayo.jpg?width=1600",
+    "imageAlt": "Leopardus tilcayo nas florestas da Bolívia",
+    "credit": "Paola Nogales Ascarrunz / Wikimedia Commons — CC BY 4.0",
+    "body": [
+      "Uma equipe internacional liderada pelo pesquisador brasileiro Eduardo Eizirik, da PUCRS, identificou uma nova espécie de felino selvagem nas florestas montanhosas de Yungas, na Bolívia. O animal recebeu o nome científico Leopardus tilcayo.",
+      "A descoberta foi publicada na revista Current Biology e representa a primeira descrição formal de uma espécie viva de felino em mais de cem anos. O resultado veio da análise de genomas completos de 38 indivíduos de diferentes regiões da América do Sul, incluindo exemplares históricos preservados em museus.",
+      "O caso começou com um macho conhecido como Tigrino, encontrado ainda filhote em 2016 na região de Nor Yungas. Inicialmente ele era considerado um exemplar de Leopardus tigrinus, mas a análise genética revelou uma linhagem evolutiva distinta.",
+      "O estudo mostrou que os gatos-do-mato visualmente semelhantes escondem uma diversidade genética maior do que se reconhecia. Os pesquisadores identificaram cinco espécies distintas no grupo e também descreveram uma nova subespécie nas Yungas do Peru.",
+      "O tilcayo apresenta pelagem marrom-clara com manchas em formato de rosetas. Ainda há poucas informações sobre sua população, comportamento e distribuição, o que torna necessários novos levantamentos de campo.",
+      "A descoberta também tem implicações para a conservação. Perda e fragmentação de habitat, caça, doenças transmitidas por animais domésticos e mudanças ambientais estão entre as ameaças que podem afetar pequenos felinos sul-americanos. Reconhecer cada linhagem como uma unidade distinta permite avaliações de risco e estratégias de proteção mais específicas."
+    ],
+    "sources": [
+      {
+        "name": "PUCRS — Nova espécie de felino: conheça o Leopardus tilcayo",
+        "url": "https://portal.pucrs.br/noticias/pesquisa/nova-especie-de-felino-leopardus-tilcayo/"
+      },
+      {
+        "name": "Agência Brasil — Nova espécie de felino é identificada em florestas da Bolívia",
+        "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-09/nova-especie-de-felino-e-identificada-em-florestas-da-bolivia"
+      }
+    ]
+  },
+  {
     "id": "expedicao-the-gap-abismos-atlantico-18-09-2026",
     "published": true,
     "category": "CIÊNCIA",
