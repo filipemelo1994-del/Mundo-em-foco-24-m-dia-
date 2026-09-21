@@ -1,5 +1,39 @@
 [
   {
+    "id": "onibus-incendiado-protesto-ibura-recife-20-09-2026",
+    "published": true,
+    "category": "RECIFE/RMR",
+    "title": "Ônibus é incendiado durante protesto na BR-101, no Ibura; ninguém ficou ferido",
+    "summary": "Coletivo da linha 216 foi interceptado na Vila dos Milagres; motorista e passageiros desceram antes do incêndio, e a BR-101 ficou temporariamente interditada.",
+    "location": "RECIFE, PE",
+    "date": "20 SET 2026",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mapa%20da%20BR-101.jpg?width=1200",
+    "imageAlt": "Mapa da BR-101, imagem ilustrativa da rodovia onde ocorreu o protesto",
+    "credit": "Ministério dos Transportes / Wikimedia Commons — imagem ilustrativa",
+    "body": [
+      "Um ônibus da Empresa Metropolitana foi incendiado durante um protesto na BR-101, na altura da Vila dos Milagres, no Ibura, Zona Sul do Recife, na noite de sábado (19). Não houve registro de feridos.",
+      "Segundo a CBN Recife, o veículo fazia a linha 216 e transportava 18 passageiros, além do motorista. Os ocupantes foram obrigados a descer antes de o coletivo ser incendiado.",
+      "A Polícia Rodoviária Federal informou que a manifestação ocorreu no km 74,8. Barricadas com pneus e outros materiais também foram incendiadas, afetando o tráfego na rodovia.",
+      "O Corpo de Bombeiros enviou uma viatura de combate a incêndio e controlou as chamas. A BR-101 foi parcialmente liberada por volta das 20h10 e, segundo a PRF citada por veículos locais, teve o fluxo totalmente restabelecido mais tarde naquela noite.",
+      "Manifestantes disseram à PRF que o ato estava relacionado à morte de um jovem da região. A Secretaria de Defesa Social informou posteriormente que a Corregedoria Geral abriu procedimento preliminar para acompanhar o inquérito e verificar informações relacionadas à ocorrência policial registrada no mesmo dia.",
+      "O motorista não sofreu ferimentos e, de acordo com o Sindicato dos Rodoviários de Pernambuco, deverá receber acompanhamento psicológico. O caso segue sob apuração das autoridades."
+    ],
+    "sources": [
+      {
+        "name": "CBN Recife — Ônibus é incendiado em protesto na BR-101, no Ibura",
+        "url": "https://www.cbnrecife.com/2026/09/20/onibus-e-incendiado-em-protesto-na-br-101-no-ibura-em-menos-de-um-mes-e-o-segundo-caso-com-coletivos/"
+      },
+      {
+        "name": "Diario de Pernambuco — Ônibus é incendiado durante protesto na BR-101 no Ibura",
+        "url": "https://www.diariodepernambuco.com.br/vida-urbana/2026/09/11724414-onibus-e-incendiado-durante-protesto-neste-sabado-na-br-101-no-ibura.html"
+      },
+      {
+        "name": "JC — Ônibus é incendiado durante protesto contra a morte de jovem no Recife",
+        "url": "https://jc.uol.com.br/pernambuco/2026/09/20/protesto-apos-morte-de-jovem-termina-com-onibus-incendiado.html"
+      }
+    ]
+  },
+  {
     "id": "onibus-romeiros-cruzeiro-sp-seis-mortos-20-09-2026",
     "published": true,
     "category": "BRASIL",
