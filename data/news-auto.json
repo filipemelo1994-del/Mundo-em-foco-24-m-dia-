@@ -1,0 +1,36 @@
+[
+  {
+    "id": "assembleia-geral-onu-guerras-ia-20-09-2026",
+    "published": true,
+    "category": "MUNDO",
+    "title": "Líderes mundiais chegam à ONU com guerras e inteligência artificial no centro dos debates",
+    "summary": "Assembleia Geral reúne chefes de Estado em Nova York em uma semana marcada pelas guerras na Ucrânia e no Oriente Médio, tensões diplomáticas e discussões sobre governança da inteligência artificial.",
+    "location": "NOVA YORK, EUA",
+    "date": "20 SET 2026",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UN%20General%20Assembly%20hall.jpg?width=1600",
+    "imageAlt": "Salão da Assembleia Geral das Nações Unidas em Nova York",
+    "credit": "Patrick Gruban / Wikimedia Commons — CC BY-SA 2.0",
+    "body": [
+      "Líderes mundiais estão chegando a Nova York para a Assembleia Geral das Nações Unidas em meio a um cenário internacional dominado pelas guerras na Ucrânia e no Oriente Médio e por dúvidas sobre a capacidade das instituições multilaterais de responder a crises simultâneas.",
+      "Segundo a Reuters, a semana de alto nível terá encontros bilaterais e discursos de líderes de diferentes regiões. O presidente dos Estados Unidos, Donald Trump, deverá participar de uma série de reuniões durante sua passagem pela Assembleia Geral.",
+      "O presidente da Ucrânia, Volodymyr Zelenskiy, afirmou neste domingo que conversou com Trump e que os dois concordaram em se encontrar em Nova York. A guerra com a Rússia permanece entre os principais temas diplomáticos da reunião.",
+      "O Oriente Médio também ocupa espaço central na agenda. A escalada regional e as tensões entre Estados Unidos e Irã aumentam a preocupação com segurança, energia e circulação internacional, enquanto representantes de vários países chegam à cidade para os debates.",
+      "Outro assunto que ganha importância é a inteligência artificial. O secretário-geral da ONU, António Guterres, tem defendido mecanismos globais de governança para a tecnologia, colocando riscos e regras para IA entre os temas de alcance internacional discutidos neste período.",
+      "A Assembleia Geral funciona como o principal fórum deliberativo da ONU, reunindo os Estados-membros para discursos, negociações e encontros diplomáticos. A movimentação desta semana deve produzir novas declarações sobre conflitos, segurança internacional, economia e tecnologia."
+    ],
+    "sources": [
+      {
+        "name": "Reuters — World leaders return to UN amid wars in Middle East and Ukraine",
+        "url": "https://www.reuters.com/world/china/world-leaders-return-un-amid-wars-middle-east-ukraine-2026-09-20/"
+      },
+      {
+        "name": "Reuters — Trump eyes busy week of meetings as UN General Assembly gathers",
+        "url": "https://www.reuters.com/world/us/trump-eyes-busy-week-meetings-un-general-assembly-gathers-2026-09-20/"
+      },
+      {
+        "name": "Reuters — Ukraine's Zelenskiy says he and Trump agree to meet in New York",
+        "url": "https://www.reuters.com/world/us/ukraines-zelenskiy-says-he-trump-agree-meet-new-york-2026-09-20/"
+      }
+    ]
+  }
+]
