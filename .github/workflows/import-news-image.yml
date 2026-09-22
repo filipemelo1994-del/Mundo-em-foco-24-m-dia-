@@ -1,63 +1,119 @@
 name: Import News Image
+
 on:
   push:
     branches: [main]
     paths:
-      - "requests/**.json"
+      - "requests/*.json"
+      - "requests/**/*.json"
+  workflow_dispatch: {}
+
 permissions:
   contents: write
-concurrency:
-  group: import-news-image
-  cancel-in-progress: false
+
 jobs:
   import-image:
-    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
           ref: main
-          fetch-depth: 0
-      - uses: actions/setup-python@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install --quiet requests pillow
-      - name: Process requests
+
+      - name: Install dependencies
+        run: pip install --quiet requests pillow
+
+      - name: Process pending image requests
+        id: process
         run: |
           python3 << 'PYEOF'
-          import json,re,sys
+          import glob, json, os, re, sys, requests
           from io import BytesIO
-          from pathlib import Path
-          import requests
-          from PIL import Image,ImageOps
-          reqs=sorted(Path("requests").glob("*.json"))
-          if not reqs: sys.exit(0)
-          outdir=Path("assets/noticias"); outdir.mkdir(parents=True,exist_ok=True)
-          for req in reqs:
-              data=json.loads(req.read_text(encoding="utf-8"))
-              url=str(data.get("image_url","")).strip()
-              name=str(data.get("filename","")).strip()
-              if not url or not name: raise SystemExit("image_url/filename required")
-              name=re.sub(r"\.[A-Za-z0-9]+$","",name)
-              name=re.sub(r"[^A-Za-z0-9_-]","-",name).strip("-")
-              if not name: raise SystemExit("invalid filename")
-              r=requests.get(url,timeout=45,allow_redirects=True,headers={"User-Agent":"MundoEmFoco24-ImageImporter/1.0"})
-              r.raise_for_status()
+          from PIL import Image
+          request_files=sorted(glob.glob("requests/*.json"))
+          if not request_files:
+              print("No request files found — nothing to do.")
+              sys.exit(0)
+          allowed_types={"image/jpeg","image/jpg","image/png","image/webp"}
+          processed=[]; skipped=[]
+          for req_path in request_files:
               try:
-                  p=Image.open(BytesIO(r.content)); p.verify()
-              except Exception as e: raise SystemExit("invalid image: "+str(e))
-              img=Image.open(BytesIO(r.content)); img.load(); img=ImageOps.exif_transpose(img)
-              if img.mode in ("RGBA","LA") or (img.mode=="P" and "transparency" in img.info):
-                  rgba=img.convert("RGBA"); bg=Image.new("RGB",rgba.size,(255,255,255)); bg.paste(rgba,mask=rgba.getchannel("A")); img=bg
-              else: img=img.convert("RGB")
-              img.save(outdir/(name+".jpg"),"JPEG",quality=85,optimize=True,progressive=True,exif=b"")
-              req.unlink()
+                  with open(req_path,"r",encoding="utf-8") as f: payload=json.load(f)
+              except Exception as e:
+                  skipped.append((req_path,f"invalid JSON: {e}")); continue
+              image_url=payload.get("image_url"); raw_filename=payload.get("filename")
+              if not image_url or not raw_filename:
+                  skipped.append((req_path,"missing image_url or filename")); continue
+              filename=re.sub(r"\.[a-zA-Z0-9]+$","",raw_filename)
+              filename=re.sub(r"[^a-zA-Z0-9_-]","-",filename).strip("-")
+              if not filename:
+                  skipped.append((req_path,"invalid filename after sanitization")); continue
+              try:
+                  resp=requests.get(image_url,timeout=30); resp.raise_for_status()
+              except Exception as e:
+                  skipped.append((req_path,f"download failed: {e}")); continue
+              content_type=resp.headers.get("Content-Type","").split(";")[0].strip().lower()
+              if content_type not in allowed_types:
+                  try:
+                      probe=Image.open(BytesIO(resp.content)); probe.verify()
+                      content_type=f"image/{probe.format.lower()}"
+                  except Exception:
+                      skipped.append((req_path,f"unsupported or invalid image type: {content_type}")); continue
+                  if content_type not in allowed_types:
+                      skipped.append((req_path,f"unsupported MIME type: {content_type}")); continue
+              try:
+                  img=Image.open(BytesIO(resp.content)); img.load()
+                  if img.mode in ("RGBA","LA","P"):
+                      background=Image.new("RGB",img.size,(255,255,255))
+                      rgba=img.convert("RGBA"); background.paste(rgba,mask=rgba.split()[-1]); img=background
+                  elif img.mode!="RGB": img=img.convert("RGB")
+                  out_dir="assets/noticias"; os.makedirs(out_dir,exist_ok=True)
+                  out_path=os.path.join(out_dir,f"{filename}.jpg")
+                  img.save(out_path,"JPEG",quality=85,optimize=True,progressive=True)
+                  processed.append((req_path,out_path,f"{filename}.jpg"))
+              except Exception as e:
+                  skipped.append((req_path,f"processing failed: {e}")); continue
+          removed=[]
+          for req_path,_reason in skipped:
+              os.remove(req_path); removed.append(req_path)
+          for req_path,_out_path,_fname in processed:
+              os.remove(req_path); removed.append(req_path)
+          with open(os.environ["GITHUB_OUTPUT"],"a") as f:
+              f.write(f"has_changes={'true' if (processed or removed) else 'false'}\n")
+              f.write("processed_filenames<<EOF\n")
+              for _req,_out,fname in processed: f.write(fname+"\n")
+              f.write("EOF\n")
+          if skipped:
+              print("Skipped requests:")
+              for req_path,reason in skipped: print(f" - {req_path}: {reason}")
           PYEOF
-      - name: Commit result
+
+      - name: Commit and push
+        if: steps.process.outputs.has_changes == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/noticias requests || true
-          git diff --cached --quiet && exit 0
-          git commit -m "chore: import requested news images"
-          git push origin main
+          git add -A assets/noticias requests
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: import news image(s) from requests queue"
+            git push origin main
+          fi
+
+      - name: Output public URLs
+        if: steps.process.outputs.has_changes == 'true'
+        run: |
+          REPO="${{ github.repository }}"
+          echo "### Public URLs" >> "$GITHUB_STEP_SUMMARY"
+          while IFS= read -r FNAME; do
+            [ -z "$FNAME" ] && continue
+            RAW_URL="https://raw.githubusercontent.com/${REPO}/main/assets/noticias/${FNAME}"
+            echo "- $RAW_URL" >> "$GITHUB_STEP_SUMMARY"
+          done <<< "${{ steps.process.outputs.processed_filenames }}"
