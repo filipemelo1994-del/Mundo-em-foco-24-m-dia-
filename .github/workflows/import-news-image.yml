@@ -1,77 +1,63 @@
 name: Import News Image
-
 on:
-  repository_dispatch:
-    types: [import_news_image]
-
+  push:
+    branches: [main]
+    paths:
+      - "requests/**.json"
 permissions:
   contents: write
-
+concurrency:
+  group: import-news-image
+  cancel-in-progress: false
 jobs:
   import-image:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           ref: main
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Install dependencies
-        run: pip install --quiet requests pillow
-
-      - name: Download, validate and convert image
-        id: process
-        env:
-          IMAGE_URL: ${{ github.event.client_payload.image_url }}
-          FILENAME: ${{ github.event.client_payload.filename }}
+      - run: pip install --quiet requests pillow
+      - name: Process requests
         run: |
           python3 << 'PYEOF'
-          import os, re, sys, requests
+          import json,re,sys
           from io import BytesIO
-          from PIL import Image
-          image_url=os.environ["IMAGE_URL"]; filename=os.environ["FILENAME"]
-          filename=re.sub(r"\.[a-zA-Z0-9]+$","",filename)
-          filename=re.sub(r"[^a-zA-Z0-9_-]","-",filename).strip("-")
-          if not filename: sys.exit("Invalid filename")
-          resp=requests.get(image_url,timeout=30); resp.raise_for_status()
-          ct=resp.headers.get("Content-Type","").split(";")[0].strip().lower()
-          allowed={"image/jpeg","image/jpg","image/png","image/webp"}
-          if ct not in allowed:
+          from pathlib import Path
+          import requests
+          from PIL import Image,ImageOps
+          reqs=sorted(Path("requests").glob("*.json"))
+          if not reqs: sys.exit(0)
+          outdir=Path("assets/noticias"); outdir.mkdir(parents=True,exist_ok=True)
+          for req in reqs:
+              data=json.loads(req.read_text(encoding="utf-8"))
+              url=str(data.get("image_url","")).strip()
+              name=str(data.get("filename","")).strip()
+              if not url or not name: raise SystemExit("image_url/filename required")
+              name=re.sub(r"\.[A-Za-z0-9]+$","",name)
+              name=re.sub(r"[^A-Za-z0-9_-]","-",name).strip("-")
+              if not name: raise SystemExit("invalid filename")
+              r=requests.get(url,timeout=45,allow_redirects=True,headers={"User-Agent":"MundoEmFoco24-ImageImporter/1.0"})
+              r.raise_for_status()
               try:
-                  probe=Image.open(BytesIO(resp.content)); probe.verify(); ct=f"image/{probe.format.lower()}"
-              except Exception: sys.exit(f"Unsupported image: {ct}")
-              if ct not in allowed: sys.exit(f"Unsupported MIME: {ct}")
-          img=Image.open(BytesIO(resp.content)); img.load()
-          if img.mode in ("RGBA","LA","P"):
-              bg=Image.new("RGB",img.size,(255,255,255)); rgba=img.convert("RGBA"); bg.paste(rgba,mask=rgba.split()[-1]); img=bg
-          elif img.mode!="RGB": img=img.convert("RGB")
-          os.makedirs("assets/noticias",exist_ok=True)
-          out=f"assets/noticias/{filename}.jpg"
-          img.save(out,"JPEG",quality=85,optimize=True,progressive=True)
-          with open(os.environ["GITHUB_OUTPUT"],"a") as f:
-              f.write(f"filepath={out}\nfilename={filename}.jpg\n")
+                  p=Image.open(BytesIO(r.content)); p.verify()
+              except Exception as e: raise SystemExit("invalid image: "+str(e))
+              img=Image.open(BytesIO(r.content)); img.load(); img=ImageOps.exif_transpose(img)
+              if img.mode in ("RGBA","LA") or (img.mode=="P" and "transparency" in img.info):
+                  rgba=img.convert("RGBA"); bg=Image.new("RGB",rgba.size,(255,255,255)); bg.paste(rgba,mask=rgba.getchannel("A")); img=bg
+              else: img=img.convert("RGB")
+              img.save(outdir/(name+".jpg"),"JPEG",quality=85,optimize=True,progressive=True,exif=b"")
+              req.unlink()
           PYEOF
-
-      - name: Commit and push
-        env:
-          FILEPATH: ${{ steps.process.outputs.filepath }}
+      - name: Commit result
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "$FILEPATH"
-          if git diff --cached --quiet; then exit 0; fi
-          git commit -m "chore: import news image ${{ steps.process.outputs.filename }}"
+          git add assets/noticias requests || true
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: import requested news images"
           git push origin main
-
-      - name: Output public URL
-        run: |
-          REPO="${{ github.repository }}"
-          FILENAME="${{ steps.process.outputs.filename }}"
-          RAW_URL="https://raw.githubusercontent.com/${REPO}/main/assets/noticias/${FILENAME}"
-          echo "### Public URL" >> "$GITHUB_STEP_SUMMARY"
-          echo "$RAW_URL" >> "$GITHUB_STEP_SUMMARY"
