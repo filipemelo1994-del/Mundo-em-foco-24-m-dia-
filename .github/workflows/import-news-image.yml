@@ -33,69 +33,114 @@ jobs:
         id: process
         run: |
           python3 << 'PYEOF'
-          import glob, json, os, re, sys, requests
+          import glob, json, os, re, sys, time, requests
           from io import BytesIO
           from PIL import Image
-          request_files=sorted(glob.glob("requests/*.json"))
+
+          request_files = sorted(glob.glob("requests/*.json"))
           if not request_files:
               print("No request files found — nothing to do.")
               sys.exit(0)
-          allowed_types={"image/jpeg","image/jpg","image/png","image/webp"}
-          processed=[]; skipped=[]
+
+          allowed_types = {"image/jpeg","image/jpg","image/png","image/webp"}
+          processed = []
+          failed = []
+
           for req_path in request_files:
               try:
-                  with open(req_path,"r",encoding="utf-8") as f: payload=json.load(f)
+                  with open(req_path, "r", encoding="utf-8") as f:
+                      payload = json.load(f)
               except Exception as e:
-                  skipped.append((req_path,f"invalid JSON: {e}")); continue
-              image_url=payload.get("image_url"); raw_filename=payload.get("filename")
+                  failed.append((req_path, f"invalid JSON: {e}"))
+                  continue
+
+              image_url = payload.get("image_url")
+              raw_filename = payload.get("filename")
               if not image_url or not raw_filename:
-                  skipped.append((req_path,"missing image_url or filename")); continue
-              filename=re.sub(r"\.[a-zA-Z0-9]+$","",raw_filename)
-              filename=re.sub(r"[^a-zA-Z0-9_-]","-",filename).strip("-")
+                  failed.append((req_path, "missing image_url or filename"))
+                  continue
+
+              filename = re.sub(r"\.[a-zA-Z0-9]+$", "", raw_filename)
+              filename = re.sub(r"[^a-zA-Z0-9_-]", "-", filename).strip("-")
               if not filename:
-                  skipped.append((req_path,"invalid filename after sanitization")); continue
-              try:
-                  resp=requests.get(image_url,timeout=30); resp.raise_for_status()
-              except Exception as e:
-                  skipped.append((req_path,f"download failed: {e}")); continue
-              content_type=resp.headers.get("Content-Type","").split(";")[0].strip().lower()
-              if content_type not in allowed_types:
+                  failed.append((req_path, "invalid filename after sanitization"))
+                  continue
+
+              resp = None
+              last_error = None
+              for attempt in range(1, 4):
                   try:
-                      probe=Image.open(BytesIO(resp.content)); probe.verify()
-                      content_type=f"image/{probe.format.lower()}"
-                  except Exception:
-                      skipped.append((req_path,f"unsupported or invalid image type: {content_type}")); continue
-                  if content_type not in allowed_types:
-                      skipped.append((req_path,f"unsupported MIME type: {content_type}")); continue
+                      resp = requests.get(
+                          image_url,
+                          timeout=30,
+                          headers={"User-Agent": "Mozilla/5.0 MundoEmFoco24/1.0"}
+                      )
+                      resp.raise_for_status()
+                      break
+                  except Exception as e:
+                      last_error = e
+                      resp = None
+                      print(f"{req_path}: download attempt {attempt}/3 failed: {e}")
+                      if attempt < 3:
+                          time.sleep(3)
+
+              if resp is None:
+                  failed.append((req_path, f"download failed after 3 attempts: {last_error}"))
+                  continue
+
+              content_type = resp.headers.get("Content-Type", "").split(";")[0].strip().lower()
               try:
-                  img=Image.open(BytesIO(resp.content)); img.load()
-                  if img.mode in ("RGBA","LA","P"):
-                      background=Image.new("RGB",img.size,(255,255,255))
-                      rgba=img.convert("RGBA"); background.paste(rgba,mask=rgba.split()[-1]); img=background
-                  elif img.mode!="RGB": img=img.convert("RGB")
-                  out_dir="assets/noticias"; os.makedirs(out_dir,exist_ok=True)
-                  out_path=os.path.join(out_dir,f"{filename}.jpg")
-                  img.save(out_path,"JPEG",quality=85,optimize=True,progressive=True)
-                  processed.append((req_path,out_path,f"{filename}.jpg"))
+                  img = Image.open(BytesIO(resp.content))
+                  img.load()
               except Exception as e:
-                  skipped.append((req_path,f"processing failed: {e}")); continue
-          removed=[]
-          for req_path,_reason in skipped:
-              os.remove(req_path); removed.append(req_path)
-          for req_path,_out_path,_fname in processed:
-              os.remove(req_path); removed.append(req_path)
-          with open(os.environ["GITHUB_OUTPUT"],"a") as f:
-              f.write(f"has_changes={'true' if (processed or removed) else 'false'}\n")
+                  failed.append((req_path, f"invalid image ({content_type}): {e}"))
+                  continue
+
+              detected = f"image/{(img.format or '').lower()}"
+              if content_type not in allowed_types and detected not in allowed_types:
+                  failed.append((req_path, f"unsupported image type: {content_type or detected}"))
+                  continue
+
+              try:
+                  if img.mode in ("RGBA", "LA", "P"):
+                      rgba = img.convert("RGBA")
+                      background = Image.new("RGB", img.size, (255,255,255))
+                      background.paste(rgba, mask=rgba.split()[-1])
+                      img = background
+                  elif img.mode != "RGB":
+                      img = img.convert("RGB")
+
+                  out_dir = "assets/noticias"
+                  os.makedirs(out_dir, exist_ok=True)
+                  out_path = os.path.join(out_dir, f"{filename}.jpg")
+                  img.save(out_path, "JPEG", quality=85, optimize=True, progressive=True)
+
+                  # Delete request ONLY after JPEG was successfully written.
+                  os.remove(req_path)
+                  processed.append((req_path, out_path, f"{filename}.jpg"))
+                  print(f"OK: {req_path} -> {out_path}")
+              except Exception as e:
+                  failed.append((req_path, f"processing failed: {e}"))
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"has_changes={'true' if processed else 'false'}\n")
+              f.write(f"has_failures={'true' if failed else 'false'}\n")
               f.write("processed_filenames<<EOF\n")
-              for _req,_out,fname in processed: f.write(fname+"\n")
+              for _req, _out, fname in processed:
+                  f.write(fname + "\n")
               f.write("EOF\n")
-          if skipped:
-              print("Skipped requests:")
-              for req_path,reason in skipped: print(f" - {req_path}: {reason}")
+
+          if failed:
+              print("\nFAILED REQUESTS (kept in requests/ for retry):")
+              for req_path, reason in failed:
+                  print(f" - {req_path}: {reason}")
+
+          if not processed and failed:
+              sys.exit(1)
           PYEOF
 
-      - name: Commit and push
-        if: steps.process.outputs.has_changes == 'true'
+      - name: Commit and push successful images
+        if: always() && steps.process.outputs.has_changes == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -108,7 +153,7 @@ jobs:
           fi
 
       - name: Output public URLs
-        if: steps.process.outputs.has_changes == 'true'
+        if: always() && steps.process.outputs.has_changes == 'true'
         run: |
           REPO="${{ github.repository }}"
           echo "### Public URLs" >> "$GITHUB_STEP_SUMMARY"
@@ -117,3 +162,9 @@ jobs:
             RAW_URL="https://raw.githubusercontent.com/${REPO}/main/assets/noticias/${FNAME}"
             echo "- $RAW_URL" >> "$GITHUB_STEP_SUMMARY"
           done <<< "${{ steps.process.outputs.processed_filenames }}"
+
+      - name: Fail run if any request failed
+        if: always() && steps.process.outputs.has_failures == 'true'
+        run: |
+          echo "One or more image requests failed and were kept in requests/."
+          exit 1
