@@ -764,5 +764,31 @@
         "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-09/defesa-civil-alerta-para-ventos-fortes-na-cidade-do-rio"
       }
     ]
+  },
+  {
+    "id": "apac-chuva-grande-recife-baixa-umidade-22-09-2026",
+    "published": true,
+    "category": "RECIFE/RMR",
+    "title": "Apac prevê chuva fraca no Grande Recife e alerta para baixa umidade no interior de PE",
+    "summary": "RMR deve ter pancadas rápidas e isoladas no início desta terça (22); alerta de umidade abaixo de 25% segue válido para Agreste e Sertão até quarta (23).",
+    "location": "RECIFE, PE",
+    "date": "22 SET 2026",
+    "image": "https://www.diariodepernambuco.com.br/_midias/jpg/2026/04/25/inmet_alerta_para_acumulado_de_chuva_no_grande_recife__agreste_e_zona_da_mata_de_pernambuco_733635_737824-881470.jpg",
+    "imageAlt": "Gotas de chuva em vidro, imagem ilustrativa usada na cobertura meteorológica",
+    "credit": "Rafael Vieira/DP Foto — via Diario de Pernambuco",
+    "body": [
+      "A Agência Pernambucana de Águas e Clima (Apac) prevê pancadas rápidas e isoladas de chuva fraca na Região Metropolitana do Recife durante a madrugada e as primeiras horas da manhã desta terça-feira (22). O restante do dia e a noite devem ficar sem chuva, com céu parcialmente nublado.",
+      "No Grande Recife, as temperaturas previstas variam entre 23 °C e 31 °C. Na Mata Norte, também há possibilidade de chuva rápida e fraca no início do dia, com máxima de 32 °C e mínima de 22 °C.",
+      "Na Mata Sul, a previsão indica chuva rápida de intensidade fraca a moderada durante a noite. As temperaturas devem variar entre 21 °C e 31 °C.",
+      "O Agreste e o Sertão devem ter tempo sem chuva nesta terça. No Agreste, os termômetros variam entre 17 °C e 32 °C; no Sertão, entre 18 °C e 35 °C.",
+      "A Apac mantém até quarta-feira (23) um alerta de baixa umidade para o Agreste, Sertão de Pernambuco e Sertão do São Francisco. A umidade relativa do ar pode ficar abaixo de 25% nessas áreas.",
+      "Entre as orientações divulgadas estão aumentar a ingestão de água, umidificar ambientes e evitar exercícios físicos ao ar livre entre 10h e 17h nas localidades afetadas pela baixa umidade."
+    ],
+    "sources": [
+      {
+        "name": "Diario de Pernambuco — Apac indica chuva em regiões de Pernambuco nesta terça (22)",
+        "url": "https://www.diariodepernambuco.com.br/vida-urbana/2026/09/11724556-apac-indica-chuva-em-regioes-de-pernambuco-veja-a-previsao-do-tempo-nesta-terca-22.html"
+      }
+    ]
   }
 ]
