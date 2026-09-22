@@ -963,5 +963,39 @@
         "url": "https://jc.uol.com.br/colunas/metro-quadrado/2026/09/22/16-fesindico-reune-especialistas-no-recife-para-debater-inovacoes-e-desafios-na-gestao-de-condominios.html"
       }
     ]
+  },
+  {
+    "id": "nova-descoberta-incendio-barreira-22-09-2026",
+    "published": true,
+    "category": "RECIFE/RMR",
+    "title": "Incêndio atinge lona em barreira de Nova Descoberta; não há feridos",
+    "summary": "Fogo começou em entulhos sob uma lona plástica na Rua Riverlândia; duas viaturas dos Bombeiros atuaram e a Defesa Civil informou que enviaria equipe para avaliar o local.",
+    "location": "RECIFE, PE",
+    "date": "22 SET 2026",
+    "image": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/assets/noticias/nova-descoberta-incendio-22-09-2026.jpg",
+    "imageAlt": "Chamas em lona plástica instalada sobre barreira em Nova Descoberta, no Recife",
+    "credit": "Reprodução — via CBN Recife",
+    "body": [
+      "Um incêndio atingiu uma lona plástica instalada sobre uma barreira na Rua Riverlândia, em Nova Descoberta, Zona Norte do Recife, na manhã desta terça-feira (22).",
+      "Segundo o Corpo de Bombeiros Militar de Pernambuco, o fogo começou por volta das 8h em entulhos acumulados sob a lona. Duas viaturas foram enviadas para combater as chamas.",
+      "O incêndio foi extinto e não houve registro de feridos. Imagens divulgadas pela cobertura local mostram as chamas próximas a residências e alcançando a região dos telhados.",
+      "Ao Diario de Pernambuco, moradores relataram que tentaram conter o fogo com baldes de água antes da chegada dos bombeiros. O jornal informou que nenhuma residência foi atingida diretamente pelas chamas.",
+      "A Defesa Civil do Recife informou à CBN Recife que não havia sido acionada inicialmente para a ocorrência, mas que enviaria uma equipe técnica para averiguar a situação no local.",
+      "Até a publicação das reportagens consultadas, não havia informação oficial sobre a causa do incêndio."
+    ],
+    "sources": [
+      {
+        "name": "CBN Recife — Lona plástica pega fogo em barreira no bairro de Nova Descoberta",
+        "url": "https://www.cbnrecife.com/2026/09/22/lona-plastica-pega-fogo-em-barreira-no-bairro-de-nova-descoberta-no-recife/"
+      },
+      {
+        "name": "Diario de Pernambuco — Incêndio atinge lona plástica em barreira na Zona Norte do Recife",
+        "url": "https://www.diariodepernambuco.com.br/vida-urbana/2026/09/11724577-incendio-atinge-lona-plastica-em-barreira-na-zona-norte-do-recife.html"
+      },
+      {
+        "name": "Folha de Pernambuco — Incêndio atinge lona de plástico e entulhos em barreira no Recife",
+        "url": "https://www.folhape.com.br/noticias/recife-incendio-atinge-lona-de-plastico-e-entulhos-em-barreira-no/514070/"
+      }
+    ]
   }
 ]
