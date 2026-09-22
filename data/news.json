@@ -929,5 +929,39 @@
         "url": "https://jc.uol.com.br/economia/2026/09/22/ultimo-dia-da-expo-noivas-e-debutantes-reune-tendencias-e-condicoes-exclusivas.html"
       }
     ]
+  },
+  {
+    "id": "fesindico-recife-22-09-2026",
+    "published": true,
+    "category": "RECIFE/RMR",
+    "title": "FESÍNDICO 2026 terá mais de 100 estandes no Recife Expo Center",
+    "summary": "16ª edição acontece nos dias 25 e 26 de setembro, com entrada gratuita, palestras, workshops e expectativa de mais de 3 mil visitantes.",
+    "location": "RECIFE, PE",
+    "date": "22 SET 2026",
+    "image": "https://midias.diariodepernambuco.com.br/static/app/noticia_127983242361/2024/08/05/958043/20240805202610801299a.jpeg",
+    "imageAlt": "Entrada do Recife Expo Center, local da FESÍNDICO 2026",
+    "credit": "Diario de Pernambuco — foto de arquivo do Recife Expo Center",
+    "body": [
+      "O Recife recebe nos dias 25 e 26 de setembro a 16ª edição da FESÍNDICO, feira voltada ao mercado e à gestão de condomínios. O encontro será realizado no Recife Expo Center, no Cais de Santa Rita, bairro de São José, das 10h às 21h, com entrada gratuita.",
+      "A edição de 2026 terá mais de 100 estandes e programação com palestras e workshops para síndicos, administradores, advogados, contadores, condôminos, prestadores de serviços, estudantes e outros profissionais ligados ao setor.",
+      "Entre os temas previstos estão manutenção predial, segurança, instalação de carregadores para veículos elétricos, locações por temporada, reforma tributária e responsabilidades dos síndicos.",
+      "Segundo reportagem publicada nesta terça-feira pela Revista Algomais, a organização espera receber mais de três mil visitantes de diferentes capitais brasileiras. Os investimentos em realização, estrutura e divulgação superam R$ 1 milhão.",
+      "A FESÍNDICO é realizada pela Revista Condomínio em parceria com o Secovi-PE. O site oficial confirma as datas de 25 e 26 de setembro e o Recife Expo Center como sede da 16ª edição.",
+      "A programação ocorre em um momento de maior profissionalização da administração condominial, com novas demandas relacionadas a tecnologia, legislação, manutenção, mobilidade elétrica e gestão de pessoas."
+    ],
+    "sources": [
+      {
+        "name": "Revista Algomais — FESÍNDICO reúne mercado de condomínios no Recife",
+        "url": "https://algomais.com/fesindico-reune-mercado-de-condominios-no-recife/"
+      },
+      {
+        "name": "FESÍNDICO — site oficial da edição Recife 2026",
+        "url": "https://www.fesindico.com.br/recife"
+      },
+      {
+        "name": "Jornal do Commercio — 16ª FESÍNDICO reúne especialistas no Recife",
+        "url": "https://jc.uol.com.br/colunas/metro-quadrado/2026/09/22/16-fesindico-reune-especialistas-no-recife-para-debater-inovacoes-e-desafios-na-gestao-de-condominios.html"
+      }
+    ]
   }
 ]
