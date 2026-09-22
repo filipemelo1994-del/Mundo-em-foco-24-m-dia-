@@ -1,0 +1,53 @@
+name: Importar imagem publica
+
+on:
+  workflow_dispatch:
+    inputs:
+      image_url:
+        description: "URL publica da imagem"
+        required: true
+        type: string
+      filename:
+        description: "Nome do arquivo sem caminho (ex: teste.jpg)"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  importar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Baixar e validar imagem
+        env:
+          IMAGE_URL: ${{ inputs.image_url }}
+          FILENAME: ${{ inputs.filename }}
+        run: |
+          set -euo pipefail
+          mkdir -p assets/noticias
+          curl --fail --location --retry 3 --max-time 60 "$IMAGE_URL" -o /tmp/input-image
+          file /tmp/input-image
+          MIME=$(file --brief --mime-type /tmp/input-image)
+          case "$MIME" in
+            image/jpeg|image/png|image/webp) ;;
+            *) echo "Arquivo recebido nao e imagem suportada: $MIME"; exit 1 ;;
+          esac
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq imagemagick
+          SAFE=$(basename "$FILENAME" | sed 's/[^A-Za-z0-9._-]/-/g')
+          SAFE="${SAFE%.*}.jpg"
+          magick /tmp/input-image -auto-orient -strip -quality 92 "assets/noticias/$SAFE"
+          echo "OUTPUT_FILE=assets/noticias/$SAFE" >> "$GITHUB_ENV"
+
+      - name: Commit
+        run: |
+          git config user.name "mundo-em-foco-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add "$OUTPUT_FILE"
+          git diff --cached --quiet && exit 0
+          git commit -m "Adiciona imagem publica: $OUTPUT_FILE"
+          git push
