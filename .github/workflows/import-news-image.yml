@@ -1,0 +1,77 @@
+name: Import News Image
+
+on:
+  repository_dispatch:
+    types: [import_news_image]
+
+permissions:
+  contents: write
+
+jobs:
+  import-image:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install --quiet requests pillow
+
+      - name: Download, validate and convert image
+        id: process
+        env:
+          IMAGE_URL: ${{ github.event.client_payload.image_url }}
+          FILENAME: ${{ github.event.client_payload.filename }}
+        run: |
+          python3 << 'PYEOF'
+          import os, re, sys, requests
+          from io import BytesIO
+          from PIL import Image
+          image_url=os.environ["IMAGE_URL"]; filename=os.environ["FILENAME"]
+          filename=re.sub(r"\.[a-zA-Z0-9]+$","",filename)
+          filename=re.sub(r"[^a-zA-Z0-9_-]","-",filename).strip("-")
+          if not filename: sys.exit("Invalid filename")
+          resp=requests.get(image_url,timeout=30); resp.raise_for_status()
+          ct=resp.headers.get("Content-Type","").split(";")[0].strip().lower()
+          allowed={"image/jpeg","image/jpg","image/png","image/webp"}
+          if ct not in allowed:
+              try:
+                  probe=Image.open(BytesIO(resp.content)); probe.verify(); ct=f"image/{probe.format.lower()}"
+              except Exception: sys.exit(f"Unsupported image: {ct}")
+              if ct not in allowed: sys.exit(f"Unsupported MIME: {ct}")
+          img=Image.open(BytesIO(resp.content)); img.load()
+          if img.mode in ("RGBA","LA","P"):
+              bg=Image.new("RGB",img.size,(255,255,255)); rgba=img.convert("RGBA"); bg.paste(rgba,mask=rgba.split()[-1]); img=bg
+          elif img.mode!="RGB": img=img.convert("RGB")
+          os.makedirs("assets/noticias",exist_ok=True)
+          out=f"assets/noticias/{filename}.jpg"
+          img.save(out,"JPEG",quality=85,optimize=True,progressive=True)
+          with open(os.environ["GITHUB_OUTPUT"],"a") as f:
+              f.write(f"filepath={out}\nfilename={filename}.jpg\n")
+          PYEOF
+
+      - name: Commit and push
+        env:
+          FILEPATH: ${{ steps.process.outputs.filepath }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "$FILEPATH"
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "chore: import news image ${{ steps.process.outputs.filename }}"
+          git push origin main
+
+      - name: Output public URL
+        run: |
+          REPO="${{ github.repository }}"
+          FILENAME="${{ steps.process.outputs.filename }}"
+          RAW_URL="https://raw.githubusercontent.com/${REPO}/main/assets/noticias/${FILENAME}"
+          echo "### Public URL" >> "$GITHUB_STEP_SUMMARY"
+          echo "$RAW_URL" >> "$GITHUB_STEP_SUMMARY"
