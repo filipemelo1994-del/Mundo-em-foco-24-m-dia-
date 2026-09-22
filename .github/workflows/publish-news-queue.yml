@@ -1,0 +1,62 @@
+name: Publish News Queue
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "requests/news/*.json"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  publish-news:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Append pending news safely
+        run: |
+          python3 << 'PYEOF'
+          import glob, json, os, sys
+          news_path='data/news.json'
+          with open(news_path,'r',encoding='utf-8') as f:
+              news=json.load(f)
+          if not isinstance(news,list):
+              raise SystemExit('data/news.json is not a JSON array')
+          ids={item.get('id') for item in news if isinstance(item,dict)}
+          changed=False
+          for path in sorted(glob.glob('requests/news/*.json')):
+              with open(path,'r',encoding='utf-8') as f:
+                  item=json.load(f)
+              if not isinstance(item,dict) or not item.get('id'):
+                  print('Invalid request kept:',path)
+                  continue
+              if item['id'] not in ids:
+                  news.append(item)
+                  ids.add(item['id'])
+                  changed=True
+                  print('Added:',item['id'])
+              else:
+                  print('Duplicate skipped:',item['id'])
+              os.remove(path)
+              changed=True
+          if changed:
+              with open(news_path,'w',encoding='utf-8') as f:
+                  json.dump(news,f,ensure_ascii=False,indent=2)
+                  f.write('\n')
+          PYEOF
+      - name: Commit portal update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/news.json requests/news
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "news: publica pauta da fila no portal"
+            git push origin main
+          fi
