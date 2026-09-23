@@ -1505,5 +1505,38 @@
     ],
     "sourceImage": "https://www.diariodepernambuco.com.br/_midias/jpg/2026/09/23/1200x800/1_protesto_simpol-962540.jpeg",
     "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/sinpol-protesto-centro-recife-23-09-2026.jpg"
+  },
+  {
+    "id": "apostas-midia-exterior-recife-23-09-2026",
+    "published": true,
+    "category": "RECIFE/RMR",
+    "title": "Apostas movimentam R$ 7,9 milhões em mídia exterior no Recife",
+    "summary": "Levantamento da Kantar IBOPE Media aponta avanço do setor em publicidade OOH enquanto a Câmara do Recife discute propostas de restrição.",
+    "location": "RECIFE, PE",
+    "date": "23 SET 2026",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Marco%20Zero%20do%20Recife.jpg?width=1600",
+    "imageCandidates": [
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Marco%20Zero%20do%20Recife.jpg?width=1600",
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Marco%20Zero%20-%20Recife.jpg?width=1600",
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Marco%20Zero%20Recife.jpg?width=1600"
+    ],
+    "imageAlt": "Vista do Marco Zero do Recife, imagem de arquivo usada para contextualizar a capital pernambucana",
+    "credit": "Joelkaula / Wikimedia Commons — CC BY-SA 4.0",
+    "body": [
+      "Empresas de apostas e loterias investiram R$ 7,9 milhões em mídia exterior no Recife entre janeiro de 2025 e junho de 2026, segundo levantamento da Kantar IBOPE Media divulgado pelo Diario de Pernambuco nesta quarta-feira (23).",
+      "No acumulado do período, o setor aparece como a décima categoria que mais investiu em mídia OOH na capital pernambucana. O levantamento considera publicidade em espaços como mobiliário urbano e outros formatos de mídia exterior.",
+      "O ritmo aumentou em 2026. Somente no primeiro semestre, foram R$ 4,6 milhões, valor 41% superior aos R$ 3,3 milhões registrados em todo o ano de 2025. Com isso, o segmento passou da 19ª para a 5ª posição entre as categorias com maior investimento em mídia exterior no Recife no período analisado.",
+      "Segundo a reportagem, o avanço ocorreu enquanto o mercado de OOH do Recife como um todo registrou recuo de aproximadamente 7% na média mensal no primeiro semestre de 2026.",
+      "O crescimento da publicidade de apostas ocorre em paralelo ao debate sobre restrições na Câmara Municipal do Recife. Há propostas em análise que tratam da publicidade de apostas em espaços públicos e nas proximidades de escolas.",
+      "No plano federal, o tema também está em discussão no Congresso. A Comissão de Comunicação do Senado aprovou texto que prevê restrições a anúncios de apostas em diferentes meios, incluindo mídia exterior.",
+      "Os números citados são dados de investimento publicitário e não representam receita das empresas de apostas nem valores apostados por consumidores."
+    ],
+    "sources": [
+      {
+        "name": "Diario de Pernambuco — Setor de apostas investe R$ 7,9 milhões em mídia exterior no Recife enquanto Câmara discute restrições",
+        "url": "https://www.diariodepernambuco.com.br/vida-urbana/2026/09/11724696-setor-de-apostas-investe-rs-79-milhoes-em-midia-exterior-no-recife-enquanto-camara-discute-restricoes.html"
+      }
+    ],
+    "sourceImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Marco%20Zero%20do%20Recife.jpg?width=1600"
   }
 ]
