@@ -1378,5 +1378,35 @@
       }
     ],
     "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/brasil-governo-reduz-projecao-pib-2026-22-09-2026.jpg"
+  },
+  {
+    "id": "contrata-brasil-comite-recife-22-09-2026",
+    "published": true,
+    "category": "RECIFE/RMR",
+    "title": "Recife recebe comitê do Contrata+Brasil para ampliar participação de MEIs",
+    "summary": "Pernambuco tem 281.836 MEIs com perfil apto ao programa, mas apenas 877 cadastrados; comitê instalado no Recife busca ampliar adesão às compras públicas.",
+    "location": "RECIFE, PE",
+    "date": "22 SET 2026",
+    "image": "https://www.diariodepernambuco.com.br/_midias/jpg/2026/09/22/reuniao_no_sebrae_pe-962034.jpeg",
+    "imageAlt": "Instalação do comitê estadual do Contrata+Brasil na sede do Sebrae em Pernambuco",
+    "credit": "Anderson Freitas/Sebrae-PE — via Diario de Pernambuco",
+    "body": [
+      "Um comitê estadual do programa federal Contrata+Brasil foi instalado nesta terça-feira (22) no Recife para ampliar a participação de Microempreendedores Individuais em oportunidades de fornecimento de produtos e serviços a órgãos públicos.",
+      "Segundo dados apresentados durante o encontro, Pernambuco possui 281.836 MEIs com perfis aptos a participar da plataforma, mas apenas 877 estavam cadastrados. O comitê passa a funcionar na sede do Sebrae-PE, na Ilha do Retiro, Zona Oeste do Recife.",
+      "O Contrata+Brasil conecta pequenos fornecedores a demandas de órgãos municipais, estaduais e federais. Entre fevereiro de 2025 e setembro de 2026, a plataforma movimentou R$ 75 milhões no país, sendo R$ 42 milhões em serviços, R$ 33 milhões em alimentos e R$ 578 mil em eventos.",
+      "No período, 2.426 órgãos públicos estavam cadastrados. Em Pernambuco, 729 oportunidades já haviam sido disponibilizadas desde o lançamento do programa em 2025.",
+      "O comitê deverá acompanhar a adesão ao programa, identificar dificuldades enfrentadas por empreendedores e gestores públicos e buscar alternativas para ampliar a participação local nas compras governamentais.",
+      "A plataforma federal foi lançada em fevereiro de 2025 e, segundo a reportagem, teve inspiração no GO MEI, iniciativa desenvolvida pela Prefeitura do Recife."
+    ],
+    "sources": [
+      {
+        "name": "Diario de Pernambuco — Recife recebe comitê do Ministério do Empreendedorismo para ampliar adesão ao Contrata+Brasil",
+        "url": "https://www.diariodepernambuco.com.br/economia/2026/09/11724604-recife-recebe-comite-do-ministerio-do-empreendedorismo-para-ampliar-adesao-ao-contrata-brasil.html"
+      },
+      {
+        "name": "Contrata+Brasil — plataforma oficial",
+        "url": "https://contratamaisbrasil.sistema.gov.br/"
+      }
+    ]
   }
 ]
