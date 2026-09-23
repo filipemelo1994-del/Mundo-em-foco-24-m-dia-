@@ -53,53 +53,62 @@ def wrap(draw,text,f,maxw):
     if cur: lines.append(cur)
     return lines
 
-def render(photo,title,category,date,credit):
+def render(photo,title,category,date,credit,summary=""):
     c=photo.convert("RGBA")
-    # identidade do portal: cabeçalho branco + azul, foto dominante, degradê azul inferior
-    top=Image.new("RGBA",(W,142),(255,255,255,248)); c.alpha_composite(top,(0,0))
+    # Padrão oficial: azul/branco, foto dominante e fumaça/degradê lateral.
+    fog=Image.new("RGBA",(W,H),(0,0,0,0)); fp=fog.load()
+    for x in range(W):
+        edge=min(x,W-1-x); strength=max(0.0,1.0-edge/(W*0.18)); a=int(150*(strength**1.7))
+        for y in range(142,930): fp[x,y]=(5,74,150,a)
+    c.alpha_composite(fog)
+    head=Image.new("RGBA",(W,176),(255,255,255,248)); c.alpha_composite(head,(0,0))
     d=ImageDraw.Draw(c)
-    f_logo=font(BOLD,42); f_24=font(BOLD,62); f_cat=font(BOLD,23); f_title=font(BOLD,66); f_meta=font(REG,25)
-    d.ellipse((42,37,110,105),fill=BLUE)
-    d.text((126,62),"MUNDO EM FOCO",font=f_logo,fill=(10,18,30),anchor="lm")
-    x=126+d.textlength("MUNDO EM FOCO",font=f_logo)+16
-    d.text((x,69),"24",font=f_24,fill=BLUE,anchor="lm")
-    cat=(category or "NOTÍCIAS").upper()
-    cw=d.textlength(cat,font=f_cat)+34
-    d.rounded_rectangle((W-48-cw,49,W-48,95),radius=8,fill=BLUE)
-    d.text((W-48-cw/2,72),cat,font=f_cat,fill=WHITE,anchor="mm")
-    # separador azul da marca
-    d.rectangle((0,136,W,142),fill=BLUE)
-
-    gh=710
-    grad=Image.new("RGBA",(1,gh))
-    px=grad.load()
-    for y in range(gh):
-        t=y/(gh-1); a=int(8+(242-8)*(t*t))
-        px[0,y]=(*DARK,a)
-    c.alpha_composite(grad.resize((W,gh)),(0,H-gh))
-    d=ImageDraw.Draw(c)
-    title=(title or "").strip().upper()
-    lines=wrap(d,title,f_title,W-112)
-    if len(lines)>4:
-        lines=lines[:4]
-        if len(lines[-1])>3: lines[-1]=lines[-1].rstrip(" .") + "…"
-    lh=78; meta=(34 if date else 0)+(34 if credit else 0)
-    y=H-54-meta-lh*len(lines)
-    d.rectangle((56,y-28,130,y-20),fill=BLUE)
-    for line in lines:
-        d.text((56,y),line,font=f_title,fill=WHITE,stroke_width=1,stroke_fill=(0,0,0,80)); y+=lh
-    y+=8
-    if date:
-        d.text((56,y),date.upper(),font=f_meta,fill=GRAY); y+=34
+    f_logo=font(BOLD,43); f_24=font(BOLD,64); f_tag=font(REG,15); f_cat=font(BOLD,25)
+    f_title=font(BOLD,58); f_sum=font(REG,28); f_meta=font(REG,20)
+    d.polygon([(0,0),(650,0),(590,176),(0,176)],fill=DARK)
+    d.ellipse((32,25,142,135),fill=(8,96,190),outline=(55,205,255),width=4)
+    d.ellipse((50,42,124,118),outline=WHITE,width=2)
+    d.text((160,61),"MUNDO",font=f_logo,fill=WHITE,anchor="lm")
+    d.text((160,108),"EM FOCO",font=f_logo,fill=WHITE,anchor="lm")
+    d.text((382,83),"24",font=f_24,fill=(24,184,245),anchor="lm")
+    d.text((160,145),"NOTÍCIAS DE VERDADE, SEM FRONTEIRAS",font=f_tag,fill=(220,235,250))
+    if date: d.text((W-42,47),date.upper(),font=font(BOLD,22),fill=DARK,anchor="ra")
+    region=(category or "NOTÍCIAS").upper()
+    d.polygon([(W-310,82),(W,82),(W,150),(W-350,150)],fill=(4,48,105))
+    d.text((W-155,116),region,font=f_cat,fill=WHITE,anchor="mm")
+    panel_y=840
+    panel=Image.new("RGBA",(W,H-panel_y),(4,30,67,246)); c.alpha_composite(panel,(0,panel_y))
+    d=ImageDraw.Draw(c); cat=(category or "NOTÍCIAS").upper()
+    cw=min(360,int(d.textlength(cat,font=f_cat)+70))
+    d.polygon([(38,panel_y-42),(38+cw,panel_y-42),(38+cw-28,panel_y+18),(18,panel_y+18)],fill=(8,117,226))
+    d.text((55,panel_y-12),cat,font=f_cat,fill=WHITE,anchor="lm")
+    title=(title or "").strip().upper(); tf=f_title; lines=wrap(d,title,tf,W-100)
+    while len(lines)>3 and tf.size>40:
+        tf=font(BOLD,tf.size-3); lines=wrap(d,title,tf,W-100)
+    y=panel_y+48; lh=tf.size+9
+    for line in lines[:3]:
+        d.text((48,y),line,font=tf,fill=WHITE,stroke_width=1,stroke_fill=(0,0,0,90)); y+=lh
+    if summary:
+        sf=f_sum; sl=wrap(d,summary.strip(),sf,W-120)[:2]; y+=8
+        d.rectangle((48,y,54,y+min(72,len(sl)*36)),fill=(28,194,246))
+        for line in sl:
+            d.text((72,y),line,font=sf,fill=(235,243,252)); y+=36
+    footer_y=H-112
+    d.rectangle((0,footer_y,W,H),fill=(3,43,91))
+    d.ellipse((38,footer_y+25,92,footer_y+79),outline=WHITE,width=3)
+    d.text((112,footer_y+34),"ACOMPANHE MAIS NOTÍCIAS EM NOSSO PORTAL",font=font(BOLD,16),fill=WHITE)
+    d.text((112,footer_y+62),"MUNDO EM FOCO 24",font=font(BOLD,25),fill=WHITE)
+    d.text((W-40,footer_y+43),"INFORMAÇÃO",font=font(BOLD,19),fill=WHITE,anchor="ra")
+    d.text((W-40,footer_y+69),"EM TODO LUGAR",font=font(BOLD,19),fill=(27,197,247),anchor="ra")
     if credit:
         txt=credit if credit.lower().startswith("foto:") else "Foto: "+credit
-        d.text((56,y),txt,font=f_meta,fill=GRAY)
+        d.text((48,footer_y-28),txt,font=f_meta,fill=(220,230,240))
     return c.convert("RGB")
 
 def main():
     ap=argparse.ArgumentParser()
     ap.add_argument("--request-json"); ap.add_argument("--image",action="append",default=[])
-    ap.add_argument("--title"); ap.add_argument("--category"); ap.add_argument("--date"); ap.add_argument("--credit"); ap.add_argument("--id")
+    ap.add_argument("--title"); ap.add_argument("--category"); ap.add_argument("--date"); ap.add_argument("--credit"); ap.add_argument("--summary"); ap.add_argument("--id")
     ap.add_argument("--out-dir",default="public/news-art"); ap.add_argument("--output-json")
     a=ap.parse_args(); p={}
     if a.request_json:
@@ -115,7 +124,7 @@ def main():
         result={"id":sid,"status":"media_error","error":str(e)}
         print("RESULT_JSON: "+json.dumps(result,ensure_ascii=False)); return 2
     try:
-        final=render(cover(raw),title,a.category or p.get("category",""),a.date or p.get("date",""),a.credit or p.get("credit",""))
+        final=render(cover(raw),title,a.category or p.get("category",""),a.date or p.get("date",""),a.credit or p.get("credit",""),a.summary or p.get("summary",""))
         os.makedirs(a.out_dir,exist_ok=True); path=os.path.join(a.out_dir,sid+".jpg")
         q=93
         while True:
