@@ -1110,5 +1110,39 @@
         "url": "https://www.reuters.com/business/environment/typhoon-approaches-eastern-japan-prompting-flood-landslide-warnings-2026-09-21/"
       }
     ]
+  },
+  {
+    "id": "contrata-brasil-comite-pernambuco-recife-22-09-2026",
+    "published": true,
+    "category": "PERNAMBUCO",
+    "title": "Pernambuco instala primeiro comitê estadual do Contrata+Brasil no Recife",
+    "summary": "Grupo instalado no Sebrae/PE busca ampliar a participação de MEIs e órgãos públicos na plataforma federal de compras governamentais.",
+    "location": "RECIFE, PE",
+    "date": "22 SET 2026",
+    "image": "https://www.gov.br/agu/pt-br/comunicacao/noticias/contrata-brasil-transforma-licitacoes-em-ferramentas-de-diminuicao-de-desigualdade/flavio-na-cop.jpg/@@images/b9fe4a26-a4d6-418b-a13a-c25bf322ba20.jpeg",
+    "imageAlt": "Evento de apresentação da plataforma Contrata+Brasil; imagem de arquivo e contexto",
+    "credit": "Advocacia-Geral da União — imagem de arquivo/contexto",
+    "body": [
+      "O primeiro Comitê Estadual do Contrata+Brasil foi instalado nesta terça-feira (22) no Recife. A iniciativa busca ampliar a adesão de microempreendedores individuais e de órgãos públicos à plataforma federal de compras governamentais.",
+      "A instalação ocorreu na sede do Sebrae/PE, na Ilha do Retiro. O encontro reuniu empreendedores e representantes de instituições públicas e contou com a participação do secretário nacional de Inclusão Socioprodutiva, Artesanato e Microempreendedor Individual, Danilo Cabral.",
+      "Segundo a Agência Sebrae de Notícias, mais de 20,5 mil MEIs e 2,4 mil órgãos públicos estão cadastrados no Contrata+Brasil em todo o país. Desde o lançamento, a plataforma movimentou R$ 75 milhões em contratações de serviços, alimentos e eventos.",
+      "Em Pernambuco, o Sebrae informou mais de 790 MEIs cadastrados e cerca de 720 oportunidades abertas. O estado possui um universo potencial superior a 281,8 mil MEIs nas atividades atualmente contempladas pela plataforma.",
+      "O comitê funcionará como uma instância permanente de articulação para identificar dificuldades de adesão, aproximar empreendedores dos órgãos compradores e discutir medidas que facilitem o uso da plataforma.",
+      "O Contrata+Brasil foi lançado em 2025 para simplificar o acesso de pequenos negócios às contratações públicas. A iniciativa nacional foi inspirada no GO MEI, plataforma desenvolvida pela Prefeitura do Recife com apoio do Sebrae/PE."
+    ],
+    "sources": [
+      {
+        "name": "Agência Sebrae de Notícias — Sebrae reúne lideranças nacionais em Pernambuco para ampliar oportunidades para pequenos negócios",
+        "url": "https://agenciasebrae.com.br/arquivo/sebrae-reune-liderancas-nacionais-em-pernambuco-para-ampliar-oportunidades-para-pequenos-negocios/"
+      },
+      {
+        "name": "Diario de Pernambuco — Recife recebe comitê do Ministério do Empreendedorismo para ampliar adesão ao Contrata+Brasil",
+        "url": "https://www.diariodepernambuco.com.br/economia/2026/09/11724604-recife-recebe-comite-do-ministerio-do-empreendedorismo-para-ampliar-adesao-ao-contrata-brasil.html"
+      },
+      {
+        "name": "Ministério do Empreendedorismo — Contrata+Brasil",
+        "url": "https://www.gov.br/memp/pt-br/acesso-a-informacao/acoes-e-programas/contrata-brasil-1"
+      }
+    ]
   }
 ]
