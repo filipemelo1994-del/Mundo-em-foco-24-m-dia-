@@ -1279,5 +1279,39 @@
     ],
     "sourceImage": "https://www.cbnrecife.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-22-at-07.38.31-696x507.jpeg",
     "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/incendio-ilha-do-amor-grande-recife-21-09-2026.jpg"
+  },
+  {
+    "id": "samu-recife-25-anos-jornada-23-09-2026",
+    "published": true,
+    "category": "RECIFE/RMR",
+    "title": "Samu Recife celebra 25 anos com jornada para cerca de 1,4 mil participantes",
+    "summary": "6ª Jornada Metropolitana do Samu Recife ocorre nos dias 23 e 24 de setembro no Centro de Convenções de Pernambuco, em Olinda, com debates sobre trauma, resgate aeromédico, desastres e simulado de múltiplas vítimas.",
+    "location": "OLINDA, PE",
+    "date": "23 SET 2026",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/SAMU%20Olinda%20-%20192%20%2815360064472%29.jpg?width=1600",
+    "imageAlt": "Equipe do Samu em Olinda durante demonstração de atendimento, imagem de arquivo",
+    "credit": "Luiz Fabiano / Prefeitura de Olinda — Wikimedia Commons, CC BY 2.0 (foto de arquivo)",
+    "body": [
+      "O Serviço de Atendimento Móvel de Urgência do Recife celebra 25 anos de atuação com a 6ª Jornada Metropolitana do Samu Recife, realizada nesta quarta e quinta-feira, 23 e 24 de setembro, no Centro de Convenções de Pernambuco, em Olinda.",
+      "A expectativa divulgada pela organização é reunir cerca de 1,4 mil profissionais, estudantes e gestores. A programação integra a PreveNor e reúne atividades de atualização em atendimento pré-hospitalar e resposta a emergências.",
+      "No primeiro dia da jornada, a programação inclui a solenidade dos 25 anos do Samu Recife e discussões sobre trauma grave, suporte avançado e integração dos serviços da Região Metropolitana.",
+      "Para o dia 24, estão previstos debates sobre medicina de desastres, resgate aeromédico e operações especiais, além de um simulado de incidente com múltiplas vítimas na área externa do Centro de Convenções.",
+      "Dados abertos da Prefeitura do Recife informam que o Samu foi inaugurado na capital em 21 de dezembro de 2001 e realiza atualmente cerca de 15 mil atendimentos mensais, em média. A Central de Regulação Médica sediada no Recife também regula chamadas de 71 municípios da I Macrorregião de Saúde de Pernambuco.",
+      "A jornada busca atualizar protocolos e fortalecer a integração entre equipes que atuam em urgência e emergência, especialmente em cenários de trauma, eventos de massa e ocorrências de maior complexidade."
+    ],
+    "sources": [
+      {
+        "name": "JC — Samu Recife reúne profissionais para discutir o futuro do atendimento de emergência",
+        "url": "https://jc.uol.com.br/colunas/saude-e-bem-estar/2026/09/22/25-anos-do-192-samu-recife-reune-profissionais-para-discutir-o-futuro-do-atendimento-de-emergencia.html"
+      },
+      {
+        "name": "PreveNor — 6ª Jornada do SAMU Metropolitano de Recife",
+        "url": "https://feiraprevenor.com.br/jornada-do-samu/"
+      },
+      {
+        "name": "Portal de Dados Abertos do Recife — SAMU 2026",
+        "url": "https://dados.recife.pe.gov.br/dataset/servico-de-atendimento-movel-de-urgencia-samu-2026"
+      }
+    ]
   }
 ]
