@@ -1,0 +1,25 @@
+{
+  "id": "brasil-governo-reduz-projecao-pib-2026-22-09-2026",
+  "published": true,
+  "category": "ECONOMIA",
+  "title": "Governo reduz projeção de crescimento do Brasil em 2026 para 2%",
+  "summary": "Ministério da Fazenda cortou a estimativa do PIB de 2,3% para 2,0% e reduziu a previsão de inflação deste ano para 4,9%.",
+  "location": "BRASÍLIA, DF",
+  "date": "22 SET 2026",
+  "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/S%C3%A3o%20Paulo%20-%20Skyline.jpg?width=1280",
+  "sourceImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/S%C3%A3o%20Paulo%20-%20Skyline.jpg?width=1280",
+  "imageAlt": "Vista do skyline de São Paulo, maior centro econômico do Brasil",
+  "credit": "Andre Deak / Wikimedia Commons — CC BY 2.0",
+  "body": [
+    "O governo federal reduziu nesta terça-feira (22) a projeção de crescimento da economia brasileira em 2026 para 2,0%, ante estimativa anterior de 2,3% divulgada em julho.",
+    "Segundo a Secretaria de Política Econômica do Ministério da Fazenda, a melhora esperada para a agropecuária não deve compensar um desempenho mais fraco dos setores de serviços e indústria.",
+    "A projeção oficial para 2027 também foi revisada para baixo, de 2,5% para 2,3%. O ministério atribui parte dessa mudança a um ciclo de redução dos juros mais gradual, que deslocaria parte da recuperação econômica para os anos seguintes.",
+    "O Banco Central iniciou em março um ciclo cauteloso de cortes e, após reduções acumuladas de 1,25 ponto percentual, a taxa Selic está em 13,75% ao ano.",
+    "A Fazenda também reduziu sua previsão para a inflação de 2026, de 5,1% para 4,9%, enquanto elevou a estimativa de 2027 de 3,6% para 3,8%, citando possíveis efeitos de um El Niño mais forte sobre a próxima safra.",
+    "As novas projeções serão usadas como referência para as estimativas de receitas e despesas do governo. Mesmo com a revisão, a previsão oficial de crescimento continua ligeiramente acima da expectativa mediana dos economistas consultados pelo Banco Central."
+  ],
+  "sources": [
+    {"name": "Reuters — Brazil trims GDP outlook, sees slower recovery amid cautious monetary easing cycle", "url": "https://www.reuters.com/world/americas/brazil-government-cuts-2026-growth-forecast-20-2026-09-22/"},
+    {"name": "Agência Brasil — Banco Central reduz Selic para 13,75% ao ano", "url": "https://agenciabrasil.ebc.com.br/en/economia/noticia/2026-09/central-bank-cuts-brazils-benchmark-interest-rate-1375-year"}
+  ]
+}
