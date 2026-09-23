@@ -57,6 +57,7 @@ jobs:
           for req in requests/news-art/*.json; do
             id=$(python3 -c "import json,sys; print(json.load(open(sys.argv[1],encoding='utf-8')).get('id',''))" "$req")
             [ -n "$id" ] || { mv "$req" "requests/news-art/failed/$(basename "$req")"; FAIL=1; continue; }
+            python3 scripts/upsert_news_from_request.py --request-json "$req" --file data/news.json
             set +e
             python3 scripts/build_news_art.py --request-json "$req" --output-json "/tmp/result-$id.json"
             status=$?
@@ -81,7 +82,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A public/news-art requests/news-art data/news.json
-          git diff --cached --quiet || { git commit -m "chore: build Mundo em Foco 24 news art"; git push origin main; }
+          git diff --cached --quiet || { git commit -m "chore: publish Mundo em Foco 24 story and art"; git push origin main; }
       - name: Summary
         if: always()
         run: |
