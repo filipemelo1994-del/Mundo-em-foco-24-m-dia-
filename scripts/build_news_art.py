@@ -99,7 +99,12 @@ def render(photo,title,category,date,credit,summary=""):
             d.text((72,y),line,font=sf,fill=(235,243,252)); y+=36
     footer_y=H-112
     d.rectangle((0,footer_y,W,H),fill=(3,43,91))
-    d.ellipse((38,footer_y+25,92,footer_y+79),outline=WHITE,width=3)
+    # Globo oficial estilizado no rodapé (mesma linguagem do cabeçalho).
+    gx1,gy1,gx2,gy2=38,footer_y+25,92,footer_y+79
+    d.ellipse((gx1,gy1,gx2,gy2),outline=WHITE,width=3)
+    d.ellipse((gx1+12,gy1+2,gx2-12,gy2-2),outline=WHITE,width=2)
+    d.arc((gx1+2,gy1+13,gx2-2,gy2-13),0,360,fill=WHITE,width=2)
+    d.line((gx1+3,(gy1+gy2)//2,gx2-3,(gy1+gy2)//2),fill=WHITE,width=2)
     d.text((112,footer_y+25),"ACOMPANHE MAIS NOTÍCIAS EM NOSSO PORTAL",font=font(BOLD,15),fill=WHITE)
     d.text((112,footer_y+51),"www.mundoemfoco24.com.br",font=font(BOLD,21),fill=WHITE)
     # Assinatura oficial fixa — nunca substituir pelo nome da pauta.
