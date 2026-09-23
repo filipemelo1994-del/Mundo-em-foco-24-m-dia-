@@ -1,0 +1,92 @@
+name: Build News Art
+on:
+  workflow_dispatch:
+    inputs:
+      news_id:
+        description: "ID de uma pauta existente em data/news.json"
+        required: true
+        type: string
+  push:
+    branches: [main]
+    paths:
+      - "requests/news-art/*.json"
+permissions:
+  contents: write
+concurrency:
+  group: mundo-em-foco-news-art
+  cancel-in-progress: false
+jobs:
+  build-art:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-dejavu-core
+      - run: pip install --quiet requests pillow
+      - name: Prepare manual request
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          NEWS_ID: ${{ inputs.news_id }}
+        run: |
+          python3 - <<'PY'
+          import json,os,sys
+          with open("data/news.json",encoding="utf-8") as f: data=json.load(f)
+          if not isinstance(data,list): sys.exit("data/news.json não é lista")
+          nid=os.environ["NEWS_ID"]
+          e=next((x for x in data if str(x.get("id"))==nid),None)
+          if not e: sys.exit(f"Pauta {nid} não encontrada")
+          image=e.get("sourceImage") or e.get("image")
+          if not image: sys.exit(f"Pauta {nid} sem image/sourceImage")
+          req={"id":e["id"],"title":e["title"],"category":e.get("category",""),"date":e.get("date",""),"credit":e.get("credit",""),"imageCandidates":[image]}
+          os.makedirs("requests/news-art",exist_ok=True)
+          with open(f"requests/news-art/{nid}.json","w",encoding="utf-8") as f: json.dump(req,f,ensure_ascii=False,indent=2)
+          PY
+      - name: Process queue
+        id: process
+        shell: bash
+        run: |
+          mkdir -p requests/news-art/failed public/news-art
+          shopt -s nullglob
+          OK=""
+          FAIL=0
+          for req in requests/news-art/*.json; do
+            id=$(python3 -c "import json,sys; print(json.load(open(sys.argv[1],encoding='utf-8')).get('id',''))" "$req")
+            [ -n "$id" ] || { mv "$req" "requests/news-art/failed/$(basename "$req")"; FAIL=1; continue; }
+            set +e
+            python3 scripts/build_news_art.py --request-json "$req" --output-json "/tmp/result-$id.json"
+            status=$?
+            set -e
+            if [ "$status" -eq 0 ] && [ -f "/tmp/result-$id.json" ]; then
+              source_image=$(python3 -c "import json; print(json.load(open('/tmp/result-$id.json'))['sourceImage'])")
+              out_path=$(python3 -c "import json; print(json.load(open('/tmp/result-$id.json'))['path'])")
+              url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/${out_path}"
+              python3 scripts/update_news_entry.py --file data/news.json --id "$id" --source-image "$source_image" --instagram-image "$url"
+              OK="${OK}${id}|${url}"$'\n'
+              rm -f "$req"
+            else
+              echo "::warning::Falha na arte de $id (status=$status); fila continuará."
+              mv "$req" "requests/news-art/failed/$(basename "$req")"
+              FAIL=1
+            fi
+          done
+          { echo "ok<<EOF"; printf "%s" "$OK"; echo "EOF"; echo "fail=$FAIL"; } >> "$GITHUB_OUTPUT"
+      - name: Commit generated art
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A public/news-art requests/news-art data/news.json
+          git diff --cached --quiet || { git commit -m "chore: build Mundo em Foco 24 news art"; git push origin main; }
+      - name: Summary
+        if: always()
+        run: |
+          echo "### Mundo em Foco 24 — artes" >> "$GITHUB_STEP_SUMMARY"
+          while IFS='|' read -r id url; do
+            [ -z "$id" ] || echo "- **$id** — $url" >> "$GITHUB_STEP_SUMMARY"
+          done <<< "${{ steps.process.outputs.ok }}"
+          [ "${{ steps.process.outputs.fail }}" = "1" ] && echo "⚠️ Houve falha de mídia; a fila não foi interrompida." >> "$GITHUB_STEP_SUMMARY" || true
