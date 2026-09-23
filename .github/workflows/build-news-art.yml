@@ -42,7 +42,7 @@ jobs:
           if not e: sys.exit(f"Pauta {nid} não encontrada")
           image=e.get("sourceImage") or e.get("image")
           if not image: sys.exit(f"Pauta {nid} sem image/sourceImage")
-          req={"id":e["id"],"title":e["title"],"category":e.get("category",""),"date":e.get("date",""),"credit":e.get("credit",""),"imageCandidates":[image]}
+          req={"id":e["id"],"title":e["title"],"summary":e.get("summary",""),"category":e.get("category",""),"date":e.get("date",""),"credit":e.get("credit",""),"imageCandidates":[image]}
           os.makedirs("requests/news-art",exist_ok=True)
           with open(f"requests/news-art/{nid}.json","w",encoding="utf-8") as f: json.dump(req,f,ensure_ascii=False,indent=2)
           PY
