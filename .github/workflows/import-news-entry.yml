@@ -1,0 +1,43 @@
+name: Import News Entry
+on:
+  push:
+    branches: [main]
+    paths: ['requests/news/*.json']
+permissions:
+  contents: write
+concurrency:
+  group: mundo-em-foco-import-news
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Import entries and queue branded art
+        shell: bash
+        run: |
+          shopt -s nullglob
+          mkdir -p requests/news-art
+          for req in requests/news/*.json; do
+            python3 scripts/append_news_entry.py --entry "$req"
+            python3 - "$req" <<'PY'
+          import json,sys,os
+          p=sys.argv[1]
+          with open(p,encoding='utf-8') as f:e=json.load(f)
+          img=e.get('sourceImage') or e.get('image')
+          if not img: raise SystemExit('entry without image')
+          out={'id':e['id'],'title':e['title'],'summary':e.get('summary',''),'category':e.get('category',''),'date':e.get('date',''),'credit':e.get('credit',''),'imageCandidates':[img]}
+          with open('requests/news-art/'+str(e['id'])+'.json','w',encoding='utf-8') as f:json.dump(out,f,ensure_ascii=False,indent=2)
+          PY
+            rm -f "$req"
+          done
+      - name: Commit portal and art queue
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -A data/news.json requests/news requests/news-art
+          git diff --cached --quiet || { git commit -m 'chore: publish queued Mundo em Foco 24 news'; git push origin main; }
