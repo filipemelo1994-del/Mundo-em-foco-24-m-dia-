@@ -66,8 +66,12 @@ def render(photo,title,category,date,credit,summary=""):
     f_logo=font(BOLD,43); f_24=font(BOLD,64); f_tag=font(REG,15); f_cat=font(BOLD,25)
     f_title=font(BOLD,58); f_sum=font(REG,28); f_meta=font(REG,20)
     d.polygon([(0,0),(650,0),(590,176),(0,176)],fill=DARK)
+    # Logo fixo Mundo em Foco 24: globo com meridianos/paralelos (sem texto improvisado).
     d.ellipse((32,25,142,135),fill=(8,96,190),outline=(55,205,255),width=4)
-    d.ellipse((50,42,124,118),outline=WHITE,width=2)
+    d.ellipse((50,28,124,132),outline=WHITE,width=2)
+    d.ellipse((72,28,102,132),outline=WHITE,width=2)
+    d.arc((34,49,140,111),0,360,fill=WHITE,width=2)
+    d.line((39,80,135,80),fill=WHITE,width=2)
     d.text((160,61),"MUNDO",font=f_logo,fill=WHITE,anchor="lm")
     d.text((160,108),"EM FOCO",font=f_logo,fill=WHITE,anchor="lm")
     d.text((382,83),"24",font=f_24,fill=(24,184,245),anchor="lm")
@@ -96,10 +100,14 @@ def render(photo,title,category,date,credit,summary=""):
     footer_y=H-112
     d.rectangle((0,footer_y,W,H),fill=(3,43,91))
     d.ellipse((38,footer_y+25,92,footer_y+79),outline=WHITE,width=3)
-    d.text((112,footer_y+34),"ACOMPANHE MAIS NOTÍCIAS EM NOSSO PORTAL",font=font(BOLD,16),fill=WHITE)
-    d.text((112,footer_y+62),"MUNDO EM FOCO 24",font=font(BOLD,25),fill=WHITE)
-    d.text((W-40,footer_y+43),"INFORMAÇÃO",font=font(BOLD,19),fill=WHITE,anchor="ra")
-    d.text((W-40,footer_y+69),"EM TODO LUGAR",font=font(BOLD,19),fill=(27,197,247),anchor="ra")
+    d.text((112,footer_y+25),"ACOMPANHE MAIS NOTÍCIAS EM NOSSO PORTAL",font=font(BOLD,15),fill=WHITE)
+    d.text((112,footer_y+51),"www.mundoemfoco24.com.br",font=font(BOLD,21),fill=WHITE)
+    # Assinatura oficial fixa — nunca substituir pelo nome da pauta.
+    d.text((112,footer_y+79),"MUNDO EM FOCO 24",font=font(BOLD,18),fill=(27,197,247))
+    # Elementos fixos da identidade aprovada.
+    d.text((W-40,footer_y+37),"INFORMAÇÃO",font=font(BOLD,19),fill=WHITE,anchor="ra")
+    d.text((W-40,footer_y+65),"EM TODO LUGAR",font=font(BOLD,19),fill=(27,197,247),anchor="ra")
+    d.text((W-330,footer_y+82),"◎  f  ▶  ♪",font=font(BOLD,18),fill=WHITE,anchor="ra")
     if credit:
         txt=credit if credit.lower().startswith("foto:") else "Foto: "+credit
         d.text((48,footer_y-28),txt,font=f_meta,fill=(220,230,240))
