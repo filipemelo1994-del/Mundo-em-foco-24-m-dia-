@@ -58,6 +58,13 @@ jobs:
             id=$(python3 -c "import json,sys; print(json.load(open(sys.argv[1],encoding='utf-8')).get('id',''))" "$req")
             [ -n "$id" ] || { mv "$req" "requests/news-art/failed/$(basename "$req")"; FAIL=1; continue; }
             python3 scripts/upsert_news_from_request.py --request-json "$req" --file data/news.json
+            exists=$(python3 -c "import json,sys; d=json.load(open('data/news.json',encoding='utf-8')); print('1' if any(str(x.get('id'))==sys.argv[1] for x in d) else '0')" "$id")
+            if [ "$exists" != "1" ]; then
+              echo "::warning::Solicitação órfã $id: pauta ausente em data/news.json. Isolando sem interromper a fila."
+              mv "$req" "requests/news-art/failed/$(basename "$req")"
+              FAIL=1
+              continue
+            fi
             set +e
             python3 scripts/build_news_art.py --request-json "$req" --output-json "/tmp/result-$id.json"
             status=$?
@@ -90,4 +97,4 @@ jobs:
           while IFS='|' read -r id url; do
             [ -z "$id" ] || echo "- **$id** — $url" >> "$GITHUB_STEP_SUMMARY"
           done <<< "${{ steps.process.outputs.ok }}"
-          [ "${{ steps.process.outputs.fail }}" = "1" ] && echo "⚠️ Houve falha de mídia; a fila não foi interrompida." >> "$GITHUB_STEP_SUMMARY" || true
+          [ "${{ steps.process.outputs.fail }}" = "1" ] && echo "⚠️ Houve falha de mídia/solicitação órfã; a fila continuou." >> "$GITHUB_STEP_SUMMARY" || true
