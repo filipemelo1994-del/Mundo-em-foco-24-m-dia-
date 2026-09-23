@@ -122,7 +122,7 @@ def main():
     ap=argparse.ArgumentParser()
     ap.add_argument("--request-json"); ap.add_argument("--image",action="append",default=[])
     ap.add_argument("--title"); ap.add_argument("--category"); ap.add_argument("--date"); ap.add_argument("--credit"); ap.add_argument("--summary"); ap.add_argument("--id")
-    ap.add_argument("--out-dir",default="public/news-art"); ap.add_argument("--output-json")
+    ap.add_argument("--out-dir",default="public/news-art"); ap.add_argument("--output-json"); ap.add_argument("--story",action="store_true")
     a=ap.parse_args(); p={}
     if a.request_json:
         with open(a.request_json,encoding="utf-8") as f: p=json.load(f)
