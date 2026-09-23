@@ -17,27 +17,34 @@ jobs:
         with: {ref: main}
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
-      - name: Import entries and queue branded art
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-dejavu-core
+      - run: pip install --quiet requests pillow
+      - name: Import entries and render branded art
         shell: bash
         run: |
           shopt -s nullglob
-          mkdir -p requests/news-art
+          mkdir -p public/news-art requests/news/failed
           for req in requests/news/*.json; do
+            id=$(python3 -c "import json,sys;print(json.load(open(sys.argv[1],encoding='utf-8'))['id'])" "$req")
             python3 scripts/append_news_entry.py --entry "$req"
-            python3 - "$req" <<'PY'
-          import json,sys,os
-          p=sys.argv[1]
-          with open(p,encoding='utf-8') as f:e=json.load(f)
-          img=e.get('sourceImage') or e.get('image')
-          if not img: raise SystemExit('entry without image')
-          out={'id':e['id'],'title':e['title'],'summary':e.get('summary',''),'category':e.get('category',''),'date':e.get('date',''),'credit':e.get('credit',''),'imageCandidates':[img]}
-          with open('requests/news-art/'+str(e['id'])+'.json','w',encoding='utf-8') as f:json.dump(out,f,ensure_ascii=False,indent=2)
-          PY
-            rm -f "$req"
+            set +e
+            python3 scripts/build_news_art.py --request-json "$req" --output-json "/tmp/result-$id.json"
+            status=$?
+            set -e
+            if [ "$status" -eq 0 ] && [ -f "/tmp/result-$id.json" ]; then
+              source_image=$(python3 -c "import json;print(json.load(open('/tmp/result-$id.json'))['sourceImage'])")
+              out_path=$(python3 -c "import json;print(json.load(open('/tmp/result-$id.json'))['path'])")
+              url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/${out_path}"
+              python3 scripts/update_news_entry.py --file data/news.json --id "$id" --source-image "$source_image" --instagram-image "$url"
+              rm -f "$req"
+            else
+              echo "::warning::Falha ao gerar arte de $id"
+              mv "$req" "requests/news/failed/$(basename "$req")"
+            fi
           done
-      - name: Commit portal and art queue
+      - name: Commit portal and final art
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add -A data/news.json requests/news requests/news-art
-          git diff --cached --quiet || { git commit -m 'chore: publish queued Mundo em Foco 24 news'; git push origin main; }
+          git add -A data/news.json public/news-art requests/news
+          git diff --cached --quiet || { git commit -m 'chore: publish Mundo em Foco 24 portal and branded art'; git push origin main; }
