@@ -1,11 +1,14 @@
 {
-  "name": "Mundo em Foco 24 — Central",
+  "id": "/central/",
+  "name": "Mundo em Foco 24 — Central de Controle",
   "short_name": "Central MEF24",
-  "start_url": "./",
-  "scope": "./",
+  "description": "Central operacional independente do Mundo em Foco 24.",
+  "start_url": "/central/",
+  "scope": "/central/",
   "display": "standalone",
   "background_color": "#071321",
   "theme_color": "#071321",
+  "lang": "pt-BR",
   "icons": [
     {
       "src": "../assets/logo-site.png",
