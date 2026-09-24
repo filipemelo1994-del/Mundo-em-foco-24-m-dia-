@@ -1,5 +1,33 @@
 [
   {
+    "id": "metro-recife-linha-centro-fechada-arvore-coqueiral-24-09-2026",
+    "published": "2026-09-24T05:10:00-03:00",
+    "category": "RECIFE/RMR",
+    "title": "Linha Centro do Metrô do Recife é fechada após ocorrência na rede aérea",
+    "summary": "Imagens recebidas pelo Mundo em Foco 24 mostram o ramal fechado nesta manhã. Informação preliminar aponta queda de árvore sobre a rede aérea na região de Coqueiral.",
+    "location": "Recife, Pernambuco",
+    "date": "24 SET 2026",
+    "credit": "Imagem de arquivo: Wikimedia Commons",
+    "body": [
+      "A Linha Centro do Metrô do Recife aparece fechada na manhã desta quinta-feira (24), conforme aviso registrado em estação e imagens recebidas pelo Mundo em Foco 24.",
+      "A informação preliminar recebida pela página aponta que uma árvore teria atingido a rede aérea na região de Coqueiral, afetando a alimentação elétrica e impedindo a circulação dos trens.",
+      "Até o momento desta publicação, a causa específica da paralisação ainda não havia sido localizada em comunicado oficial indexado nos canais consultados. A ocorrência da árvore, portanto, é tratada como informação preliminar e será atualizada assim que houver confirmação oficial.",
+      "Usuários devem acompanhar os canais oficiais da CBTU/Metrorec antes de se deslocarem para as estações da Linha Centro."
+    ],
+    "sources": [
+      {
+        "name": "Informação e imagens recebidas pelo Mundo em Foco 24",
+        "url": ""
+      },
+      {
+        "name": "CBTU Recife",
+        "url": "https://www.gov.br/cbtu/pt-br/servicos/cbtu-recife"
+      }
+    ],
+    "sourceImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Train%20of%20series%20800%20at%20Recife%20station%2C%20Recife%20Metro%2C%2015-02-2024.jpg?width=1600",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Train%20of%20series%20800%20at%20Recife%20station%2C%20Recife%20Metro%2C%2015-02-2024.jpg?width=1600"
+  },
+  {
     "id": "bc-controle-criptomoedas-carteiras-autocustodiadas-23-09-2026",
     "published": "2026-09-23T20:35:00-03:00",
     "category": "ECONOMIA",
