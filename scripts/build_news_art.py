@@ -54,7 +54,8 @@ def wrap(draw,text,f,maxw):
     return lines
 
 def render(photo,title,category,date,credit,summary="",story=False):
-    c=photo.convert("RGBA")\n    # Story usa a mesma identidade; o quadro 1080x1350 será centralizado em 1080x1920.
+    c=photo.convert("RGBA")
+    # Story usa a mesma identidade; o quadro 1080x1350 será centralizado em 1080x1920.
     # Padrão oficial: azul/branco, foto dominante e fumaça/degradê lateral.
     fog=Image.new("RGBA",(W,H),(0,0,0,0)); fp=fog.load()
     for x in range(W):
