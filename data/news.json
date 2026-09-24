@@ -1255,7 +1255,7 @@
     "summary": "Balanço divulgado nesta terça-feira aponta 703 desabrigados, 3.231 desalojados e danos em 145 municípios; Defesa Civil mantém alerta de inundação para o Rio Caí.",
     "location": "RIO GRANDE DO SUL, BRASIL",
     "date": "22 SET 2026",
-    "image": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-09/temporais-no-rs-deixam-mais-de-700-pessoas-desabrigadas",
+    "image": "https://www.maspertv.com.br/wp-content/uploads/sites/2/2026/09/rs-1024x613.png",
     "imageAlt": "Danos provocados pelos temporais no Rio Grande do Sul",
     "credit": "Prefeitura do RS / Divulgação — via Agência Brasil",
     "body": [
@@ -1279,7 +1279,9 @@
         "name": "Defesa Civil RS — Alerta de inundação no Rio Caí em Montenegro",
         "url": "https://www.defesacivil.rs.gov.br/defesa-civil-alerta-inundacao-no-rio-cai-risco-muito-alto-em-montenegro"
       }
-    ]
+    ],
+    "sourceImage": "https://www.maspertv.com.br/wp-content/uploads/sites/2/2026/09/rs-1024x613.png",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/temporais-rs-quatro-mortes-22-09-2026.jpg"
   },
   {
     "id": "guardiao-cibernetico-recife-23-09-2026",
