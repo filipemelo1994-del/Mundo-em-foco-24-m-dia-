@@ -1,0 +1,17 @@
+{
+  "name": "Mundo em Foco 24 — Central",
+  "short_name": "Central MEF24",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#071321",
+  "theme_color": "#071321",
+  "icons": [
+    {
+      "src": "../assets/logo-site.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
