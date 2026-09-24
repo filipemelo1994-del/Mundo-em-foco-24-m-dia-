@@ -36,6 +36,7 @@ jobs:
           python3 - <<'PY'
           import json,os,sys
           with open("data/news.json",encoding="utf-8") as f: data=json.load(f)
+          if not isinstance(data,list): sys.exit("data/news.json não é lista")
           nid=os.environ["NEWS_ID"]
           e=next((x for x in data if str(x.get("id"))==nid),None)
           if not e: sys.exit(f"Pauta {nid} não encontrada")
@@ -56,24 +57,19 @@ jobs:
           for req in requests/news-art/*.json; do
             id=$(python3 -c "import json,sys; print(json.load(open(sys.argv[1],encoding='utf-8')).get('id',''))" "$req")
             [ -n "$id" ] || { mv "$req" "requests/news-art/failed/$(basename "$req")"; FAIL=1; continue; }
-            python3 scripts/upsert_news_from_request.py --request-json "$req" --file data/news.json
             set +e
             python3 scripts/build_news_art.py --request-json "$req" --output-json "/tmp/result-$id.json"
-            feed_status=$?
-            python3 scripts/build_news_art.py --request-json "$req" --story --output-json "/tmp/story-$id.json"
-            story_status=$?
+            status=$?
             set -e
-            if [ "$feed_status" -eq 0 ] && [ "$story_status" -eq 0 ] && [ -f "/tmp/result-$id.json" ] && [ -f "/tmp/story-$id.json" ]; then
+            if [ "$status" -eq 0 ] && [ -f "/tmp/result-$id.json" ]; then
               source_image=$(python3 -c "import json; print(json.load(open('/tmp/result-$id.json'))['sourceImage'])")
               out_path=$(python3 -c "import json; print(json.load(open('/tmp/result-$id.json'))['path'])")
-              story_path=$(python3 -c "import json; print(json.load(open('/tmp/story-$id.json'))['path'])")
               url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/${out_path}"
-              story_url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/${story_path}"
-              python3 scripts/update_news_entry.py --file data/news.json --id "$id" --source-image "$source_image" --instagram-image "$url" --story-image "$story_url"
-              OK="${OK}${id}|${url}|${story_url}"$'\n'
+              python3 scripts/update_news_entry.py --file data/news.json --id "$id" --source-image "$source_image" --instagram-image "$url"
+              OK="${OK}${id}|${url}"$'\n'
               rm -f "$req"
             else
-              echo "::error::Arte incompleta para $id (feed=$feed_status story=$story_status). Pauta NÃO marcada como pronta."
+              echo "::warning::Falha na arte de $id (status=$status); fila continuará."
               mv "$req" "requests/news-art/failed/$(basename "$req")"
               FAIL=1
             fi
@@ -85,12 +81,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A public/news-art requests/news-art data/news.json
-          git diff --cached --quiet || { git commit -m "chore: publish verified Mundo em Foco 24 media"; git push origin main; }
+          git diff --cached --quiet || { git commit -m "chore: build Mundo em Foco 24 news art"; git push origin main; }
       - name: Summary
         if: always()
         run: |
-          echo "### Mundo em Foco 24 — mídia verificada" >> "$GITHUB_STEP_SUMMARY"
-          while IFS='|' read -r id feed story; do
-            [ -z "$id" ] || { echo "- **$id**" >> "$GITHUB_STEP_SUMMARY"; echo "  - Feed: $feed" >> "$GITHUB_STEP_SUMMARY"; echo "  - Story: $story" >> "$GITHUB_STEP_SUMMARY"; }
+          echo "### Mundo em Foco 24 — artes" >> "$GITHUB_STEP_SUMMARY"
+          while IFS='|' read -r id url; do
+            [ -z "$id" ] || echo "- **$id** — $url" >> "$GITHUB_STEP_SUMMARY"
           done <<< "${{ steps.process.outputs.ok }}"
-          [ "${{ steps.process.outputs.fail }}" = "1" ] && echo "⚠️ Há mídia pendente em requests/news-art/failed; nenhuma pauta incompleta foi marcada como pronta." >> "$GITHUB_STEP_SUMMARY" || true
+          [ "${{ steps.process.outputs.fail }}" = "1" ] && echo "⚠️ Houve falha de mídia; a fila não foi interrompida." >> "$GITHUB_STEP_SUMMARY" || true
