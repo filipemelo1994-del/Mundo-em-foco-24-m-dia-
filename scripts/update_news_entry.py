@@ -8,7 +8,9 @@ def main():
     entry=next((x for x in data if isinstance(x,dict) and str(x.get("id"))==str(a.id)),None)
     if entry is None:
         print("ERRO: pauta não encontrada; nenhuma alteração feita",file=sys.stderr); return 1
-    if a.source_image: entry["sourceImage"]=a.source_image
+    if a.source_image:
+        entry["sourceImage"]=a.source_image
+        entry["image"]=a.source_image
     if a.instagram_image: entry["instagramImage"]=a.instagram_image
     if a.story_image: entry["storyImage"]=a.story_image
     if a.instagram_image and a.story_image: entry["mediaReady"]=True
