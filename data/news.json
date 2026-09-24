@@ -1736,5 +1736,37 @@
       "https://upload.wikimedia.org/wikipedia/commons/d/d8/Edif%C3%ADcio_sede_do_Banco_Central_do_Brasil_%2816011634694%29.jpg",
       "https://commons.wikimedia.org/wiki/Special:Redirect/file/Edif%C3%ADcio%20sede%20do%20Banco%20Central%20do%20Brasil%20%2816011634694%29.jpg?width=1600"
     ]
+  },
+  {
+    "id": "pm-apreende-arma-drogas-suspeitos-ibura-24-09-2026",
+    "published": "2026-09-24T17:30:00-03:00",
+    "category": "RECIFE/RMR",
+    "title": "PM apreende arma e drogas e prende suspeitos no Ibura",
+    "summary": "Segundo a PMPE, dois homens foram presos na Cohab, no Ibura, e foram apreendidos um revólver calibre 38, 57 munições, drogas, balança de precisão e dinheiro; um dos detidos tinha mandado de prisão em aberto.",
+    "location": "Recife, Pernambuco",
+    "date": "24 SET 2026",
+    "credit": "Foto ilustrativa: Polícia Militar de Pernambuco",
+    "imageAlt": "Policiais militares de Pernambuco durante operação, imagem ilustrativa",
+    "body": [
+      "Policiais militares do 19º Batalhão prenderam dois homens no Ibura, Zona Sul do Recife, após localizar suspeitos relacionados a duas tentativas de homicídio na região da Cohab, segundo informações divulgadas pela Polícia Militar.",
+      "Durante a abordagem, foram apreendidos um revólver calibre 38, 57 munições, drogas, uma balança de precisão e dinheiro em espécie. Um dos detidos tinha mandado de prisão em aberto.",
+      "Em outra ocorrência na Comunidade dos Milagres, também no Ibura, um homem foi preso com dois simulacros de arma de fogo, placas clonadas e a chave de um veículo com restrição de roubo ou furto.",
+      "As ocorrências foram encaminhadas às autoridades policiais para os procedimentos e investigações cabíveis."
+    ],
+    "sources": [
+      {
+        "name": "Portal CBN Recife — PM apreende arma e drogas após localizar suspeitos de tentativas de homicídio no Ibura",
+        "url": "https://www.cbnrecife.com/2026/09/24/pm-apreende-arma-e-drogas-apos-localizar-suspeitos-de-tentativas-de-homicidio-no-ibura/"
+      },
+      {
+        "name": "Diario de Pernambuco — Duas ações da Polícia Militar no Ibura prendem suspeitos de ligação com o tráfico",
+        "url": "https://www.diariodepernambuco.com.br/vida-urbana/2026/09/11724803-duas-acoes-da-policia-militar-no-ibura-prendem-suspeitos-de-ligacao-com-o-trafico.html"
+      }
+    ],
+    "sourceImage": "https://cdn.portaldeprefeitura.com.br/img/social/1200/1200/dn_arquivo/2024/12/policia-militar-de-pernambuco.jpg",
+    "image": "https://cdn.portaldeprefeitura.com.br/img/social/1200/1200/dn_arquivo/2024/12/policia-militar-de-pernambuco.jpg",
+    "imageCandidates": [
+      "https://cdn.portaldeprefeitura.com.br/img/social/1200/1200/dn_arquivo/2024/12/policia-militar-de-pernambuco.jpg"
+    ]
   }
 ]
