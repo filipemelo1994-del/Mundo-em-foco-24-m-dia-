@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Central — Mundo em Foco 24</title>
+<style>
+:root{--bg:#07111f;--panel:#0d1b2d;--line:#203550;--txt:#edf5ff;--mut:#8fa7c2;--blue:#1f7cff;--green:#20d98b;--amber:#ffbd3d;--red:#ff5364}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font:14px Arial,sans-serif}.top{padding:14px 18px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}.brand{font-weight:800;font-size:20px}.live{color:var(--green)}.grid{display:grid;grid-template-columns:260px minmax(0,1fr) 350px;gap:12px;padding:12px}.panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px}.health{font-size:42px;font-weight:900}.bar{height:8px;background:#16283e;border-radius:8px;overflow:hidden;margin:6px 0 15px}.bar i{display:block;height:100%;background:var(--green);width:0}.svc{display:flex;justify-content:space-between;padding:9px 0;border-bottom:1px solid var(--line)}h2{margin:0 0 12px;font-size:15px}.preview{display:grid;grid-template-columns:1fr 1fr;gap:10px}.pic{aspect-ratio:4/5;background:#07111f;border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;align-items:center;justify-content:center;color:var(--mut)}.pic img{width:100%;height:100%;object-fit:cover}.headline{font-size:22px;font-weight:800;margin:14px 0 6px}.mut{color:var(--mut)}.steps{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}.chip{padding:7px 9px;border-radius:8px;background:#13263c}.ok{color:var(--green)}.warn{color:var(--amber)}.term{height:430px;background:#030912;border:1px solid #19314d;border-radius:10px;padding:10px;overflow:auto;font:12px monospace;color:#a9c7e8}.cmd{display:flex;gap:7px;margin-top:9px}.cmd input{flex:1;min-width:0;background:#07111f;color:white;border:1px solid var(--line);border-radius:8px;padding:11px}.cmd button{border:0;border-radius:8px;background:var(--blue);color:white;padding:0 14px;font-weight:700}.queue{margin:0 12px 12px}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.card{border:1px solid var(--line);border-radius:10px;padding:10px;background:#0a1727}.ticker{border-top:1px solid var(--line);padding:9px 16px;white-space:nowrap;overflow:hidden;color:#bcd0e6}.spark{height:65px;width:100%}button{cursor:pointer}@media(max-width:1000px){.grid{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}.preview{grid-template-columns:1fr}.term{height:260px}}@media(max-width:560px){.cards{grid-template-columns:1fr}}
+</style></head><body>
+<header class="top"><div><div class="brand">MUNDO EM FOCO 24 · CENTRAL</div><div class="mut">Monitor operacional — modo observação</div></div><div class="live">● AO VIVO <span id="clock"></span></div></header>
+<main class="grid">
+<section class="panel"><h2>SAÚDE DO SISTEMA</h2><div class="health"><span id="health">--</span>%</div><svg class="spark" viewBox="0 0 240 65"><polyline id="spark" fill="none" stroke="#20d98b" stroke-width="3" points="0,40 40,38 80,42 120,28 160,31 200,20 240,22"/></svg><div class="bar"><i id="healthbar"></i></div><div id="services"></div></section>
+<section class="panel"><h2>PRÓXIMA MATÉRIA</h2><div class="preview"><div><div class="mut">ARTE FINAL</div><div class="pic" id="art">Aguardando arte</div></div><div><div class="mut">FOTO ORIGINAL</div><div class="pic" id="source">Aguardando foto</div></div></div><div class="headline" id="title">Carregando fila…</div><div class="mut" id="meta"></div><p id="caption"></p><div class="steps" id="steps"></div></section>
+<aside class="panel"><h2>TERMINAL AURORA</h2><div class="term" id="terminal">[CENTRAL] Inicializando monitor…<br></div><form class="cmd" id="cmd"><input id="command" placeholder="Digite uma ordem…" aria-label="Comando"><button>ENVIAR</button></form><div class="mut" style="margin-top:8px">V1: terminal local. A conexão de comandos com IA entra na próxima etapa.</div></aside>
+</main>
+<section class="panel queue"><h2>LINHA DE PRODUÇÃO</h2><div class="cards" id="queue"></div></section>
+<footer class="ticker" id="ticker">GITHUB • PORTAL • ARTE • INSTAGRAM • STORY • FILA</footer>
+<script>
+const $=s=>document.querySelector(s),log=m=>{$('#terminal').innerHTML+='['+new Date().toLocaleTimeString('pt-BR')+'] '+m+'<br>';$('#terminal').scrollTop=$('#terminal').scrollHeight};
+function img(el,url){el.innerHTML=url?'<img src="'+url+'" alt="">':'Sem mídia'}
+function stages(n){return ['Pauta','Arte','Portal','Feed','Story','Reel'].map((x,i)=>'<span class="chip '+(i<n?'ok':'warn')+'">'+x+' '+(i<n?'✓':'○')+'</span>').join('')}
+async function refresh(){
+ try{
+  const r=await fetch('../data/news.json?ts='+Date.now(),{cache:'no-store'}),d=await r.json(),list=Array.isArray(d)?d:[];
+  const n=list[0]||{}; $('#title').textContent=n.title||'Fila vazia'; $('#caption').textContent=n.summary||''; $('#meta').textContent=[n.category,n.date,n.credit].filter(Boolean).join(' · ');
+  img($('#art'),n.instagramImage); img($('#source'),n.sourceImage||n.image); let stage=n.instagramImage?4:2; $('#steps').innerHTML=stages(stage);
+  $('#queue').innerHTML=list.slice(0,8).map((x,i)=>'<div class="card"><b>#'+String(i+1).padStart(2,'0')+' '+(x.title||'Sem título')+'</b><div class="mut" style="margin-top:7px">'+(x.instagramImage?'ARTE PRONTA':'AGUARDANDO ARTE')+'</div></div>').join('');
+  const vals={GitHub:100,Portal:100,Arte:list.length?Math.round(list.filter(x=>x.instagramImage).length/list.length*100):0,Fila:list.length};
+  const health=Math.round((vals.GitHub+vals.Portal+vals.Arte)/3); $('#health').textContent=health;$('#healthbar').style.width=health+'%';
+  $('#services').innerHTML=Object.entries(vals).map(([k,v])=>'<div class="svc"><span>'+k+'</span><b class="'+(k==='Fila'?'':v>=90?'ok':'warn')+'">'+(k==='Fila'?v:v+'%')+'</b></div>').join('');
+  $('#ticker').textContent='GITHUB ▲ '+vals.GitHub+'%   |   PORTAL ▲ '+vals.Portal+'%   |   ARTE '+vals.Arte+'%   |   FILA '+vals.Fila+'   |   ATUALIZAÇÃO '+new Date().toLocaleTimeString('pt-BR');
+  log('Dados atualizados · '+list.length+' matérias monitoradas');
+ }catch(e){log('ERRO de leitura: '+e.message)}
+}
+$('#cmd').addEventListener('submit',e=>{e.preventDefault();const v=$('#command').value.trim();if(v){log('> '+v);log('Comando registrado localmente.');$('#command').value=''}});
+setInterval(()=>$('#clock').textContent=new Date().toLocaleTimeString('pt-BR'),1000);refresh();setInterval(refresh,30000);
+</script></body></html>
