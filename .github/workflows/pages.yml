@@ -1,0 +1,45 @@
+name: Deploy Central to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "central/**"
+      - "data/news.json"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-central
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Prepare isolated Central site
+        run: |
+          mkdir -p _site/central _site/data _site/assets
+          cp -R central/. _site/central/
+          cp data/news.json _site/data/news.json
+          cp assets/logo-site.png _site/assets/logo-site.png
+          touch _site/.nojekyll
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
