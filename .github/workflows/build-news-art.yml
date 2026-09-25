@@ -50,7 +50,7 @@ jobs:
         id: process
         shell: bash
         run: |
-          mkdir -p requests/news-art/failed public/news-art
+          mkdir -p requests/news-art/failed public/news-art public/story-art
           shopt -s nullglob
           OK=""
           FAIL=0
@@ -70,30 +70,7 @@ jobs:
               url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/${out_path}"
               story_url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/${story_path}"
               python3 scripts/update_news_entry.py --file data/news.json --id "$id" --source-image "$source_image" --instagram-image "$url"
-              OK="${OK}${id}|${url}|${story_url}"              rm -f "$req"
-            else
-              echo "::warning::Falha nas artes de $id (feed=$feed_status story=$story_status); fila continuará."
-              mv "$req" "requests/news-art/failed/$(basename "$req")"
-              FAIL=1
-            fi
-          done
-          { echo "ok<<EOF"; printf "%s" "$OK"; echo "EOF"; echo "fail=$FAIL"; } >> "$GITHUB_OUTPUT"
-      - name: Commit generated art
-        if: always()
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A public/news-art public/story-art requests/news-art data/news.json
-          git diff --cached --quiet || { git commit -m "chore: build Mundo em Foco 24 news art"; git push origin main; }
-      - name: Summary
-        if: always()
-        run: |
-          echo "### Mundo em Foco 24 — artes" >> "$GITHUB_STEP_SUMMARY"
-          while IFS='|' read -r id url story_url; do
-            [ -z "$id" ] || { echo "- **$id** — Feed: $url" >> "$GITHUB_STEP_SUMMARY"; echo "  - Story: $story_url" >> "$GITHUB_STEP_SUMMARY"; }
-          done <<< "${{ steps.process.outputs.ok }}"
-          [ "${{ steps.process.outputs.fail }}" = "1" ] && echo "⚠️ Houve falha de mídia; a fila não foi interrompida." >> "$GITHUB_STEP_SUMMARY" || true
-\n'
+              OK="${OK}${id}|${url}|${story_url}"
               rm -f "$req"
             else
               echo "::warning::Falha nas artes de $id (feed=$feed_status story=$story_status); fila continuará."
@@ -101,7 +78,7 @@ jobs:
               FAIL=1
             fi
           done
-          { echo "ok<<EOF"; printf "%s" "$OK"; echo "EOF"; echo "fail=$FAIL"; } >> "$GITHUB_OUTPUT"
+          { echo "ok<<EOF"; printf "%s\n" "$OK"; echo "EOF"; echo "fail=$FAIL"; } >> "$GITHUB_OUTPUT"
       - name: Commit generated art
         if: always()
         run: |
