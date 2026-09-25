@@ -1205,32 +1205,6 @@
     ]
   },
   {
-    "id": "samu-recife-25-anos-jornada-22-09-2026",
-    "published": true,
-    "category": "RECIFE/RMR",
-    "title": "Samu Recife celebra 25 anos com jornada para cerca de 1,4 mil participantes",
-    "summary": "Encontro ocorre nos dias 23 e 24 de setembro no Pernambuco Centro de Convenções, em Olinda, com programação sobre urgência, trauma e medicina de desastres.",
-    "location": "OLINDA, PE",
-    "date": "22 SET 2026",
-    "image": "https://imagens.ne10.uol.com.br/veiculos/_midias/jpg/2026/09/22/whatsapp_image_2025_08_27_at_09_36_09-37094861.jpeg?ims=800x533",
-    "imageAlt": "Profissionais do Samu Recife durante atividade de atendimento pré-hospitalar",
-    "credit": "Samu Recife/Divulgação — via Jornal do Commercio",
-    "body": [
-      "O Serviço de Atendimento Móvel de Urgência do Recife realiza nesta quarta-feira (23) e quinta-feira (24) a 6ª Jornada Metropolitana do Samu Recife, no Pernambuco Centro de Convenções, em Olinda. O encontro integra as comemorações pelos 25 anos de atuação do serviço na capital pernambucana.",
-      "Segundo o Jornal do Commercio, a organização espera reunir cerca de 1.400 participantes, entre médicos, enfermeiros, condutores, gestores, estudantes e representantes de instituições parceiras.",
-      "A programação científica inclui temas como choque hemorrágico, transfusão maciça, manejo do trauma, emergências clínicas, serviço aeromédico e medicina de desastres.",
-      "Um dos destaques será o Simulado de Incidente com Múltiplas Vítimas, marcado para 24 de setembro na área externa do Centro de Convenções. A atividade pretende reproduzir um cenário de desastre em grande escala para testar acionamento, triagem, comunicação e transporte de pacientes.",
-      "A simulação contará com uma força-tarefa formada pelo Samu 192, Polícia Rodoviária Federal, Polícia Militar de Pernambuco, Corpo de Bombeiros Militar de Pernambuco e outros órgãos parceiros, com apoio e presença do Ministério da Saúde.",
-      "A jornada faz parte da programação da 22ª Feira Norte-Nordeste de Saúde, Segurança do Trabalho e Emergência, a Prevenor, e também terá o 1º Encontro Regional dos Coordenadores de Samu, voltado à discussão de gestão e desafios operacionais do atendimento móvel."
-    ],
-    "sources": [
-      {
-        "name": "Jornal do Commercio — 25 anos do 192: Samu Recife reúne profissionais para discutir o futuro do atendimento de emergência",
-        "url": "https://jc.uol.com.br/colunas/saude-e-bem-estar/2026/09/22/25-anos-do-192-samu-recife-reune-profissionais-para-discutir-o-futuro-do-atendimento-de-emergencia.html"
-      }
-    ]
-  },
-  {
     "id": "primavera-pernambuco-el-nino-22-09-2026",
     "published": true,
     "category": "PERNAMBUCO",
@@ -1734,72 +1708,5 @@
       "https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/09/23/whatsapp_image_2026-09-23_at_16.06.06.jpeg"
     ],
     "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/nova-ra-de-vidro-cerrado-vitreorana-micaelae-23-09-2026.jpg"
-  },
-  {
-    "id": "bc-controle-criptomoedas-carteiras-autocustodiadas-23-09-2026",
-    "published": "2026-09-23T20:35:00-03:00",
-    "category": "ECONOMIA",
-    "title": "BC amplia controle sobre criptomoedas e mira operações acima de US$ 10 mil",
-    "summary": "Transferências entre prestadoras de serviços de ativos virtuais e carteiras autocustodiadas a partir de US$ 10 mil deverão ser comunicadas ao Coaf; a regra entra em vigor em 1º de outubro.",
-    "location": "Brasília, Distrito Federal",
-    "date": "23 SET 2026",
-    "credit": "Jonas Pereira/Agência Senado — CC BY 2.0, via Wikimedia Commons",
-    "imageAlt": "Edifício-sede do Banco Central do Brasil, em Brasília",
-    "body": [
-      "O Banco Central ampliou as regras de controle sobre operações com criptoativos. A partir de 1º de outubro de 2026, transferências de valor igual ou superior a US$ 10 mil entre prestadoras de serviços de ativos virtuais e carteiras autocustodiadas deverão ser comunicadas ao Conselho de Controle de Atividades Financeiras (Coaf).",
-      "Carteiras autocustodiadas são aquelas em que o próprio usuário controla as chaves de acesso, sem que os ativos fiquem sob a guarda de uma corretora. A obrigação de comunicação recai sobre as prestadoras envolvidas nas operações.",
-      "O limite de US$ 10 mil não representa proibição nem teto para transferências. Ele funciona como um parâmetro de reporte para reforçar o monitoramento de transações e a prevenção à lavagem de dinheiro.",
-      "As novas regras também alcançam operações de câmbio em espécie: movimentações a partir de US$ 10 mil deverão ser informadas automaticamente ao Coaf.",
-      "As empresas de ativos virtuais que já atuam no país terão de apresentar pedido de autorização ao Banco Central até 1º de outubro. Parte das obrigações de envio de dados começará em 1º de janeiro de 2027.",
-      "Segundo o Banco Central, o objetivo é aproximar o setor de criptoativos dos mecanismos de supervisão aplicados ao sistema financeiro e dar mais rastreabilidade às operações sem impedir o uso de carteiras próprias."
-    ],
-    "sources": [
-      {
-        "name": "Agência Brasil — BC amplia controle sobre criptomoedas e mira carteiras próprias",
-        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bc-amplia-controle-sobre-criptomoedas-e-mira-carteiras-proprias"
-      },
-      {
-        "name": "Banco Central do Brasil — prevenção a crimes financeiros",
-        "url": "https://www.bcb.gov.br/estabilidadefinanceira/crimesfinanceiros"
-      }
-    ],
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Edif%C3%ADcio_sede_do_Banco_Central_do_Brasil_%2816011634694%29.jpg",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Edif%C3%ADcio_sede_do_Banco_Central_do_Brasil_%2816011634694%29.jpg",
-    "imageCandidates": [
-      "https://upload.wikimedia.org/wikipedia/commons/d/d8/Edif%C3%ADcio_sede_do_Banco_Central_do_Brasil_%2816011634694%29.jpg",
-      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Edif%C3%ADcio%20sede%20do%20Banco%20Central%20do%20Brasil%20%2816011634694%29.jpg?width=1600"
-    ]
-  },
-  {
-    "id": "pm-apreende-arma-drogas-suspeitos-ibura-24-09-2026",
-    "published": "2026-09-24T17:30:00-03:00",
-    "category": "RECIFE/RMR",
-    "title": "PM apreende arma e drogas e prende suspeitos no Ibura",
-    "summary": "Segundo a PMPE, dois homens foram presos na Cohab, no Ibura, e foram apreendidos um revólver calibre 38, 57 munições, drogas, balança de precisão e dinheiro; um dos detidos tinha mandado de prisão em aberto.",
-    "location": "Recife, Pernambuco",
-    "date": "24 SET 2026",
-    "credit": "Foto ilustrativa: Polícia Militar de Pernambuco",
-    "imageAlt": "Policiais militares de Pernambuco durante operação, imagem ilustrativa",
-    "body": [
-      "Policiais militares do 19º Batalhão prenderam dois homens no Ibura, Zona Sul do Recife, após localizar suspeitos relacionados a duas tentativas de homicídio na região da Cohab, segundo informações divulgadas pela Polícia Militar.",
-      "Durante a abordagem, foram apreendidos um revólver calibre 38, 57 munições, drogas, uma balança de precisão e dinheiro em espécie. Um dos detidos tinha mandado de prisão em aberto.",
-      "Em outra ocorrência na Comunidade dos Milagres, também no Ibura, um homem foi preso com dois simulacros de arma de fogo, placas clonadas e a chave de um veículo com restrição de roubo ou furto.",
-      "As ocorrências foram encaminhadas às autoridades policiais para os procedimentos e investigações cabíveis."
-    ],
-    "sources": [
-      {
-        "name": "Portal CBN Recife — PM apreende arma e drogas após localizar suspeitos de tentativas de homicídio no Ibura",
-        "url": "https://www.cbnrecife.com/2026/09/24/pm-apreende-arma-e-drogas-apos-localizar-suspeitos-de-tentativas-de-homicidio-no-ibura/"
-      },
-      {
-        "name": "Diario de Pernambuco — Duas ações da Polícia Militar no Ibura prendem suspeitos de ligação com o tráfico",
-        "url": "https://www.diariodepernambuco.com.br/vida-urbana/2026/09/11724803-duas-acoes-da-policia-militar-no-ibura-prendem-suspeitos-de-ligacao-com-o-trafico.html"
-      }
-    ],
-    "sourceImage": "https://cdn.portaldeprefeitura.com.br/img/social/1200/1200/dn_arquivo/2024/12/policia-militar-de-pernambuco.jpg",
-    "image": "https://cdn.portaldeprefeitura.com.br/img/social/1200/1200/dn_arquivo/2024/12/policia-militar-de-pernambuco.jpg",
-    "imageCandidates": [
-      "https://cdn.portaldeprefeitura.com.br/img/social/1200/1200/dn_arquivo/2024/12/policia-militar-de-pernambuco.jpg"
-    ]
   }
 ]
