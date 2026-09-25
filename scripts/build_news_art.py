@@ -5,6 +5,7 @@ import requests
 from PIL import Image,ImageDraw,ImageFont,ImageOps
 
 W,H=1080,1350
+SW,SH=1080,1920
 BLUE=(10,111,226); DARK=(5,31,63); WHITE=(255,255,255); GRAY=(215,225,238)
 MAX=8*1024*1024
 BOLD=["/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf","/usr/share/fonts/truetype/liberation2/LiberationSans-Bold.ttf"]
@@ -119,6 +120,80 @@ def render(photo,title,category,date,credit,summary="",story=False):
         d.text((48,footer_y-28),txt,font=f_meta,fill=(220,230,240))
     return c.convert("RGB")
 
+
+def render_story(photo,title,category,date,credit,summary=""):
+    """Arte Story 1080x1920: foto sempre contida, sem crop, zoom ou distorção."""
+    src=ImageOps.exif_transpose(photo).convert("RGB")
+    c=Image.new("RGBA",(SW,SH),DARK+(255,))
+    d=ImageDraw.Draw(c)
+
+    # Fundo azul oficial em camadas.
+    d.rectangle((0,0,SW,SH),fill=(4,31,66,255))
+    d.rectangle((0,0,SW,190),fill=(255,255,255,250))
+    d.polygon([(0,0),(650,0),(585,190),(0,190)],fill=DARK+(255,))
+
+    f_logo=font(BOLD,43); f_24=font(BOLD,64); f_tag=font(REG,15)
+    f_cat=font(BOLD,25); f_title=font(BOLD,56); f_sum=font(REG,27); f_meta=font(REG,20)
+
+    # Cabeçalho oficial.
+    d.ellipse((32,28,142,138),fill=(8,96,190),outline=(55,205,255),width=4)
+    d.ellipse((50,31,124,135),outline=WHITE,width=2)
+    d.ellipse((72,31,102,135),outline=WHITE,width=2)
+    d.arc((34,52,140,114),0,360,fill=WHITE,width=2)
+    d.line((39,83,135,83),fill=WHITE,width=2)
+    d.text((160,64),"MUNDO",font=f_logo,fill=WHITE,anchor="lm")
+    d.text((160,111),"EM FOCO",font=f_logo,fill=WHITE,anchor="lm")
+    d.text((382,86),"24",font=f_24,fill=(24,184,245),anchor="lm")
+    d.text((160,149),"NOTÍCIAS DE VERDADE, SEM FRONTEIRAS",font=f_tag,fill=(220,235,250))
+    if date: d.text((SW-42,50),date.upper(),font=font(BOLD,22),fill=DARK,anchor="ra")
+    region=(category or "NOTÍCIAS").upper()
+    d.polygon([(SW-310,88),(SW,88),(SW,156),(SW-350,156)],fill=(4,48,105))
+    d.text((SW-155,122),region,font=f_cat,fill=WHITE,anchor="mm")
+
+    # Janela da fotografia: contain preserva 100% do enquadramento e proporção.
+    box=(48,238,SW-48,1125)
+    bw,bh=box[2]-box[0],box[3]-box[1]
+    fitted=ImageOps.contain(src,(bw,bh),Image.Resampling.LANCZOS)
+    px=box[0]+(bw-fitted.width)//2; py=box[1]+(bh-fitted.height)//2
+    d.rounded_rectangle(box,radius=22,fill=(7,72,145),outline=(38,181,241),width=4)
+    c.alpha_composite(fitted.convert("RGBA"),(px,py))
+
+    # Faixa editorial e texto abaixo da foto, sem cobrir elementos importantes.
+    chip_y=1168
+    cat=(category or "NOTÍCIAS").upper()
+    cw=min(500,int(d.textlength(cat,font=f_cat)+80))
+    d.rounded_rectangle((48,chip_y,48+cw,chip_y+62),radius=15,fill=(8,117,226))
+    d.text((72,chip_y+31),cat,font=f_cat,fill=WHITE,anchor="lm")
+
+    title=(title or "").strip().upper(); tf=f_title; lines=wrap(d,title,tf,SW-96)
+    while len(lines)>4 and tf.size>38:
+        tf=font(BOLD,tf.size-3); lines=wrap(d,title,tf,SW-96)
+    y=chip_y+90; lh=tf.size+10
+    for line in lines[:4]:
+        d.text((48,y),line,font=tf,fill=WHITE); y+=lh
+
+    if summary:
+        sl=wrap(d,summary.strip(),f_sum,SW-130)[:3]
+        y+=10
+        d.rectangle((48,y,55,y+min(116,len(sl)*38)),fill=(28,194,246))
+        for line in sl:
+            d.text((76,y),line,font=f_sum,fill=(225,237,249)); y+=38
+
+    footer_y=SH-170
+    d.rectangle((0,footer_y,SW,SH),fill=(3,43,91))
+    if credit:
+        txt=credit if credit.lower().startswith("foto:") else "Foto: "+credit
+        credit_lines=wrap(d,txt,f_meta,SW-96)[:2]
+        cy=footer_y-58-(len(credit_lines)-1)*25
+        for line in credit_lines:
+            d.text((48,cy),line,font=f_meta,fill=(220,230,240)); cy+=25
+    d.text((48,footer_y+35),"MUNDO EM FOCO 24",font=font(BOLD,28),fill=WHITE)
+    d.text((48,footer_y+75),"INFORMAÇÃO EM TODO LUGAR",font=font(BOLD,21),fill=(27,197,247))
+    d.text((48,footer_y+112),"www.mundoemfoco24.com.br",font=font(BOLD,20),fill=WHITE)
+    d.text((SW-48,footer_y+74),"CONFIRA A MATÉRIA",font=font(BOLD,22),fill=WHITE,anchor="ra")
+    d.text((SW-48,footer_y+108),"NO NOSSO FEED",font=font(BOLD,26),fill=(27,197,247),anchor="ra")
+    return c.convert("RGB")
+
 def main():
     ap=argparse.ArgumentParser()
     ap.add_argument("--request-json"); ap.add_argument("--image",action="append",default=[])
@@ -138,14 +213,14 @@ def main():
         result={"id":sid,"status":"media_error","error":str(e)}
         print("RESULT_JSON: "+json.dumps(result,ensure_ascii=False)); return 2
     try:
-        final=render(cover(raw),title,a.category or p.get("category",""),a.date or p.get("date",""),a.credit or p.get("credit",""),a.summary or p.get("summary",""))
+        final=(render_story(raw,title,a.category or p.get("category",""),a.date or p.get("date",""),a.credit or p.get("credit",""),a.summary or p.get("summary","")) if a.story else render(cover(raw),title,a.category or p.get("category",""),a.date or p.get("date",""),a.credit or p.get("credit",""),a.summary or p.get("summary","")))
         os.makedirs(a.out_dir,exist_ok=True); path=os.path.join(a.out_dir,sid+".jpg")
         q=93
         while True:
             final.save(path,"JPEG",quality=q,optimize=True,progressive=True)
             if os.path.getsize(path)<=MAX or q<=65: break
             q-=4
-        result={"id":sid,"status":"ok","path":path,"sourceImage":used,"width":W,"height":H,"bytes":os.path.getsize(path),"jpegQuality":q}
+        result={"id":sid,"status":"ok","path":path,"sourceImage":used,"width":SW if a.story else W,"height":SH if a.story else H,"bytes":os.path.getsize(path),"jpegQuality":q}
         if a.output_json:
             with open(a.output_json,"w",encoding="utf-8") as f: json.dump(result,f,ensure_ascii=False,indent=2)
         print("RESULT_JSON: "+json.dumps(result,ensure_ascii=False)); return 0
