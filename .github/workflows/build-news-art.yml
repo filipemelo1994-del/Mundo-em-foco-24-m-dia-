@@ -59,14 +59,42 @@ jobs:
             [ -n "$id" ] || { mv "$req" "requests/news-art/failed/$(basename "$req")"; FAIL=1; continue; }
             set +e
             python3 scripts/build_news_art.py --request-json "$req" --output-json "/tmp/result-$id.json"
-            status=$?
+            feed_status=$?
+            python3 scripts/build_news_art.py --request-json "$req" --story --out-dir public/story-art --output-json "/tmp/story-$id.json"
+            story_status=$?
             set -e
-            if [ "$status" -eq 0 ] && [ -f "/tmp/result-$id.json" ]; then
+            if [ "$feed_status" -eq 0 ] && [ "$story_status" -eq 0 ] && [ -f "/tmp/result-$id.json" ] && [ -f "/tmp/story-$id.json" ]; then
               source_image=$(python3 -c "import json; print(json.load(open('/tmp/result-$id.json'))['sourceImage'])")
               out_path=$(python3 -c "import json; print(json.load(open('/tmp/result-$id.json'))['path'])")
+              story_path=$(python3 -c "import json; print(json.load(open('/tmp/story-$id.json'))['path'])")
               url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/${out_path}"
+              story_url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/${story_path}"
               python3 scripts/update_news_entry.py --file data/news.json --id "$id" --source-image "$source_image" --instagram-image "$url"
-              OK="${OK}${id}|${url}"$'\n'
+              OK="${OK}${id}|${url}|${story_url}"
+              rm -f "$req"
+            else
+              echo "::warning::Falha nas artes de $id (feed=$feed_status story=$story_status); fila continuará."
+              mv "$req" "requests/news-art/failed/$(basename "$req")"
+              FAIL=1
+            fi
+          done
+          { echo "ok<<EOF"; printf "%s" "$OK"; echo "EOF"; echo "fail=$FAIL"; } >> "$GITHUB_OUTPUT"
+      - name: Commit generated art
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A public/news-art public/story-art requests/news-art data/news.json
+          git diff --cached --quiet || { git commit -m "chore: build Mundo em Foco 24 news art"; git push origin main; }
+      - name: Summary
+        if: always()
+        run: |
+          echo "### Mundo em Foco 24 — artes" >> "$GITHUB_STEP_SUMMARY"
+          while IFS='|' read -r id url story_url; do
+            [ -z "$id" ] || { echo "- **$id** — Feed: $url" >> "$GITHUB_STEP_SUMMARY"; echo "  - Story: $story_url" >> "$GITHUB_STEP_SUMMARY"; }
+          done <<< "${{ steps.process.outputs.ok }}"
+          [ "${{ steps.process.outputs.fail }}" = "1" ] && echo "⚠️ Houve falha de mídia; a fila não foi interrompida." >> "$GITHUB_STEP_SUMMARY" || true
+\n'
               rm -f "$req"
             else
               echo "::warning::Falha na arte de $id (status=$status); fila continuará."
