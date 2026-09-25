@@ -1708,5 +1708,33 @@
       "https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/09/23/whatsapp_image_2026-09-23_at_16.06.06.jpeg"
     ],
     "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/nova-ra-de-vidro-cerrado-vitreorana-micaelae-23-09-2026.jpg"
+  },
+  {
+    "id": "grande-recife-reforca-onibus-horario-metro-25-09-2026",
+    "published": "2026-09-25T19:08:00-03:00",
+    "category": "RECIFE/RMR",
+    "title": "Grande Recife reforçará ônibus após redução no horário da Linha Centro",
+    "summary": "A partir de segunda-feira (28), o Grande Recife Consórcio de Transporte informou que haverá reforço de ônibus a partir das 22h para atender passageiros afetados pelo fechamento antecipado da Linha Centro do Metrô do Recife.",
+    "location": "Recife, Pernambuco",
+    "date": "25 SET 2026",
+    "credit": "Foto ilustrativa: A. Júnior — CC BY 2.0, via Wikimedia Commons",
+    "imageAlt": "Corredor de ônibus na Avenida Conde da Boa Vista, no Recife",
+    "body": [
+      "O Grande Recife Consórcio de Transporte anunciou reforço na operação de ônibus a partir das 22h de segunda-feira (28), como alternativa para passageiros afetados pela redução do horário da Linha Centro do Metrô do Recife.",
+      "A partir da mesma data, a Linha Centro passará a encerrar a operação às 22h, uma hora antes do horário habitual. A mudança está relacionada a obras de substituição dos telhados das estações Afogados e Joana Bezerra.",
+      "Segundo as informações divulgadas, a operação emergencial de ônibus poderá ser ajustada conforme a demanda. A Linha Sul continuará funcionando normalmente, das 5h às 23h.",
+      "Ainda não há previsão divulgada para a conclusão das obras e o retorno do horário regular da Linha Centro."
+    ],
+    "sources": [
+      {
+        "name": "Jornal do Commercio — Grande Recife anuncia reforço de ônibus após redução no horário do metrô",
+        "url": "https://jc.uol.com.br/colunas/mobilidade/2026/09/25/grande-recife-anuncia-reforco-de-onibus-a-partir-de-segunda-apos-reducao-no-horario-do-metro.html"
+      }
+    ],
+    "sourceImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Corredor%20exclusivo%20de%20%C3%B4nibus%20na%20Avenida%20Conde%20da%20Boa%20Vista%20-%20Recife%2C%20Pernambuco%2C%20Brasil.jpg?width=1600",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Corredor%20exclusivo%20de%20%C3%B4nibus%20na%20Avenida%20Conde%20da%20Boa%20Vista%20-%20Recife%2C%20Pernambuco%2C%20Brasil.jpg?width=1600",
+    "imageCandidates": [
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Corredor%20exclusivo%20de%20%C3%B4nibus%20na%20Avenida%20Conde%20da%20Boa%20Vista%20-%20Recife%2C%20Pernambuco%2C%20Brasil.jpg?width=1600"
+    ]
   }
 ]
