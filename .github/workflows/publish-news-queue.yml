@@ -1,10 +1,10 @@
 name: Publish News Queue
 
+# O processamento automático de requests/news pertence exclusivamente ao
+# workflow Import News Entry, que publica o portal e gera a arte final.
+# Este fluxo legado fica manual para evitar duas rotinas consumindo o mesmo
+# arquivo e disputando commits na branch main.
 on:
-  push:
-    branches: [main]
-    paths:
-      - "requests/news/*.json"
   workflow_dispatch: {}
 
 permissions:
