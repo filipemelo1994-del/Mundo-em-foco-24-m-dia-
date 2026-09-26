@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-26T23:25:14.907Z",
+  "updated_at": "2026-09-26T23:37:25.210887+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -87,6 +87,773 @@
       "story_art": true,
       "feed_media_id": "18095760881373392",
       "story_media_id": "17959867394996714",
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "spa-das-artes-encerramento-recife-27-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "metro-recife-linha-centro-fechada-arvore-coqueiral-24-09-2026": {
+      "state": "FEED_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "bc-controle-criptomoedas-carteiras-autocustodiadas-23-09-2026": {
+      "state": "FEED_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "metro-recife-linha-centro-fecha-22h-28-09-2026": {
+      "state": "FEED_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "xi-visita-eua-trump-23-09-2026": {
+      "state": "FEED_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "voos-azul-cancelados-recife-gps-23-09-2026": {
+      "state": "FEED_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "onibus-incendiado-protesto-ibura-recife-20-09-2026": {
+      "state": "FEED_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "onibus-romeiros-cruzeiro-sp-seis-mortos-20-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "bangladesh-alta-combustiveis-21-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "chico-science-60-anos-recife-18-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "nova-especie-felino-bolivia-19-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "expedicao-the-gap-abismos-atlantico-18-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "recife-realidade-virtual-vacinacao-neurodivergentes-18-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "pix-novas-regras-fraudes-cobranca-hibrida-18-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "robos-china-expo-hangzhou-18-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "anthropic-laboratorio-biologia-ia-medicamentos-18-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "hackathon-seguranca-recife-19-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "ministerio-estuda-canetas-emagrecedoras-sus-18-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "data-center-tier-iii-recife-18-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "gemini-acessou-sistemas-teste-ciberseguranca-18-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "nasa-spacex-tres-voos-tripulados-18-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "gyazo-vazamento-23-milhoes-registros-18-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "hubble-ngc4698-galaxia-18-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "petroleo-cai-2-oferta-saudita-18-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "mega-sena-bolao-101-milhoes-18-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "brasil-colombia-sul-americano-volei-18-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "bolsa-familia-reajuste-15-outubro-17-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "linha-sul-metro-recife-retomada-17-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "fed-alta-juros-primeira-desde-2023-17-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "omm-rios-secos-recursos-hidricos-17-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "enchentes-vale-ribeira-emergencia-16-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "copom-selic-1375-16-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "operacao-forca-integrada-iv-16-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "portal-pronto-para-noticias": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "alerta-ventos-rio-22-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "apac-chuva-grande-recife-baixa-umidade-22-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "pankararu-campea-joga-pra-elas-recife-21-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "incendio-ilha-do-amor-grande-recife-22-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "jardim-chuva-cajueiro-recife-21-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "padre-vito-cidadao-pernambucano-22-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "expo-noivas-shopping-recife-22-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "fesindico-recife-22-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "nova-descoberta-incendio-barreira-22-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "primavera-pernambuco-el-nino-22-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "petrobras-foz-amazonas-tres-pocos-janeiro-22-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "tufao-dujuan-japao-mortos-desaparecidos-22-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "operacao-sumauma-ii-crimes-ambientais-22-09-2026": {
+      "state": "FEED_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "temporais-rs-quatro-mortes-22-09-2026": {
+      "state": "FEED_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "guardiao-cibernetico-recife-23-09-2026": {
+      "state": "FEED_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "incendio-ilha-do-amor-grande-recife-21-09-2026": {
+      "state": "FEED_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "samu-recife-25-anos-jornada-23-09-2026": {
+      "state": "FEED_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "arrecadacao-federal-2-trilhoes-oito-meses-22-09-2026": {
+      "state": "FEED_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "brasil-governo-reduz-projecao-pib-2026-22-09-2026": {
+      "state": "FEED_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "contrata-brasil-comite-recife-22-09-2026": {
+      "state": "FEED_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "coquetel-molotov-2026-programacao-recife-23-09-2026": {
+      "state": "FEED_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "sinpol-protesto-centro-recife-23-09-2026": {
+      "state": "FEED_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "apostas-midia-exterior-recife-23-09-2026": {
+      "state": "FEED_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "mergulho-naufragios-poluicao-dragagem-recife-23-09-2026": {
+      "state": "FEED_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "nova-ra-de-vidro-cerrado-vitreorana-micaelae-23-09-2026": {
+      "state": "FEED_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
       "attempts": {
         "feed": 0,
         "story": 0

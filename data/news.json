@@ -1,5 +1,28 @@
 [
   {
+    "id": "spa-das-artes-encerramento-recife-27-09-2026",
+    "published": "2026-09-27T09:00:00-03:00",
+    "category": "CULTURA",
+    "title": "SPA das Artes encerra edição 2026 neste domingo no Recife",
+    "summary": "Último dia do evento tem programação gratuita e encerramento no Pátio de São Pedro com Ava Rocha e DJ IDLibra.",
+    "location": "Recife, Pernambuco",
+    "date": "27 SET 2026",
+    "body": [
+      "O SPA das Artes 2026 chega ao último dia neste domingo (27), encerrando uma edição que reuniu mais de 40 atividades gratuitas em ruas, museus, ateliês e espaços culturais do Recife.",
+      "A programação de encerramento inclui atividades do Ateliê Pão e Tinta, no Sítio dos Pescadores, e ações no Pátio de São Pedro, onde também acontece a Mostra SPA de Videoarte.",
+      "O encerramento terá shows gratuitos da cantora, compositora e cineasta Ava Rocha e da DJ pernambucana IDLibra."
+    ],
+    "sources": [
+      {
+        "name": "Prefeitura do Recife",
+        "url": "https://www2.recife.pe.gov.br/noticias/15/09/2026/spa-das-artes-retorna-ruas-e-espacos-culturais-do-recife-neste-sabado"
+      }
+    ],
+    "credit": "Divulgação / Prefeitura do Recife",
+    "image": "https://www2.recife.pe.gov.br/sites/default/files/styles/imagem_slide_home/public/field/image/spa_das_artes.jpg",
+    "imageAlt": "Programação cultural do SPA das Artes no Recife"
+  },
+  {
     "id": "baile-da-brota-centro-recife-26-09-2026",
     "published": "2026-09-26T15:00:00-03:00",
     "category": "CULTURA",
