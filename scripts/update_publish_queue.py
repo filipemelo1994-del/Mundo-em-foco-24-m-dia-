@@ -10,6 +10,8 @@ p.add_argument("--state")
 p.add_argument("--feed-media-id")
 p.add_argument("--story-media-id")
 p.add_argument("--error")
+p.add_argument("--feed-art",action="store_true")
+p.add_argument("--story-art",action="store_true")
 p.add_argument("--increment",choices=["feed","story"])
 p.add_argument("--sync-news",action="store_true")
 a=p.parse_args()
@@ -37,6 +39,8 @@ if a.id:
     if a.feed_media_id:item["feed_media_id"]=a.feed_media_id
     if a.story_media_id:item["story_media_id"]=a.story_media_id
     if a.error is not None:item["last_error"]=a.error or None
+    if a.feed_art:item["feed_art"]=True
+    if a.story_art:item["story_art"]=True
     if a.increment:
         item.setdefault("attempts",{}).setdefault(a.increment,0)
         item["attempts"][a.increment]+=1
