@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "updated_at": "2026-09-26T20:23:00-03:00",
+  "items": {
+    "baile-da-brota-centro-recife-26-09-2026": {"state":"FEED_PENDENTE","portal":true,"feed_art":true,"story_art":false,"feed_media_id":null,"story_media_id":null,"attempts":{"feed":0,"story":0},"last_error":null},
+    "festival-meu-forte-e-cultura-recife-26-09-2026": {"state":"FEED_PENDENTE","portal":true,"feed_art":true,"story_art":false,"feed_media_id":null,"story_media_id":null,"attempts":{"feed":0,"story":0},"last_error":null},
+    "samba-recife-22-edicao-26-09-2026": {"state":"FEED_PENDENTE","portal":true,"feed_art":true,"story_art":false,"feed_media_id":null,"story_media_id":null,"attempts":{"feed":0,"story":0},"last_error":null},
+    "rmr-50-onibus-climatizados-circulacao-26-09-2026": {"state":"FEED_PENDENTE","portal":true,"feed_art":true,"story_art":false,"feed_media_id":null,"story_media_id":null,"attempts":{"feed":0,"story":0},"last_error":null},
+    "lula-caminhada-marco-zero-recife-25-09-2026": {"state":"FEED_BLOQUEADO","portal":true,"feed_art":true,"story_art":false,"feed_media_id":null,"story_media_id":null,"attempts":{"feed":0,"story":0},"last_error":"publicacao externa politica bloqueada; portal e arte preservados"},
+    "grande-recife-reforca-onibus-horario-metro-25-09-2026": {"state":"STORY_OK","portal":true,"feed_art":true,"story_art":true,"feed_media_id":"18115125524098935","story_media_id":"18229604863324867","attempts":{"feed":0,"story":0},"last_error":null},
+    "pm-apreende-arma-drogas-suspeitos-ibura-24-09-2026": {"state":"STORY_OK","portal":true,"feed_art":true,"story_art":true,"feed_media_id":"18095760881373392","story_media_id":"17959867394996714","attempts":{"feed":0,"story":0},"last_error":null}
+  }
+}
