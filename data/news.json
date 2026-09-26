@@ -18,9 +18,10 @@
         "url": "https://science.nasa.gov/blogs/swift/2026/09/25/nasas-swift-powers-on-third-instrument-restarts-automated-slewing/"
       }
     ],
-    "credit": "NASA / Goddard Space Flight Center",
-    "image": "https://science.nasa.gov/wp-content/uploads/2023/04/swift-spacecraft-artists-concept.jpg",
-    "imageAlt": "Representação do observatório espacial Neil Gehrels Swift"
+    "credit": "Foto: NASA/Ron Beard",
+    "image": "https://svs.gsfc.nasa.gov/vis/a010000/a015000/a015060/NE201469_3000x1865.jpg",
+    "imageAlt": "Avião Stargazer com foguete Pegasus XL preparado para missão de apoio ao observatório Swift",
+    "sourceImage": "https://svs.gsfc.nasa.gov/vis/a010000/a015000/a015060/NE201469_3000x1865.jpg"
   },
   {
     "id": "alibaba-novo-chip-ia-zhenwu-v900-27-09-2026",
@@ -41,9 +42,10 @@
         "url": "https://www.reuters.com/business/retail-consumer/alibaba-plans-ai-model-with-5-trillion-10-trillion-parameters-unveils-new-chip-2026-09-22/"
       }
     ],
-    "credit": "Imagem de arquivo / Reuters",
-    "image": "https://www.reuters.com/resizer/v2/placeholder.jpg",
-    "imageAlt": "Tecnologia de inteligência artificial e semicondutores da Alibaba"
+    "credit": "Ilustração de arquivo: REUTERS/Dado Ruvic",
+    "image": "https://www.reuters.com/resizer/v2/EORJGSLH5JM25KGPT3P6BM3EPM.jpg?auth=3437524d6fc5da2cd010e188305188fb601899330b64b62961e45868eed775f5&quality=80&width=1080",
+    "imageAlt": "Logotipos da Alibaba e da família de modelos Qwen em ilustração",
+    "sourceImage": "https://www.reuters.com/resizer/v2/EORJGSLH5JM25KGPT3P6BM3EPM.jpg?auth=3437524d6fc5da2cd010e188305188fb601899330b64b62961e45868eed775f5&quality=80&width=1080"
   },
   {
     "id": "spa-das-artes-encerramento-recife-27-09-2026",
@@ -64,9 +66,10 @@
         "url": "https://www2.recife.pe.gov.br/noticias/15/09/2026/spa-das-artes-retorna-ruas-e-espacos-culturais-do-recife-neste-sabado"
       }
     ],
-    "credit": "Divulgação / Prefeitura do Recife",
-    "image": "https://www2.recife.pe.gov.br/sites/default/files/styles/imagem_slide_home/public/field/image/spa_das_artes.jpg",
-    "imageAlt": "Programação cultural do SPA das Artes no Recife"
+    "credit": "Divulgação — via Diario de Pernambuco",
+    "image": "https://www.diariodepernambuco.com.br/_midias/jpg/2026/09/18/ol-959920.jpg",
+    "imageAlt": "Juçara Marçal, Ava Rocha e DJ IDLibra, atrações do SPA das Artes 2026",
+    "sourceImage": "https://www.diariodepernambuco.com.br/_midias/jpg/2026/09/18/ol-959920.jpg"
   },
   {
     "id": "baile-da-brota-centro-recife-26-09-2026",
