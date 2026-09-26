@@ -1,5 +1,51 @@
 [
   {
+    "id": "nasa-swift-retoma-instrumento-burst-alert-27-09-2026",
+    "published": "2026-09-27T11:00:00-03:00",
+    "category": "CIÊNCIA",
+    "title": "Observatório Swift da NASA retoma terceiro instrumento científico",
+    "summary": "O Burst Alert Telescope voltou a operar e o observatório retomou o reposicionamento automático para estudar fenômenos de alta energia no espaço.",
+    "location": "Estados Unidos / Espaço",
+    "date": "27 SET 2026",
+    "body": [
+      "O observatório Neil Gehrels Swift, da NASA, voltou a utilizar seu terceiro instrumento científico, o Burst Alert Telescope, informou a agência.",
+      "Os controladores também autorizaram a retomada do reposicionamento automático da espaçonave, permitindo que seus telescópios reajam rapidamente a novos flashes de alta energia detectados no céu.",
+      "A retomada aproxima a missão de suas operações científicas normais após o retorno à coleta de dados em agosto."
+    ],
+    "sources": [
+      {
+        "name": "NASA",
+        "url": "https://science.nasa.gov/blogs/swift/2026/09/25/nasas-swift-powers-on-third-instrument-restarts-automated-slewing/"
+      }
+    ],
+    "credit": "NASA / Goddard Space Flight Center",
+    "image": "https://science.nasa.gov/wp-content/uploads/2023/04/swift-spacecraft-artists-concept.jpg",
+    "imageAlt": "Representação do observatório espacial Neil Gehrels Swift"
+  },
+  {
+    "id": "alibaba-novo-chip-ia-zhenwu-v900-27-09-2026",
+    "published": "2026-09-27T10:00:00-03:00",
+    "category": "TECNOLOGIA",
+    "title": "Alibaba apresenta novo chip de IA e prepara modelos Qwen maiores",
+    "summary": "Empresa chinesa apresentou o Zhenwu V900 e informou que trabalha em modelos de inteligência artificial com escala de 5 trilhões a 10 trilhões de parâmetros.",
+    "location": "Hangzhou, China",
+    "date": "27 SET 2026",
+    "body": [
+      "A Alibaba ampliou sua aposta em inteligência artificial ao apresentar o Zhenwu V900, processador desenvolvido pela unidade de semicondutores T-Head.",
+      "Segundo a empresa, o novo chip oferece três vezes o desempenho do antecessor M890 e poderá ser conectado em grandes clusters para treinamento e execução de modelos de IA.",
+      "A companhia também informou que futuras gerações da família Qwen deverão alcançar entre 5 trilhões e 10 trilhões de parâmetros. O Zhenwu V900 tem produção em massa e lançamento comercial previstos para o primeiro trimestre de 2027."
+    ],
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/retail-consumer/alibaba-plans-ai-model-with-5-trillion-10-trillion-parameters-unveils-new-chip-2026-09-22/"
+      }
+    ],
+    "credit": "Imagem de arquivo / Reuters",
+    "image": "https://www.reuters.com/resizer/v2/placeholder.jpg",
+    "imageAlt": "Tecnologia de inteligência artificial e semicondutores da Alibaba"
+  },
+  {
     "id": "spa-das-artes-encerramento-recife-27-09-2026",
     "published": "2026-09-27T09:00:00-03:00",
     "category": "CULTURA",

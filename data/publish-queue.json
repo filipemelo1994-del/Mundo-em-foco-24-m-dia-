@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-26T23:37:25.210887+00:00",
+  "updated_at": "2026-09-26T23:38:40.198699+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -851,6 +851,32 @@
       "state": "FEED_PENDENTE",
       "portal": true,
       "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "nasa-swift-retoma-instrumento-burst-alert-27-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
+    },
+    "alibaba-novo-chip-ia-zhenwu-v900-27-09-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
       "story_art": false,
       "feed_media_id": null,
       "story_media_id": null,
