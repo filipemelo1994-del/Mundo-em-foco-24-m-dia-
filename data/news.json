@@ -1799,48 +1799,5 @@
       "https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/09/23/whatsapp_image_2026-09-23_at_16.06.06.jpeg"
     ],
     "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/nova-ra-de-vidro-cerrado-vitreorana-micaelae-23-09-2026.jpg"
-  },
-  {
-    "id": "estudantes-captacao-agua-chuva-bomba-do-hemeterio-25-09-2026",
-    "published": "2026-09-26T07:00:00-03:00",
-    "category": "EDUCAÇÃO",
-    "title": "Estudantes criam sistema de captação de água da chuva no Recife",
-    "summary": "Projeto desenvolvido por estudantes de uma escola da Bomba do Hemetério propõe o reaproveitamento da água da chuva.",
-    "location": "Recife, Pernambuco",
-    "date": "25 SET 2026",
-    "body": [
-      "Estudantes de uma escola localizada na Bomba do Hemetério, no Recife, desenvolveram um sistema voltado à captação e ao reaproveitamento da água da chuva.",
-      "A iniciativa foi divulgada em 25 de setembro e relaciona educação, sustentabilidade e uso consciente da água."
-    ],
-    "sources": [
-      {
-        "name": "Fonte jornalística verificada na seleção da pauta",
-        "url": ""
-      }
-    ]
-  },
-  {
-    "id": "rmr-50-onibus-climatizados-circulacao-26-09-2026",
-    "published": "2026-09-26T08:00:00-03:00",
-    "category": "RECIFE/RMR",
-    "title": "Grande Recife recebe 50 novos ônibus climatizados neste sábado",
-    "summary": "Os veículos entram em circulação pré-operacional das 13h às 19h em cinco municípios da Região Metropolitana e integram um pacote de 150 novos coletivos.",
-    "location": "Região Metropolitana do Recife, Pernambuco",
-    "date": "26 SET 2026",
-    "credit": "Foto ilustrativa de arquivo: Jornal do Commercio",
-    "body": [
-      "Cinquenta novos ônibus climatizados entram em circulação pré-operacional neste sábado (26) no transporte público da Região Metropolitana do Recife.",
-      "O teste ocorrerá das 13h às 19h em Abreu e Lima, Paulista, Olinda, Recife e Jaboatão dos Guararapes.",
-      "Os veículos têm ar-condicionado e tecnologia Euro 6 e fazem parte de um pacote de 150 novos ônibus, sendo 110 convencionais e 40 modelos BRT.",
-      "As linhas que receberão os veículos de forma definitiva deverão ser divulgadas na próxima semana."
-    ],
-    "sources": [
-      {
-        "name": "Jornal do Commercio",
-        "url": "https://jc.uol.com.br/colunas/mobilidade/2026/09/25/transporte-publico-rmr-ganha-mais-50-onibus-com-ar-condicionado-mas-frota-refrigerada-ainda-nao-chega-a-30.html"
-      }
-    ],
-    "sourceImage": "https://imagens.ne10.uol.com.br/veiculos/_midias/jpg/2026/03/30/806x444/1_whatsapp_image_2026_03_30_at_13_26_17__1_-36588397.jpeg",
-    "image": "https://imagens.ne10.uol.com.br/veiculos/_midias/jpg/2026/03/30/806x444/1_whatsapp_image_2026_03_30_at_13_26_17__1_-36588397.jpeg"
   }
 ]
