@@ -7,11 +7,12 @@ on:
       - "central/**"
       - "data/news.json"
       - "public/news-art/**"
+      - "data/public-validation/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -47,3 +48,42 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Validate public news art bytes
+        shell: bash
+        run: |
+          mkdir -p data/public-validation
+          python3 - <<'PY'
+          import hashlib, json, pathlib, urllib.request
+          queue = json.load(open("data/publish-queue.json", encoding="utf-8"))
+          base = "${{ steps.deployment.outputs.page_url }}".rstrip("/")
+          out = {}
+          for news_id, item in queue.get("items", {}).items():
+              expected = item.get("art_sha256")
+              if not expected or not item.get("feed_art") or item.get("feed_media_id"):
+                  continue
+              url = f"{base}/news-art/{news_id}.jpg"
+              try:
+                  req = urllib.request.Request(url, headers={"User-Agent": "Mundo-em-Foco-24-validator/1.0", "Cache-Control": "no-cache"})
+                  with urllib.request.urlopen(req, timeout=30) as r:
+                      data = r.read()
+                  actual = hashlib.sha256(data).hexdigest()
+                  out[news_id] = {"url": url, "expected_sha256": expected, "public_sha256": actual, "passed": actual == expected}
+              except Exception as e:
+                  out[news_id] = {"url": url, "expected_sha256": expected, "passed": False, "error": str(e)}
+          pathlib.Path("data/public-validation/latest.json").write_text(json.dumps(out, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
+          failed = [k for k,v in out.items() if not v.get("passed")]
+          if failed:
+              raise SystemExit("Public validation failed: " + ", ".join(failed))
+          PY
+      - name: Commit public validation report
+        if: success()
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/public-validation/latest.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: validate public news art bytes'
+            git pull --rebase origin main
+            git push origin main
+          fi
