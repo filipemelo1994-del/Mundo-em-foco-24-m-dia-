@@ -2002,5 +2002,33 @@
       "https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/09/23/whatsapp_image_2026-09-23_at_16.06.06.jpeg"
     ],
     "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/nova-ra-de-vidro-cerrado-vitreorana-micaelae-23-09-2026.jpg"
+  },
+  {
+    "id": "primeiro-sinal-radio-exoplaneta-beta-pictoris-b-27-09-2026",
+    "published": "2026-09-27T15:30:00-03:00",
+    "category": "CIÊNCIA",
+    "title": "Astrônomos detectam primeiro sinal de rádio atribuído diretamente a um exoplaneta",
+    "summary": "Ondas de rádio de Beta Pictoris b, a cerca de 63 anos-luz da Terra, permitiram estimar diretamente a intensidade de seu campo magnético.",
+    "location": "Beta Pictoris / Espaço",
+    "date": "27 SET 2026",
+    "body": [
+      "Uma equipe internacional relatou a primeira detecção de emissão de rádio localizada diretamente em um exoplaneta, o gigante gasoso Beta Pictoris b.",
+      "As observações foram realizadas com o radiotelescópio MeerKAT, na África do Sul, e registraram emissões entre 0,85 e 3,5 GHz.",
+      "Os pesquisadores associam o sinal a emissões aurorais naturais e estimam um campo magnético de pelo menos 1,25 quilogauss. O estudo foi divulgado como preprint e ainda aguarda revisão por pares."
+    ],
+    "sources": [
+      {
+        "name": "arXiv — Ortiz Ceballos, Berger e Cendes",
+        "url": "https://arxiv.org/abs/2609.16720"
+      },
+      {
+        "name": "TV SIM Brasil",
+        "url": "https://tvsimbrasil.com.br/brasil/tecnologia/noticia/2026/09/27/por-que-sinal-radio-exoplaneta-importa-ciencia"
+      }
+    ],
+    "credit": "Foto: SKAO / SARAO — Wikimedia Commons, CC BY 3.0",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/2018-MeerKAT-3.png",
+    "sourceImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/2018-MeerKAT-3.png",
+    "imageAlt": "Antenas do radiotelescópio MeerKAT na África do Sul"
   }
 ]
