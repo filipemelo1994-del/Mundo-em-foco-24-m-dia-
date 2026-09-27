@@ -1,0 +1,34 @@
+name: Collect New News Hourly
+on:
+  schedule:
+    - cron: '45 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: mundo-em-foco-collect-news
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Collect one fresh non-political story
+        run: python3 scripts/collect_news.py
+      - name: Commit request
+        run: |
+          git config user.name 'Mundo em Foco 24 Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add requests/news
+          if ! git diff --cached --quiet; then
+            git commit -m 'auto: adiciona nova pauta para publicação'
+            git push origin main
+          else
+            echo 'Nenhuma pauta nova.'
+          fi
