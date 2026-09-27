@@ -1,5 +1,16 @@
 [
   {
+    "id": "layout-oficial-preview",
+    "title": "Layout oficial",
+    "category": "MODELO",
+    "date": "26 SET 2026",
+    "summary": "Modelo visual oficial.",
+    "credit": "Mundo em Foco 24",
+    "imageCandidates": [
+      "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/assets/templates/layout-oficial-mundo-em-foco24.webp"
+    ]
+  },
+  {
     "id": "nasa-swift-retoma-instrumento-burst-alert-27-09-2026",
     "published": "2026-09-27T11:00:00-03:00",
     "category": "CIÊNCIA",
