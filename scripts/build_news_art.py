@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import argparse,json,os,re,sys,time
+import argparse,json,os,re,sys,time,base64
 from io import BytesIO
 import requests
 from PIL import Image,ImageDraw,ImageFont,ImageOps
@@ -54,6 +54,21 @@ def wrap(draw,text,f,maxw):
     if cur: lines.append(cur)
     return lines
 
+
+LOGO_B64=os.path.join(os.path.dirname(os.path.dirname(__file__)),"assets","brand","logo-mundo-em-foco-24.webp.b64")
+
+def brand_logo(max_w,max_h):
+    """Carrega a logo oficial enviada pelo proprietário; nunca redesenha a marca."""
+    try:
+        with open(LOGO_B64,encoding="ascii") as f:
+            raw=base64.b64decode(f.read().strip())
+        im=Image.open(BytesIO(raw)).convert("RGBA")
+        im.thumbnail((max_w,max_h),Image.Resampling.LANCZOS)
+        return im
+    except Exception as e:
+        print(f"AVISO: logo oficial indisponível: {e}",file=sys.stderr)
+        return None
+
 def render(photo,title,category,date,credit,summary="",story=False):
     c=photo.convert("RGBA")
     # Story usa a mesma identidade; o quadro 1080x1350 será centralizado em 1080x1920.
@@ -68,16 +83,11 @@ def render(photo,title,category,date,credit,summary="",story=False):
     f_logo=font(BOLD,43); f_24=font(BOLD,64); f_tag=font(REG,15); f_cat=font(BOLD,25)
     f_title=font(BOLD,58); f_sum=font(REG,28); f_meta=font(REG,20)
     d.polygon([(0,0),(650,0),(590,176),(0,176)],fill=DARK)
-    # Logo fixo Mundo em Foco 24: globo com meridianos/paralelos (sem texto improvisado).
-    d.ellipse((32,25,142,135),fill=(8,96,190),outline=(55,205,255),width=4)
-    d.ellipse((50,28,124,132),outline=WHITE,width=2)
-    d.ellipse((72,28,102,132),outline=WHITE,width=2)
-    d.arc((34,49,140,111),0,360,fill=WHITE,width=2)
-    d.line((39,80,135,80),fill=WHITE,width=2)
-    d.text((160,61),"MUNDO",font=f_logo,fill=WHITE,anchor="lm")
-    d.text((160,108),"EM FOCO",font=f_logo,fill=WHITE,anchor="lm")
-    d.text((382,83),"24",font=f_24,fill=(24,184,245),anchor="lm")
-    d.text((160,145),"NOTÍCIAS DE VERDADE, SEM FRONTEIRAS",font=f_tag,fill=(220,235,250))
+    # Logo oficial da página (arquivo mestre); não redesenhar por código.
+    logo=brand_logo(500,145)
+    if logo:
+        c.alpha_composite(logo,(28,15))
+        d=ImageDraw.Draw(c)
     if date: d.text((W-42,47),date.upper(),font=font(BOLD,22),fill=DARK,anchor="ra")
     region=(category or "NOTÍCIAS").upper()
     d.polygon([(W-310,82),(W,82),(W,150),(W-350,150)],fill=(4,48,105))
@@ -135,16 +145,11 @@ def render_story(photo,title,category,date,credit,summary=""):
     f_logo=font(BOLD,43); f_24=font(BOLD,64); f_tag=font(REG,15)
     f_cat=font(BOLD,25); f_title=font(BOLD,56); f_sum=font(REG,27); f_meta=font(REG,20)
 
-    # Cabeçalho oficial.
-    d.ellipse((32,28,142,138),fill=(8,96,190),outline=(55,205,255),width=4)
-    d.ellipse((50,31,124,135),outline=WHITE,width=2)
-    d.ellipse((72,31,102,135),outline=WHITE,width=2)
-    d.arc((34,52,140,114),0,360,fill=WHITE,width=2)
-    d.line((39,83,135,83),fill=WHITE,width=2)
-    d.text((160,64),"MUNDO",font=f_logo,fill=WHITE,anchor="lm")
-    d.text((160,111),"EM FOCO",font=f_logo,fill=WHITE,anchor="lm")
-    d.text((382,86),"24",font=f_24,fill=(24,184,245),anchor="lm")
-    d.text((160,149),"NOTÍCIAS DE VERDADE, SEM FRONTEIRAS",font=f_tag,fill=(220,235,250))
+    # Cabeçalho com a mesma logo oficial usada no Feed.
+    logo=brand_logo(500,150)
+    if logo:
+        c.alpha_composite(logo,(28,18))
+        d=ImageDraw.Draw(c)
     if date: d.text((SW-42,50),date.upper(),font=font(BOLD,22),fill=DARK,anchor="ra")
     region=(category or "NOTÍCIAS").upper()
     d.polygon([(SW-310,88),(SW,88),(SW,156),(SW-350,156)],fill=(4,48,105))
