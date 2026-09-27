@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-27T15:22:26.035255+00:00",
+  "updated_at": "2026-09-27T15:26:43.908410+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -127,14 +127,14 @@
       "last_error": null
     },
     "bc-controle-criptomoedas-carteiras-autocustodiadas-23-09-2026": {
-      "state": "FEED_PENDENTE",
+      "state": "STORY_PENDENTE",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "18028940738856901",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
       "last_error": null
