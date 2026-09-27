@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-27T01:13:45.469648+00:00",
+  "updated_at": "2026-09-27T10:23:18.328254+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -871,7 +871,14 @@
         "feed": 0,
         "story": 0
       },
-      "last_error": null
+      "last_error": null,
+      "art_sha256": "0e10a24417f1ebee9f458875eae8eb04afe2c48acc73ec07302c662abe02571a",
+      "art_validation": {
+        "passed": true,
+        "sha256": "0e10a24417f1ebee9f458875eae8eb04afe2c48acc73ec07302c662abe02571a",
+        "failed": [],
+        "checked_at": "2026-09-27T10:23:18.296520+00:00"
+      }
     },
     "alibaba-novo-chip-ia-zhenwu-v900-27-09-2026": {
       "state": "FEED_PENDENTE",
