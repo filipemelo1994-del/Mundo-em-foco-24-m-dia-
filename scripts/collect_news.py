@@ -45,8 +45,16 @@ def main():
    if norm in seen_titles: continue
    img=image_url(item)
    if not img: continue
-   try: dt=parsedate_to_datetime(txt(item,"pubDate"))
-   except: dt=datetime.now(timezone.utc)
+   try:
+    dt=parsedate_to_datetime(txt(item,"pubDate"))
+    # RSS feeds are inconsistent: some dates include a timezone and others do not.
+    # Normalize every candidate to an aware UTC datetime before sorting.
+    if dt.tzinfo is None:
+     dt=dt.replace(tzinfo=timezone.utc)
+    else:
+     dt=dt.astimezone(timezone.utc)
+   except Exception:
+    dt=datetime.now(timezone.utc)
    cand.append((dt,title,desc,link,img,source))
  if not cand:
   print("Nenhuma pauta nova segura com imagem."); return 0
