@@ -34,9 +34,17 @@ def main():
   if eligible_item(nid,item,n,pv): eligible.append((n.get("published",""),nid,item,n,pv))
  eligible.sort()
  if not eligible: print("Nenhuma matéria validada elegível."); return 0
- _,nid,item,n,pv=eligible[0]; image_url=pv["url"]
+ _,nid,item,n,pv=eligible[0]; validation_url=pv["url"]
+ # Instagram/Windsor precisa de URL direta de imagem. Mantemos a URL validada para SHA,
+ # mas publicamos pelo RAW do GitHub, que já foi comprovado no fluxo manual.
+ image_url=validation_url
+ pages_prefix="https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/"
+ if image_url.startswith(pages_prefix):
+  rel=image_url[len(pages_prefix):].lstrip("/")
+  if rel.startswith("news-art/"): rel="public/"+rel
+  image_url="https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/"+rel
  try:
-  with urllib.request.urlopen(image_url,timeout=30) as r:data=r.read()
+  with urllib.request.urlopen(validation_url,timeout=30) as r:data=r.read()
   if hashlib.sha256(data).hexdigest()!=item["art_sha256"]: raise RuntimeError("SHA público divergente")
   caption=(n.get("title","").strip()+"\n\n"+n.get("summary","").strip()).strip()
   source=((n.get("sources") or [{}])[0].get("name") or "").strip()
