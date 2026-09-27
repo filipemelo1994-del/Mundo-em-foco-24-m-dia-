@@ -4,5 +4,6 @@
     "expected_sha256": "0e10a24417f1ebee9f458875eae8eb04afe2c48acc73ec07302c662abe02571a",
     "public_sha256": "0e10a24417f1ebee9f458875eae8eb04afe2c48acc73ec07302c662abe02571a",
     "passed": true
-  }
+  },
+  "_refresh_requested_at": "2026-09-27T12:45:00Z"
 }
