@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-27T15:29:57.977019+00:00",
+  "updated_at": "2026-09-27T15:30:18.950460+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -966,14 +966,14 @@
       "last_error": null
     },
     "primeiro-sinal-radio-exoplaneta-beta-pictoris-b-27-09-2026": {
-      "state": "FEED_PENDENTE",
+      "state": "STORY_PENDENTE",
       "portal": true,
       "feed_art": true,
       "story_art": true,
-      "feed_media_id": null,
+      "feed_media_id": "17957590428241044",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
       "last_error": null
