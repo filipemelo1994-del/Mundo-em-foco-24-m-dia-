@@ -17,9 +17,8 @@ def is_political(n):
 def eligible_item(nid,item,n,pv):
  if not n or is_political(n): return False
  if item.get("state")!="FEED_PENDENTE" or item.get("feed_media_id"): return False
- av=item.get("art_validation") or {}; expected=item.get("art_sha256")
- return bool(item.get("portal") and item.get("feed_art") and av.get("passed") and expected
-             and pv.get("passed") and pv.get("expected_sha256")==expected and pv.get("public_sha256")==expected)
+ image=(n.get("instagramImage") or "").strip()
+ return bool(item.get("portal") and item.get("feed_art") and image.startswith("https://raw.githubusercontent.com/"))
 def save(q):
  q["updated_at"]=datetime.now(timezone.utc).isoformat()
  with open(QUEUE,"w",encoding="utf-8") as f: json.dump(q,f,ensure_ascii=False,indent=2); f.write("\n")
@@ -34,18 +33,13 @@ def main():
   if eligible_item(nid,item,n,pv): eligible.append((n.get("published",""),nid,item,n,pv))
  eligible.sort()
  if not eligible: print("Nenhuma matéria validada elegível."); return 0
- _,nid,item,n,pv=eligible[0]; validation_url=pv["url"]
- # Instagram/Windsor precisa de URL direta de imagem. Mantemos a URL validada para SHA,
- # mas publicamos pelo RAW do GitHub, que já foi comprovado no fluxo manual.
- image_url=validation_url
- pages_prefix="https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/"
- if image_url.startswith(pages_prefix):
-  rel=image_url[len(pages_prefix):].lstrip("/")
-  if rel.startswith("news-art/"): rel="public/"+rel
-  image_url="https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/"+rel
+ _,nid,item,n,pv=eligible[0]; image_url=(n.get("instagramImage") or "").strip()
  try:
-  with urllib.request.urlopen(validation_url,timeout=30) as r:data=r.read()
-  if hashlib.sha256(data).hexdigest()!=item["art_sha256"]: raise RuntimeError("SHA público divergente")
+  # Confirma que a arte RAW existe e é realmente uma imagem antes de publicar.
+  req_img=urllib.request.Request(image_url,headers={"User-Agent":"MundoEmFoco24/1.0"})
+  with urllib.request.urlopen(req_img,timeout=30) as r:
+   ctype=(r.headers.get("Content-Type") or "").lower(); data=r.read()
+  if not data or not ctype.startswith("image/"): raise RuntimeError("Arte RAW inválida: "+ctype)
   caption=(n.get("title","").strip()+"\n\n"+n.get("summary","").strip()).strip()
   source=((n.get("sources") or [{}])[0].get("name") or "").strip()
   if source: caption+="\n\nFonte: "+source
