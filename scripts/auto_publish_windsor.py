@@ -57,6 +57,6 @@ def main():
   item.setdefault("attempts",{}); item["attempts"]["feed"]=item["attempts"].get("feed",0)+1
   item["last_error"]=str(e)[:300]; save(q); raise
  item["feed_media_id"]=m.group(1); item.setdefault("attempts",{}); item["attempts"]["feed"]=item["attempts"].get("feed",0)+1
- item["last_error"]=None; item["state"]="STORY_PENDENTE" if not item.get("story_media_id") else "STORY_OK"; save(q)
+ item["last_error"]=None; item["state"]="FEED_OK"; save(q)
  print("Publicado "+nid+"; media_id="+m.group(1)); return 0
 if __name__=="__main__": sys.exit(main())
