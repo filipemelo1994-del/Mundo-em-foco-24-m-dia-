@@ -1025,17 +1025,17 @@
       }
     },
     "onibus-semaforo-fundao-recife-27-09-2026": {
-      "state": "FEED_PENDENTE",
+      "state": "FEED_OK",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "18101350529631006",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
-      "last_error": "",
+      "last_error": null,
       "art_sha256": "ac22818deddeac22b46794819659f12c4e9a5524f99f85abca8e71537597612d",
       "art_validation": {
         "passed": true,
