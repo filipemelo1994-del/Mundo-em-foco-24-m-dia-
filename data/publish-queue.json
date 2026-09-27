@@ -1058,7 +1058,7 @@
       "last_error": "build_news_art_v2 exit=3"
     },
     "crew-13-chega-kennedy-26-09-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_PENDENTE",
       "portal": true,
       "feed_art": true,
       "story_art": false,
