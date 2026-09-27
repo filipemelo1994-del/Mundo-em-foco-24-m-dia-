@@ -964,6 +964,19 @@
         "story": 0
       },
       "last_error": null
+    },
+    "primeiro-sinal-radio-exoplaneta-beta-pictoris-b-27-09-2026": {
+      "state": "FEED_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": true,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
     }
   }
 }
