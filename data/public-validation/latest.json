@@ -1,9 +1,8 @@
 {
-  "nasa-swift-retoma-instrumento-burst-alert-27-09-2026": {
-    "url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/news-art/nasa-swift-retoma-instrumento-burst-alert-27-09-2026.jpg",
-    "expected_sha256": "0e10a24417f1ebee9f458875eae8eb04afe2c48acc73ec07302c662abe02571a",
-    "public_sha256": "0e10a24417f1ebee9f458875eae8eb04afe2c48acc73ec07302c662abe02571a",
+  "spa-das-artes-encerramento-recife-27-09-2026": {
+    "url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/news-art/spa-das-artes-encerramento-recife-27-09-2026.jpg",
+    "expected_sha256": "dd2be958078cdab4901e2909efe69e44e253a746d80907149ab1567164c36b6d",
+    "public_sha256": "dd2be958078cdab4901e2909efe69e44e253a746d80907149ab1567164c36b6d",
     "passed": true
-  },
-  "_refresh_requested_at": "2026-09-27T12:45:00Z"
+  }
 }
