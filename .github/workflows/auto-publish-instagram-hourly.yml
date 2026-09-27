@@ -1,7 +1,7 @@
-name: Auto Publish Instagram Hourly
+name: Auto Publish Instagram Every 30 Minutes
 on:
   schedule:
-    - cron: '7 * * * *'
+    - cron: '7,37 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
