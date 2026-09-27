@@ -6,11 +6,6 @@ on:
         description: "ID de uma pauta existente em data/news.json"
         required: true
         type: string
-  push:
-    branches: [main]
-    paths:
-      - "requests/news-art/*.json"
-      - "requests/news-art-now/*.json"
 permissions:
   contents: write
 concurrency:
@@ -51,7 +46,7 @@ jobs:
         id: process
         shell: bash
         run: |
-          mkdir -p requests/news-art/failed requests/news-art-now public/news-art public/story-art
+          mkdir -p requests/news-art/failed requests/news-art-now public/news-art
           shopt -s nullglob
           OK=""
           FAIL=0
@@ -61,21 +56,17 @@ jobs:
             set +e
             python3 scripts/build_news_art_v2.py --request-json "$req" --output-json "/tmp/result-$id.json"
             feed_status=$?
-            python3 scripts/build_news_art.py --request-json "$req" --story --out-dir public/story-art --output-json "/tmp/story-$id.json"
-            story_status=$?
             set -e
-            if [ "$feed_status" -eq 0 ] && [ "$story_status" -eq 0 ] && [ -f "/tmp/result-$id.json" ] && [ -f "/tmp/story-$id.json" ]; then
+            if [ "$feed_status" -eq 0 ] && [ -f "/tmp/result-$id.json" ]; then
               source_image=$(python3 -c "import json; print(json.load(open('/tmp/result-$id.json'))['sourceImage'])")
               out_path=$(python3 -c "import json; print(json.load(open('/tmp/result-$id.json'))['path'])")
-              story_path=$(python3 -c "import json; print(json.load(open('/tmp/story-$id.json'))['path'])")
               url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/${out_path}"
-              story_url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/${story_path}"
               python3 scripts/update_news_entry.py --file data/news.json --id "$id" --source-image "$source_image" --instagram-image "$url"
-              python3 scripts/update_publish_queue.py --id "$id" --state FEED_PENDENTE --feed-art --story-art --error ""
-              OK="${OK}${id}|${url}|${story_url}"
+              python3 scripts/update_publish_queue.py --id "$id" --state FEED_PENDENTE --feed-art --error ""
+              OK="${OK}${id}|${url}"
               rm -f "$req"
             else
-              echo "::warning::Falha nas artes de $id (feed=$feed_status story=$story_status); fila continuará."
+              echo "::warning::Falha na arte V2 de $id (feed=$feed_status); fila continuará."
               mv "$req" "requests/news-art/failed/$(basename "$req")"
               FAIL=1
             fi
@@ -88,32 +79,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A public/news-art public/story-art requests/news-art requests/news-art-now data/news.json data/publish-queue.json
+          git add -A public/news-art requests/news-art requests/news-art-now data/news.json data/publish-queue.json
           git diff --cached --quiet || { git commit -m "chore: build Mundo em Foco 24 news art"; git push origin main; }
-      - name: Publish validated feed item immediately
-        if: ${{ success() }}
-        env:
-          WINDSOR_API_KEY: ${{ secrets.WINDSOR_API_KEY }}
-          INSTAGRAM_ACCOUNT_ID: '17841436453506787'
-        run: |
-          test -n "${{ steps.process.outputs.news_id }}" || { echo "Sem ID novo; publicação bloqueada."; exit 1; }
-          PUBLISH_NEWS_ID="${{ steps.process.outputs.news_id }}" python3 scripts/auto_publish_windsor.py
-      - name: Commit Instagram confirmation
-        if: ${{ !cancelled() }}
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/publish-queue.json
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: confirma publicação automática no Instagram"
-            git pull --rebase origin main
-            git push origin main
-          fi
       - name: Summary
         if: always()
         run: |
           echo "### Mundo em Foco 24 — artes" >> "$GITHUB_STEP_SUMMARY"
-          while IFS='|' read -r id url story_url; do
-            [ -z "$id" ] || { echo "- **$id** — Feed: $url" >> "$GITHUB_STEP_SUMMARY"; echo "  - Story: $story_url" >> "$GITHUB_STEP_SUMMARY"; }
+          while IFS='|' read -r id url; do
+            [ -z "$id" ] || echo "- **$id** — Feed V2: $url" >> "$GITHUB_STEP_SUMMARY"
           done <<< "${{ steps.process.outputs.ok }}"
           [ "${{ steps.process.outputs.fail }}" = "1" ] && echo "⚠️ Houve falha de mídia; a fila não foi interrompida." >> "$GITHUB_STEP_SUMMARY" || true
