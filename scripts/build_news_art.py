@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import argparse,json,os,re,sys,time,base64
+import argparse,json,os,re,sys,time
 from io import BytesIO
 import requests
 from PIL import Image,ImageDraw,ImageFont,ImageOps
@@ -55,14 +55,12 @@ def wrap(draw,text,f,maxw):
     return lines
 
 
-LOGO_B64=os.path.join(os.path.dirname(os.path.dirname(__file__)),"assets","brand","logo-mundo-em-foco-24.webp.b64")
+LOGO_FILE=os.path.join(os.path.dirname(os.path.dirname(__file__)),"assets","brand","logo-mundo-em-foco-24.webp")
 
 def brand_logo(max_w,max_h):
     """Carrega a logo oficial enviada pelo proprietário; nunca redesenha a marca."""
     try:
-        with open(LOGO_B64,encoding="ascii") as f:
-            raw=base64.b64decode(f.read().strip())
-        im=Image.open(BytesIO(raw)).convert("RGBA")
+        im=Image.open(LOGO_FILE).convert("RGBA")
         im.thumbnail((max_w,max_h),Image.Resampling.LANCZOS)
         return im
     except Exception as e:
