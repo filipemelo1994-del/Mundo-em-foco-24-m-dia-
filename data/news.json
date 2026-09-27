@@ -1,5 +1,36 @@
 [
   {
+    "id": "setembro-verde-idosos-doadores-vivos-orgaos-27-09-2026",
+    "published": "2026-09-27T17:09:00-03:00",
+    "category": "SAÚDE",
+    "title": "Idosos também podem ser doadores vivos de órgãos",
+    "summary": "Idade, por si só, não impede a doação em vida; avaliação médica completa e compatibilidade são fundamentais.",
+    "location": "Brasil",
+    "date": "27 SET 2026",
+    "body": [
+      "Pessoas idosas também podem ser doadoras vivas de órgãos, desde que passem por avaliação médica completa e tenham condições adequadas de saúde.",
+      "Segundo o Ministério da Saúde, um doador vivo pode doar um dos rins, parte do fígado, parte da medula ou parte dos pulmões, com necessidade de compatibilidade sanguínea.",
+      "A avaliação considera o histórico clínico e doenças prévias do possível doador; a idade, isoladamente, não é uma limitação."
+    ],
+    "sources": [
+      {
+        "name": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-09/setembro-verde-idosos-tambem-podem-ser-doadores-vivos-de-orgaos"
+      },
+      {
+        "name": "Rádio Senado",
+        "url": "https://www12.senado.leg.br/radio/1/noticia/2026/09/15/setembro-verde-campanha-destaca-importancia-da-doacao-de-ogaos"
+      }
+    ],
+    "credit": "Foto: Gabriel Jabur/Agência Brasília — via Rádio Senado",
+    "sourceImage": "https://www12.senado.leg.br/radio/1/noticia/2026/09/15/setembro-verde-campanha-destaca-importancia-da-doacao-de-ogaos/@@images/9c7b3eb5-d513-4998-9776-abae2a4744d1.jpeg",
+    "image": "https://www12.senado.leg.br/radio/1/noticia/2026/09/15/setembro-verde-campanha-destaca-importancia-da-doacao-de-ogaos/@@images/9c7b3eb5-d513-4998-9776-abae2a4744d1.jpeg",
+    "imageCandidates": [
+      "https://www12.senado.leg.br/radio/1/noticia/2026/09/15/setembro-verde-campanha-destaca-importancia-da-doacao-de-ogaos/@@images/9c7b3eb5-d513-4998-9776-abae2a4744d1.jpeg"
+    ],
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/setembro-verde-idosos-doadores-vivos-orgaos-27-09-2026.jpg"
+  },
+  {
     "id": "layout-oficial-final",
     "title": "Layout oficial",
     "category": "MODELO",

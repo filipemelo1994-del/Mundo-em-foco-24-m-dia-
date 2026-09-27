@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-27T23:08:17.101034+00:00",
+  "updated_at": "2026-09-27T23:11:40.003258+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -1006,8 +1006,8 @@
     },
     "setembro-verde-idosos-doadores-vivos-orgaos-27-09-2026": {
       "state": "PORTAL_PENDENTE",
-      "portal": false,
-      "feed_art": false,
+      "portal": true,
+      "feed_art": true,
       "story_art": false,
       "feed_media_id": null,
       "story_media_id": null,
@@ -1015,7 +1015,14 @@
         "feed": 0,
         "story": 0
       },
-      "last_error": "build_news_art_v2 exit=3"
+      "last_error": "build_news_art_v2 exit=3",
+      "art_sha256": "e5fa7f0b063f6fab78975d2ae4d94a5b48eed888d5b95b03402bc1d2fa6bf00b",
+      "art_validation": {
+        "passed": true,
+        "sha256": "e5fa7f0b063f6fab78975d2ae4d94a5b48eed888d5b95b03402bc1d2fa6bf00b",
+        "failed": [],
+        "checked_at": "2026-09-27T23:11:39.965621+00:00"
+      }
     }
   }
 }
