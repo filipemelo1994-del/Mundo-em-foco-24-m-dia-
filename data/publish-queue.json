@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-27T23:11:40.003258+00:00",
+  "updated_at": "2026-09-27T23:19:56.147116+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -1022,6 +1022,26 @@
         "sha256": "e5fa7f0b063f6fab78975d2ae4d94a5b48eed888d5b95b03402bc1d2fa6bf00b",
         "failed": [],
         "checked_at": "2026-09-27T23:11:39.965621+00:00"
+      }
+    },
+    "onibus-semaforo-fundao-recife-27-09-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "ac22818deddeac22b46794819659f12c4e9a5524f99f85abca8e71537597612d",
+      "art_validation": {
+        "passed": true,
+        "sha256": "ac22818deddeac22b46794819659f12c4e9a5524f99f85abca8e71537597612d",
+        "failed": [],
+        "checked_at": "2026-09-27T23:19:56.121352+00:00"
       }
     }
   }
