@@ -6,6 +6,7 @@ on:
     paths:
       - "central/**"
       - "data/news.json"
+      - "public/news-art/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -29,10 +30,13 @@ jobs:
         uses: actions/checkout@v4
       - name: Prepare isolated Central site
         run: |
-          mkdir -p _site/central _site/data _site/assets
+          mkdir -p _site/central _site/data _site/assets _site/news-art
           cp -R central/. _site/central/
           cp data/news.json _site/data/news.json
           cp assets/logo-site.png _site/assets/logo-site.png
+          if [ -d public/news-art ]; then
+            cp -R public/news-art/. _site/news-art/
+          fi
           touch _site/.nojekyll
       - name: Configure Pages
         uses: actions/configure-pages@v5
