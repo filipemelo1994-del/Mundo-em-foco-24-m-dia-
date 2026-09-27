@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-27T12:26:19.193872+00:00",
+  "updated_at": "2026-09-27T15:19:51.668358+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -101,10 +101,10 @@
       "feed_media_id": null,
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
-      "last_error": null,
+      "last_error": "HTTP Error 404: Not Found",
       "art_sha256": "dd2be958078cdab4901e2909efe69e44e253a746d80907149ab1567164c36b6d",
       "art_validation": {
         "passed": true,
