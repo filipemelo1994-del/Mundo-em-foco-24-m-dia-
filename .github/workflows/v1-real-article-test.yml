@@ -4,6 +4,7 @@ on:
     branches: [test/v1-feed-integration]
     paths:
       - ".github/workflows/v1-real-article-test.yml"
+      - ".github/workflows/import-news-entry.yml"
   workflow_dispatch:
     inputs:
       article_id:
