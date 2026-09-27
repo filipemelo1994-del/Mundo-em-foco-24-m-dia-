@@ -23,7 +23,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Dependencies
-        run: python3 -m pip install --quiet pillow jsonschema
+        run: python3 -m pip install --quiet pillow jsonschema requests
       - name: Build request from real article
         env:
           ARTICLE_ID: ${{ inputs.article_id || 'nasa-swift-retoma-instrumento-burst-alert-27-09-2026' }}
