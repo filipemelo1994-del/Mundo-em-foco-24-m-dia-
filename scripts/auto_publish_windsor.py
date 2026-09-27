@@ -28,11 +28,14 @@ def main():
  with open(NEWS,encoding="utf-8") as f:news=json.load(f)
  with open(VALID,encoding="utf-8") as f:pvall=json.load(f)
  byid={n.get("id"):n for n in news}; eligible=[]
+ target=(os.environ.get("PUBLISH_NEWS_ID") or "").strip()
  for nid,item in q.get("items",{}).items():
+  if target and nid != target: continue
   n=byid.get(nid); pv=pvall.get(nid) or {}
   if eligible_item(nid,item,n,pv): eligible.append((n.get("published",""),nid,item,n,pv))
  eligible.sort(key=lambda x: str(x[0]))
- if not eligible: print("Nenhuma matéria validada elegível."); return 0
+ if not eligible:
+  print("Nenhuma matéria elegível"+((" para "+target) if target else "")+"."); return 0
  _,nid,item,n,pv=eligible[0]; image_url=(n.get("instagramImage") or "").strip()
  try:
   # Confirma que a arte RAW existe e é realmente uma imagem antes de publicar.
