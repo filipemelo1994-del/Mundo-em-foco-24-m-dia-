@@ -26,7 +26,7 @@ jobs:
           mkdir -p public/news-art requests/news/failed
           for req in requests/news/*.json; do
             id=$(python3 -c "import json,sys;print(json.load(open(sys.argv[1],encoding='utf-8'))['id'])" "$req")
-            python3 scripts/append_news_entry.py --entry "$req"
+            # Primeiro gera e valida. A matéria só entra em data/news.json depois de a arte passar.
             set +e
             python3 scripts/build_news_art_v2.py --request-json "$req" --output-json "/tmp/result-$id.json"
             status=$?
@@ -53,6 +53,7 @@ jobs:
             fi
 
             if [ "$status" -eq 0 ] && [ -f "/tmp/result-$id.json" ]; then
+              python3 scripts/append_news_entry.py --entry "$req"
               source_image=$(python3 -c "import json;print(json.load(open('/tmp/result-$id.json'))['sourceImage'])")
               out_path=$(python3 -c "import json;print(json.load(open('/tmp/result-$id.json'))['path'])")
               art_sha256=$(python3 -c "import json;print(json.load(open('/tmp/result-$id.json'))['sha256'])")
