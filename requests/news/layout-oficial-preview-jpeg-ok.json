@@ -1,0 +1,11 @@
+{
+  "id": "layout-oficial-preview-jpeg-ok",
+  "title": "Layout oficial",
+  "category": "MODELO",
+  "date": "26 SET 2026",
+  "summary": "Modelo visual oficial.",
+  "credit": "Mundo em Foco 24",
+  "imageCandidates": [
+    "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/assets/templates/layout-oficial-mundo-em-foco24.webp"
+  ]
+}
