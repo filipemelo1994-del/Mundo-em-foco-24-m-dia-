@@ -59,7 +59,7 @@ jobs:
             id=$(python3 -c "import json,sys; print(json.load(open(sys.argv[1],encoding='utf-8')).get('id',''))" "$req")
             [ -n "$id" ] || { mv "$req" "requests/news-art/failed/$(basename "$req")"; FAIL=1; continue; }
             set +e
-            python3 scripts/build_news_art.py --request-json "$req" --output-json "/tmp/result-$id.json"
+            python3 scripts/build_news_art_v2.py --request-json "$req" --output-json "/tmp/result-$id.json"
             feed_status=$?
             python3 scripts/build_news_art.py --request-json "$req" --story --out-dir public/story-art --output-json "/tmp/story-$id.json"
             story_status=$?
@@ -96,6 +96,7 @@ jobs:
           WINDSOR_API_KEY: ${{ secrets.WINDSOR_API_KEY }}
           INSTAGRAM_ACCOUNT_ID: '17841436453506787'
         run: |
+          test -n "${{ steps.process.outputs.news_id }}" || { echo "Sem ID novo; publicação bloqueada."; exit 1; }
           PUBLISH_NEWS_ID="${{ steps.process.outputs.news_id }}" python3 scripts/auto_publish_windsor.py
       - name: Commit Instagram confirmation
         if: ${{ !cancelled() }}
