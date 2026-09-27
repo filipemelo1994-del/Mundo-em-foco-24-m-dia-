@@ -55,7 +55,9 @@ def wrap(draw,text,f,maxw):
     return lines
 
 
-LOGO_FILE=os.path.join(os.path.dirname(os.path.dirname(__file__)),"assets","brand","logo-mundo-em-foco-24.webp")
+ROOT=os.path.dirname(os.path.dirname(__file__))
+LOGO_FILE=os.path.join(ROOT,"assets","brand","logo-mundo-em-foco-24.webp")
+TEMPLATE_FILE=os.path.join(ROOT,"assets","templates","mundo-em-foco24-publicacao.png")
 
 def brand_logo(max_w,max_h):
     """Carrega a logo oficial enviada pelo proprietário; nunca redesenha a marca."""
@@ -68,66 +70,61 @@ def brand_logo(max_w,max_h):
         return None
 
 def render(photo,title,category,date,credit,summary="",story=False):
-    c=photo.convert("RGBA")
-    # Story usa a mesma identidade; o quadro 1080x1350 será centralizado em 1080x1920.
-    # Padrão oficial: azul/branco, foto dominante e fumaça/degradê lateral.
-    fog=Image.new("RGBA",(W,H),(0,0,0,0)); fp=fog.load()
-    for x in range(W):
-        edge=min(x,W-1-x); strength=max(0.0,1.0-edge/(W*0.18)); a=int(150*(strength**1.7))
-        for y in range(142,930): fp[x,y]=(5,74,150,a)
-    c.alpha_composite(fog)
-    head=Image.new("RGBA",(W,176),(255,255,255,248)); c.alpha_composite(head,(0,0))
+    """Feed oficial: usa o PNG mestre aprovado como base fixa."""
+    tpl=Image.open(TEMPLATE_FILE).convert("RGBA")
+    # O asset mestre é preservado visualmente; ajustamos para o formato 4:5 do Instagram.
+    tpl=ImageOps.fit(tpl,(W,H),method=Image.Resampling.LANCZOS,centering=(0.5,0.5))
+    c=tpl.copy()
     d=ImageDraw.Draw(c)
-    f_logo=font(BOLD,43); f_24=font(BOLD,64); f_tag=font(REG,15); f_cat=font(BOLD,25)
-    f_title=font(BOLD,58); f_sum=font(REG,28); f_meta=font(REG,20)
-    d.polygon([(0,0),(650,0),(590,176),(0,176)],fill=DARK)
-    # Logo oficial da página (arquivo mestre); não redesenhar por código.
-    logo=brand_logo(500,145)
-    if logo:
-        c.alpha_composite(logo,(28,15))
-        d=ImageDraw.Draw(c)
-    if date: d.text((W-42,47),date.upper(),font=font(BOLD,22),fill=DARK,anchor="ra")
+
+    # Área variável da fotografia. Cobre integralmente o antigo placeholder.
+    photo_box=(0,215,W,790)
+    src=ImageOps.fit(ImageOps.exif_transpose(photo).convert("RGB"),
+                     (photo_box[2]-photo_box[0],photo_box[3]-photo_box[1]),
+                     method=Image.Resampling.LANCZOS,centering=(0.5,0.45))
+    c.paste(src,photo_box[:2])
+    d=ImageDraw.Draw(c)
+    d.line((0,215,W,215),fill=(20,210,255),width=3)
+    d.line((0,790,W,790),fill=(20,210,255),width=3)
+
+    # Data e categoria no espaço reservado do cabeçalho.
     region=(category or "NOTÍCIAS").upper()
-    d.polygon([(W-310,82),(W,82),(W,150),(W-350,150)],fill=(4,48,105))
-    d.text((W-155,116),region,font=f_cat,fill=WHITE,anchor="mm")
-    panel_y=840
-    panel=Image.new("RGBA",(W,H-panel_y),(4,30,67,246)); c.alpha_composite(panel,(0,panel_y))
-    d=ImageDraw.Draw(c); cat=(category or "NOTÍCIAS").upper()
-    cw=min(360,int(d.textlength(cat,font=f_cat)+70))
-    d.polygon([(38,panel_y-42),(38+cw,panel_y-42),(38+cw-28,panel_y+18),(18,panel_y+18)],fill=(8,117,226))
-    d.text((55,panel_y-12),cat,font=f_cat,fill=WHITE,anchor="lm")
-    title=(title or "").strip().upper(); tf=f_title; lines=wrap(d,title,tf,W-100)
-    while len(lines)>3 and tf.size>40:
+    if date:
+        d.text((W-45,55),date.upper(),font=font(BOLD,24),fill=DARK,anchor="ra")
+    d.text((W-170,132),region,font=font(BOLD,27),fill=WHITE,anchor="mm")
+
+    # Chip editorial do template.
+    d.text((55,772),region,font=font(BOLD,24),fill=WHITE,anchor="lm")
+
+    # Painel inferior sempre azul-marinho: elimina qualquer cinza residual.
+    panel_y=815
+    d.rectangle((0,panel_y,W,H-128),fill=(3,31,67,245))
+    title=(title or "").strip().upper()
+    tf=font(BOLD,55); lines=wrap(d,title,tf,W-100)
+    while len(lines)>3 and getattr(tf,"size",55)>38:
         tf=font(BOLD,tf.size-3); lines=wrap(d,title,tf,W-100)
-    y=panel_y+48; lh=tf.size+9
+    y=panel_y+34
     for line in lines[:3]:
-        d.text((48,y),line,font=tf,fill=WHITE,stroke_width=1,stroke_fill=(0,0,0,90)); y+=lh
+        d.text((48,y),line,font=tf,fill=WHITE); y+=tf.size+7
+
     if summary:
-        sf=f_sum; sl=wrap(d,summary.strip(),sf,W-120)[:2]; y+=8
-        d.rectangle((48,y,54,y+min(72,len(sl)*36)),fill=(28,194,246))
+        sf=font(REG,27); sl=wrap(d,summary.strip(),sf,W-130)[:2]; y+=8
+        d.rectangle((48,y,55,y+min(76,len(sl)*36)),fill=(24,210,244))
         for line in sl:
-            d.text((72,y),line,font=sf,fill=(235,243,252)); y+=36
-    footer_y=H-112
-    d.rectangle((0,footer_y,W,H),fill=(3,43,91))
-    # Globo oficial estilizado no rodapé (mesma linguagem do cabeçalho).
-    gx1,gy1,gx2,gy2=38,footer_y+25,92,footer_y+79
-    d.ellipse((gx1,gy1,gx2,gy2),outline=WHITE,width=3)
-    d.ellipse((gx1+12,gy1+2,gx2-12,gy2-2),outline=WHITE,width=2)
-    d.arc((gx1+2,gy1+13,gx2-2,gy2-13),0,360,fill=WHITE,width=2)
-    d.line((gx1+3,(gy1+gy2)//2,gx2-3,(gy1+gy2)//2),fill=WHITE,width=2)
-    d.text((112,footer_y+25),"ACOMPANHE MAIS NOTÍCIAS EM NOSSO PORTAL",font=font(BOLD,15),fill=WHITE)
-    d.text((112,footer_y+51),"www.mundoemfoco24.com.br",font=font(BOLD,21),fill=WHITE)
-    # Assinatura oficial fixa — nunca substituir pelo nome da pauta.
-    d.text((112,footer_y+79),"MUNDO EM FOCO 24",font=font(BOLD,18),fill=(27,197,247))
-    # Elementos fixos da identidade aprovada.
-    d.text((W-40,footer_y+37),"INFORMAÇÃO",font=font(BOLD,19),fill=WHITE,anchor="ra")
-    d.text((W-40,footer_y+65),"EM TODO LUGAR",font=font(BOLD,19),fill=(27,197,247),anchor="ra")
-    d.text((W-330,footer_y+82),"◎  f  ▶  ♪",font=font(BOLD,18),fill=WHITE,anchor="ra")
+            d.text((76,y),line,font=sf,fill=(238,246,255)); y+=36
+
     if credit:
         txt=credit if credit.lower().startswith("foto:") else "Foto: "+credit
-        d.text((48,footer_y-28),txt,font=f_meta,fill=(220,230,240))
-    return c.convert("RGB")
+        d.text((48,H-155),txt,font=font(REG,18),fill=(220,232,245))
 
+    # Rodapé é parte do template mestre. Reforça o fundo azul para evitar cinza.
+    d.rectangle((0,H-128,W,H),fill=(2,37,78,248))
+    d.text((112,H-98),"ACOMPANHE MAIS NOTÍCIAS EM NOSSO PORTAL",font=font(BOLD,14),fill=WHITE)
+    d.text((112,H-70),"www.mundoemfoco24.com.br",font=font(BOLD,20),fill=WHITE)
+    d.text((W-42,H-91),"INFORMAÇÃO",font=font(BOLD,18),fill=WHITE,anchor="ra")
+    d.text((W-42,H-62),"EM TODO LUGAR",font=font(BOLD,18),fill=(24,210,244),anchor="ra")
+    d.text((W-345,H-70),"◎  f  ▶  ♪",font=font(BOLD,19),fill=WHITE,anchor="ra")
+    return c.convert("RGB")
 
 def render_story(photo,title,category,date,credit,summary=""):
     """Arte Story 1080x1920: foto sempre contida, sem crop, zoom ou distorção."""
