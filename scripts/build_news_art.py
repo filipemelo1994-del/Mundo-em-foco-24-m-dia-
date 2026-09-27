@@ -55,10 +55,7 @@ def wrap(draw,text,f,maxw):
     return lines
 
 
-ROOT=os.path.dirname(os.path.dirname(__file__))
-LOGO_FILE=os.path.join(ROOT,"assets","brand","logo-mundo-em-foco-24.webp")
-TEMPLATE_FILE=os.path.join(ROOT,"assets","templates","mundo-em-foco24-publicacao.png")
-OFFICIAL_LAYOUT_FILE=os.path.join(ROOT,"assets","templates","layout-oficial-mundo-em-foco24.webp")
+ROOT=os.path.dirname(os.path.dirname(__file__))\nLOGO_FILE=os.path.join(ROOT,"assets","brand","logo-mundo-em-foco-24.webp")\nOFFICIAL_LAYOUT_FILE=os.path.join(ROOT,"assets","templates","layout-oficial-mundo-em-foco24.webp")
 
 def brand_logo(max_w,max_h):
     """Carrega a logo oficial enviada pelo proprietário; nunca redesenha a marca."""
@@ -71,6 +68,5 @@ def brand_logo(max_w,max_h):
         return None
 
 def render(photo,title,category,date,credit,summary="",story=False):
-    # Teste fiel do layout mestre: nenhuma reconstrução da identidade.
-    # O pipeline salva o retorno como JPEG compatível com Instagram.
     return Image.open(OFFICIAL_LAYOUT_FILE).convert("RGB")
+
