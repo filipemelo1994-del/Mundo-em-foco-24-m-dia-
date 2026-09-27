@@ -1,63 +1,25 @@
 name: Claude Review
-# Segunda opinião técnica. Claude NÃO publica no Instagram e NÃO altera produção.
+# Revisão opcional. Não participa da publicação via Windsor.ai.
 on:
-  repository_dispatch:
-    types: [claude_review_request]
   workflow_dispatch:
     inputs:
       request_json:
-        description: "Pedido completo (schemas/claude-review-request.v1.json) em uma linha"
+        description: "Pedido completo conforme schemas/claude-review-request.v1.json"
         required: true
         type: string
 permissions:
-  contents: write
-concurrency:
-  group: claude-review-${{ github.event.client_payload.task_id || 'manual' }}
-  cancel-in-progress: false
+  contents: read
 jobs:
-  review:
+  prepare-review:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - name: Write request file
+          ref: test/v1-feed-integration
+      - name: Validate review request
         env:
-          PAYLOAD: ${{ github.event_name == 'repository_dispatch' && toJSON(github.event.client_payload) || inputs.request_json }}
+          PAYLOAD: ${{ inputs.request_json }}
         run: |
           printf '%s' "$PAYLOAD" > "$RUNNER_TEMP/request.json"
           python3 -c "import json,sys; json.load(open(sys.argv[1], encoding='utf-8'))" "$RUNNER_TEMP/request.json"
-      - name: Gate and request review
-        id: review
-        env:
-          CLAUDE_REVIEW_URL: ${{ secrets.CLAUDE_REVIEW_URL }}
-          CLAUDE_REVIEW_KEY: ${{ secrets.CLAUDE_REVIEW_KEY }}
-          CLAUDE_REVIEW_HMAC_SECRET: ${{ secrets.CLAUDE_REVIEW_HMAC_SECRET }}
-        run: |
-          set +e
-          python3 scripts/request_claude_review.py --request-file "$RUNNER_TEMP/request.json" --output-json "$RUNNER_TEMP/review-response.json" --update-queue
-          code=$?
-          echo "code=$code" >> "$GITHUB_OUTPUT"
-          case "$code" in
-            0) echo "Parecer recebido." ;;
-            10) echo "::warning::HUMAN_REVIEW_REQUIRED." ;;
-            30) echo "::warning::Claude indisponível; rodada não consumida." ;;
-            *) echo "::error::Falha ao pedir revisão (código $code)."; exit 1 ;;
-          esac
-          exit 0
-      - name: Commit queue update
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/publish-queue.json
-          if ! git diff --cached --quiet; then
-            git commit -m "chore(review): atualiza fila com o resultado da revisão"
-            for i in 1 2 3; do
-              git pull --rebase origin main && git push origin main && break
-              sleep 3
-            done
-          fi
+          echo "Pedido válido. Claude permanece consultivo e deve ser chamado pelo orquestrador externo quando configurado."
