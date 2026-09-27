@@ -1,0 +1,43 @@
+name: Auto Publish Instagram Hourly
+on:
+  schedule:
+    - cron: '7 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: mundo-em-foco-auto-instagram
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Publish one validated pending feed item
+        env:
+          WINDSOR_API_KEY: ${{ secrets.WINDSOR_API_KEY }}
+          INSTAGRAM_ACCOUNT_ID: '17841436453506787'
+          PAGES_BASE: 'https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-'
+        run: python3 scripts/auto_publish_windsor.py
+      - name: Commit queue confirmation
+        if: ${{ !cancelled() }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/publish-queue.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: confirma publicação automática no Instagram'
+            for attempt in 1 2 3; do
+              git fetch origin main
+              if git rebase origin/main && git push origin main; then exit 0; fi
+              git rebase --abort 2>/dev/null || true
+              sleep $((attempt * 3))
+            done
+            exit 1
+          fi
