@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-27T23:43:47.142812+00:00",
+  "updated_at": "2026-09-27T23:44:32.819927+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -1056,6 +1056,26 @@
         "story": 0
       },
       "last_error": "build_news_art_v2 exit=3"
+    },
+    "crew-13-chega-kennedy-26-09-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "d96b958a04b4044c7b168e743a730bf37d0b63e4f716c497c4655b80adc02e16",
+      "art_validation": {
+        "passed": true,
+        "sha256": "d96b958a04b4044c7b168e743a730bf37d0b63e4f716c497c4655b80adc02e16",
+        "failed": [],
+        "checked_at": "2026-09-27T23:44:32.789902+00:00"
+      }
     }
   }
 }
