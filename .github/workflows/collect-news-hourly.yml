@@ -1,7 +1,7 @@
-name: Collect New News Hourly
+name: Collect New News Every 30 Minutes
 on:
   schedule:
-    - cron: '45 * * * *'
+    - cron: '15,45 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
