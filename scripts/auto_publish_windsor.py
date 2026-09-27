@@ -31,7 +31,7 @@ def main():
  for nid,item in q.get("items",{}).items():
   n=byid.get(nid); pv=pvall.get(nid) or {}
   if eligible_item(nid,item,n,pv): eligible.append((n.get("published",""),nid,item,n,pv))
- eligible.sort()
+ eligible.sort(key=lambda x: str(x[0]))
  if not eligible: print("Nenhuma matéria validada elegível."); return 0
  _,nid,item,n,pv=eligible[0]; image_url=(n.get("instagramImage") or "").strip()
  try:
