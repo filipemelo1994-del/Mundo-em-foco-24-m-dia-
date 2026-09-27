@@ -1,0 +1,273 @@
+{
+  "schema_version": "1.0",
+  "kind": "feed",
+  "status": "APPROVED",
+  "approval": {
+    "scope": "V1 operacional do feed (1080x1080)",
+    "state": "aprovada por Filipe em 2026-09-27 para uso operacional; revisão do ChatGPT pendente antes do merge em main",
+    "v1_1_pending": [
+      "título: ajuste fino de quebra de linha e posição",
+      "transição foto→painel (borda suave entre a foto e o painel de texto)",
+      "forma/posição do chip de categoria sobre a foto",
+      "posicionamento geral fino (globe, barra de destaque)",
+      "fonte definitiva da arte aprovada (hoje: Work Sans, provisória — ver assets/fonts/README.md)",
+      "PNG original íntegro no lugar da referência JPEG preliminar (assets/templates/reference/referencia-preliminar-1536.jpg)"
+    ]
+  },
+  "note": "V1 do feed 1:1 (saída 1080x1080). Master RGBA gerado por scripts/make_master_feed_1x1.py a partir da referência preliminar JPEG 1536x1536. Zonas e separação template/conteúdo variável não devem mudar em V1.1; V1.1 ajusta apenas posição/medidas dentro dessa mesma arquitetura e, quando chegar, o PNG original.",
+  "reference": {
+    "file": "assets/templates/reference/referencia-preliminar-1536.jpg",
+    "sha256": "f75251396209de48da3decb7adac80255792ba3738bebc840f1c837b8f2bbf84",
+    "width": 1536,
+    "height": 1536
+  },
+  "master": {
+    "source": "file",
+    "file": "assets/templates/master-feed-v1.png",
+    "sha256": "452f5f07f5bfbf591be4a2d567d978dace53d1a6485a4f57539c421c102031c8"
+  },
+  "output": {
+    "width": 1080,
+    "height": 1080,
+    "jpeg_quality": 95,
+    "max_bytes": 8388608,
+    "text_supersample": 2
+  },
+  "fonts": {
+    "bold": [
+      "assets/fonts/WorkSans_800ExtraBold.ttf"
+    ],
+    "regular": [
+      "assets/fonts/WorkSans_500Medium.ttf"
+    ],
+    "credits": "Work Sans (Wei Huang), SIL OFL 1.1, via npm @expo-google-fonts/work-sans 0.4.2; escolhida por sobreposição de tinta com a referência"
+  },
+  "zones": {
+    "photo": {
+      "rect": [
+        0,
+        245,
+        1536,
+        640
+      ],
+      "window": [
+        0,
+        255,
+        1536,
+        570
+      ],
+      "fit": "cover",
+      "focus_y": 0.4,
+      "radius": 0,
+      "clear": {
+        "mode": "none"
+      }
+    },
+    "date": {
+      "rect": [
+        1174,
+        56,
+        300,
+        52
+      ],
+      "clear": {
+        "mode": "none"
+      },
+      "text": {
+        "font": "bold",
+        "size": 38,
+        "min_size": 31,
+        "color": [
+          8,
+          22,
+          53
+        ],
+        "align": "center",
+        "case": "upper",
+        "max_lines": 1,
+        "baseline_first": 94
+      }
+    },
+    "category": {
+      "rect": [
+        1137,
+        143,
+        341,
+        56
+      ],
+      "clear": {
+        "mode": "none"
+      },
+      "text": {
+        "font": "bold",
+        "size": 44,
+        "min_size": 36,
+        "color": [
+          243,
+          248,
+          251
+        ],
+        "align": "center",
+        "case": "upper",
+        "max_lines": 1,
+        "baseline_first": 185
+      }
+    },
+    "category_chip": {
+      "rect": [
+        80,
+        834,
+        281,
+        44
+      ],
+      "clear": {
+        "mode": "none"
+      },
+      "text": {
+        "font": "bold",
+        "size": 33,
+        "min_size": 27,
+        "color": [
+          240,
+          250,
+          254
+        ],
+        "align": "center",
+        "case": "upper",
+        "max_lines": 1,
+        "baseline_first": 867
+      }
+    },
+    "title": {
+      "rect": [
+        85,
+        905,
+        1216,
+        250
+      ],
+      "clear": {
+        "mode": "none"
+      },
+      "text": {
+        "font": "bold",
+        "size": 86,
+        "min_size": 71,
+        "color": [
+          249,
+          250,
+          251
+        ],
+        "case": "upper",
+        "max_lines": 3,
+        "baseline_first": 979,
+        "line_pitch": 77,
+        "accent_color": [
+          5,
+          233,
+          250
+        ],
+        "accent_last_words": 2
+      }
+    },
+    "summary": {
+      "rect": [
+        128,
+        1160,
+        1000,
+        120
+      ],
+      "clear": {
+        "mode": "none"
+      },
+      "required": false,
+      "text": {
+        "font": "regular",
+        "size": 31,
+        "min_size": 25,
+        "color": [
+          234,
+          241,
+          251
+        ],
+        "max_lines": 3,
+        "ellipsis": true,
+        "line_pitch": 38.5,
+        "baseline_first": 1187
+      }
+    },
+    "credit": {
+      "rect": [
+        89,
+        1302,
+        610,
+        30
+      ],
+      "clear": {
+        "mode": "none"
+      },
+      "required": false,
+      "text": {
+        "font": "regular",
+        "size": 22,
+        "min_size": 18,
+        "color": [
+          173,
+          182,
+          203
+        ],
+        "max_lines": 1,
+        "prefix": "Foto: ",
+        "baseline_first": 1326
+      }
+    }
+  },
+  "fixed_zones": {
+    "header_left": [
+      0,
+      0,
+      880,
+      245
+    ],
+    "logo": [
+      74,
+      21,
+      694,
+      214
+    ],
+    "footer": [
+      0,
+      1353,
+      1536,
+      183
+    ],
+    "globe": [
+      1235,
+      1146,
+      301,
+      207
+    ],
+    "bar": [
+      91,
+      1160,
+      11,
+      113
+    ]
+  },
+  "master_clean_regions": [
+    [
+      0,
+      896,
+      80,
+      436
+    ],
+    [
+      112,
+      896,
+      1123,
+      436
+    ]
+  ],
+  "validation": {
+    "mode": "reference"
+  }
+}

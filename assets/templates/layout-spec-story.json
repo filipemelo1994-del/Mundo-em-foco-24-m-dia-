@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "kind": "story",
+  "status": "APPROVED",
+  "note": "Story 1080x1920 gerado por render_story (scripts/build_news_art.py). Sem PNG de referência: validação estrutural (dimensões, foto, texto presente, cores fixas). Coordenadas tiradas do próprio render_story.",
+  "output": { "width": 1080, "height": 1920, "jpeg_quality": 93, "max_bytes": 8388608 },
+  "validation": { "mode": "structural", "photo_std_min": 6.0 },
+  "zones": {
+    "photo": { "rect": [48, 238, 984, 887], "inner": 0.5 },
+    "category": { "rect": [48, 1168, 500, 62], "min_std": 3.0 },
+    "date": { "rect": [800, 35, 240, 32], "min_std": 3.0 },
+    "title": { "rect": [48, 1258, 984, 260], "min_std": 3.0 }
+  },
+  "signature_zones": [
+    { "name": "rodape-azul", "rect": [0, 1750, 1080, 170], "color": [3, 43, 91], "tol": 40 },
+    { "name": "faixa-branca-topo", "rect": [700, 0, 380, 30], "color": [255, 255, 255], "tol": 12 }
+  ]
+}

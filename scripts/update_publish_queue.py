@@ -14,6 +14,10 @@ p.add_argument("--feed-art",action="store_true")
 p.add_argument("--story-art",action="store_true")
 p.add_argument("--increment",choices=["feed","story"])
 p.add_argument("--sync-news",action="store_true")
+# Aditivos (opcionais): revisão Claude e validação de arte. Sem eles o comportamento é o de sempre.
+p.add_argument("--review-json",help="resposta do endpoint claude-review (grava item.review)")
+p.add_argument("--art-sha256")
+p.add_argument("--art-validation",help="relatório de scripts/validate_news_art.py (grava item.art_validation)")
 a=p.parse_args()
 
 try:
@@ -44,6 +48,32 @@ if a.id:
     if a.increment:
         item.setdefault("attempts",{}).setdefault(a.increment,0)
         item["attempts"][a.increment]+=1
+    if a.art_sha256:item["art_sha256"]=a.art_sha256
+    if a.art_validation:
+        with open(a.art_validation,encoding="utf-8") as f: rep=json.load(f)
+        item["art_validation"]={
+            "passed":bool(rep.get("passed")),
+            "sha256":rep.get("sha256"),
+            "failed":[c.get("id") for c in rep.get("checks",[]) if c.get("result")=="fail"],
+            "checked_at":datetime.now(timezone.utc).isoformat(),
+        }
+    if a.review_json:
+        with open(a.review_json,encoding="utf-8") as f: resp=json.load(f)
+        rev=resp.get("review") or {}
+        item["review"]={
+            "task_id":resp.get("task_id"),
+            "round":resp.get("round"),
+            "decision":resp.get("decision"),
+            "status":rev.get("status"),
+            "publish":rev.get("publish"),
+            "next_action":resp.get("next_action"),
+            "rounds_used":resp.get("rounds_used"),
+            "review_file":resp.get("review_file"),
+            "updated_at":datetime.now(timezone.utc).isoformat(),
+        }
+        if resp.get("next_action")=="HUMAN_REVIEW_REQUIRED" or resp.get("decision")=="HUMAN_REVIEW_REQUIRED":
+            item["review"]["previous_state"]=item.get("state")
+            item["state"]="HUMAN_REVIEW_REQUIRED"
 
 q["updated_at"]=datetime.now(timezone.utc).isoformat()
 os.makedirs(os.path.dirname(a.queue) or ".",exist_ok=True)

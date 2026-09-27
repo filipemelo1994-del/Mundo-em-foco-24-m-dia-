@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "max_review_rounds": 2,
+  "max_transport_failures": 3,
+  "hourly_cap": 20,
+  "global": { "window_start": null, "count": 0 },
+  "tasks": {}
+}

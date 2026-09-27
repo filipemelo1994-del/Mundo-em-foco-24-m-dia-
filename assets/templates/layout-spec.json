@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "kind": "feed",
+  "status": "PENDING_REFERENCE",
+  "note": "PENDENTE. O gerador de feed recusa rodar enquanto status != APPROVED. Preencher com as medidas extraídas do PNG original aprovado (use scripts/measure_reference.py) e trocar o status para APPROVED. Coordenadas em pixels do PNG de referência: [x, y, largura, altura].",
+  "reference": {
+    "file": "assets/templates/reference/layout-oficial-mundo-em-foco24.png",
+    "sha256": "",
+    "width": 0,
+    "height": 0
+  },
+  "master": { "source": "generate" },
+  "output": { "width": 1080, "height": 1350, "jpeg_quality": 93, "max_bytes": 8388608 },
+  "fonts": {
+    "bold": ["assets/fonts/FONTE-DA-ARTE-APROVADA-Bold.ttf"],
+    "regular": ["assets/fonts/FONTE-DA-ARTE-APROVADA-Regular.ttf"]
+  },
+  "zones": {
+    "photo": { "rect": [0, 0, 0, 0], "fit": "cover", "focus_y": 0.32, "radius": 0, "clear": { "mode": "solid", "color": [0, 0, 0] } },
+    "category": {
+      "rect": [0, 0, 0, 0],
+      "text": { "font": "bold", "size": 0, "min_size": 0, "color": [255, 255, 255], "align": "center", "valign": "middle", "case": "upper", "max_lines": 1 },
+      "clear": { "mode": "interpolate_rows", "pad": 4 }
+    },
+    "date": {
+      "rect": [0, 0, 0, 0],
+      "text": { "font": "bold", "size": 0, "min_size": 0, "color": [0, 0, 0], "align": "right", "valign": "middle", "case": "upper", "max_lines": 1 },
+      "clear": { "mode": "interpolate_rows", "pad": 4 }
+    },
+    "title": {
+      "rect": [0, 0, 0, 0],
+      "text": { "font": "bold", "size": 0, "min_size": 0, "color": [255, 255, 255], "align": "left", "case": "upper", "max_lines": 4, "line_spacing": 1.12 },
+      "clear": { "mode": "interpolate_rows", "pad": 4 }
+    },
+    "summary": {
+      "rect": [0, 0, 0, 0], "required": false,
+      "text": { "font": "regular", "size": 0, "min_size": 0, "color": [225, 237, 249], "align": "left", "max_lines": 3, "ellipsis": true, "line_spacing": 1.25 },
+      "clear": { "mode": "interpolate_rows", "pad": 4 }
+    },
+    "credit": {
+      "rect": [0, 0, 0, 0], "required": false,
+      "text": { "font": "regular", "size": 0, "min_size": 0, "color": [220, 230, 240], "align": "left", "max_lines": 2, "prefix": "Foto: ", "line_spacing": 1.1 },
+      "clear": { "mode": "interpolate_rows", "pad": 4 }
+    }
+  },
+  "fixed_zones": {
+    "header": [0, 0, 0, 0],
+    "logo": [0, 0, 0, 0],
+    "footer": [0, 0, 0, 0]
+  },
+  "validation": {
+    "mode": "reference",
+    "master_mae_min": 3.0,
+    "dhash_min_distance": 10,
+    "identity_mae_max": 4.0,
+    "complement_mae_max": 4.0
+  }
+}
