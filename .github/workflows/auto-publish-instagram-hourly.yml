@@ -8,6 +8,7 @@ permissions:
 concurrency:
   group: mundo-em-foco-auto-instagram
   cancel-in-progress: false
+
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -19,14 +20,42 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Publish one validated pending feed item
+      - name: Select newest validated unpublished item only
+        id: select
+        shell: bash
+        run: |
+          ID=$(python3 - <<'PY'
+          import json
+          with open("data/news.json",encoding="utf-8") as f: news=json.load(f)
+          with open("data/publish-queue.json",encoding="utf-8") as f: q=json.load(f)
+          byid={n.get("id"):n for n in news}
+          candidates=[]
+          for nid,item in (q.get("items") or {}).items():
+              n=byid.get(nid)
+              if not n: continue
+              if item.get("state")!="FEED_PENDENTE" or item.get("feed_media_id"): continue
+              if not item.get("portal") or not item.get("feed_art"): continue
+              image=(n.get("instagramImage") or "").strip()
+              if not image.startswith("https://raw.githubusercontent.com/"): continue
+              published=str(n.get("published") or "")
+              # Automação horária não drena backlog antigo: somente pautas de 27/09/2026 em diante.
+              if "2026-09-27" not in published and not str(nid).endswith("-27-09-2026"): continue
+              candidates.append((published,str(nid)))
+          candidates.sort(reverse=True)
+          print(candidates[0][1] if candidates else "")
+          PY
+          )
+          echo "news_id=$ID" >> "$GITHUB_OUTPUT"
+          [ -n "$ID" ] && echo "Selecionada: $ID" || echo "Nenhuma pauta nova elegível; nada será publicado."
+      - name: Publish exactly selected item
+        if: ${{ steps.select.outputs.news_id != '' }}
         env:
           WINDSOR_API_KEY: ${{ secrets.WINDSOR_API_KEY }}
           INSTAGRAM_ACCOUNT_ID: '17841436453506787'
-          PAGES_BASE: 'https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-'
+          PUBLISH_NEWS_ID: ${{ steps.select.outputs.news_id }}
         run: python3 scripts/auto_publish_windsor.py
-      - name: Commit queue confirmation
-        if: ${{ !cancelled() }}
+      - name: Commit media_id confirmation
+        if: ${{ steps.select.outputs.news_id != '' && !cancelled() }}
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
