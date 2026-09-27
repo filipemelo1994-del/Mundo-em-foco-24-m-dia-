@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-27T15:19:51.668358+00:00",
+  "updated_at": "2026-09-27T15:22:26.035255+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -855,14 +855,14 @@
       "last_error": null
     },
     "nova-ra-de-vidro-cerrado-vitreorana-micaelae-23-09-2026": {
-      "state": "FEED_PENDENTE",
+      "state": "STORY_PENDENTE",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "18111564185015587",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
       "last_error": null
