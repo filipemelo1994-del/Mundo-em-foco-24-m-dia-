@@ -19,16 +19,49 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-dejavu-core
+      - run: pip install --quiet requests pillow
       - name: Collect one fresh non-political story
         run: python3 scripts/collect_news.py
-      - name: Commit request
+      - name: Build and validate the collected story
+        shell: bash
+        run: |
+          shopt -s nullglob
+          for req in requests/news/*.json; do
+            id=$(python3 -c "import json,sys;print(json.load(open(sys.argv[1],encoding='utf-8'))['id'])" "$req")
+            set +e
+            python3 scripts/build_news_art_v2.py --request-json "$req" --output-json "/tmp/result-$id.json"
+            status=$?
+            set -e
+            if [ "$status" -ne 0 ]; then
+              echo "::warning::Arte reprovada/erro para $id; não entra na fila."
+              mkdir -p requests/news/failed
+              mv "$req" "requests/news/failed/$(basename "$req")"
+              continue
+            fi
+            python3 scripts/append_news_entry.py --entry "$req"
+            source_image=$(python3 -c "import json;print(json.load(open('/tmp/result-$id.json'))['sourceImage'])")
+            out_path=$(python3 -c "import json;print(json.load(open('/tmp/result-$id.json'))['path'])")
+            art_sha=$(python3 -c "import json;print(json.load(open('/tmp/result-$id.json'))['sha256'])")
+            url="https://raw.githubusercontent.com/\${GITHUB_REPOSITORY}/main/\${out_path}"
+            python3 scripts/update_news_entry.py --file data/news.json --id "$id" --source-image "$source_image" --instagram-image "$url"
+            python3 scripts/update_publish_queue.py --id "$id" --state FEED_PENDENTE --feed-art --art-sha256 "$art_sha" --error ""
+            rm -f "$req"
+          done
+      - name: Commit new story and validated art
         run: |
           git config user.name 'Mundo em Foco 24 Bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add requests/news
+          git add -A requests/news data/news.json data/publish-queue.json public/news-art
           if ! git diff --cached --quiet; then
-            git commit -m 'auto: adiciona nova pauta para publicação'
-            git push origin main
+            git commit -m 'auto: coleta pauta e gera arte validada'
+            for attempt in 1 2 3; do
+              git fetch origin main
+              if git rebase origin/main && git push origin main; then exit 0; fi
+              git rebase --abort 2>/dev/null || true
+              sleep $((attempt * 3))
+            done
+            exit 1
           else
-            echo 'Nenhuma pauta nova.'
+            echo 'Nenhuma pauta nova pronta.'
           fi
