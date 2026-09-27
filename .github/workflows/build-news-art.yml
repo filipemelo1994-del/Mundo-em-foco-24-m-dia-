@@ -10,6 +10,7 @@ on:
     branches: [main]
     paths:
       - "requests/news-art/*.json"
+      - "requests/news-art-now/*.json"
 permissions:
   contents: write
 concurrency:
@@ -50,11 +51,11 @@ jobs:
         id: process
         shell: bash
         run: |
-          mkdir -p requests/news-art/failed public/news-art public/story-art
+          mkdir -p requests/news-art/failed requests/news-art-now public/news-art public/story-art
           shopt -s nullglob
           OK=""
           FAIL=0
-          for req in requests/news-art/*.json; do
+          for req in requests/news-art-now/*.json requests/news-art/*.json; do
             id=$(python3 -c "import json,sys; print(json.load(open(sys.argv[1],encoding='utf-8')).get('id',''))" "$req")
             [ -n "$id" ] || { mv "$req" "requests/news-art/failed/$(basename "$req")"; FAIL=1; continue; }
             set +e
@@ -87,7 +88,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A public/news-art public/story-art requests/news-art data/news.json data/publish-queue.json
+          git add -A public/news-art public/story-art requests/news-art requests/news-art-now data/news.json data/publish-queue.json
           git diff --cached --quiet || { git commit -m "chore: build Mundo em Foco 24 news art"; git push origin main; }
       - name: Publish validated feed item immediately
         if: ${{ success() }}
