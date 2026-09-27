@@ -70,60 +70,68 @@ def brand_logo(max_w,max_h):
         return None
 
 def render(photo,title,category,date,credit,summary="",story=False):
-    """Feed oficial: usa o PNG mestre aprovado como base fixa."""
-    tpl=Image.open(TEMPLATE_FILE).convert("RGBA")
-    # O asset mestre é preservado visualmente; ajustamos para o formato 4:5 do Instagram.
-    tpl=ImageOps.fit(tpl,(W,H),method=Image.Resampling.LANCZOS,centering=(0.5,0.5))
-    c=tpl.copy()
+    """Feed 4:5 inspirado no template mestre, sem distorcer ou recortar a identidade."""
+    c=Image.new("RGBA",(W,H),(3,28,61,255))
     d=ImageDraw.Draw(c)
 
-    # Área variável da fotografia. Cobre integralmente o antigo placeholder.
-    photo_box=(0,215,W,790)
-    src=ImageOps.fit(ImageOps.exif_transpose(photo).convert("RGB"),
-                     (photo_box[2]-photo_box[0],photo_box[3]-photo_box[1]),
-                     method=Image.Resampling.LANCZOS,centering=(0.5,0.45))
-    c.paste(src,photo_box[:2])
+    # Cabeçalho premium azul/ciano.
+    d.rectangle((0,0,W,190),fill=(4,35,75,255))
+    d.polygon([(0,0),(650,0),(590,190),(0,190)],fill=(3,25,57,255))
+    d.line((0,188,W,188),fill=(20,210,255),width=4)
+    logo=brand_logo(500,150)
+    if logo: c.alpha_composite(logo,(26,20))
     d=ImageDraw.Draw(c)
-    d.line((0,215,W,215),fill=(20,210,255),width=3)
-    d.line((0,790,W,790),fill=(20,210,255),width=3)
-
-    # Data e categoria no espaço reservado do cabeçalho.
+    if date: d.text((W-42,48),date.upper(),font=font(BOLD,23),fill=WHITE,anchor="ra")
     region=(category or "NOTÍCIAS").upper()
-    if date:
-        d.text((W-45,55),date.upper(),font=font(BOLD,24),fill=DARK,anchor="ra")
-    d.text((W-170,132),region,font=font(BOLD,27),fill=WHITE,anchor="mm")
+    d.polygon([(W-345,88),(W,88),(W,158),(W-385,158)],fill=(7,102,196))
+    d.text((W-175,123),region,font=font(BOLD,26),fill=WHITE,anchor="mm")
 
-    # Chip editorial do template.
-    d.text((55,772),region,font=font(BOLD,24),fill=WHITE,anchor="lm")
+    # Foto principal grande, limpa e sem fundo cinza.
+    box=(0,190,W,800)
+    src=ImageOps.fit(ImageOps.exif_transpose(photo).convert("RGB"),(W,610),
+                     method=Image.Resampling.LANCZOS,centering=(0.5,0.45))
+    c.paste(src,(0,190))
+    d=ImageDraw.Draw(c)
+    # Gradiente azul sobre a base da foto para integrar com o painel.
+    grad=Image.new("RGBA",(W,150),(0,0,0,0)); gd=ImageDraw.Draw(grad)
+    for yy in range(150):
+        a=int(235*(yy/149)**1.8); gd.line((0,yy,W,yy),fill=(3,28,61,a))
+    c.alpha_composite(grad,(0,650))
+    d=ImageDraw.Draw(c)
 
-    # Painel inferior sempre azul-marinho: elimina qualquer cinza residual.
-    panel_y=815
-    d.rectangle((0,panel_y,W,H-128),fill=(3,31,67,245))
+    # Chip da editoria e painel textual.
+    d.polygon([(38,758),(360,758),(330,818),(18,818)],fill=(7,125,232))
+    d.text((55,788),region,font=font(BOLD,24),fill=WHITE,anchor="lm")
+    panel_y=800
+    d.rectangle((0,panel_y,W,H-125),fill=(3,28,61))
     title=(title or "").strip().upper()
-    tf=font(BOLD,55); lines=wrap(d,title,tf,W-100)
-    while len(lines)>3 and getattr(tf,"size",55)>38:
-        tf=font(BOLD,tf.size-3); lines=wrap(d,title,tf,W-100)
-    y=panel_y+34
+    tf=font(BOLD,54); lines=wrap(d,title,tf,W-96)
+    while len(lines)>3 and tf.size>39:
+        tf=font(BOLD,tf.size-3); lines=wrap(d,title,tf,W-96)
+    y=842
     for line in lines[:3]:
         d.text((48,y),line,font=tf,fill=WHITE); y+=tf.size+7
-
     if summary:
-        sf=font(REG,27); sl=wrap(d,summary.strip(),sf,W-130)[:2]; y+=8
-        d.rectangle((48,y,55,y+min(76,len(sl)*36)),fill=(24,210,244))
+        sf=font(REG,26); sl=wrap(d,summary.strip(),sf,W-130)[:2]; y+=10
+        d.rectangle((48,y,55,y+min(74,len(sl)*36)),fill=(20,210,255))
         for line in sl:
-            d.text((76,y),line,font=sf,fill=(238,246,255)); y+=36
-
+            d.text((76,y),line,font=sf,fill=(232,243,253)); y+=36
     if credit:
         txt=credit if credit.lower().startswith("foto:") else "Foto: "+credit
-        d.text((48,H-155),txt,font=font(REG,18),fill=(220,232,245))
+        d.text((48,H-151),txt,font=font(REG,18),fill=(205,222,240))
 
-    # Rodapé é parte do template mestre. Reforça o fundo azul para evitar cinza.
-    d.rectangle((0,H-128,W,H),fill=(2,37,78,248))
-    d.text((112,H-98),"ACOMPANHE MAIS NOTÍCIAS EM NOSSO PORTAL",font=font(BOLD,14),fill=WHITE)
-    d.text((112,H-70),"www.mundoemfoco24.com.br",font=font(BOLD,20),fill=WHITE)
-    d.text((W-42,H-91),"INFORMAÇÃO",font=font(BOLD,18),fill=WHITE,anchor="ra")
-    d.text((W-42,H-62),"EM TODO LUGAR",font=font(BOLD,18),fill=(24,210,244),anchor="ra")
-    d.text((W-345,H-70),"◎  f  ▶  ♪",font=font(BOLD,19),fill=WHITE,anchor="ra")
+    # Rodapé fixo da identidade: azul, globo e portal.
+    fy=H-125
+    d.rectangle((0,fy,W,H),fill=(2,39,84))
+    gx,gy=48,fy+62
+    d.ellipse((gx-28,gy-28,gx+28,gy+28),outline=(20,210,255),width=3)
+    d.ellipse((gx-12,gy-27,gx+12,gy+27),outline=(20,210,255),width=2)
+    d.line((gx-26,gy,gx+26,gy),fill=(20,210,255),width=2)
+    d.text((92,fy+30),"ACOMPANHE MAIS NOTÍCIAS EM NOSSO PORTAL",font=font(BOLD,14),fill=WHITE)
+    d.text((92,fy+58),"mundoemfoco24.netlify.app",font=font(BOLD,20),fill=(20,210,255))
+    d.text((W-42,fy+43),"INFORMAÇÃO",font=font(BOLD,18),fill=WHITE,anchor="ra")
+    d.text((W-42,fy+72),"EM TODO LUGAR",font=font(BOLD,18),fill=(20,210,255),anchor="ra")
+    d.text((W-315,fy+94),"◎   f   ▶   ♪",font=font(BOLD,18),fill=WHITE,anchor="ra")
     return c.convert("RGB")
 
 def render_story(photo,title,category,date,credit,summary=""):
