@@ -25,7 +25,7 @@ def download(urls):
         if not url: continue
         for n in range(3):
             try:
-                r=requests.get(url,timeout=30,headers={"User-Agent":"Mozilla/5.0 MundoEmFoco24/1.0"})
+                r=requests.get(url,timeout=30,headers={"User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/140 Safari/537.36","Accept":"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8","Referer":"https://www.diariodepernambuco.com.br/"})
                 r.raise_for_status()
                 im=Image.open(BytesIO(r.content)); im.load()
                 return im,url
