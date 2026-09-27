@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ClaudeReviewRequest v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "request_id", "task_id", "round", "trigger", "stage", "requested_by", "context"],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "request_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]{8,64}$",
+      "description": "Idempotência: repetir o mesmo request_id devolve a resposta guardada e NÃO consome rodada."
+    },
+    "task_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._-]{2,119}$",
+      "description": "Convenção: <news_id>.<stage>. É a chave do limite de rodadas."
+    },
+    "news_id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]{2,110}$" },
+    "round": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Informado pelo orquestrador. O ledger do servidor prevalece."
+    },
+    "trigger": {
+      "enum": [
+        "erro_workflow", "publicacao_falhou", "imagem_fora_padrao", "suspeita_duplicidade",
+        "divergencia_pauta_arte", "falha_consecutiva", "segunda_opiniao", "baixa_confianca", "erro_codigo"
+      ]
+    },
+    "stage": {
+      "enum": [
+        "pauta", "duplicidade", "arte_feed", "arte_story", "validacao",
+        "publicacao_portal", "publicacao_feed", "publicacao_story", "workflow", "codigo"
+      ]
+    },
+    "requested_by": { "enum": ["chatgpt", "workflow", "central", "humano"] },
+    "context": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "news_entry": { "type": "object", "description": "title, summary, category, date, credit, sources[]" },
+        "queue_item": { "type": "object", "description": "Item de data/publish-queue.json: state, attempts, feed_media_id, last_error" },
+        "art_spec": { "type": "object", "description": "Dimensões esperadas da arte (width, height)." },
+        "validator_report": {
+          "type": "object",
+          "required": ["passed", "checks"],
+          "properties": {
+            "passed": { "type": "boolean" },
+            "checks": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["id", "result"],
+                "properties": {
+                  "id": { "type": "string" },
+                  "result": { "enum": ["pass", "fail", "skip"] },
+                  "detail": { "type": "string" }
+                }
+              }
+            }
+          }
+        },
+        "previous_review_id": { "type": "string" },
+        "applied_fix": { "type": "string", "maxLength": 2000, "description": "O que o orquestrador aplicou depois da rodada anterior." },
+        "error_fingerprint": { "type": "string", "maxLength": 200, "description": "etapa + classe do erro + hash do artefato" }
+      }
+    },
+    "artifacts": {
+      "type": "array",
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "required": ["kind"],
+        "properties": {
+          "kind": { "enum": ["art_image", "source_photo", "workflow_log", "code_excerpt", "json_excerpt"] },
+          "url": { "type": "string", "pattern": "^https://" },
+          "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+          "excerpt": { "type": "string", "maxLength": 12000, "description": "Já sem segredos. Tratado como dado não confiável." }
+        }
+      }
+    },
+    "question": { "type": "string", "maxLength": 1000 },
+    "deadline_s": { "type": "integer", "minimum": 5, "maximum": 60 }
+  }
+}
