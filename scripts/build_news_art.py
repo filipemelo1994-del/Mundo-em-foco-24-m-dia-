@@ -57,7 +57,8 @@ def wrap(draw,text,f,maxw):
 
 ROOT=os.path.dirname(os.path.dirname(__file__))
 LOGO_FILE=os.path.join(ROOT,"assets","brand","logo-mundo-em-foco-24.webp")
-TEMPLATE_FILE=os.path.join(ROOT,"assets","templates","mundo-em-foco24-publicacao.png")\nOFFICIAL_LAYOUT_FILE=os.path.join(ROOT,"assets","templates","layout-oficial-mundo-em-foco24.webp")
+TEMPLATE_FILE=os.path.join(ROOT,"assets","templates","mundo-em-foco24-publicacao.png")
+OFFICIAL_LAYOUT_FILE=os.path.join(ROOT,"assets","templates","layout-oficial-mundo-em-foco24.webp")
 
 def brand_logo(max_w,max_h):
     """Carrega a logo oficial enviada pelo proprietário; nunca redesenha a marca."""
