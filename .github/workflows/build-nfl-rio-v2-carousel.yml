@@ -1,0 +1,23 @@
+name: Build NFL Rio V2 Photo Carousel
+on:
+  push:
+    branches: [main]
+    paths: ['requests/carousel/nfl-rio-v2-fotos.json']
+permissions: {contents: write}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: sudo apt-get update && sudo apt-get install -y fonts-dejavu-core
+      - run: pip install pillow requests
+      - run: python scripts/build_nfl_rio_v2_carousel.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/carousel/nfl-rio-v2-fotos-28-09-2026
+          git commit -m "art: NFL Rio fotos no layout V2" || exit 0
+          git pull --rebase origin main
+          git push origin main
