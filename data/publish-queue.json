@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-28T08:06:19.542406+00:00",
+  "updated_at": "2026-09-28T14:47:51.815861+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -1228,6 +1228,26 @@
         "sha256": "bf939d0a5ea894f989f3569b0beb2378fd875acd565bc24906d1a55aaa8027a1",
         "failed": [],
         "checked_at": "2026-09-28T08:06:19.520352+00:00"
+      }
+    },
+    "hubble-ngc4698-galaxia-fora-de-sincronia-28-09-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "be796912baefb61d0bdbde4920a0de2236843fb0132cb1575013b2263c8bf2ab",
+      "art_validation": {
+        "passed": true,
+        "sha256": "be796912baefb61d0bdbde4920a0de2236843fb0132cb1575013b2263c8bf2ab",
+        "failed": [],
+        "checked_at": "2026-09-28T14:47:51.777773+00:00"
       }
     }
   }
