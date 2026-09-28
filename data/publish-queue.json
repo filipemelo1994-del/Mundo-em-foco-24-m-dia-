@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-28T14:47:51.815861+00:00",
+  "updated_at": "2026-09-28T14:49:41.495708+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -1248,6 +1248,26 @@
         "sha256": "be796912baefb61d0bdbde4920a0de2236843fb0132cb1575013b2263c8bf2ab",
         "failed": [],
         "checked_at": "2026-09-28T14:47:51.777773+00:00"
+      }
+    },
+    "nasa-bristol-bay-cores-outono-satelite-28-09-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "5f37c45a3d2455860afd5af8e7c5469c76a83abbf4ae5c8d6c12d51817c71b19",
+      "art_validation": {
+        "passed": true,
+        "sha256": "5f37c45a3d2455860afd5af8e7c5469c76a83abbf4ae5c8d6c12d51817c71b19",
+        "failed": [],
+        "checked_at": "2026-09-28T14:49:41.200589+00:00"
       }
     }
   }
