@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-28T20:58:39.257241+00:00",
+  "updated_at": "2026-09-28T21:17:18.673736+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -1308,6 +1308,28 @@
         "sha256": "c32753b87c2325e5bf313fde010c4d1f280b6425c080a8969096093e8135a84d",
         "failed": [],
         "checked_at": "2026-09-28T20:58:19.256502+00:00"
+      }
+    },
+    "mit-laboratorio-robotico-optica-28-09-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": false,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": "build_news_art_v2 exit=4",
+      "art_sha256": "3783955516deb2fe2034b53588b563676081749abe5f1eb8b424ee860efc16b6",
+      "art_validation": {
+        "passed": false,
+        "sha256": "3783955516deb2fe2034b53588b563676081749abe5f1eb8b424ee860efc16b6",
+        "failed": [
+          "text_fit"
+        ],
+        "checked_at": "2026-09-28T21:17:18.635940+00:00"
       }
     }
   }
