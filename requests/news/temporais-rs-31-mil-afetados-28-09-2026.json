@@ -1,0 +1,26 @@
+{
+  "id": "temporais-rs-31-mil-afetados-28-09-2026",
+  "published": "2026-09-28T20:40:00-03:00",
+  "category": "BRASIL",
+  "title": "Temporais atingem 78 municípios no RS",
+  "summary": "Defesa Civil atualizou o balanço do novo episódio de chuva, granizo e vendavais no Rio Grande do Sul.",
+  "location": "Rio Grande do Sul, Brasil",
+  "date": "28 SET 2026",
+  "body": [
+    "O Rio Grande do Sul registra condições meteorológicas adversas desde sexta-feira, 25 de setembro. Até o meio-dia desta segunda-feira, a Defesa Civil contabilizou 60 ocorrências em 58 municípios.",
+    "O novo episódio deixou quatro pessoas feridas e mais de 31 mil afetadas. Também foram registrados 110 desalojados, 23 desabrigados e mais de 4 mil residências danificadas.",
+    "As ocorrências estão relacionadas principalmente a chuvas intensas, granizo, vendavais e corridas de massa. Segundo o balanço oficial, não há registro de mortes ou desaparecidos ligados a este episódio."
+  ],
+  "sources": [
+    {
+      "name": "Governo do Rio Grande do Sul",
+      "url": "https://www.estado.rs.gov.br/defesa-civil-estadual-atualiza-balanco-e-evento-meteorologico-atinge-78-municipios-com-83-ocorrencias"
+    }
+  ],
+  "credit": "Defesa Civil do Rio Grande do Sul",
+  "sourceImage": "https://www.defesacivil.rs.gov.br/upload/recortes/202609/28103632_3437269_GDO.jpg",
+  "image": "https://www.defesacivil.rs.gov.br/upload/recortes/202609/28103632_3437269_GDO.jpg",
+  "imageCandidates": [
+    "https://www.defesacivil.rs.gov.br/upload/recortes/202609/28103632_3437269_GDO.jpg"
+  ]
+}
