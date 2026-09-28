@@ -2,7 +2,7 @@ name: Build NFL Rio V2 Photo Carousel
 on:
   push:
     branches: [main]
-    paths: ['requests/carousel/nfl-rio-v2-fotos.json']
+    paths: ['requests/carousel/nfl-rio-v2-fotos*.json']
 permissions: {contents: write}
 jobs:
   build:
