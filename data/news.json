@@ -1,5 +1,21 @@
 [
   {
+    "id": "nasa-aerossois-norte-paquistao-27-09-2026",
+    "published": "2026-09-27T12:00:00-04:00",
+    "category": "MEIO AMBIENTE",
+    "title": "Satélite da NASA registra névoa de aerossóis sobre o Paquistão",
+    "summary": "Uma densa névoa cobriu o norte do Paquistão no fim de setembro. O satélite Terra, da NASA, registrou a cena em 24 de setembro; fumaça, poeira e fontes urbanas podem contribuir para os aerossóis.",
+    "location": "Paquistão",
+    "date": "27 SET 2026",
+    "credit": "NASA/MODIS Land Rapid Response Team",
+    "imageCandidates": [
+      "https://modis.gsfc.nasa.gov/gallery/images/image09272026_1km.jpg"
+    ],
+    "sourceImage": "https://modis.gsfc.nasa.gov/gallery/images/image09272026_1km.jpg",
+    "image": "https://modis.gsfc.nasa.gov/gallery/images/image09272026_1km.jpg",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/nasa-aerossois-norte-paquistao-27-09-2026.jpg"
+  },
+  {
     "id": "rio-programa-global-lixo-zero-27-09-2026",
     "published": "2026-09-27T13:01:00-03:00",
     "category": "MEIO AMBIENTE",

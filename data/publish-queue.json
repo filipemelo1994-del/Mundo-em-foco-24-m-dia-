@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-28T00:04:41.418608+00:00",
+  "updated_at": "2026-09-28T00:05:17.939942+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -1112,8 +1112,8 @@
     },
     "nasa-aerossois-norte-paquistao-27-09-2026": {
       "state": "PORTAL_PENDENTE",
-      "portal": false,
-      "feed_art": false,
+      "portal": true,
+      "feed_art": true,
       "story_art": false,
       "feed_media_id": null,
       "story_media_id": null,
@@ -1121,7 +1121,14 @@
         "feed": 0,
         "story": 0
       },
-      "last_error": "build_news_art_v2 exit=3"
+      "last_error": "build_news_art_v2 exit=3",
+      "art_sha256": "e7e2d3682a986c0bfd163e8436e2aa6d13de801686c23ecc85665877ad332824",
+      "art_validation": {
+        "passed": true,
+        "sha256": "e7e2d3682a986c0bfd163e8436e2aa6d13de801686c23ecc85665877ad332824",
+        "failed": [],
+        "checked_at": "2026-09-28T00:05:17.907156+00:00"
+      }
     }
   }
 }
