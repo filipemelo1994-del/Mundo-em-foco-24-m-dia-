@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-28T00:31:05.353221+00:00",
+  "updated_at": "2026-09-28T08:04:51.868640+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -1189,6 +1189,39 @@
         "failed": [],
         "checked_at": "2026-09-28T00:30:45.863194+00:00"
       }
+    },
+    "cemaden-risco-chuvas-sul-28-09-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "955182294d79e7cf94e9e1eb7efc3c46560a420aebd19e102cf8342597b2304d",
+      "art_validation": {
+        "passed": true,
+        "sha256": "955182294d79e7cf94e9e1eb7efc3c46560a420aebd19e102cf8342597b2304d",
+        "failed": [],
+        "checked_at": "2026-09-28T08:04:47.009893+00:00"
+      }
+    },
+    "nasa-boeing-starliner-update-28-09-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": false,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": "build_news_art_v2 exit=3"
     }
   }
 }
