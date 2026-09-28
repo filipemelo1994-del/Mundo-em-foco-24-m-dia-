@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-28T22:19:48.779095+00:00",
+  "updated_at": "2026-09-28T22:48:20.429278+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -1312,8 +1312,8 @@
     },
     "mit-laboratorio-robotico-optica-28-09-2026": {
       "state": "PORTAL_PENDENTE",
-      "portal": false,
-      "feed_art": false,
+      "portal": true,
+      "feed_art": true,
       "story_art": false,
       "feed_media_id": null,
       "story_media_id": null,
@@ -1322,20 +1322,18 @@
         "story": 0
       },
       "last_error": "build_news_art_v2 exit=4",
-      "art_sha256": "a5c62f65b9739c06c01f927c23d17fbf2cccdbef5f185e1e0e990c53b00cfae1",
+      "art_sha256": "c092ee1ede5d93848ebaccd9b929b67cfe0f8f48b1c14cd3a8f714fa31119565",
       "art_validation": {
-        "passed": false,
-        "sha256": "a5c62f65b9739c06c01f927c23d17fbf2cccdbef5f185e1e0e990c53b00cfae1",
-        "failed": [
-          "text_fit"
-        ],
-        "checked_at": "2026-09-28T22:19:17.211157+00:00"
+        "passed": true,
+        "sha256": "c092ee1ede5d93848ebaccd9b929b67cfe0f8f48b1c14cd3a8f714fa31119565",
+        "failed": [],
+        "checked_at": "2026-09-28T22:48:20.407941+00:00"
       }
     },
     "cobots-gen7-ia-industrial-28-09-2026": {
       "state": "PORTAL_PENDENTE",
-      "portal": false,
-      "feed_art": false,
+      "portal": true,
+      "feed_art": true,
       "story_art": false,
       "feed_media_id": null,
       "story_media_id": null,
@@ -1344,14 +1342,12 @@
         "story": 0
       },
       "last_error": "build_news_art_v2 exit=4",
-      "art_sha256": "5ccfaefdaeebbea72af57e7cda546bb7ed880538cfd563a6da3d85cce9de0ca6",
+      "art_sha256": "6e9609bd4fe990540ed182d1d3cd0d5439009d98cdd4ecfb52fdce4e709b07fe",
       "art_validation": {
-        "passed": false,
-        "sha256": "5ccfaefdaeebbea72af57e7cda546bb7ed880538cfd563a6da3d85cce9de0ca6",
-        "failed": [
-          "text_fit"
-        ],
-        "checked_at": "2026-09-28T22:19:16.018460+00:00"
+        "passed": true,
+        "sha256": "6e9609bd4fe990540ed182d1d3cd0d5439009d98cdd4ecfb52fdce4e709b07fe",
+        "failed": [],
+        "checked_at": "2026-09-28T22:48:19.346377+00:00"
       }
     }
   }
