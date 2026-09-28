@@ -1131,7 +1131,7 @@
       }
     },
     "etna-cinzas-suspendem-voos-catania-27-09-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_PENDENTE",
       "portal": true,
       "feed_art": true,
       "story_art": false,
