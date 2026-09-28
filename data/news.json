@@ -1,5 +1,37 @@
 [
   {
+    "id": "nisar-lava-krasheninnikov-russia-27-09-2026",
+    "published": "2026-09-24T12:00:00-04:00",
+    "category": "ESPAÇO",
+    "title": "Satélite NISAR acompanha avanço de lava em vulcão na Rússia",
+    "summary": "Dados do satélite NISAR, missão conjunta da NASA e da ISRO, mostram a expansão do campo de lava do vulcão Krasheninnikov, na península de Kamchatka.",
+    "location": "Kamchatka, Rússia",
+    "date": "27 SET 2026",
+    "credit": "NASA Scientific Visualization Studio",
+    "imageCandidates": [
+      "https://svs.gsfc.nasa.gov/vis/a000000/a005600/a005675/nisar_volcano_annotated.00500_print.jpg"
+    ],
+    "sourceImage": "https://svs.gsfc.nasa.gov/vis/a000000/a005600/a005675/nisar_volcano_annotated.00500_print.jpg",
+    "image": "https://svs.gsfc.nasa.gov/vis/a000000/a005600/a005675/nisar_volcano_annotated.00500_print.jpg",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/nisar-lava-krasheninnikov-russia-27-09-2026.jpg"
+  },
+  {
+    "id": "kilauea-watch-orange-overflows-27-09-2026",
+    "published": "2026-09-27T08:50:00-10:00",
+    "category": "MUNDO",
+    "title": "Kīlauea mantém alerta WATCH após novos transbordamentos de lava",
+    "summary": "Pequenos transbordamentos continuam nos respiradouros do cume do Kīlauea. O USGS mantém o nível de alerta WATCH e o código de aviação ORANGE, sem atividade anômala fora da região do cume.",
+    "location": "Havaí, EUA",
+    "date": "27 SET 2026",
+    "credit": "USGS/HVO — K. Lynn",
+    "imageCandidates": [
+      "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/IMG_8409.JPG"
+    ],
+    "sourceImage": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/IMG_8409.JPG",
+    "image": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/IMG_8409.JPG",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/kilauea-watch-orange-overflows-27-09-2026.jpg"
+  },
+  {
     "id": "etna-cinzas-suspendem-voos-catania-27-09-2026",
     "published": "2026-09-27T09:40:00+02:00",
     "category": "MUNDO",
