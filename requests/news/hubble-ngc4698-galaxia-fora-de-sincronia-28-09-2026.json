@@ -1,0 +1,29 @@
+{
+  "id": "hubble-ngc4698-galaxia-fora-de-sincronia-28-09-2026",
+  "published": "2026-09-28T11:48:00-03:00",
+  "category": "CIÊNCIA",
+  "title": "Hubble revela galáxia com núcleo girando fora de sincronia",
+  "summary": "A NGC 4698, a cerca de 55 milhões de anos-luz, possui estrelas e gás próximos ao centro girando perpendicularmente ao disco da galáxia.",
+  "location": "Constelação de Virgem / Espaço",
+  "date": "28 SET 2026",
+  "credit": "ESA/Hubble & NASA, D. Thilker, MAUVE-HST Team — CC BY 4.0",
+  "imageAlt": "Galáxia espiral NGC 4698 registrada pelo Telescópio Espacial Hubble",
+  "body": [
+    "Uma nova imagem do Telescópio Espacial Hubble destaca a NGC 4698, galáxia espiral localizada a cerca de 55 milhões de anos-luz da Terra, na constelação de Virgem.",
+    "Apesar da aparência serena, a estrutura interna é incomum: as estrelas e o gás próximos ao centro giram em uma orientação praticamente perpendicular ao restante do disco.",
+    "Astrônomos consideram que a configuração pode estar relacionada à entrada de gás externo ou a uma antiga fusão galáctica. As observações fazem parte de um programa que estuda galáxias do aglomerado de Virgem."
+  ],
+  "sources": [
+    {
+      "name": "NASA — Hubble Spots Chaotic Secret in Galaxy",
+      "url": "https://www.nasa.gov/image-article/hubble-spots-chaotic-secret-in-galaxy/"
+    },
+    {
+      "name": "ESA/Hubble — A galaxy spinning out of sync",
+      "url": "https://esahubble.org/images/potm2609a/"
+    }
+  ],
+  "imageCandidates": [
+    "https://commons.wikimedia.org/wiki/Special:Redirect/file/A%20galaxy%20spinning%20out%20of%20sync%20ESA528760.jpg"
+  ]
+}
