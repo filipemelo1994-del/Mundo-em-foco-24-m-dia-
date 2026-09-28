@@ -1111,7 +1111,7 @@
       "last_error": "build_news_art_v2 exit=3"
     },
     "nasa-aerossois-norte-paquistao-27-09-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_PENDENTE",
       "portal": true,
       "feed_art": true,
       "story_art": false,
@@ -1121,7 +1121,7 @@
         "feed": 0,
         "story": 0
       },
-      "last_error": "build_news_art_v2 exit=3",
+      "last_error": null,
       "art_sha256": "e7e2d3682a986c0bfd163e8436e2aa6d13de801686c23ecc85665877ad332824",
       "art_validation": {
         "passed": true,
