@@ -1311,7 +1311,7 @@
       }
     },
     "mit-laboratorio-robotico-optica-28-09-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_PENDENTE",
       "portal": true,
       "feed_art": true,
       "story_art": false,
@@ -1321,7 +1321,7 @@
         "feed": 0,
         "story": 0
       },
-      "last_error": "build_news_art_v2 exit=4",
+      "last_error": null,
       "art_sha256": "c092ee1ede5d93848ebaccd9b929b67cfe0f8f48b1c14cd3a8f714fa31119565",
       "art_validation": {
         "passed": true,
@@ -1331,7 +1331,7 @@
       }
     },
     "cobots-gen7-ia-industrial-28-09-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_PENDENTE",
       "portal": true,
       "feed_art": true,
       "story_art": false,
@@ -1341,7 +1341,7 @@
         "feed": 0,
         "story": 0
       },
-      "last_error": "build_news_art_v2 exit=4",
+      "last_error": null,
       "art_sha256": "6e9609bd4fe990540ed182d1d3cd0d5439009d98cdd4ecfb52fdce4e709b07fe",
       "art_validation": {
         "passed": true,
