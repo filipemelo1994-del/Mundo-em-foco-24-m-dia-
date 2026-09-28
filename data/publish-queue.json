@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-28T21:17:42.299512+00:00",
+  "updated_at": "2026-09-28T21:30:19.109143+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -1322,14 +1322,14 @@
         "story": 0
       },
       "last_error": "build_news_art_v2 exit=4",
-      "art_sha256": "3783955516deb2fe2034b53588b563676081749abe5f1eb8b424ee860efc16b6",
+      "art_sha256": "097d62969a801527f485ac71d8f1cb1c2e58eb0d675d0a334c5b7b36e4ae8f68",
       "art_validation": {
         "passed": false,
-        "sha256": "3783955516deb2fe2034b53588b563676081749abe5f1eb8b424ee860efc16b6",
+        "sha256": "097d62969a801527f485ac71d8f1cb1c2e58eb0d675d0a334c5b7b36e4ae8f68",
         "failed": [
           "text_fit"
         ],
-        "checked_at": "2026-09-28T21:17:18.635940+00:00"
+        "checked_at": "2026-09-28T21:30:19.074274+00:00"
       }
     },
     "cobots-gen7-ia-industrial-28-09-2026": {
@@ -1344,14 +1344,14 @@
         "story": 0
       },
       "last_error": "build_news_art_v2 exit=4",
-      "art_sha256": "fb956174ed191efe5665b29595b6157351e7cf9552bc5338b2bb95cdcfc424e3",
+      "art_sha256": "91cbcdfb087a3b995135c1b27c98dbde44347229d158ffb19ff296d063974d55",
       "art_validation": {
         "passed": false,
-        "sha256": "fb956174ed191efe5665b29595b6157351e7cf9552bc5338b2bb95cdcfc424e3",
+        "sha256": "91cbcdfb087a3b995135c1b27c98dbde44347229d158ffb19ff296d063974d55",
         "failed": [
           "text_fit"
         ],
-        "checked_at": "2026-09-28T21:17:42.265851+00:00"
+        "checked_at": "2026-09-28T21:30:17.808581+00:00"
       }
     }
   }
