@@ -1,5 +1,21 @@
 [
   {
+    "id": "nasa-boeing-starliner-update-28-09-2026",
+    "published": "2026-09-25T12:00:00-04:00",
+    "category": "ESPAÇO",
+    "title": "NASA e Boeing apresentam atualização sobre futuro da Starliner",
+    "summary": "NASA e Boeing realizam nesta segunda-feira (28) uma coletiva para discutir o desenvolvimento da Starliner e os planos para voos regulares de tripulação entre a Terra e a Estação Espacial Internacional.",
+    "location": "Flórida, EUA",
+    "date": "28 SET 2026",
+    "credit": "NASA/Bill Ingalls — imagem de arquivo",
+    "imageCandidates": [
+      "https://images-assets.nasa.gov/image/NHQ202609080004/NHQ202609080004~orig.jpg"
+    ],
+    "sourceImage": "https://images-assets.nasa.gov/image/NHQ202609080004/NHQ202609080004~orig.jpg",
+    "image": "https://images-assets.nasa.gov/image/NHQ202609080004/NHQ202609080004~orig.jpg",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/nasa-boeing-starliner-update-28-09-2026.jpg"
+  },
+  {
     "id": "cemaden-risco-chuvas-sul-28-09-2026",
     "published": "2026-09-27T15:56:00-03:00",
     "category": "BRASIL",
