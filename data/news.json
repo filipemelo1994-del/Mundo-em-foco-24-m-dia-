@@ -1,5 +1,59 @@
 [
   {
+    "id": "nasa-vales-sob-gelo-groenlandia-28-09-2026",
+    "published": "2026-09-28T17:59:00-03:00",
+    "category": "CIÊNCIA",
+    "title": "NASA revela extensa rede de vales escondida sob o gelo da Groenlândia",
+    "summary": "Novo método permitiu mapear 1.943 vales subglaciais; cerca de um terço deles foi identificado pela primeira vez.",
+    "location": "Groenlândia",
+    "date": "28 SET 2026",
+    "body": [
+      "Um novo método de mapeamento revelou uma extensa rede de vales no terreno rochoso escondido sob a camada de gelo da Groenlândia.",
+      "Pesquisadores mapearam manualmente 1.943 vales subglaciais, e cerca de um terço deles foi identificado pela primeira vez. Outros se estendem centenas de quilômetros além do que mapas anteriores indicavam.",
+      "A equipe afirma que conhecer melhor a topografia sob o gelo pode ajudar a aperfeiçoar projeções sobre o comportamento futuro da camada de gelo da Groenlândia."
+    ],
+    "sources": [
+      {
+        "name": "NASA Earth Observatory",
+        "url": "https://science.nasa.gov/earth/earth-observatory/uncovering-the-valleys-hidden-below-greenlands-ice/"
+      }
+    ],
+    "credit": "NASA Earth Observatory / Lauren Dauphin",
+    "sourceImage": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/uncovering-the-valleys-hidden-below-greenland%E2%80%99s-ice/greenlandvalleynet_ifpa_2026_lrg.jpg?crop=faces%2Cfocalpoint&fit=clip&h=7080&w=3928",
+    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/uncovering-the-valleys-hidden-below-greenland%E2%80%99s-ice/greenlandvalleynet_ifpa_2026_lrg.jpg?crop=faces%2Cfocalpoint&fit=clip&h=7080&w=3928",
+    "imageCandidates": [
+      "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/uncovering-the-valleys-hidden-below-greenland%E2%80%99s-ice/greenlandvalleynet_ifpa_2026_lrg.jpg?crop=faces%2Cfocalpoint&fit=clip&h=7080&w=3928"
+    ],
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/nasa-vales-sob-gelo-groenlandia-28-09-2026.jpg"
+  },
+  {
+    "id": "metro-recife-linha-centro-encerra-22h-28-09-2026",
+    "published": "2026-09-28T17:58:00-03:00",
+    "category": "RECIFE/RMR",
+    "title": "Linha Centro do Metrô do Recife passa a encerrar operação às 22h",
+    "summary": "Mudança ocorre durante obras nas estações Afogados e Joana Bezerra; três linhas de ônibus terão reforço nos dias úteis.",
+    "location": "Recife, Pernambuco",
+    "date": "28 SET 2026",
+    "body": [
+      "A Linha Centro do Metrô do Recife passa a encerrar a operação às 22h a partir desta segunda-feira (28), uma hora antes do horário anterior.",
+      "Segundo a CBTU Recife, a alteração é necessária para os serviços de substituição dos telhados das estações Afogados e Joana Bezerra. A previsão é concluir Afogados em dezembro de 2026 e Joana Bezerra em janeiro de 2027.",
+      "A Linha Sul e o VLT não terão mudança de horário. Para reduzir os impactos, o Grande Recife informou reforço nas linhas 238, 858 e 2481 nos dias úteis."
+    ],
+    "sources": [
+      {
+        "name": "Diario de Pernambuco",
+        "url": "https://www.diariodepernambuco.com.br/vida-urbana/2026/09/11725107-linha-centro-do-metro-recife-encerra-operacao-mais-cedo-a-partir-desta-segunda-feira-28.html"
+      }
+    ],
+    "credit": "Rafael Vieira / DP Foto",
+    "sourceImage": "https://www.diariodepernambuco.com.br/_midias/jpg/2026/09/28/metro_recife-965695.jpg",
+    "image": "https://www.diariodepernambuco.com.br/_midias/jpg/2026/09/28/metro_recife-965695.jpg",
+    "imageCandidates": [
+      "https://www.diariodepernambuco.com.br/_midias/jpg/2026/09/28/metro_recife-965695.jpg"
+    ],
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/metro-recife-linha-centro-encerra-22h-28-09-2026.jpg"
+  },
+  {
     "id": "nasa-bristol-bay-cores-outono-satelite-28-09-2026",
     "published": "2026-09-28T11:49:00-03:00",
     "category": "MEIO AMBIENTE",
