@@ -1151,7 +1151,7 @@
       }
     },
     "kilauea-watch-orange-overflows-27-09-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_PENDENTE",
       "portal": true,
       "feed_art": true,
       "story_art": false,
@@ -1161,7 +1161,7 @@
         "feed": 0,
         "story": 0
       },
-      "last_error": "build_news_art_v2 exit=3",
+      "last_error": null,
       "art_sha256": "014027d3d5995c154fae3e17113f1378cfc70d98ecb2af9deb9bd94b02abfb3e",
       "art_validation": {
         "passed": true,
@@ -1171,7 +1171,7 @@
       }
     },
     "nisar-lava-krasheninnikov-russia-27-09-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_PENDENTE",
       "portal": true,
       "feed_art": true,
       "story_art": false,
@@ -1181,7 +1181,7 @@
         "feed": 0,
         "story": 0
       },
-      "last_error": "build_news_art_v2 exit=3",
+      "last_error": null,
       "art_sha256": "8efc70f4e12d3bc9b7908b4141bc084b4f496f4f3431f62f8b46b7780fc2082f",
       "art_validation": {
         "passed": true,
