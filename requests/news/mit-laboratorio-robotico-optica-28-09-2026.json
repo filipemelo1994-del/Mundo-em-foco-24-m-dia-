@@ -1,0 +1,26 @@
+{
+  "id": "mit-laboratorio-robotico-optica-28-09-2026",
+  "published": "2026-09-28T18:10:00-03:00",
+  "category": "TECNOLOGIA • ROBÓTICA",
+  "title": "MIT cria laboratório robótico que monta e executa experimentos de óptica sozinho",
+  "summary": "Sistema autônomo organiza lentes e espelhos, ajusta componentes com precisão e pode reconstruir novos experimentos sob demanda.",
+  "location": "Cambridge, Estados Unidos",
+  "date": "28 SET 2026",
+  "body": [
+    "Pesquisadores do MIT desenvolveram um laboratório robótico reconfigurável capaz de montar experimentos de óptica de forma autônoma.",
+    "O braço robótico reconhece e posiciona lentes, espelhos e outros componentes e consegue fazer ajustes finos para alinhar feixes de luz. Em uma demonstração, o sistema construiu uma cavidade de laser funcional executando 50 manobras em cerca de 30 minutos.",
+    "A equipe vê a tecnologia como um passo para laboratórios que possam executar e monitorar experimentos continuamente, acelerando testes de materiais para telas, células solares, sensores e tecnologias quânticas."
+  ],
+  "sources": [
+    {
+      "name": "MIT News",
+      "url": "https://news.mit.edu/2026/robotic-lab-runs-optics-experiments-on-demand-0917"
+    }
+  ],
+  "credit": "MIT News / Photo courtesy of the researchers",
+  "sourceImage": "https://news.mit.edu/sites/default/files/download/202609/MIT-Robot-Labs-01-press.jpg",
+  "image": "https://news.mit.edu/sites/default/files/download/202609/MIT-Robot-Labs-01-press.jpg",
+  "imageCandidates": [
+    "https://news.mit.edu/sites/default/files/download/202609/MIT-Robot-Labs-01-press.jpg"
+  ]
+}
