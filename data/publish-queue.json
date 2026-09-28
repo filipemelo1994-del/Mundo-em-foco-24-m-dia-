@@ -1271,7 +1271,7 @@
       }
     },
     "metro-recife-linha-centro-encerra-22h-28-09-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_PENDENTE",
       "portal": true,
       "feed_art": true,
       "story_art": false,
@@ -1291,7 +1291,7 @@
       }
     },
     "nasa-vales-sob-gelo-groenlandia-28-09-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_PENDENTE",
       "portal": true,
       "feed_art": true,
       "story_art": false,
