@@ -1231,7 +1231,7 @@
       }
     },
     "hubble-ngc4698-galaxia-fora-de-sincronia-28-09-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_PENDENTE",
       "portal": true,
       "feed_art": true,
       "story_art": false,
