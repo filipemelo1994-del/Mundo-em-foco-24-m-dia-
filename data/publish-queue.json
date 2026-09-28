@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-28T00:18:51.542463+00:00",
+  "updated_at": "2026-09-28T00:19:40.768744+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -1151,6 +1151,19 @@
       }
     },
     "kilauea-watch-orange-overflows-27-09-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": false,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": "build_news_art_v2 exit=3"
+    },
+    "nisar-lava-krasheninnikov-russia-27-09-2026": {
       "state": "PORTAL_PENDENTE",
       "portal": false,
       "feed_art": false,
