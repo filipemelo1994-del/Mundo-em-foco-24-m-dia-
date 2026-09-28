@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-28T00:05:40.885847+00:00",
+  "updated_at": "2026-09-28T00:06:42.005447+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -1128,6 +1128,26 @@
         "sha256": "e7e2d3682a986c0bfd163e8436e2aa6d13de801686c23ecc85665877ad332824",
         "failed": [],
         "checked_at": "2026-09-28T00:05:17.907156+00:00"
+      }
+    },
+    "etna-cinzas-suspendem-voos-catania-27-09-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "98964356c936f5397e54cddb6634d7fe5e8da559b53d22200be5282c458c0bc7",
+      "art_validation": {
+        "passed": true,
+        "sha256": "98964356c936f5397e54cddb6634d7fe5e8da559b53d22200be5282c458c0bc7",
+        "failed": [],
+        "checked_at": "2026-09-28T00:06:41.972569+00:00"
       }
     }
   }
