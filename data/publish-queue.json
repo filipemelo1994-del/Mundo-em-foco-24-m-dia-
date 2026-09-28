@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-28T23:36:44.725734+00:00",
+  "updated_at": "2026-09-28T23:39:31.768807+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -1362,14 +1362,14 @@
         "story": 0
       },
       "last_error": "build_news_art_v2 exit=4",
-      "art_sha256": "a899adf7bccc822ec3bdfc2dedc329f12400aaa38a55d5a8eb2c3dc6ba2fd058",
+      "art_sha256": "6ecfe8539ef194c1e97ecc8f85cfb4ab7464ef9a3718e90fd0b4b1d10038bf01",
       "art_validation": {
         "passed": false,
-        "sha256": "a899adf7bccc822ec3bdfc2dedc329f12400aaa38a55d5a8eb2c3dc6ba2fd058",
+        "sha256": "6ecfe8539ef194c1e97ecc8f85cfb4ab7464ef9a3718e90fd0b4b1d10038bf01",
         "failed": [
           "photo_matches_source"
         ],
-        "checked_at": "2026-09-28T23:33:53.454576+00:00"
+        "checked_at": "2026-09-28T23:39:18.470760+00:00"
       }
     },
     "temporais-rs-31-mil-afetados-28-09-2026": {
