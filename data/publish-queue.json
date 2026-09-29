@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-29T21:04:45.585334+00:00",
+  "updated_at": "2026-09-29T21:13:45.184729+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -1448,7 +1448,16 @@
         "feed": 0,
         "story": 0
       },
-      "last_error": "build_news_art_v2 exit=3"
+      "last_error": "build_news_art_v2 exit=4",
+      "art_sha256": "a534ecbad7f1f9494b5cc77a771e5a155469b4607d623bbc0e59870379de589d",
+      "art_validation": {
+        "passed": false,
+        "sha256": "a534ecbad7f1f9494b5cc77a771e5a155469b4607d623bbc0e59870379de589d",
+        "failed": [
+          "photo_matches_source"
+        ],
+        "checked_at": "2026-09-29T21:13:45.150056+00:00"
+      }
     },
     "nasa-nuvem-pileus-incendio-montana-29-09-2026": {
       "state": "FEED_OK",
