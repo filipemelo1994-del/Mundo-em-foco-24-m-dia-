@@ -12,14 +12,18 @@
   ],
   "sources": [
     {
+      "name": "INMET",
+      "url": "https://portal.inmet.gov.br/noticias/previs%C3%A3o-para-ter%C3%A7a-feira-29-e-quarta-feira-30"
+    },
+    {
       "name": "Agência Brasil",
       "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-09/ciclone-e-frente-fria-deixam-centro-sul-em-alerta-para-tempestade"
     }
   ],
-  "credit": "Imagem ilustrativa: Wikimedia Commons",
-  "sourceImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Thunderstorm%20clouds.jpg?width=1600",
-  "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Thunderstorm%20clouds.jpg?width=1600",
+  "credit": "INMET",
+  "sourceImage": "https://portal.inmet.gov.br/uploads/fig1prev29-30.png",
+  "image": "https://portal.inmet.gov.br/uploads/fig1prev29-30.png",
   "imageCandidates": [
-    "https://commons.wikimedia.org/wiki/Special:Redirect/file/Thunderstorm%20clouds.jpg?width=1600"
+    "https://portal.inmet.gov.br/uploads/fig1prev29-30.png"
   ]
 }
