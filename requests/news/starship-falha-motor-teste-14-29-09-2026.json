@@ -1,0 +1,26 @@
+{
+  "id": "starship-falha-motor-teste-14-29-09-2026",
+  "published": "2026-09-29T10:44:00-03:00",
+  "category": "ESPAÇO",
+  "title": "Falha de motor encurta teste da Starship",
+  "summary": "Problema em um motor Raptor reduziu a duração do 14º voo de teste; nave ainda realizou seu primeiro lançamento comercial de satélite.",
+  "location": "Estados Unidos",
+  "date": "29 SET 2026",
+  "body": [
+    "Uma falha de motor encurtou o 14º voo de teste não tripulado da Starship, da SpaceX.",
+    "Segundo a Reuters, um motor Raptor desligou inesperadamente após a separação do estágio propulsor. Mesmo assim, controladores prosseguiram e a nave colocou um satélite comercial em órbita.",
+    "O episódio adiciona atenção ao desenvolvimento da Starship, que integra os planos da NASA para futuras missões lunares."
+  ],
+  "sources": [
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/business/media-telecom/spacexs-starship-engine-failure-could-impact-nasas-moon-mission-objectives-2026-09-29/"
+    }
+  ],
+  "credit": "Reuters",
+  "sourceImage": "https://www.reuters.com/resizer/",
+  "image": "https://www.reuters.com/resizer/",
+  "imageCandidates": [
+    "https://www.reuters.com/resizer/"
+  ]
+}
