@@ -1,0 +1,26 @@
+{
+  "id": "onda-calor-aviso-vermelho-brasil-29-09-2026",
+  "published": "2026-09-29T04:58:00-03:00",
+  "category": "BRASIL",
+  "title": "Onda de calor mantém alerta vermelho",
+  "summary": "Aviso do Inmet segue nesta terça-feira, com possibilidade de temperaturas acima de 40°C em cidades do Centro-Oeste, Sudeste e Sul.",
+  "location": "Brasil",
+  "date": "29 SET 2026",
+  "body": [
+    "Uma onda de calor mantém áreas do Brasil sob aviso vermelho nesta terça-feira, 29 de setembro.",
+    "Segundo o Inmet, cidades do Centro-Oeste, Sudeste e Sul podem registrar temperaturas superiores a 40°C. Mato Grosso do Sul, Mato Grosso, Goiás, São Paulo e o Triângulo Mineiro estão entre as áreas com maior calor.",
+    "A previsão indica mudança gradual a partir de quarta-feira, com o avanço de uma frente fria pelo Sul do país."
+  ],
+  "sources": [
+    {
+      "name": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-09/semana-comeca-com-termometros-40degc-no-centro-oeste-sudeste-e-sul"
+    }
+  ],
+  "credit": "Agência Brasil",
+  "sourceImage": "https://agenciabrasil.ebc.com.br/sites/default/files/styles/1170x700/public/thumbnails/image/termometro_calor_1909231337.jpg",
+  "image": "https://agenciabrasil.ebc.com.br/sites/default/files/styles/1170x700/public/thumbnails/image/termometro_calor_1909231337.jpg",
+  "imageCandidates": [
+    "https://agenciabrasil.ebc.com.br/sites/default/files/styles/1170x700/public/thumbnails/image/termometro_calor_1909231337.jpg"
+  ]
+}
