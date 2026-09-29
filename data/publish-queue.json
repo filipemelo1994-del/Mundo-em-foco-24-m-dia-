@@ -1451,14 +1451,14 @@
       "last_error": "build_news_art_v2 exit=3"
     },
     "nasa-nuvem-pileus-incendio-montana-29-09-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_OK",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "18499723672103352",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
       "last_error": null,
