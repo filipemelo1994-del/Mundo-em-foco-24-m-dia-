@@ -1,0 +1,26 @@
+{
+  "id": "nasa-swift-missao-boost-termina-29-09-2026",
+  "published": "2026-09-29T04:59:00-03:00",
+  "category": "ESPAÇO",
+  "title": "Missão não consegue elevar órbita do Swift",
+  "summary": "Tentativa comercial de elevar a órbita do observatório da NASA terminou sem atingir o objetivo, mas gerou dados para futuras missões de manutenção espacial.",
+  "location": "Estados Unidos",
+  "date": "29 SET 2026",
+  "body": [
+    "Uma missão comercial para elevar a órbita do observatório Neil Gehrels Swift, da NASA, terminou sem conseguir aumentar a altitude da espaçonave.",
+    "A NASA classificou a tentativa como uma missão de alto risco e alto retorno. O trabalho permitiu testar novas formas de operação e técnicas que poderão beneficiar futuras missões de manutenção de satélites no espaço.",
+    "Sem uma intervenção capaz de elevar sua órbita, o Swift continua sujeito à perda gradual de altitude."
+  ],
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/missions/swift/nasa-highlights-lessons-learned-from-swift-boost-mission/"
+    }
+  ],
+  "credit": "NASA",
+  "sourceImage": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/swift/Swift-Spacecraft.jpg",
+  "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/swift/Swift-Spacecraft.jpg",
+  "imageCandidates": [
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/swift/Swift-Spacecraft.jpg"
+  ]
+}
