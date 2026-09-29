@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-29T07:56:44.044068+00:00",
+  "updated_at": "2026-09-29T13:38:52.407232+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -1399,6 +1399,32 @@
       "last_error": "build_news_art_v2 exit=3"
     },
     "onda-calor-aviso-vermelho-brasil-29-09-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": false,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": "build_news_art_v2 exit=3"
+    },
+    "igpm-setembro-alugueis-outubro-29-09-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": false,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": "build_news_art_v2 exit=3"
+    },
+    "starship-falha-motor-teste-14-29-09-2026": {
       "state": "PORTAL_PENDENTE",
       "portal": false,
       "feed_art": false,
