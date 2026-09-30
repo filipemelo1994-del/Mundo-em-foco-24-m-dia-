@@ -1438,17 +1438,17 @@
       "last_error": "build_news_art_v2 exit=3"
     },
     "ciclone-frente-fria-alerta-centro-sul-29-09-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_OK",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "18107147680928348",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
-      "last_error": "build_news_art_v2 exit=4",
+      "last_error": null,
       "art_sha256": "6d03a7532fb9498b338e6d93337bd95805e7bdefd06dcdc4562464ab96178db3",
       "art_validation": {
         "passed": true,
