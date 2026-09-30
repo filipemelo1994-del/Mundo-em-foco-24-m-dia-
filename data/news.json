@@ -483,61 +483,6 @@
     "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/setembro-verde-idosos-doadores-vivos-orgaos-27-09-2026.jpg"
   },
   {
-    "id": "layout-oficial-final",
-    "title": "Layout oficial",
-    "category": "MODELO",
-    "date": "26 SET 2026",
-    "summary": "Modelo visual oficial.",
-    "credit": "Mundo em Foco 24",
-    "imageCandidates": [
-      "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/spa-das-artes-encerramento-recife-27-09-2026.jpg"
-    ]
-  },
-  {
-    "id": "layout-oficial-preview-jpeg-final",
-    "title": "Layout oficial",
-    "category": "MODELO",
-    "date": "26 SET 2026",
-    "summary": "Modelo visual oficial.",
-    "credit": "Mundo em Foco 24",
-    "imageCandidates": [
-      "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/spa-das-artes-encerramento-recife-27-09-2026.jpg"
-    ]
-  },
-  {
-    "id": "layout-oficial-preview-jpeg-ok",
-    "title": "Layout oficial",
-    "category": "MODELO",
-    "date": "26 SET 2026",
-    "summary": "Modelo visual oficial.",
-    "credit": "Mundo em Foco 24",
-    "imageCandidates": [
-      "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/assets/templates/layout-oficial-mundo-em-foco24.webp"
-    ]
-  },
-  {
-    "id": "layout-oficial-preview-jpeg",
-    "title": "Layout oficial",
-    "category": "MODELO",
-    "date": "26 SET 2026",
-    "summary": "Modelo visual oficial.",
-    "credit": "Mundo em Foco 24",
-    "imageCandidates": [
-      "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/assets/templates/layout-oficial-mundo-em-foco24.webp"
-    ]
-  },
-  {
-    "id": "layout-oficial-preview",
-    "title": "Layout oficial",
-    "category": "MODELO",
-    "date": "26 SET 2026",
-    "summary": "Modelo visual oficial.",
-    "credit": "Mundo em Foco 24",
-    "imageCandidates": [
-      "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/assets/templates/layout-oficial-mundo-em-foco24.webp"
-    ]
-  },
-  {
     "id": "nasa-swift-retoma-instrumento-burst-alert-27-09-2026",
     "published": "2026-09-27T11:00:00-03:00",
     "category": "CIÊNCIA",
