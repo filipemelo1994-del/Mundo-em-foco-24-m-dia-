@@ -63,6 +63,10 @@ def main():
  now=datetime.now()
  nid=slug(title)+"-"+now.strftime("%d-%m-%Y")
  summary=(desc[:320].rsplit(" ",1)[0]+"…") if len(desc)>320 else desc
+ # O RSS serve apenas como descoberta. O portal exige matéria editorial completa;
+ # não publica automaticamente um único resumo como se fosse corpo da reportagem.
+ print("PAUTA_DESCARTADA_CORPO_CURTO="+title)
+ return 0
  req={"id":nid,"published":now.isoformat(),"category":"BRASIL / MUNDO","title":title,"summary":summary,
       "location":"","date":now.strftime("%d %b %Y").upper(),"image":img,"sourceImage":img,
       "credit":source,"body":[summary],"sources":[{"name":source,"url":link}],
