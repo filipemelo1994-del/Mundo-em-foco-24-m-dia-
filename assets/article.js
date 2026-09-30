@@ -2,7 +2,7 @@ const NEWS_URL='https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-fo
 const AUTO_URL='https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/data/news-auto.json';
 const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
 const href=n=>'noticia.html?id='+encodeURIComponent(n.id);
-const safeImg=n=>n.image?'<img src="'+esc(n.image)+'" alt="'+esc(n.imageAlt||n.title)+'" onerror="if(!this.dataset.fallback){this.dataset.fallback=\'1\';this.src=\''+esc(n.instagramImage||'assets/logo-site.png')+'\'}else{this.style.display=\'none\'}">':(n.instagramImage?'<img src="'+esc(n.instagramImage)+'" alt="'+esc(n.title)+'">':'');
+const safeImg=n=>n.image?'<img src="'+esc(n.image)+'" alt="'+esc(n.imageAlt||n.title)+'" onerror="if(!this.dataset.fallback){this.dataset.fallback=\'1\';this.src=\''+esc(n.instagramImage||'/Mundo-em-foco-24-m-dia-/assets/logo-site.png')+'\'}else{this.style.display=\'none\'}">':(n.instagramImage?'<img src="'+esc(n.instagramImage)+'" alt="'+esc(n.title)+'">':'');
 const id=new URLSearchParams(location.search).get('id');
 Promise.all([
  fetch(AUTO_URL,{cache:'no-store'}).then(r=>r.ok?r.json():[]).catch(()=>[]),
