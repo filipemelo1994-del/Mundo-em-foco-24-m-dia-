@@ -24,10 +24,12 @@
     ],
     "credit": "Paulo Pinto / Agência Brasil",
     "sourceImage": "https://imagens.ebc.com.br/l1kwlNWUhdZkUWTX3JCbEwVy4GI%3D/1170x700/smart/https%3A//agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/12/29/pint0990.jpg?itok=MV5azu7Z",
-    "image": "https://imagens.ebc.com.br/l1kwlNWUhdZkUWTX3JCbEwVy4GI%3D/1170x700/smart/https%3A//agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/12/29/pint0990.jpg?itok=MV5azu7Z",
+    "image": "assets/brand/logo-mundo-em-foco-24.webp",
     "imageCandidates": [
       "https://imagens.ebc.com.br/l1kwlNWUhdZkUWTX3JCbEwVy4GI%3D/1170x700/smart/https%3A//agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/12/29/pint0990.jpg?itok=MV5azu7Z"
-    ]
+    ],
+    "imageAlt": "SP recebe 34 alertas por calor e chuva",
+    "imageStatus": "fallback-local-pending-art"
   },
   {
     "id": "desemprego-53-recorde-ocupacao-agosto-29-09-2026",
@@ -54,10 +56,12 @@
     ],
     "credit": "Marcelo Camargo / Agência Brasil",
     "sourceImage": "https://imagens.ebc.com.br/XU0KxiRRSyu-jsOwSXrX7QW9FWY%3D/1170x700/smart/https%3A//agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/carteira-de-trabalho-digital_mcamgo_abr_240620211818.jpg?itok=N7Fj4zTX",
-    "image": "https://imagens.ebc.com.br/XU0KxiRRSyu-jsOwSXrX7QW9FWY%3D/1170x700/smart/https%3A//agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/carteira-de-trabalho-digital_mcamgo_abr_240620211818.jpg?itok=N7Fj4zTX",
+    "image": "assets/brand/logo-mundo-em-foco-24.webp",
     "imageCandidates": [
       "https://imagens.ebc.com.br/XU0KxiRRSyu-jsOwSXrX7QW9FWY%3D/1170x700/smart/https%3A//agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/carteira-de-trabalho-digital_mcamgo_abr_240620211818.jpg?itok=N7Fj4zTX"
-    ]
+    ],
+    "imageAlt": "Desemprego cai a 5,3% no Brasil",
+    "imageStatus": "fallback-local-pending-art"
   },
   {
     "id": "mossoro-atendimento-materno-oncologico-sus-29-09-2026",
