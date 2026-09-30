@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-29T21:21:01.048688+00:00",
+  "updated_at": "2026-09-30T08:15:56.080795+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -1439,8 +1439,8 @@
     },
     "ciclone-frente-fria-alerta-centro-sul-29-09-2026": {
       "state": "PORTAL_PENDENTE",
-      "portal": false,
-      "feed_art": false,
+      "portal": true,
+      "feed_art": true,
       "story_art": false,
       "feed_media_id": null,
       "story_media_id": null,
@@ -1451,12 +1451,10 @@
       "last_error": "build_news_art_v2 exit=4",
       "art_sha256": "6d03a7532fb9498b338e6d93337bd95805e7bdefd06dcdc4562464ab96178db3",
       "art_validation": {
-        "passed": false,
+        "passed": true,
         "sha256": "6d03a7532fb9498b338e6d93337bd95805e7bdefd06dcdc4562464ab96178db3",
-        "failed": [
-          "photo_matches_source"
-        ],
-        "checked_at": "2026-09-29T21:21:01.021093+00:00"
+        "failed": [],
+        "checked_at": "2026-09-30T08:15:56.045897+00:00"
       }
     },
     "nasa-nuvem-pileus-incendio-montana-29-09-2026": {
