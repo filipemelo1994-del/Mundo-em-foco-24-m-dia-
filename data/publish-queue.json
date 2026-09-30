@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-30T08:25:52.913474+00:00",
+  "updated_at": "2026-09-30T08:42:26.235758+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -1536,6 +1536,32 @@
         "failed": [],
         "checked_at": "2026-09-30T08:25:28.231077+00:00"
       }
+    },
+    "defesa-civil-sp-34-alertas-calor-chuva-29-09-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": false,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": "build_news_art_v2 exit=3"
+    },
+    "desemprego-53-recorde-ocupacao-agosto-29-09-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": false,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": "build_news_art_v2 exit=3"
     }
   }
 }
