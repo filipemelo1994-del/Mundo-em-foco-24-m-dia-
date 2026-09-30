@@ -160,9 +160,16 @@ def validate_feed(art_path, spec, master, *, reference=None, source_photo=None, 
     if source_photo is None:
         _check(checks, "photo_matches_source", True, "foto de origem não informada", skip=True)
     else:
-        tile = source_photo_tile(spec, source_photo).resize(art_photo.size, Image.Resampling.LANCZOS)
-        corr = imgutil.correlation(art_photo, tile)
-        _check(checks, "photo_matches_source", corr >= th["photo_match_min"], f"correlação {corr:.2f} (mín {th['photo_match_min']})")
+        # Compare apenas a janela realmente visível da fotografia. O mestre contém overlays/molduras
+        # dentro da zona photo; incluí-los na correlação causa falso negativo mesmo com a fonte correta.
+        source_full = source_photo_tile(spec, source_photo)
+        ref_photo_box = to_box(photo_cfg["rect"])
+        ref_win_box = to_box(photo_cfg.get("window") or photo_cfg["rect"])
+        rel = (ref_win_box[0] - ref_photo_box[0], ref_win_box[1] - ref_photo_box[1],
+               ref_win_box[2] - ref_photo_box[0], ref_win_box[3] - ref_photo_box[1])
+        tile = source_full.crop(rel).resize(art_win.size, Image.Resampling.LANCZOS)
+        corr = imgutil.correlation(art_win, tile)
+        _check(checks, "photo_matches_source", corr >= th["photo_match_min"], f"correlação na janela visível {corr:.2f} (mín {th['photo_match_min']})")
 
     # 7) arquivo público == arquivo validado
     if public_bytes is None:
