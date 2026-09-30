@@ -2,7 +2,7 @@ let allNews=[];
 const NEWS_URL='https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/data/news.json';
 const AUTO_URL='https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/data/news-auto.json';
 const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
-const fallback=n=>n.instagramImage||'assets/logo-site.png';
+const fallback=n=>n.instagramImage||'/Mundo-em-foco-24-m-dia-/assets/logo-site.png';
 const img=n=>n.image?`<img src="${esc(n.image)}" alt="${esc(n.imageAlt||n.title)}" loading="lazy" onerror="if(!this.dataset.fallback){this.dataset.fallback='1';this.src='${esc(fallback(n))}'}else{this.style.display='none'}">`:n.instagramImage?`<img src="${esc(n.instagramImage)}" alt="${esc(n.title)}" loading="lazy">`:'';
 const href=n=>`noticia.html?id=${encodeURIComponent(n.id)}`;
 function render(list){const grid=document.getElementById('newsGrid');document.getElementById('newsCount').textContent=`${list.length} matérias`;document.getElementById('emptyState').hidden=!!list.length;grid.innerHTML=list.map(n=>`<article class="card"><a href="${href(n)}"><div class="thumb">${img(n)}</div><span class="label">${esc(n.category)}</span><h3>${esc(n.title)}</h3><p class="summary">${esc(n.summary)}</p><span class="meta">${esc(n.location)} • ${esc(n.date)}</span></a></article>`).join('')}
