@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-30T08:16:26.539229+00:00",
+  "updated_at": "2026-09-30T08:25:28.264612+00:00",
   "items": {
     "baile-da-brota-centro-recife-26-09-2026": {
       "state": "STORY_PENDENTE",
@@ -1495,6 +1495,46 @@
         "sha256": "fa6f428d3db0a5f5e1f23607f34a6898b755adb961124c109a0d1492bd82f58b",
         "failed": [],
         "checked_at": "2026-09-30T08:16:26.516761+00:00"
+      }
+    },
+    "brasil-165827-vagas-formais-agosto-29-09-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "292f45cca236e7863d8bbb0cd525582132f5ca9c968cbb1f7473ea7609b143e9",
+      "art_validation": {
+        "passed": true,
+        "sha256": "292f45cca236e7863d8bbb0cd525582132f5ca9c968cbb1f7473ea7609b143e9",
+        "failed": [],
+        "checked_at": "2026-09-30T08:25:24.252997+00:00"
+      }
+    },
+    "mossoro-atendimento-materno-oncologico-sus-29-09-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "f0fdb52c940fa9cf2aedb662dcf2fea70ceea912124fa49b631bd9a832db20f9",
+      "art_validation": {
+        "passed": true,
+        "sha256": "f0fdb52c940fa9cf2aedb662dcf2fea70ceea912124fa49b631bd9a832db20f9",
+        "failed": [],
+        "checked_at": "2026-09-30T08:25:28.231077+00:00"
       }
     }
   }

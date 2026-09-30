@@ -1,5 +1,63 @@
 [
   {
+    "id": "mossoro-atendimento-materno-oncologico-sus-29-09-2026",
+    "published": "2026-09-29T15:28:00-03:00",
+    "category": "SAÚDE",
+    "title": "Mossoró reforça atendimento pelo SUS",
+    "summary": "Hospital da Mulher e unidade oncológica atendem dezenas de municípios do Oeste potiguar com serviços materno-infantis e tratamento do câncer.",
+    "location": "Mossoró, Rio Grande do Norte",
+    "date": "29 SET 2026",
+    "body": [
+      "Serviços de saúde de Mossoró, no Rio Grande do Norte, foram destacados pelo Ministério da Saúde pela atuação na atenção materno-infantil e no tratamento do câncer pelo SUS.",
+      "O Hospital da Mulher Parteira Maria Correia é referência para cerca de 63 municípios das regiões Oeste, Alto Oeste e Vale do Açu. A agenda também incluiu a Liga Mossoroense de Estudos e Combate ao Câncer, referência regional em oncologia e radioterapia.",
+      "O Ministério também destacou ações de cuidado à saúde da mulher, incluindo contracepção de longa duração e medidas de proteção materno-infantil."
+    ],
+    "sources": [
+      {
+        "name": "Ministério da Saúde",
+        "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/populacao-conta-com-atendimento-materno-infantil-e-oncologico-de-referencia-pelo-sus-em-mossoro-rn"
+      }
+    ],
+    "credit": "Rafael Nascimento / MS",
+    "sourceImage": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/populacao-conta-com-atendimento-materno-infantil-e-oncologico-de-referencia-pelo-sus-em-mossoro-rn/mossoro.png/@@images/image",
+    "image": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/populacao-conta-com-atendimento-materno-infantil-e-oncologico-de-referencia-pelo-sus-em-mossoro-rn/mossoro.png/@@images/image",
+    "imageCandidates": [
+      "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/populacao-conta-com-atendimento-materno-infantil-e-oncologico-de-referencia-pelo-sus-em-mossoro-rn/mossoro.png/@@images/image"
+    ],
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/mossoro-atendimento-materno-oncologico-sus-29-09-2026.jpg"
+  },
+  {
+    "id": "brasil-165827-vagas-formais-agosto-29-09-2026",
+    "published": "2026-09-29T15:56:00-03:00",
+    "category": "ECONOMIA",
+    "title": "Brasil abre 165,8 mil vagas formais",
+    "summary": "Novo Caged registra 165.827 novos postos em agosto; Pernambuco aparece entre os maiores saldos do país, com 13.428 vagas.",
+    "location": "Brasil",
+    "date": "29 SET 2026",
+    "body": [
+      "O Brasil abriu 165.827 postos de trabalho com carteira assinada em agosto de 2026, resultado de 2.294.563 admissões e 2.128.736 desligamentos.",
+      "O setor de Serviços liderou o mês, com 110.346 vagas. O Nordeste registrou saldo de 59.356 postos e Pernambuco ficou entre os destaques nacionais, com 13.428 novas vagas formais.",
+      "De janeiro a agosto, o país acumulou saldo positivo de 1.134.033 empregos formais. O estoque de vínculos chegou a 48.244.696."
+    ],
+    "sources": [
+      {
+        "name": "Ministério do Trabalho e Emprego",
+        "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/setembro/novo-caged-emprego-formal-gera-165-8-mil-vagas-em-agosto-e-acumula-1-13-milhao-de-postos-no-ano"
+      },
+      {
+        "name": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/brasil-cria-1658-mil-postos-de-trabalho-em-agosto-aponta-caged"
+      }
+    ],
+    "credit": "Vitor Vasconcelos / Secom-PR",
+    "sourceImage": "https://www.gov.br/secom/pt-br/assuntos/noticias-regionalizadas/numeros-do-novo-caged-em-2025/08/maranhao-abre-mais-de-3-1-mil-vagas-formais-de-trabalho-em-agosto/carteira-de-trabalho.jpg/@@images/image",
+    "image": "https://www.gov.br/secom/pt-br/assuntos/noticias-regionalizadas/numeros-do-novo-caged-em-2025/08/maranhao-abre-mais-de-3-1-mil-vagas-formais-de-trabalho-em-agosto/carteira-de-trabalho.jpg/@@images/image",
+    "imageCandidates": [
+      "https://www.gov.br/secom/pt-br/assuntos/noticias-regionalizadas/numeros-do-novo-caged-em-2025/08/maranhao-abre-mais-de-3-1-mil-vagas-formais-de-trabalho-em-agosto/carteira-de-trabalho.jpg/@@images/image"
+    ],
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/brasil-165827-vagas-formais-agosto-29-09-2026.jpg"
+  },
+  {
     "id": "laboratorio-car-t-ceara-sus-29-09-2026",
     "published": "2026-09-29T19:37:00-03:00",
     "category": "SAÚDE",
