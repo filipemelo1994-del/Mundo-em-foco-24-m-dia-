@@ -24,12 +24,13 @@
     ],
     "credit": "Paulo Pinto / Agência Brasil",
     "sourceImage": "https://imagens.ebc.com.br/l1kwlNWUhdZkUWTX3JCbEwVy4GI%3D/1170x700/smart/https%3A//agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/12/29/pint0990.jpg?itok=MV5azu7Z",
-    "image": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/assets/templates/layout-oficial-mundo-em-foco24.webp",
+    "image": "https://jornalonlinealagoas.com/uploads/noticias/",
     "imageCandidates": [
       "https://imagens.ebc.com.br/l1kwlNWUhdZkUWTX3JCbEwVy4GI%3D/1170x700/smart/https%3A//agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/12/29/pint0990.jpg?itok=MV5azu7Z"
     ],
     "imageAlt": "SP recebe 34 alertas por calor e chuva",
-    "imageStatus": "fallback-local-pending-art"
+    "imageStatus": "fallback-local-pending-art",
+    "imageSource": "Governo de SP / Secom SP"
   },
   {
     "id": "desemprego-53-recorde-ocupacao-agosto-29-09-2026",
@@ -55,13 +56,14 @@
       }
     ],
     "credit": "Marcelo Camargo / Agência Brasil",
-    "sourceImage": "https://imagens.ebc.com.br/XU0KxiRRSyu-jsOwSXrX7QW9FWY%3D/1170x700/smart/https%3A//agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/carteira-de-trabalho-digital_mcamgo_abr_240620211818.jpg?itok=N7Fj4zTX",
-    "image": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/assets/templates/layout-oficial-mundo-em-foco24.webp",
+    "sourceImage": "https://agenciagov.ebc.com.br/noticias/202609/desemprego-cai-no-trimestre-e-numero-de-pessoas-ocupadas-e-o-maior-da-serie-historica/@@images/53cb9d06-0d33-46a1-8309-3abda99fe922.jpeg",
+    "image": "https://agenciagov.ebc.com.br/noticias/202609/desemprego-cai-no-trimestre-e-numero-de-pessoas-ocupadas-e-o-maior-da-serie-historica/@@images/53cb9d06-0d33-46a1-8309-3abda99fe922.jpeg",
     "imageCandidates": [
       "https://imagens.ebc.com.br/XU0KxiRRSyu-jsOwSXrX7QW9FWY%3D/1170x700/smart/https%3A//agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/carteira-de-trabalho-digital_mcamgo_abr_240620211818.jpg?itok=N7Fj4zTX"
     ],
     "imageAlt": "Desemprego cai a 5,3% no Brasil",
-    "imageStatus": "fallback-local-pending-art"
+    "imageStatus": "fallback-local-pending-art",
+    "imageSource": "Agência Gov / Via IBGE"
   },
   {
     "id": "mossoro-atendimento-materno-oncologico-sus-29-09-2026",
