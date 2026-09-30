@@ -22,15 +22,15 @@
         "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-09/calor-e-chuvas-levam-defesa-civil-emitir-34-alertas-em-sao-paulo"
       }
     ],
-    "credit": "Paulo Pinto / Agência Brasil",
-    "sourceImage": "https://imagens.ebc.com.br/l1kwlNWUhdZkUWTX3JCbEwVy4GI%3D/1170x700/smart/https%3A//agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/12/29/pint0990.jpg?itok=MV5azu7Z",
-    "image": "https://jornalonlinealagoas.com/uploads/noticias/",
+    "credit": "Wilson Neves de Miranda / Wikimedia Commons",
+    "sourceImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Temporal_em_S%C3%A3o_Paulo_SP.jpg",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Temporal_em_S%C3%A3o_Paulo_SP.jpg",
     "imageCandidates": [
-      "https://imagens.ebc.com.br/l1kwlNWUhdZkUWTX3JCbEwVy4GI%3D/1170x700/smart/https%3A//agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/12/29/pint0990.jpg?itok=MV5azu7Z"
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Temporal_em_S%C3%A3o_Paulo_SP.jpg"
     ],
     "imageAlt": "SP recebe 34 alertas por calor e chuva",
     "imageStatus": "fallback-local-pending-art",
-    "imageSource": "Governo de SP / Secom SP"
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Temporal_em_S%C3%A3o_Paulo_SP.jpg"
   },
   {
     "id": "desemprego-53-recorde-ocupacao-agosto-29-09-2026",
@@ -55,15 +55,15 @@
         "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/taxa-de-desemprego-cai-para-53-menor-para-o-trimestre-ate-agosto"
       }
     ],
-    "credit": "Marcelo Camargo / Agência Brasil",
-    "sourceImage": "https://agenciagov.ebc.com.br/noticias/202609/desemprego-cai-no-trimestre-e-numero-de-pessoas-ocupadas-e-o-maior-da-serie-historica/@@images/53cb9d06-0d33-46a1-8309-3abda99fe922.jpeg",
-    "image": "https://agenciagov.ebc.com.br/noticias/202609/desemprego-cai-no-trimestre-e-numero-de-pessoas-ocupadas-e-o-maior-da-serie-historica/@@images/53cb9d06-0d33-46a1-8309-3abda99fe922.jpeg",
+    "credit": "Wilfredor / Wikimedia Commons (CC0)",
+    "sourceImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Documents_required_to_work_in_Brazil.jpg",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Documents_required_to_work_in_Brazil.jpg",
     "imageCandidates": [
-      "https://imagens.ebc.com.br/XU0KxiRRSyu-jsOwSXrX7QW9FWY%3D/1170x700/smart/https%3A//agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/carteira-de-trabalho-digital_mcamgo_abr_240620211818.jpg?itok=N7Fj4zTX"
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Documents_required_to_work_in_Brazil.jpg"
     ],
     "imageAlt": "Desemprego cai a 5,3% no Brasil",
     "imageStatus": "fallback-local-pending-art",
-    "imageSource": "Agência Gov / Via IBGE"
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Documents_required_to_work_in_Brazil.jpg"
   },
   {
     "id": "mossoro-atendimento-materno-oncologico-sus-29-09-2026",
