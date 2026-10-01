@@ -1430,17 +1430,17 @@
       }
     },
     "lito-sousa-homenagem-01-10-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_OK",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "18492056767109233",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
-      "last_error": "build_news_art_v2 exit=3",
+      "last_error": null,
       "art_sha256": "d41086de2b0409fe85097da5a41868e513a43fa79076e3950e29b37077d2b380",
       "art_validation": {
         "passed": true,
