@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-01T08:56:22.588Z",
+  "updated_at": "2026-10-01T08:56:55.705Z",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -1366,17 +1366,17 @@
       "last_error": null
     },
     "frente-fria-ciclone-tempestades-outubro-01-10-2026": {
-      "state": "PORTAL_PENDENTE",
-      "portal": false,
-      "feed_art": false,
+      "state": "FEED_OK",
+      "portal": true,
+      "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "18125431966866990",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
-      "last_error": "build_news_art_v2 exit=4",
+      "last_error": null,
       "art_sha256": "38e539b7c731bff25f8ece6781fd2261713f5f07a0fa040f1be24c5af2ba7d38",
       "art_validation": {
         "passed": false,
