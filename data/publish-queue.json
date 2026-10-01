@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-01T09:15:53.459600+00:00",
+  "updated_at": "2026-10-01T15:22:59.129998+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -1353,14 +1353,14 @@
       "last_error": null
     },
     "primeiro-sinal-radio-exoplaneta-beta-pictoris-b-27-09-2026": {
-      "state": "FEED_PENDENTE",
+      "state": "FEED_OK",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "18025369904701168",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
       "last_error": null
