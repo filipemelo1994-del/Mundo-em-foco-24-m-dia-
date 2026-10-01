@@ -1,0 +1,31 @@
+{
+  "id": "receitas-medicas-eletronicas-sncr-anvisa-01-10-2026",
+  "published": "2026-10-01T05:58:00-03:00",
+  "category": "SAÚDE",
+  "title": "Receitas médicas ganham controle eletrônico",
+  "summary": "Nova etapa do sistema da Anvisa permite emissão eletrônica de notificações e amplia a verificação de receitas, sem acabar com o papel.",
+  "location": "Brasil",
+  "date": "01 OUT 2026",
+  "body": [
+    "O Sistema Nacional de Controle de Receituários (SNCR), da Anvisa, passou a oferecer novas funcionalidades para emissão e controle eletrônico de receitas médicas. A implantação amplia as opções disponíveis para profissionais, sistemas de prescrição, farmácias e drogarias.",
+    "A mudança não acaba com as receitas em papel e também não torna obrigatória a prescrição eletrônica. Segundo a Anvisa, a adoção será gradual, conforme a preparação dos diferentes setores e os prazos definidos para cada tipo de receituário.",
+    "Entre as novidades está a possibilidade de emissão eletrônica de notificações de receita que tradicionalmente utilizam modelos azul e amarelo. O sistema também amplia o controle eletrônico de receitas especiais e de medicamentos sujeitos à retenção.",
+    "O SNCR centraliza a gestão das numerações utilizadas na prescrição de medicamentos sujeitos a controle especial. As vigilâncias sanitárias continuam responsáveis pela concessão e pelo controle dessas numerações, agora com apoio da base nacional.",
+    "Quando uma receita eletrônica chega à farmácia ou drogaria, o estabelecimento pode consultar o sistema para verificar a autenticidade da numeração, confirmar dados do prescritor e registrar a utilização da receita.",
+    "Nos modelos eletrônicos de notificação, um QR Code também poderá facilitar a consulta e o registro. Para os profissionais de saúde, a emissão continuará sendo feita pelos sistemas de prescrição que se integrarem ao SNCR.",
+    "No caso das chamadas receitas brancas eletrônicas, a Anvisa estabeleceu período de transição até 29 de outubro. A partir de 30 de outubro, quando forem emitidas eletronicamente, deverão estar integradas ao SNCR; as versões em papel continuarão sendo uma opção."
+  ],
+  "sources": [
+    {
+      "name": "Agência Brasil / Anvisa",
+      "url": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-09/mudancas-na-emissao-e-no-controle-de-receitas-medicas-entram-em-vigor"
+    }
+  ],
+  "credit": "Imagem ilustrativa: Wikimedia Commons / CC0",
+  "sourceImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Drug_Prescription_Form.jpg",
+  "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Drug_Prescription_Form.jpg",
+  "imageCandidates": [
+    "https://commons.wikimedia.org/wiki/Special:Redirect/file/Drug_Prescription_Form.jpg"
+  ],
+  "imageAlt": "Formulário de prescrição médica"
+}
