@@ -1,0 +1,26 @@
+name: Build Lito Sousa V2 Carousel
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'requests/carousel/lito-sousa-v2.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow requests
+      - run: python scripts/build_lito_sousa_v2_carousel.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/carousel/lito-sousa-v2-01-10-2026
+          git commit -m "art: Lito Sousa V2 carousel" || exit 0
+          git pull --rebase origin main
+          git push origin main
