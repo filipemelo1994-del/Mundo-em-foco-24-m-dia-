@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-01T08:56:55.705Z",
+  "updated_at": "2026-10-01T09:15:53.459600+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -1385,6 +1385,26 @@
           "text_fit"
         ],
         "checked_at": "2026-10-01T08:55:58.959262+00:00"
+      }
+    },
+    "propaganda-eleitoral-radio-tv-termina-hoje-01-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "5d28996ef230ecef77ed88c1708a8dc8f8438b2446da822dd1c3686ad116f0da",
+      "art_validation": {
+        "passed": true,
+        "sha256": "5d28996ef230ecef77ed88c1708a8dc8f8438b2446da822dd1c3686ad116f0da",
+        "failed": [],
+        "checked_at": "2026-10-01T09:15:53.425812+00:00"
       }
     }
   }
