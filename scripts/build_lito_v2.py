@@ -5,7 +5,7 @@ cards=[
 ("TRAJETÓRIA","Uma vida ligada à aviação","Com décadas de experiência no setor aéreo, transformou conhecimento técnico em conteúdo acessível para milhões de pessoas."),
 ("AVIÕES E MÚSICAS","Informação com leveza","Segurança, manutenção e histórias da aviação ganharam explicações didáticas e bem-humoradas em seu trabalho."),
 ("SAÚDE","A doença de Creutzfeldt-Jakob","A DCJ é uma doença priônica humana rara, neurodegenerativa, progressiva e fatal, que causa rápida deterioração neurológica."),
-("NOSSA HOMENAGEM","Seu legado seguirá voando","O Mundo em Foco 24 homenageia Lito Sousa. Ficam seu conhecimento, sua paixão pela aviação e o carinho de quem acompanhou sua trajetória.")
+("NOSSA HOMENAGEM","Seu legado seguirá voando","Obrigado, Lito, por compartilhar sua paixão pela aviação. O Mundo em Foco 24 presta sua homenagem.")
 ]
 out="public/carousel/lito-sousa-v2";os.makedirs(out,exist_ok=True)
 for i,(cat,title,summary) in enumerate(cards,1):
