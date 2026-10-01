@@ -1,0 +1,33 @@
+{
+  "id": "spacex-crew13-iss-01-10-2026",
+  "published": "2026-10-01T18:20:00-03:00",
+  "category": "MUNDO",
+  "title": "SpaceX leva quatro tripulantes à Estação Espacial",
+  "summary": "Crew-13 decolou da Flórida com astronautas dos EUA e Canadá e um cosmonauta russo para uma missão científica de longa duração na ISS.",
+  "location": "Cabo Canaveral, Estados Unidos",
+  "date": "01 OUT 2026",
+  "body": [
+    "A missão Crew-13 decolou nesta quinta-feira (1º) de Cabo Canaveral, na Flórida, levando quatro tripulantes à Estação Espacial Internacional (ISS).",
+    "O foguete Falcon 9 partiu às 11h10 no horário do leste dos Estados Unidos com a cápsula Dragon. A bordo estão os astronautas da NASA Jessica Watkins e Luke Delaney, o canadense Joshua Kutryk e o cosmonauta russo Sergey Teteryatnikov.",
+    "Segundo a NASA, a Dragon alcançou a órbita com segurança após se separar do segundo estágio do Falcon 9. A viagem até a estação foi planejada para durar pouco menos de oito horas.",
+    "A tripulação realizará pesquisas em microgravidade, incluindo estudos sobre tecidos derivados de células-tronco, produção de alimentos no espaço e saúde humana.",
+    "A Crew-13 integra o programa de transporte comercial de tripulações da NASA e deve permanecer na estação em uma missão científica de longa duração."
+  ],
+  "sources": [
+    {
+      "name": "NASA — Crew-13 launches to International Space Station",
+      "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/"
+    },
+    {
+      "name": "Reuters — SpaceX launches 13th long-duration astronaut crew to ISS",
+      "url": "https://www.reuters.com/business/media-telecom/spacex-launches-13th-long-duration-astronaut-crew-international-space-station-2026-10-01/"
+    }
+  ],
+  "credit": "Imagem ilustrativa: U.S. Space Force / Wikimedia Commons",
+  "sourceImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Falcon%209%20-%20Starlink%2010-53%20Launch%20%289714136%29.jpg?width=1600",
+  "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Falcon%209%20-%20Starlink%2010-53%20Launch%20%289714136%29.jpg?width=1600",
+  "imageCandidates": [
+    "https://commons.wikimedia.org/wiki/Special:Redirect/file/Falcon%209%20-%20Starlink%2010-53%20Launch%20%289714136%29.jpg?width=1600"
+  ],
+  "imageAlt": "Foguete Falcon 9 durante lançamento em Cabo Canaveral, imagem ilustrativa"
+}
