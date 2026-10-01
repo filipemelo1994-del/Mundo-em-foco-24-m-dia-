@@ -1,0 +1,31 @@
+{
+  "id": "frente-fria-ciclone-tempestades-outubro-01-10-2026",
+  "published": "2026-10-01T06:02:00-03:00",
+  "category": "TEMPO",
+  "title": "Outubro começa com risco de tempestades",
+  "summary": "Frente fria ligada a ciclone no Atlântico mantém chuva, trovoadas e chance de granizo no Centro-Oeste e Sudeste; Sul terá queda de temperatura.",
+  "location": "Brasil",
+  "date": "01 OUT 2026",
+  "body": [
+    "O mês de outubro começa com a passagem de uma frente fria associada a um ciclone extratropical sobre o oceano Atlântico, na altura das regiões Sul e Sudeste do Brasil, segundo o Instituto Nacional de Meteorologia (Inmet).",
+    "Nesta quinta-feira (1º), o sistema mantém o tempo instável em áreas do Centro-Oeste e Sudeste, com previsão de chuva, trovoadas e possibilidade de granizo. A frente fria avança enquanto o ciclone se desloca sobre o oceano.",
+    "Na Região Sul, a entrada de um sistema de alta pressão favorece a redução da nebulosidade e a queda das temperaturas. Esse sistema, também chamado de anticiclone, passa a dominar as condições do tempo após a passagem da frente fria.",
+    "Ao longo de sexta-feira (2), o anticiclone deve se deslocar gradualmente em direção ao Atlântico. A circulação dos ventos em torno do sistema transporta ar mais frio e úmido do oceano para a faixa leste do Sudeste.",
+    "A combinação dos sistemas deixa o início de outubro com condições meteorológicas bastante diferentes entre as regiões: instabilidade e risco de tempestades em parte do Centro-Oeste e Sudeste e tempo mais estável e frio no Sul.",
+    "O Inmet recomenda acompanhar as atualizações da previsão e os avisos meteorológicos para cada município, especialmente em áreas sujeitas a tempestades, rajadas de vento e queda de granizo.",
+    "A previsão é atualizada conforme os sistemas atmosféricos se deslocam. Alertas oficiais do Inmet indicam os níveis de perigo e as áreas afetadas quando há condições de tempo severo."
+  ],
+  "sources": [
+    {
+      "name": "INMET — Previsão para quinta-feira (1º) e sexta-feira (2)",
+      "url": "https://portal.inmet.gov.br/noticias/previs%C3%A3o-para-quinta-feira-1-e-sexta-feira-2"
+    }
+  ],
+  "credit": "Imagem ilustrativa: Francierlem28 / Wikimedia Commons / CC0",
+  "sourceImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nuvem_Cumulonimbus.jpg",
+  "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nuvem_Cumulonimbus.jpg",
+  "imageCandidates": [
+    "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nuvem_Cumulonimbus.jpg"
+  ],
+  "imageAlt": "Nuvem cumulonimbus, imagem ilustrativa de tempestade"
+}
