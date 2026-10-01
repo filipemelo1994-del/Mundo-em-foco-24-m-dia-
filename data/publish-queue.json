@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-01T08:55:58.997975+00:00",
+  "updated_at": "2026-10-01T08:56:22.588Z",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -449,14 +449,14 @@
       }
     },
     "receitas-medicas-eletronicas-sncr-anvisa-01-10-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_OK",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "17952867903036300",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
       "last_error": null,
