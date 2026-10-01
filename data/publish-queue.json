@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-01T21:42:15.959447+00:00",
+  "updated_at": "2026-10-01T21:47:59.996857+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -1431,8 +1431,8 @@
     },
     "lito-sousa-homenagem-01-10-2026": {
       "state": "PORTAL_PENDENTE",
-      "portal": false,
-      "feed_art": false,
+      "portal": true,
+      "feed_art": true,
       "story_art": false,
       "feed_media_id": null,
       "story_media_id": null,
@@ -1440,7 +1440,14 @@
         "feed": 0,
         "story": 0
       },
-      "last_error": "build_news_art_v2 exit=3"
+      "last_error": "build_news_art_v2 exit=3",
+      "art_sha256": "d41086de2b0409fe85097da5a41868e513a43fa79076e3950e29b37077d2b380",
+      "art_validation": {
+        "passed": true,
+        "sha256": "d41086de2b0409fe85097da5a41868e513a43fa79076e3950e29b37077d2b380",
+        "failed": [],
+        "checked_at": "2026-10-01T21:47:59.960548+00:00"
+      }
     }
   }
 }
