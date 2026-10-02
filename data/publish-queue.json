@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-01T21:47:59.996857+00:00",
+  "updated_at": "2026-10-02T00:07:14.445384+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -508,14 +508,14 @@
       "last_error": null
     },
     "alibaba-novo-chip-ia-zhenwu-v900-27-09-2026": {
-      "state": "FEED_PENDENTE",
+      "state": "FEED_OK",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "18113811827105981",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
       "last_error": null
