@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-02T20:30:26.326972+00:00",
+  "updated_at": "2026-10-02T20:30:34.805Z",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -1510,14 +1510,14 @@
       }
     },
     "carros-eletricos-reino-unido-setembro-02-10-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_OK",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "17903974815593166",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
       "last_error": null,
