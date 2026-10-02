@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-02T08:56:33.820Z",
+  "updated_at": "2026-10-02T09:02:32.357730+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -1487,6 +1487,26 @@
         "sha256": "ac5596e07c1c2cad6e42cd92f80cd48bffd7d64ce74d4129f7f294ce7d9d62af",
         "failed": [],
         "checked_at": "2026-10-02T08:29:33.304309+00:00"
+      }
+    },
+    "precos-alimentos-mundo-fao-setembro-02-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "d25248f8b0f02aba6e91aac309b47922adf4a793bace77c21c606329bb328e97",
+      "art_validation": {
+        "passed": true,
+        "sha256": "d25248f8b0f02aba6e91aac309b47922adf4a793bace77c21c606329bb328e97",
+        "failed": [],
+        "checked_at": "2026-10-02T09:02:32.329309+00:00"
       }
     }
   }
