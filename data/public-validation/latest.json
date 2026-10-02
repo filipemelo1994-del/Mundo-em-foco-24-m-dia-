@@ -1,1 +1,20 @@
-{}
+{
+  "propaganda-eleitoral-radio-tv-termina-hoje-01-10-2026": {
+    "url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/news-art/propaganda-eleitoral-radio-tv-termina-hoje-01-10-2026.jpg",
+    "expected_sha256": "5d28996ef230ecef77ed88c1708a8dc8f8438b2446da822dd1c3686ad116f0da",
+    "public_sha256": "5d28996ef230ecef77ed88c1708a8dc8f8438b2446da822dd1c3686ad116f0da",
+    "passed": true
+  },
+  "carros-eletricos-reino-unido-setembro-02-10-2026": {
+    "url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/news-art/carros-eletricos-reino-unido-setembro-02-10-2026.jpg",
+    "expected_sha256": "fd02415ac566012279591ab7cbf71af8926d98c75e1fd6149ad1f3818a7d3383",
+    "public_sha256": "fd02415ac566012279591ab7cbf71af8926d98c75e1fd6149ad1f3818a7d3383",
+    "passed": true
+  },
+  "europa-discute-liberacao-estoques-diesel-02-10-2026": {
+    "url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/news-art/europa-discute-liberacao-estoques-diesel-02-10-2026.jpg",
+    "expected_sha256": "3267e7352d30d80741a1eb45f9b17ae20003ea776016b23235cb3d94d27aa8e1",
+    "public_sha256": "3267e7352d30d80741a1eb45f9b17ae20003ea776016b23235cb3d94d27aa8e1",
+    "passed": true
+  }
+}
