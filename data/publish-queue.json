@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-02T08:53:54.464Z",
+  "updated_at": "2026-10-02T08:56:33.820Z",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -1470,14 +1470,14 @@
       }
     },
     "taiwan-primeiros-f16v-block70-02-10-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_OK",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "18098507288400252",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
       "last_error": null,
