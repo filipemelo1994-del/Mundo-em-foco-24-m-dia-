@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-02T20:31:47.402Z",
+  "updated_at": "2026-10-02T20:35:09.015326+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -1567,6 +1567,46 @@
         "sha256": "6adf5cef565ec4fb47a65352e37e92b752efa07c0ffbcefc9c779c200d9b8b4b",
         "failed": [],
         "checked_at": "2026-10-02T20:30:26.239992+00:00"
+      }
+    },
+    "carros-eletricos-uk-foto-corrigida-02-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "c969b4bdac28e98e6381bfe8ce37f4795afdf5e5ded17c6ac75e4056256277f7",
+      "art_validation": {
+        "passed": true,
+        "sha256": "c969b4bdac28e98e6381bfe8ce37f4795afdf5e5ded17c6ac75e4056256277f7",
+        "failed": [],
+        "checked_at": "2026-10-02T20:35:06.146258+00:00"
+      }
+    },
+    "g7-reservas-foto-corrigida-02-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "5e151bb1165e53fdc0c6382e0652993c38c54c1657d30a5fcb1333f949f12f71",
+      "art_validation": {
+        "passed": true,
+        "sha256": "5e151bb1165e53fdc0c6382e0652993c38c54c1657d30a5fcb1333f949f12f71",
+        "failed": [],
+        "checked_at": "2026-10-02T20:35:08.976400+00:00"
       }
     }
   }
