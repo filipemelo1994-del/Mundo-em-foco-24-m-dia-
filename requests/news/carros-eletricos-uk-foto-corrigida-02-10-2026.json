@@ -1,0 +1,30 @@
+{
+  "id": "carros-eletricos-uk-foto-corrigida-02-10-2026",
+  "published": "2026-10-02T17:40:00-03:00",
+  "category": "TECNOLOGIA",
+  "title": "Carros elétricos impulsionam vendas no Reino Unido",
+  "summary": "Registros de carros novos cresceram 12,1% em setembro, enquanto os veículos totalmente elétricos avançaram 36,3% na comparação anual.",
+  "location": "Reino Unido",
+  "date": "02 OUT 2026",
+  "body": [
+    "As vendas de carros novos no Reino Unido cresceram 12,1% em setembro na comparação anual, alcançando o maior nível para o mês desde 2017.",
+    "Os veículos totalmente elétricos tiveram destaque: 99.199 unidades foram registradas, alta de 36,3%, representando 28,3% do mercado no mês.",
+    "A expansão foi apoiada por maior oferta de modelos, descontos das montadoras e incentivos governamentais."
+  ],
+  "sources": [
+    {
+      "name": "Reuters — UK new car sales rise 12% in September",
+      "url": "https://www.reuters.com/world/china/uk-new-car-sales-hit-highest-september-level-since-2017-prelim-data-shows-2026-10-02/"
+    },
+    {
+      "name": "SMMT — Record electric car market powers bumper September",
+      "url": "https://www.smmt.co.uk/record-electric-car-market-powers-bumper-september/"
+    }
+  ],
+  "credit": "Foto ilustrativa: veículos elétricos em recarga no Reino Unido",
+  "sourceImage": "https://cdn.am-online.com/media/1/root/img-0221-768x576.jpg",
+  "imageCandidates": [
+    "https://cdn.am-online.com/media/1/root/img-0221-768x576.jpg"
+  ],
+  "imageAlt": "Carros elétricos em concessionária britânica conectados a carregador"
+}
