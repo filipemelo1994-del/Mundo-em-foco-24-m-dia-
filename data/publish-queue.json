@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-02T09:04:53.027Z",
+  "updated_at": "2026-10-02T13:53:21.997245+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -1507,6 +1507,46 @@
         "sha256": "d25248f8b0f02aba6e91aac309b47922adf4a793bace77c21c606329bb328e97",
         "failed": [],
         "checked_at": "2026-10-02T09:02:32.329309+00:00"
+      }
+    },
+    "carros-eletricos-reino-unido-setembro-02-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "fd02415ac566012279591ab7cbf71af8926d98c75e1fd6149ad1f3818a7d3383",
+      "art_validation": {
+        "passed": true,
+        "sha256": "fd02415ac566012279591ab7cbf71af8926d98c75e1fd6149ad1f3818a7d3383",
+        "failed": [],
+        "checked_at": "2026-10-02T13:53:20.947565+00:00"
+      }
+    },
+    "europa-discute-liberacao-estoques-diesel-02-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "3267e7352d30d80741a1eb45f9b17ae20003ea776016b23235cb3d94d27aa8e1",
+      "art_validation": {
+        "passed": true,
+        "sha256": "3267e7352d30d80741a1eb45f9b17ae20003ea776016b23235cb3d94d27aa8e1",
+        "failed": [],
+        "checked_at": "2026-10-02T13:53:21.966906+00:00"
       }
     }
   }

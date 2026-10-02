@@ -1,5 +1,61 @@
 [
   {
+    "id": "europa-discute-liberacao-estoques-diesel-02-10-2026",
+    "category": "MUNDO",
+    "title": "Europa discute liberar estoques de diesel",
+    "summary": "Países europeus analisam uma proposta francesa para liberar 50 milhões de barris de diesel e aliviar a pressão sobre os preços dos combustíveis.",
+    "location": "Bruxelas, Bélgica",
+    "date": "02 OUT 2026",
+    "body": [
+      "Países da União Europeia discutiram nesta sexta-feira uma proposta da França para liberar estoques de diesel em meio à forte pressão sobre os preços dos combustíveis.",
+      "Segundo fontes ouvidas pela Reuters, a proposta prevê que países europeus liberem 50 milhões de barris de diesel e que membros da Agência Internacional de Energia considerem liberar volume equivalente de petróleo bruto.",
+      "A discussão ocorre enquanto os mercados de energia enfrentam forte volatilidade e preocupações com a oferta internacional."
+    ],
+    "sources": [
+      {
+        "name": "Reuters — Europe weighs new diesel stocks release",
+        "url": "https://www.reuters.com/business/energy/europe-discussing-plan-diesel-stock-releases-after-us-pressure-source-says-2026-10-02/"
+      }
+    ],
+    "credit": "Imagem ilustrativa",
+    "imageCandidates": [
+      "https://images.unsplash.com/photo-1516939884455-1445c8652f83?auto=format&fit=crop&w=1600&q=85"
+    ],
+    "sourceImage": "https://images.unsplash.com/photo-1516939884455-1445c8652f83?auto=format&fit=crop&w=1600&q=85",
+    "imageAlt": "Instalações de armazenamento de combustíveis",
+    "published": "2026-10-02T10:50:00-03:00",
+    "image": "https://images.unsplash.com/photo-1516939884455-1445c8652f83?auto=format&fit=crop&w=1600&q=85",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/europa-discute-liberacao-estoques-diesel-02-10-2026.jpg"
+  },
+  {
+    "id": "carros-eletricos-reino-unido-setembro-02-10-2026",
+    "category": "TECNOLOGIA",
+    "title": "Carros elétricos impulsionam vendas no Reino Unido",
+    "summary": "Registros de carros novos cresceram 12% em setembro, enquanto os veículos totalmente elétricos avançaram 36,3% na comparação anual.",
+    "location": "Reino Unido",
+    "date": "02 OUT 2026",
+    "body": [
+      "As vendas de carros novos no Reino Unido cresceram 12% em setembro na comparação com o mesmo mês do ano passado, atingindo o maior nível para o mês desde 2017.",
+      "Os veículos totalmente elétricos tiveram destaque, com alta de 36,3% nos registros, segundo dados preliminares do setor citados pela Reuters.",
+      "Marcas chinesas também ampliaram sua presença no mercado britânico, enquanto a participação dos veículos a gasolina diminuiu."
+    ],
+    "sources": [
+      {
+        "name": "Reuters — UK new car sales rise 12% in September",
+        "url": "https://www.reuters.com/world/china/uk-new-car-sales-hit-highest-september-level-since-2017-prelim-data-shows-2026-10-02/"
+      }
+    ],
+    "credit": "Imagem ilustrativa",
+    "imageCandidates": [
+      "https://images.unsplash.com/photo-1592833159155-c62df1b65634?auto=format&fit=crop&w=1600&q=85"
+    ],
+    "sourceImage": "https://images.unsplash.com/photo-1592833159155-c62df1b65634?auto=format&fit=crop&w=1600&q=85",
+    "imageAlt": "Carro elétrico sendo carregado",
+    "published": "2026-10-02T10:50:00-03:00",
+    "image": "https://images.unsplash.com/photo-1592833159155-c62df1b65634?auto=format&fit=crop&w=1600&q=85",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/carros-eletricos-reino-unido-setembro-02-10-2026.jpg"
+  },
+  {
     "id": "precos-alimentos-mundo-fao-setembro-02-10-2026",
     "published": "2026-10-02T06:08:00-03:00",
     "category": "ECONOMIA",
