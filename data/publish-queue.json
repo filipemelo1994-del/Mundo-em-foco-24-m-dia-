@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-02T05:28:22.405119+00:00",
+  "updated_at": "2026-10-02T08:29:33.338226+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -1447,6 +1447,46 @@
         "sha256": "d41086de2b0409fe85097da5a41868e513a43fa79076e3950e29b37077d2b380",
         "failed": [],
         "checked_at": "2026-10-01T21:47:59.960548+00:00"
+      }
+    },
+    "industria-global-ia-setembro-02-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "54e03972c0f3b3a11432533c1be0178c8a5aaaf95bdad4a02c2b930a00635afe",
+      "art_validation": {
+        "passed": true,
+        "sha256": "54e03972c0f3b3a11432533c1be0178c8a5aaaf95bdad4a02c2b930a00635afe",
+        "failed": [],
+        "checked_at": "2026-10-02T08:29:30.657805+00:00"
+      }
+    },
+    "taiwan-primeiros-f16v-block70-02-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "ac5596e07c1c2cad6e42cd92f80cd48bffd7d64ce74d4129f7f294ce7d9d62af",
+      "art_validation": {
+        "passed": true,
+        "sha256": "ac5596e07c1c2cad6e42cd92f80cd48bffd7d64ce74d4129f7f294ce7d9d62af",
+        "failed": [],
+        "checked_at": "2026-10-02T08:29:33.304309+00:00"
       }
     }
   }

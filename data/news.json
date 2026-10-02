@@ -1,5 +1,65 @@
 [
   {
+    "id": "taiwan-primeiros-f16v-block70-02-10-2026",
+    "published": "2026-10-02T05:10:00-03:00",
+    "category": "MUNDO",
+    "title": "Taiwan recebe primeiros novos caças F-16V",
+    "summary": "Os dois primeiros de 66 caças F-16V Block 70 encomendados aos Estados Unidos chegaram a Taiwan após meses de atrasos.",
+    "location": "Taitung, Taiwan",
+    "date": "02 OUT 2026",
+    "body": [
+      "Taiwan recebeu nesta sexta-feira (2) os dois primeiros de 66 novos caças F-16V Block 70 comprados dos Estados Unidos.",
+      "As aeronaves pousaram na Base Aérea de Chihhang, em Taitung, no leste da ilha. A compra, aprovada em 2019, é avaliada em cerca de US$ 8 bilhões.",
+      "O programa sofreu atrasos, e o ministro da Defesa de Taiwan, Wellington Koo, afirmou que mais aeronaves devem chegar antes do fim do ano."
+    ],
+    "sources": [
+      {
+        "name": "Reuters — Taiwan's first new F-16V fighter jets arrive",
+        "url": "https://www.reuters.com/business/aerospace-defense/first-new-f-16v-fighter-jets-arrive-taiwan-bolster-defences-against-china-2026-10-02/"
+      },
+      {
+        "name": "Focus Taiwan — Taiwan receives first 2 F-16V Block 70s",
+        "url": "https://focustaiwan.tw/politics/202610020006"
+      }
+    ],
+    "credit": "Foto: OCAC / Força Aérea de Taiwan",
+    "sourceImage": "https://ocacnews.net/articleImages/202208/M2_F5859FFA-60C3-EDE9-7AA5-1C73DA026B38.jpg",
+    "imageCandidates": [
+      "https://ocacnews.net/articleImages/202208/M2_F5859FFA-60C3-EDE9-7AA5-1C73DA026B38.jpg"
+    ],
+    "imageAlt": "Caça F-16V da Força Aérea de Taiwan",
+    "image": "https://ocacnews.net/articleImages/202208/M2_F5859FFA-60C3-EDE9-7AA5-1C73DA026B38.jpg",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/taiwan-primeiros-f16v-block70-02-10-2026.jpg"
+  },
+  {
+    "id": "industria-global-ia-setembro-02-10-2026",
+    "published": "2026-10-02T05:12:00-03:00",
+    "category": "TECNOLOGIA",
+    "title": "Boom da IA impulsiona fábricas na Europa e na Ásia",
+    "summary": "Pesquisas industriais de setembro mostram expansão em importantes economias, com demanda por chips e investimentos ligados à inteligência artificial ajudando a sustentar a atividade.",
+    "location": "Mundo",
+    "date": "02 OUT 2026",
+    "body": [
+      "A atividade industrial em partes da Europa e da Ásia ganhou força em setembro, apoiada pela demanda associada ao ciclo global de investimentos em inteligência artificial.",
+      "Na zona do euro, o PMI industrial avançou, enquanto Taiwan e Coreia do Sul registraram desempenho forte ligado a semicondutores e exportações.",
+      "O cenário ainda enfrenta riscos de custos elevados de energia, inflação e juros, o que torna a recuperação desigual entre países."
+    ],
+    "sources": [
+      {
+        "name": "Reuters — Global factory activity boosted by AI spending boom",
+        "url": "https://www.reuters.com/world/china/global-economy-asian-factory-activity-expands-thanks-global-ai-boom-2026-10-01/"
+      }
+    ],
+    "credit": "Imagem ilustrativa: indústria de semicondutores",
+    "sourceImage": "https://i.blogs.es/754693/original/840_560.jpeg",
+    "imageCandidates": [
+      "https://i.blogs.es/754693/original/840_560.jpeg"
+    ],
+    "imageAlt": "Linha de produção de semicondutores em sala limpa",
+    "image": "https://i.blogs.es/754693/original/840_560.jpeg",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/industria-global-ia-setembro-02-10-2026.jpg"
+  },
+  {
     "id": "lito-sousa-homenagem-01-10-2026",
     "published": "2026-10-01T18:40:00-03:00",
     "category": "HOMENAGEM",
