@@ -1,0 +1,25 @@
+{
+  "id": "coreia-norte-missil-intermediario-03-10-2026",
+  "published": "2026-10-03T20:45:00-03:00",
+  "category": "MUNDO",
+  "title": "Coreia do Norte testa míssil de médio alcance",
+  "summary": "Pyongyang diz que exercício estratégico foi acompanhado por Kim Jong Un.",
+  "location": "Coreia do Norte",
+  "date": "03 OUT 2026",
+  "body": [
+    "A Coreia do Norte realizou neste sábado um teste com um míssil estratégico de médio alcance, segundo a agência estatal KCNA. Kim Jong Un acompanhou o exercício.",
+    "A Coreia do Sul informou que o míssil percorreu mais de 700 quilômetros em direção ao mar na costa leste. O lançamento ocorre em meio ao aumento das tensões na Península Coreana."
+  ],
+  "sources": [
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/world/asia-pacific/north-koreas-kim-yo-jong-says-intermediate-range-missile-test-was-conducted-2026-10-03/"
+    }
+  ],
+  "credit": "Foto: KCNA via Reuters — arquivo",
+  "sourceImage": "https://www.gmanetwork.com/news/topstories/world/1004605/north-korea-fires-ballistic-missile-toward-sea-south-korea-and-japan-say/story/",
+  "imageCandidates": [
+    "https://www.gmanetwork.com/news/topstories/world/1004605/north-korea-fires-ballistic-missile-toward-sea-south-korea-and-japan-say/story/"
+  ],
+  "imageAlt": "Teste de sistema de foguetes da Coreia do Norte em imagem de arquivo divulgada pela KCNA"
+}
