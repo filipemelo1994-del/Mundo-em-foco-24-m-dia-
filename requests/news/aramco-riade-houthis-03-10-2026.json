@@ -1,0 +1,25 @@
+{
+  "id": "aramco-riade-houthis-03-10-2026",
+  "published": "2026-10-03T17:20:00-03:00",
+  "category": "MUNDO",
+  "title": "Fogo e fumaça são vistos perto da Aramco em Riad",
+  "summary": "Houthis reivindicam ataque à instalação; autoridades sauditas ainda não haviam confirmado a causa.",
+  "location": "Riad, Arábia Saudita",
+  "date": "03 OUT 2026",
+  "body": [
+    "Fogo e uma coluna de fumaça foram vistos perto de uma instalação da Saudi Aramco em Riad neste sábado.",
+    "Os Houthis do Iêmen reivindicaram um ataque com mísseis e drones. Até a publicação, autoridades sauditas e a Aramco não haviam confirmado oficialmente a causa do incêndio."
+  ],
+  "sources": [
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/business/energy/fire-smoke-seen-near-aramco-facility-riyadh-witness-says-2026-10-03/"
+    }
+  ],
+  "credit": "Imagem ilustrativa: refinaria de petróleo",
+  "sourceImage": "https://images.unsplash.com/photo-1516939884455-1445c8652f83?auto=format&fit=crop&w=1600&q=85",
+  "imageCandidates": [
+    "https://images.unsplash.com/photo-1516939884455-1445c8652f83?auto=format&fit=crop&w=1600&q=85"
+  ],
+  "imageAlt": "Refinaria e instalações de armazenamento de petróleo"
+}
