@@ -1,0 +1,29 @@
+{
+  "id": "aramco-riade-foto-corrigida-03-10-2026",
+  "published": "2026-10-03T17:50:00-03:00",
+  "category": "MUNDO",
+  "title": "Fogo e fumaça são vistos perto da Aramco em Riad",
+  "summary": "Houthis reivindicam ataque; autoridades sauditas ainda não haviam confirmado oficialmente a causa.",
+  "location": "Riad, Arábia Saudita",
+  "date": "03 OUT 2026",
+  "body": [
+    "Uma grande coluna de fumaça e fogo foi vista nas proximidades de uma instalação da Aramco em Riad neste sábado, segundo uma testemunha ouvida pela Reuters.",
+    "Os Houthis do Iêmen disseram ter atacado uma instalação da Aramco na capital saudita com mísseis balísticos e drones. Autoridades sauditas e a Aramco ainda não haviam confirmado oficialmente o ataque."
+  ],
+  "sources": [
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/business/energy/fire-smoke-seen-near-aramco-facility-riyadh-witness-says-2026-10-03/"
+    },
+    {
+      "name": "Aramco",
+      "url": "https://www.aramco.com/ar/news-media/news/2018/isomerate-production-riyadh-refinery"
+    }
+  ],
+  "credit": "Foto: Aramco — Refinaria de Riad (arquivo/editorial)",
+  "sourceImage": "https://www.aramco.com/-/jssmedia/news/other/i/isomerate-production-riyadh-refinery.webp?cx=0.5&cy=0.5",
+  "imageCandidates": [
+    "https://www.aramco.com/-/jssmedia/news/other/i/isomerate-production-riyadh-refinery.webp?cx=0.5&cy=0.5"
+  ],
+  "imageAlt": "Instalações industriais da Refinaria de Riad da Saudi Aramco"
+}
