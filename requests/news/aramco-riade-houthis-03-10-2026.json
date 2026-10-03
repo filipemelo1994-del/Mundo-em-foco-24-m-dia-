@@ -1,0 +1,26 @@
+{
+  "id": "aramco-riade-houthis-03-10-2026",
+  "published": "2026-10-03T17:20:00-03:00",
+  "category": "MUNDO",
+  "title": "Houthis dizem ter atacado instalação da Aramco em Riad",
+  "summary": "Grupo afirma ter usado mísseis balísticos e drones. Fumaça e fogo foram vistos perto da instalação, mas autoridades sauditas não haviam confirmado o ataque.",
+  "location": "Riad, Arábia Saudita",
+  "date": "03 OUT 2026",
+  "body": [
+    "Os Houthis do Iêmen afirmaram neste sábado que atacaram uma instalação da Saudi Aramco em Riad com mísseis balísticos e drones.",
+    "Uma testemunha da Reuters relatou uma grande coluna de fumaça e fogo nas proximidades da instalação. Imagens jornalísticas do local também mostram fumaça sobre a refinaria ao sul da capital.",
+    "Até a publicação, autoridades sauditas e a Aramco não haviam confirmado oficialmente a causa do incêndio ou eventuais danos. Por isso, a alegação de ataque é atribuída aos Houthis."
+  ],
+  "sources": [
+    {
+      "name": "Reuters — Houthis say they attacked Aramco facility in Riyadh",
+      "url": "https://www.reuters.com/business/energy/fire-smoke-seen-near-aramco-facility-riyadh-witness-says-2026-10-03/"
+    }
+  ],
+  "credit": "Imagem relacionada: refinaria/instalação petrolífera saudita",
+  "sourceImage": "https://gate.ahram.org.eg/Media/News/2026/3/2/19_2026-639080427947266621-726.JPG",
+  "imageCandidates": [
+    "https://gate.ahram.org.eg/Media/News/2026/3/2/19_2026-639080427947266621-726.JPG"
+  ],
+  "imageAlt": "Refinaria da Saudi Aramco com chamas e fumaça"
+}
