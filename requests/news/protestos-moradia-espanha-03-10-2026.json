@@ -1,0 +1,25 @@
+{
+  "id": "protestos-moradia-espanha-03-10-2026",
+  "published": "2026-10-03T17:24:00-03:00",
+  "category": "MUNDO",
+  "title": "Espanha tem protestos por moradia",
+  "summary": "Milhares foram às ruas cobrando medidas contra a crise habitacional.",
+  "location": "Madri, Espanha",
+  "date": "03 OUT 2026",
+  "body": [
+    "Dezenas de milhares de pessoas protestaram neste sábado em Madri e outras cidades espanholas por medidas contra a crise habitacional.",
+    "O governo espanhol estimou cerca de 70 mil participantes na manifestação de Madri. A maioria dos atos ocorreu de forma pacífica."
+  ],
+  "sources": [
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/world/tens-thousands-protest-across-spain-over-housing-crisis-2026-10-03/"
+    }
+  ],
+  "credit": "Imagem ilustrativa diretamente relacionada: manifestação urbana",
+  "sourceImage": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1600&q=85",
+  "imageCandidates": [
+    "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1600&q=85"
+  ],
+  "imageAlt": "Multidão participando de manifestação em uma cidade"
+}
