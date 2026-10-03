@@ -1,5 +1,59 @@
 [
   {
+    "id": "corrida-bilionaria-ia-data-centers-03-10-2026",
+    "published": "2026-10-03T17:22:00-03:00",
+    "category": "TECNOLOGIA",
+    "title": "IA acelera corrida por data centers",
+    "summary": "Investimentos em chips, energia e centros de dados crescem com o avanço da inteligência artificial.",
+    "location": "Mundo",
+    "date": "03 OUT 2026",
+    "body": [
+      "A expansão da inteligência artificial está provocando uma onda de investimentos em chips, energia e grandes centros de dados.",
+      "Empresas e investidores apostam em ganhos de produtividade, enquanto permanece o debate sobre quando investimentos dessa escala produzirão retorno financeiro."
+    ],
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/retail-consumer/ais-race-transform-world-before-money-runs-out-2026-10-03/"
+      }
+    ],
+    "credit": "Imagem ilustrativa: infraestrutura de data center",
+    "sourceImage": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=85",
+    "imageCandidates": [
+      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=85"
+    ],
+    "imageAlt": "Corredor de servidores em um data center",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=85",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/corrida-bilionaria-ia-data-centers-03-10-2026.jpg"
+  },
+  {
+    "id": "aramco-riade-houthis-03-10-2026",
+    "published": "2026-10-03T17:20:00-03:00",
+    "category": "MUNDO",
+    "title": "Fogo e fumaça são vistos perto da Aramco em Riad",
+    "summary": "Houthis reivindicam ataque à instalação; autoridades sauditas ainda não haviam confirmado a causa.",
+    "location": "Riad, Arábia Saudita",
+    "date": "03 OUT 2026",
+    "body": [
+      "Fogo e uma coluna de fumaça foram vistos perto de uma instalação da Saudi Aramco em Riad neste sábado.",
+      "Os Houthis do Iêmen reivindicaram um ataque com mísseis e drones. Até a publicação, autoridades sauditas e a Aramco não haviam confirmado oficialmente a causa do incêndio."
+    ],
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/energy/fire-smoke-seen-near-aramco-facility-riyadh-witness-says-2026-10-03/"
+      }
+    ],
+    "credit": "Imagem ilustrativa: refinaria de petróleo",
+    "sourceImage": "https://images.unsplash.com/photo-1516939884455-1445c8652f83?auto=format&fit=crop&w=1600&q=85",
+    "imageCandidates": [
+      "https://images.unsplash.com/photo-1516939884455-1445c8652f83?auto=format&fit=crop&w=1600&q=85"
+    ],
+    "imageAlt": "Refinaria e instalações de armazenamento de petróleo",
+    "image": "https://images.unsplash.com/photo-1516939884455-1445c8652f83?auto=format&fit=crop&w=1600&q=85",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/aramco-riade-houthis-03-10-2026.jpg"
+  },
+  {
     "id": "g7-reservas-foto-corrigida-02-10-2026",
     "published": "2026-10-02T17:40:00-03:00",
     "category": "MUNDO",
