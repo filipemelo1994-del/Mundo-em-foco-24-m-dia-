@@ -1,0 +1,26 @@
+{
+  "id": "corrida-bilionaria-ia-data-centers-03-10-2026",
+  "published": "2026-10-03T17:22:00-03:00",
+  "category": "TECNOLOGIA",
+  "title": "Corrida da IA leva investimentos a escala histórica",
+  "summary": "O avanço da inteligência artificial está provocando uma onda gigantesca de investimentos em chips, energia e data centers, enquanto cresce o debate sobre o retorno desse capital.",
+  "location": "Mundo",
+  "date": "03 OUT 2026",
+  "body": [
+    "O volume de dinheiro direcionado à infraestrutura de inteligência artificial está superando ciclos tecnológicos anteriores, como a expansão das ferrovias e da internet, segundo análise da Reuters.",
+    "Data centers, chips e infraestrutura de energia concentram parte importante dos investimentos. A PwC projeta que os gastos globais com data centers podem superar US$ 30 trilhões até 2050.",
+    "Empresas e investidores apostam em fortes ganhos de produtividade, enquanto economistas destacam que o retorno financeiro de investimentos dessa escala ainda é incerto e pode levar anos para se materializar."
+  ],
+  "sources": [
+    {
+      "name": "Reuters — AI's race to transform the world before the money runs out",
+      "url": "https://www.reuters.com/business/retail-consumer/ais-race-transform-world-before-money-runs-out-2026-10-03/"
+    }
+  ],
+  "credit": "Imagem ilustrativa diretamente relacionada: infraestrutura de data center",
+  "sourceImage": "https://substackcdn.com/image/fetch/%24s_%21sdZu%21%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9703219d-24ee-4f6e-b958-322d70820f17_1199x800.jpeg",
+  "imageCandidates": [
+    "https://substackcdn.com/image/fetch/%24s_%21sdZu%21%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9703219d-24ee-4f6e-b958-322d70820f17_1199x800.jpeg"
+  ],
+  "imageAlt": "Corredor de servidores em grande data center usado para infraestrutura de inteligência artificial"
+}
