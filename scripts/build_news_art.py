@@ -30,8 +30,34 @@ def download(urls):
                 referer=f"{p.scheme}://{p.netloc}/"
                 r=requests.get(url,timeout=30,headers={"User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/140 Safari/537.36","Accept":"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8","Referer":referer})
                 r.raise_for_status()
-                im=Image.open(BytesIO(r.content)); im.load()
-                return im,url
+                # O campo sourceImage às vezes recebe a página da matéria, não a URL
+                # binária da foto. Mantém compatibilidade com URLs diretas e, quando
+                # vier HTML, resolve primeiro og:image/twitter:image.
+                final_url=url
+                body=r.content
+                ctype=(r.headers.get("Content-Type") or "").lower()
+                if "text/html" in ctype or body[:256].lstrip().lower().startswith((b"<!doctype html",b"<html")):
+                    html=r.text
+                    import html as htmlmod
+                    patterns=[
+                        r'<meta[^>]+property=[\"\\\']og:image(?::secure_url)?[\"\\\'][^>]+content=[\"\\\']([^\"\\\']+)',
+                        r'<meta[^>]+content=[\"\\\']([^\"\\\']+)[\"\\\'][^>]+property=[\"\\\']og:image(?::secure_url)?[\"\\\']',
+                        r'<meta[^>]+name=[\"\\\']twitter:image[\"\\\'][^>]+content=[\"\\\']([^\"\\\']+)',
+                        r'<meta[^>]+content=[\"\\\']([^\"\\\']+)[\"\\\'][^>]+name=[\"\\\']twitter:image[\"\\\']'
+                    ]
+                    found=None
+                    for pat in patterns:
+                        m=re.search(pat,html,re.I)
+                        if m:
+                            found=htmlmod.unescape(m.group(1)); break
+                    if not found:
+                        raise ValueError("pagina HTML sem og:image/twitter:image")
+                    from urllib.parse import urljoin
+                    final_url=urljoin(url,found)
+                    rr=requests.get(final_url,timeout=30,headers={"User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/140 Safari/537.36","Accept":"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8","Referer":url})
+                    rr.raise_for_status(); body=rr.content
+                im=Image.open(BytesIO(body)); im.load()
+                return im,final_url
             except Exception as e:
                 errors.append(f"{url} tentativa {n+1}: {e}")
                 if n<2: time.sleep(2)
