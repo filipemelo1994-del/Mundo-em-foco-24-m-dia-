@@ -1,0 +1,26 @@
+{
+  "id": "apuracao-presidencial-04-10-2026",
+  "published": "2026-10-04T17:40:00-03:00",
+  "category": "BRASIL",
+  "title": "Apuração presidencial está em andamento",
+  "summary": "Justiça Eleitoral totaliza os votos para presidente; resultados oficiais avançam conforme os boletins de urna são processados.",
+  "location": "Brasil",
+  "date": "04 OUT 2026",
+  "body": [
+    "A apuração dos votos para presidente da República está em andamento neste domingo, 4 de outubro, após o encerramento da votação.",
+    "Os resultados oficiais são atualizados à medida que os Boletins de Urna são recebidos e processados pela Justiça Eleitoral.",
+    "O Mundo em Foco 24 acompanha a totalização e publicará novas atualizações conforme os dados oficiais forem consolidados."
+  ],
+  "sources": [
+    {
+      "name": "TSE",
+      "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/apuracao-dos-votos-comeca-as-17h-no-horario-de-brasilia"
+    }
+  ],
+  "credit": "Justiça Eleitoral / TSE",
+  "sourceImage": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/apuracao-dos-votos-comeca-as-17h-no-horario-de-brasilia",
+  "imageCandidates": [
+    "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/apuracao-dos-votos-comeca-as-17h-no-horario-de-brasilia"
+  ],
+  "imageAlt": "Apuração das Eleições 2026 pela Justiça Eleitoral"
+}
