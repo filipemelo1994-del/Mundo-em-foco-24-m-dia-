@@ -1,0 +1,36 @@
+{
+  "id": "eleicoes-2026-apuracao-18h35-04-10-2026",
+  "published": "2026-10-04T18:57:00-03:00",
+  "category": "POLÍTICA",
+  "title": "Apuração avança e Flávio lidera parcial para presidente",
+  "summary": "Com cerca de 28% dos resultados apurados às 18h35, Flávio Bolsonaro tinha 50,85% dos votos e Lula, 41,05%.",
+  "location": "Brasil",
+  "date": "04 OUT 2026",
+  "body": [
+    "A apuração do primeiro turno das Eleições 2026 avança pelo Brasil neste domingo, 4 de outubro.",
+    "Na atualização das 18h35, com cerca de 28% dos resultados apurados, Flávio Bolsonaro (PL) aparecia com 50,85% dos votos, ou 16.317.418 votos, enquanto Lula (PT) tinha 41,05%, ou 13.172.611 votos.",
+    "Os números são parciais e podem mudar conforme novos boletins de urna são totalizados pela Justiça Eleitoral.",
+    "Além da disputa presidencial, a apuração ocorre para governos estaduais, Senado, Câmara dos Deputados e assembleias legislativas. No Distrito Federal, Michelle Bolsonaro e Bia Kicis foram apontadas como eleitas para o Senado em atualizações divulgadas nesta noite.",
+    "O Mundo em Foco 24 acompanha a apuração e atualizará os resultados ao longo da noite."
+  ],
+  "sources": [
+    {
+      "name": "TSE / apuração oficial",
+      "url": "https://resultados.tse.jus.br/"
+    },
+    {
+      "name": "VEJA - cobertura ao vivo",
+      "url": "https://veja.abril.com.br/brasil/ao-vivo-acompanhe-a-apuracao-do-primeiro-turno-das-eleicoes-de-2026/"
+    },
+    {
+      "name": "Agência Senado",
+      "url": "https://www12.senado.leg.br/noticias/materias/2026/10/04/apuracao-das-eleicoes-comeca-as-17h-veja-balanco-parcial-do-tse"
+    }
+  ],
+  "credit": "Divulgação / TSE",
+  "sourceImage": "https://noticias.uol.com.br/eleicoes/2026/10/04/resultado-para-presidente-das-eleicoes-2026-veja-apuracao-dos-votos.ghtm",
+  "imageCandidates": [
+    "https://noticias.uol.com.br/eleicoes/2026/10/04/resultado-para-presidente-das-eleicoes-2026-veja-apuracao-dos-votos.ghtm"
+  ],
+  "imageAlt": "Urna eletrônica durante as Eleições 2026"
+}
