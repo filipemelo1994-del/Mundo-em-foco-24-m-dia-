@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-03T23:44:55.272941+00:00",
+  "updated_at": "2026-10-04T10:51:11.169755+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -1663,6 +1663,19 @@
       "last_error": "build_news_art_v2 exit=3"
     },
     "coreia-norte-missil-intermediario-03-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": false,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": "build_news_art_v2 exit=3"
+    },
+    "eleicoes-brasil-primeiro-turno-04-10-2026": {
       "state": "PORTAL_PENDENTE",
       "portal": false,
       "feed_art": false,
