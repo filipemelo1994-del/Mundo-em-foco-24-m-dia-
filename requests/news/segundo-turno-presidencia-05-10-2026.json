@@ -1,0 +1,19 @@
+{
+  "id": "segundo-turno-presidencia-05-10-2026",
+  "published": "2026-10-05T15:35:00-03:00",
+  "category": "BRASIL",
+  "title": "Flávio Bolsonaro e Lula vão ao segundo turno",
+  "summary": "Com 99,99% das urnas apuradas, Flávio teve 47,03% e Lula 45,16% dos votos válidos.",
+  "location": "Brasil",
+  "date": "05 OUT 2026",
+  "body": [
+    "Flávio Bolsonaro (PL) e Luiz Inácio Lula da Silva (PT) vão disputar o segundo turno da eleição presidencial de 2026.",
+    "Segundo o TSE, com 99,99% das urnas apuradas, Flávio recebeu 56.104.268 votos, equivalentes a 47,03% dos votos válidos. Lula obteve 53.876.617 votos, ou 45,16%.",
+    "O segundo turno está marcado para 25 de outubro."
+  ],
+  "sources": [{"name":"TSE","url":"https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica"}],
+  "credit": "TSE",
+  "sourceImage": "https://www.tse.jus.br/imagens/fotos/resultados-eleicoes-2026-3/@@images/image-1140-11a9deb247a116e2a0cc545a48ae63c8.jpeg",
+  "imageCandidates": ["https://www.tse.jus.br/imagens/fotos/resultados-eleicoes-2026-3/@@images/image-1140-11a9deb247a116e2a0cc545a48ae63c8.jpeg"],
+  "imageAlt": "Arte oficial do TSE sobre os resultados das Eleições 2026"
+}
