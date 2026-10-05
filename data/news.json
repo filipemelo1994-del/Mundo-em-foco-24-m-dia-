@@ -1,5 +1,33 @@
 [
   {
+    "id": "raquel-lyra-reeleita-pernambuco-05-10-2026",
+    "published": "2026-10-05T15:36:00-03:00",
+    "category": "PERNAMBUCO",
+    "title": "Raquel Lyra é reeleita governadora de Pernambuco",
+    "summary": "Candidata do PSD venceu no primeiro turno com 53,27% dos votos válidos.",
+    "location": "Pernambuco",
+    "date": "05 OUT 2026",
+    "body": [
+      "Raquel Lyra (PSD) foi reeleita governadora de Pernambuco no primeiro turno das Eleições 2026.",
+      "Segundo dados divulgados pela Agência Brasil com base no TSE, Raquel alcançou 53,27% dos votos válidos. João Campos (PSB) ficou em segundo lugar, com cerca de 44,8%.",
+      "Com a vitória acima de 50% dos votos válidos, a disputa pelo Governo de Pernambuco foi definida sem necessidade de segundo turno."
+    ],
+    "sources": [
+      {
+        "name": "Agência Brasil / TSE",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/raquel-lyra-e-reeleita-governadora-em-pernambuco-no-primeiro-turno"
+      }
+    ],
+    "credit": "Agência Brasil / Divulgação",
+    "sourceImage": "https://imagens.ebc.com.br/iBkl9z3Aa2UONoxlCdSD0hcGKjw=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/02/rl45_14-09.jpg?itok=6fmbLzK0",
+    "imageCandidates": [
+      "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/raquel-lyra-e-reeleita-governadora-em-pernambuco-no-primeiro-turno"
+    ],
+    "imageAlt": "Raquel Lyra, reeleita governadora de Pernambuco nas Eleições 2026",
+    "image": "https://imagens.ebc.com.br/iBkl9z3Aa2UONoxlCdSD0hcGKjw=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/02/rl45_14-09.jpg?itok=6fmbLzK0",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/raquel-lyra-reeleita-pernambuco-05-10-2026.jpg"
+  },
+  {
     "id": "eleicoes-brasil-lula-flavio-04-10-2026",
     "published": "2026-10-04T08:05:00-03:00",
     "category": "BRASIL",
