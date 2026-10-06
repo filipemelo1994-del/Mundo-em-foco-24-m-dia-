@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-05T18:35:06.015278+00:00",
+  "updated_at": "2026-10-06T22:21:13.207575+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -1779,6 +1779,48 @@
         "story": 0
       },
       "last_error": "build_news_art_v2 exit=3"
+    },
+    "caiado-apoia-flavio-segundo-turno-06-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "2f368f6e969a27b7e2c07a4a93e3f087e060e3f8875b9f7365c81ade11affad8",
+      "art_validation": {
+        "passed": true,
+        "sha256": "2f368f6e969a27b7e2c07a4a93e3f087e060e3f8875b9f7365c81ade11affad8",
+        "failed": [],
+        "checked_at": "2026-10-06T22:21:10.676023+00:00"
+      }
+    },
+    "hr-recife-pede-doacoes-sangue-06-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": false,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": "build_news_art_v2 exit=4",
+      "art_sha256": "e3594e3ab262bf8bd570a82f3a9fc537d81e78b03dd116c7019dc6783f7e60fe",
+      "art_validation": {
+        "passed": false,
+        "sha256": "e3594e3ab262bf8bd570a82f3a9fc537d81e78b03dd116c7019dc6783f7e60fe",
+        "failed": [
+          "text_fit"
+        ],
+        "checked_at": "2026-10-06T22:21:13.169745+00:00"
+      }
     }
   }
 }
