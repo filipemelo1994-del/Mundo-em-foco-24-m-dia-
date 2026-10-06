@@ -2,9 +2,14 @@ let allNews=[];
 const NEWS_URL='https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/data/news.json';
 const AUTO_URL='https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/data/news-auto.json';
 const LOGO='/Mundo-em-foco-24-m-dia-/assets/logo-site.png';
+const REAL_IMAGES={
+'aramco-riade-houthis-03-10-2026':'https://cassette.sphdigital.com.sg/image/straitstimes/93cd020a5c20982421d970af4a24b450aa39d7d85ae9c70cdcfe8052973e2835',
+'g7-reservas-foto-corrigida-02-10-2026':'https://ilfoglio-produzione.fra1.cdn.digitaloceanspaces.com/ilfoglio/stories/2026/10/02/1200x675/eba331eb-4c29-4e99-9f82-4a8a0b04d670.jpeg?v=1790954139',
+'corrida-bilionaria-ia-data-centers-03-10-2026':'https://static.time.com/v3/assets/bltea6093859af6183b/blt535edd1438654f70/6ab587f9370ef475c8346d8d/Project-Jupiter-1.jpg?auto=webp&branch=production&crop=3%3A2&quality=75&width=3840'
+};
 const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
 const normalize=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
-const candidates=n=>[n.image,n.sourceImage,n.instagramImage,...(Array.isArray(n.imageCandidates)?n.imageCandidates:[])].filter((u,i,a)=>u&&a.indexOf(u)===i);
+const candidates=n=>[REAL_IMAGES[n.id],n.image,n.sourceImage,n.instagramImage,...(Array.isArray(n.imageCandidates)?n.imageCandidates:[])].filter((u,i,a)=>u&&a.indexOf(u)===i);
 function img(n){const urls=candidates(n);if(!urls.length)return `<img src="${LOGO}" alt="${esc(n.title)}" loading="lazy">`;const encoded=esc(JSON.stringify(urls));return `<img src="${esc(urls[0])}" alt="${esc(n.imageAlt||n.title)}" loading="lazy" data-images="${encoded}" data-index="0" onerror="window.nextNewsImage(this)">`}
 window.nextNewsImage=function(el){let urls=[];try{urls=JSON.parse(el.dataset.images||'[]')}catch(e){}let i=Number(el.dataset.index||0)+1;if(i<urls.length){el.dataset.index=String(i);el.src=urls[i];return}el.onerror=null;el.src=LOGO;};
 const href=n=>`noticia.html?id=${encodeURIComponent(n.id)}`;
