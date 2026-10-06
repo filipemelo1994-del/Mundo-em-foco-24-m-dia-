@@ -2,10 +2,14 @@ let allNews=[];
 const NEWS_URL='https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/data/news.json';
 const AUTO_URL='https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/data/news-auto.json';
 const LOGO='/Mundo-em-foco-24-m-dia-/assets/logo-site.png';
+const VERIFIED_IMAGES={
+'aramco-riade-houthis-03-10-2026':'https://cassette.sphdigital.com.sg/image/straitstimes/93cd020a5c20982421d970af4a24b450aa39d7d85ae9c70cdcfe8052973e2835'
+};
+const V2_ONLY=new Set(['g7-reservas-foto-corrigida-02-10-2026','g7-libera-100-milhoes-barris-02-10-2026','europa-discute-liberacao-estoques-diesel-02-10-2026','corrida-bilionaria-ia-data-centers-03-10-2026']);
 const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
 const normalize=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
-const candidates=n=>[n.image,n.sourceImage,n.instagramImage,...(Array.isArray(n.imageCandidates)?n.imageCandidates:[])].filter((u,i,a)=>u&&a.indexOf(u)===i);
-function img(n){const urls=candidates(n);if(!urls.length)return `<img src="${LOGO}" alt="${esc(n.title)}" loading="lazy">`;const encoded=esc(JSON.stringify(urls));return `<img src="${esc(urls[0])}" alt="${esc(n.imageAlt||n.title)}" loading="lazy" data-images="${encoded}" data-index="0" onerror="window.nextNewsImage(this)">`}
+const candidates=n=>{if(VERIFIED_IMAGES[n.id])return [VERIFIED_IMAGES[n.id],n.instagramImage,LOGO].filter(Boolean);if(V2_ONLY.has(n.id))return [n.instagramImage,LOGO].filter(Boolean);return [n.image,n.sourceImage,n.instagramImage,...(Array.isArray(n.imageCandidates)?n.imageCandidates:[]),LOGO].filter((u,i,a)=>u&&a.indexOf(u)===i)};
+function img(n){const urls=candidates(n);const encoded=esc(JSON.stringify(urls));return `<img src="${esc(urls[0]||LOGO)}" alt="${esc(n.imageAlt||n.title)}" loading="lazy" data-images="${encoded}" data-index="0" onerror="window.nextNewsImage(this)">`}
 window.nextNewsImage=function(el){let urls=[];try{urls=JSON.parse(el.dataset.images||'[]')}catch(e){}let i=Number(el.dataset.index||0)+1;if(i<urls.length){el.dataset.index=String(i);el.src=urls[i];return}el.onerror=null;el.src=LOGO;};
 const href=n=>`noticia.html?id=${encodeURIComponent(n.id)}`;
 function render(list){const grid=document.getElementById('newsGrid');document.getElementById('newsCount').textContent=`${list.length} matérias`;document.getElementById('emptyState').hidden=!!list.length;grid.innerHTML=list.map(n=>`<article class="card"><a href="${href(n)}"><div class="thumb">${img(n)}</div><span class="label">${esc(n.category)}</span><h3>${esc(n.title)}</h3><p class="summary">${esc(n.summary)}</p><span class="meta">${esc(n.location)} • ${esc(n.date)}</span></a></article>`).join('')}
