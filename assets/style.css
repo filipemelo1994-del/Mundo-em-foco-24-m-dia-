@@ -137,3 +137,4 @@ footer{grid-template-columns:1fr;padding:30px 18px;gap:18px}.footerLogo{width:23
 .articleBody.isCollapsed{max-height:235px}.storyNavGrid{grid-template-columns:1fr}.storyNavCard{grid-template-columns:105px 1fr}.storyNavCard img{width:105px}.relatedGrid{grid-template-columns:1fr 1fr}.relatedCard img{height:120px}.storyNavigation h2,.related h2{font-size:20px}
 }
 @media(max-width:390px){.brand{max-width:210px}.brandLogo{width:205px}.grid{grid-template-columns:1fr}.thumb{height:190px}.overlay h1{font-size:27px}}
+.loadMore{display:none;margin:24px auto 8px;border:0;border-radius:24px;background:var(--navy2);color:#fff;padding:12px 25px;font-size:11px;font-weight:900;letter-spacing:.5px;cursor:pointer;box-shadow:0 6px 18px rgba(4,16,31,.15)}.loadMore:hover{background:var(--red)}.feed .loadMore{justify-content:center}.loadMore[style*="inline-flex"]{display:inline-flex}.feed{text-align:left}.feed .loadMore{margin-left:auto;margin-right:auto}
