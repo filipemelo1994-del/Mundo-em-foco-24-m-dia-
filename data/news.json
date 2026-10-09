@@ -2,7 +2,7 @@
   {
     "id": "ipca-setembro-contas-luz-inflacao-09-10-2026",
     "title": "Inflação sobe 0,82% em setembro e energia pesa no bolso",
-    "summary": "IPCA teve a maior alta para setembro desde 2021; contas de luz avançaram 7,98% no mês, segundo dados do IBGE.",
+    "summary": "IPCA avançou 0,82% em setembro após queda em agosto; energia elétrica subiu 7,98%, enquanto alimentação e transportes também pressionaram o orçamento das famílias.",
     "category": "ECONOMIA",
     "date": "09 OUT 2026",
     "location": "Brasil",
@@ -13,19 +13,29 @@
     ],
     "imageAlt": "Imagem ilustrativa relacionada à conta de energia elétrica",
     "body": [
-      "O Índice Nacional de Preços ao Consumidor Amplo (IPCA), indicador oficial da inflação no Brasil, subiu 0,82% em setembro de 2026, segundo dados divulgados pelo IBGE. Foi a maior variação para o mês desde 2021.",
-      "O principal impacto veio da energia elétrica residencial, cujas tarifas avançaram 7,98% em setembro. A alta ocorreu após o fim do desconto associado ao Bônus de Itaipu e com a manutenção da bandeira tarifária amarela.",
-      "Em 12 meses, o IPCA acumulou 4,58%, acima do teto de tolerância da meta de inflação. Alimentação e bebidas também subiram 0,83%, com altas expressivas de tomate e batata-inglesa.",
-      "Os números mostram pressão sobre o orçamento das famílias, especialmente nas despesas com moradia, alimentação e transporte."
+      "O Índice Nacional de Preços ao Consumidor Amplo (IPCA), indicador oficial da inflação no Brasil, subiu 0,82% em setembro de 2026, segundo dados divulgados pelo Instituto Brasileiro de Geografia e Estatística (IBGE) em 9 de outubro. O resultado foi a maior variação para um mês de setembro desde 2021 e marcou uma retomada da alta depois da queda de 0,32% registrada em agosto. Em setembro do ano passado, o índice havia avançado 0,48%.",
+      "No acumulado de 12 meses até setembro, a inflação chegou a 4,58%, acima do teto de tolerância de 4,5% para a meta contínua de 3% definida pelo Conselho Monetário Nacional. O resultado interrompeu uma sequência de três meses de recuo do índice acumulado. A leitura mensal mostra a variação dos preços no período; já o acumulado em 12 meses ajuda a observar como a pressão se comporta ao longo de um intervalo maior.",
+      "A principal contribuição para a alta veio da energia elétrica residencial, cujas tarifas subiram 7,98% no mês. De acordo com as informações divulgadas pelo UOL com base nos dados do IBGE, parte desse movimento está relacionada ao fim do desconto do Bônus de Itaipu, que havia reduzido as faturas de agosto. A retirada de um abatimento temporário faz a conta voltar a um patamar mais alto, mesmo sem significar que todos os consumidores tiveram exatamente o mesmo reajuste.",
+      "A bandeira tarifária amarela também adicionou custo às contas. Naquele sistema, há cobrança extra por consumo, e a Agência Nacional de Energia Elétrica relacionou a decisão às condições de geração, incluindo a necessidade de acionar usinas termelétricas, que têm custo maior do que as hidrelétricas. Reajustes tarifários regionais também influenciaram o resultado: os efeitos variam de acordo com a distribuidora e com a data em que cada reajuste entra em vigor.",
+      "O grupo Habitação, que inclui a energia elétrica residencial, registrou alta de 2,31% e foi o que mais avançou entre os grupos pesquisados. Transportes subiu 0,89%, enquanto Alimentação e bebidas aumentou 0,83%. Todos os nove grupos que compõem o IPCA apresentaram variação positiva em setembro, embora em intensidades diferentes. Isso indica que a elevação não ficou restrita a uma única categoria de despesas.",
+      "Na alimentação, os preços voltaram a subir depois de três meses de deflação no grupo. A alimentação consumida dentro de casa aumentou 0,96%, enquanto a alimentação fora do domicílio avançou 0,48%. Entre os itens com maiores altas estiveram o tomate, que subiu 37,76%, e a batata-inglesa, com aumento de 24,07%. Cebola e arroz também ficaram mais caros. Em sentido contrário, frango inteiro, frango em pedaços e frutas registraram queda, mostrando que a inflação não atinge todos os produtos da mesma forma.",
+      "Os transportes também contribuíram para a pressão mensal. O grupo avançou 0,89%, acompanhado por uma alta de 1,41% nos combustíveis. O etanol subiu 3,16%, o óleo diesel aumentou 1,69% e a gasolina avançou 1,21%. A variação dos combustíveis pode afetar diretamente quem utiliza veículos e, de forma indireta, os custos de transporte de mercadorias e serviços, embora o repasse para cada preço dependa de outros fatores.",
+      "O IPCA é calculado a partir da variação de preços de uma cesta de produtos e serviços consumidos por famílias com rendimentos de um a 40 salários mínimos. O levantamento considera nove grandes grupos de despesas e acompanha preços em áreas urbanas de diferentes regiões do país, incluindo Recife. Cada item tem um peso específico no cálculo, de acordo com sua importância no orçamento das famílias pesquisadas; por isso, a inflação oficial representa uma média e pode ser diferente da percepção de cada casa.",
+      "Para o consumidor, os números ajudam a explicar por que as contas podem ficar mais caras mesmo quando alguns produtos apresentam queda. Energia elétrica, alimentação e transporte ocupam espaço relevante no orçamento e podem pressionar as despesas mensais ao mesmo tempo. O efeito final varia conforme o consumo, a região, a tarifa local e os hábitos de cada família. A divulgação do IPCA não significa que todos terão aumento de 0,82% em seus gastos pessoais: esse percentual corresponde à variação média do índice nacional no período.",
+      "O resultado também é acompanhado por autoridades econômicas porque a inflação acumulada acima do limite de tolerância pode influenciar as decisões de política monetária e as expectativas de preços. Ainda assim, o dado de setembro, isoladamente, não determina o comportamento dos próximos meses. A evolução futura dependerá de fatores como tarifas, alimentos, combustíveis, condições de oferta e decisões econômicas. O próximo conjunto de indicadores será necessário para avaliar se a pressão se mantém ou perde força."
     ],
     "sources": [
+      {
+        "name": "IBGE — IPCA fica em 0,82% em setembro",
+        "url": "https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9256-indice-nacional-de-precos-ao-consumidor-amplo.html"
+      },
       {
         "name": "UOL — Contas de luz disparam e guiam maior inflação para setembro desde 2021",
         "url": "https://economia.uol.com.br/noticias/redacao/2026/10/09/ipca-setembro-2026.ghtm"
       },
       {
-        "name": "IBGE — Inflação oficial de setembro",
-        "url": "https://agenciadenoticias.ibge.gov.br/"
+        "name": "CNN Brasil — IPCA: inflação sobe 0,82% em setembro, com alta da energia elétrica",
+        "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/inflacao-ipca-9-outubro-2026/"
       }
     ],
     "image": "https://conteudo.imguol.com.br/c/noticias/6f/2025/10/08/conta-de-luz-tarifa-de-energia-1759954608610_v2_900x506.jpg",
@@ -34,7 +44,7 @@
   {
     "id": "incendio-ufpe-agu-forca-tarefa-09-10-2026",
     "title": "AGU cria força-tarefa após incêndio na UFPE",
-    "summary": "Grupo acompanhará investigações e recuperação dos danos; prejuízos em laboratórios são estimados em R$ 100 milhões.",
+    "summary": "Força-tarefa da AGU vai apoiar a recuperação da infraestrutura científica, acompanhar a investigação da PF e documentar prejuízos estimados em R$ 100 milhões.",
     "category": "PERNAMBUCO",
     "date": "09 OUT 2026",
     "location": "Recife, PE",
@@ -45,19 +55,28 @@
     ],
     "imageAlt": "Incêndio no prédio da UFPE, no Recife, em 7 de outubro de 2026",
     "body": [
-      "A Advocacia-Geral da União criou uma força-tarefa para oferecer suporte jurídico prioritário à Universidade Federal de Pernambuco após o incêndio que atingiu laboratórios e áreas de pesquisa no Campus Recife.",
-      "O grupo deverá acompanhar as investigações, apoiar a gestão da crise e organizar a documentação necessária para apurar prejuízos ao patrimônio público. A portaria prevê duração inicial de 60 dias, com possibilidade de prorrogação.",
-      "Segundo informações publicadas pelo UOL, as perdas com equipamentos, insumos e materiais são estimadas em cerca de R$ 100 milhões. Mais de 80 estudantes de iniciação científica, mestrado e doutorado foram afetados.",
-      "A Polícia Federal investiga tanto a origem do incêndio quanto os fatos que o antecederam. Até a publicação desta matéria, as causas ainda não haviam sido identificadas."
+      "A Advocacia-Geral da União (AGU) anunciou em 9 de outubro a criação de uma força-tarefa para prestar apoio jurídico prioritário à Universidade Federal de Pernambuco (UFPE), após o incêndio de grandes proporções que atingiu um prédio da instituição, no Campus Recife, na noite de quarta-feira, 7 de outubro. O fogo destruiu instalações ligadas ao ensino, à pesquisa, à ciência, à tecnologia e à inovação.",
+      "A medida foi formalizada pela Portaria Normativa PGF/AGU nº 100, publicada no Diário Oficial da União. O grupo foi criado no âmbito da Procuradoria-Geral Federal e terá duração inicial de 60 dias, com possibilidade de prorrogação por igual período, desde que haja justificativa. A proposta é concentrar o atendimento jurídico relacionado à crise e acelerar as providências necessárias para reduzir os danos.",
+      "Segundo a Agência Brasil, a força-tarefa reúne integrantes do gabinete da Procuradoria-Geral Federal, das áreas de Consultoria Jurídica, Contencioso e Cobrança e Recuperação de Créditos, além da Procuradoria Federal junto à UFPE. Entre as atribuições estão orientar juridicamente a universidade, acompanhar as apurações criminais e manter interlocução com os órgãos responsáveis pela investigação.",
+      "O incêndio atingiu um edifício que abrigava laboratórios e estruturas de pesquisa em áreas como fármacos, genética e informática, além de espaços vinculados a atividades acadêmicas. O reitor da UFPE, Alfredo Gomes, estimou os prejuízos em cerca de R$ 100 milhões. A dimensão do dano ainda precisa ser documentada e avaliada, portanto o valor deve ser tratado como estimativa inicial, não como balanço final.",
+      "Uma das maiores preocupações é a perda de materiais, equipamentos e dados científicos acumulados ao longo de anos de trabalho. Informações divulgadas pela Agência Brasil apontam que o prédio guardava dados de aproximadamente 20 anos de pesquisa. A destruição de laboratórios e de materiais científicos pode afetar cronogramas de pesquisa, a formação de estudantes e a continuidade de projetos, embora a extensão de cada impacto dependa do levantamento feito pela universidade.",
+      "A Polícia Federal instaurou inquérito para investigar o incêndio e esclarecer as circunstâncias do caso. Até a publicação desta reportagem, a causa não havia sido oficialmente determinada. A investigação deverá reunir elementos técnicos e outros registros para reconstruir o que ocorreu; por isso, não é correto atribuir responsabilidade ou afirmar que o incêndio foi criminoso antes de uma conclusão das autoridades.",
+      "A atuação da AGU também inclui documentar os prejuízos ao patrimônio público. Esse levantamento poderá subsidiar medidas administrativas e, se a investigação identificar responsáveis, eventuais ações para buscar ressarcimento aos cofres públicos. A força-tarefa poderá acompanhar as apurações e prestar apoio jurídico à universidade durante as providências relacionadas ao caso.",
+      "Além da investigação, permanece o desafio de recuperar a infraestrutura de pesquisa e criar condições para que as atividades científicas sejam retomadas. A recomposição exige identificar o que foi perdido, avaliar os danos às instalações e equipamentos e estabelecer prioridades para a retomada dos trabalhos. A portaria da AGU prevê apoio jurídico para mitigar os prejuízos e salvaguardar as atividades de ciência, tecnologia e inovação.",
+      "O caso tem repercussão que vai além do dano físico ao edifício: universidades federais concentram laboratórios, equipamentos especializados, acervos e projetos que dependem de continuidade e financiamento. O tamanho real do prejuízo acadêmico e material deverá ficar mais claro conforme a UFPE e as autoridades concluírem os levantamentos. Até lá, os dados divulgados devem ser considerados estimativas e informações preliminares."
     ],
     "sources": [
       {
-        "name": "UOL — AGU cria força-tarefa para dar suporte jurídico à UFPE após incêndio",
-        "url": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/10/09/agu-cria-forca-tarefa-para-dar-suporte-juridico-a-ufpe-apos-incendio.ghtm"
+        "name": "Agência Brasil — AGU cria força-tarefa para atuar em caso de incêndio na UFPE",
+        "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/agu-cria-forca-tarefa-para-atuar-em-caso-de-incendio-na-ufpe"
       },
       {
-        "name": "Agência Brasil — cobertura sobre o incêndio na UFPE",
-        "url": "https://agenciabrasil.ebc.com.br/"
+        "name": "Diário Oficial da União — Portaria Normativa PGF/AGU nº 100, de 8 de outubro de 2026",
+        "url": "https://mapalegis.datalegis.net/action/ActionDatalegis.php?acao=abrirTextoAto&cod_menu=10846&cod_modulo=704&link=S&numeroAto=00000100&orgao=PGF%2FAGU%2FPR&seqAto=000&tipo=PNT&valorAno=2026"
+      },
+      {
+        "name": "UOL — AGU cria grupo após incêndio na UFPE",
+        "url": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/10/09/agu-cria-forca-tarefa-para-dar-suporte-juridico-a-ufpe-apos-incendio.ghtm"
       }
     ],
     "image": "https://conteudo.imguol.com.br/c/noticias/cc/2026/10/07/incendio-atinge-predio-da-ufpe-no-recife-1791420805272_v2_900x506.png",
