@@ -1823,7 +1823,7 @@
       }
     },
     "incendio-ufpe-agu-forca-tarefa-09-10-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_PENDENTE",
       "portal": true,
       "feed_art": true,
       "story_art": false,
