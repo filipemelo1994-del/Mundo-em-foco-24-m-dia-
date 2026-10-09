@@ -26,9 +26,12 @@ jobs:
         run: |
           ID=$(python3 - <<'PY'
           import json
+          import re
+          from datetime import date, datetime
           with open("data/news.json",encoding="utf-8") as f: news=json.load(f)
           with open("data/publish-queue.json",encoding="utf-8") as f: q=json.load(f)
           byid={n.get("id"):n for n in news}
+          cutoff=date(2026, 9, 27)
           candidates=[]
           for nid,item in (q.get("items") or {}).items():
               n=byid.get(nid)
@@ -38,11 +41,20 @@ jobs:
               image=(n.get("instagramImage") or "").strip()
               if not image.startswith("https://raw.githubusercontent.com/"): continue
               published=str(n.get("published") or "")
-              # Automação horária não drena backlog antigo: somente pautas de 27/09/2026 em diante.
-              if "2026-09-27" not in published and not str(nid).endswith("-27-09-2026"): continue
-              candidates.append((published,str(nid)))
+              story_date=None
+              if published:
+                  try: story_date=datetime.strptime(published[:10], "%Y-%m-%d").date()
+                  except ValueError: pass
+              if story_date is None:
+                  match=re.search(r"-(\d{2})-(\d{2})-(\d{4})$", str(nid))
+                  if match:
+                      try: story_date=datetime.strptime("-".join(match.groups()), "%d-%m-%Y").date()
+                      except ValueError: pass
+              # Evita drenar pautas antigas, mas aceita qualquer data de pauta a partir de 27/09/2026.
+              if story_date is None or story_date < cutoff: continue
+              candidates.append((story_date.isoformat(), published, str(nid)))
           candidates.sort(reverse=True)
-          print(candidates[0][1] if candidates else "")
+          print(candidates[0][2] if candidates else "")
           PY
           )
           echo "news_id=$ID" >> "$GITHUB_OUTPUT"
