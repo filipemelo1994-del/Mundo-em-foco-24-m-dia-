@@ -5,16 +5,40 @@
     "public_sha256": "5d28996ef230ecef77ed88c1708a8dc8f8438b2446da822dd1c3686ad116f0da",
     "passed": true
   },
-  "carros-eletricos-reino-unido-setembro-02-10-2026": {
-    "url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/news-art/carros-eletricos-reino-unido-setembro-02-10-2026.jpg",
-    "expected_sha256": "fd02415ac566012279591ab7cbf71af8926d98c75e1fd6149ad1f3818a7d3383",
-    "public_sha256": "fd02415ac566012279591ab7cbf71af8926d98c75e1fd6149ad1f3818a7d3383",
-    "passed": true
-  },
   "europa-discute-liberacao-estoques-diesel-02-10-2026": {
     "url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/news-art/europa-discute-liberacao-estoques-diesel-02-10-2026.jpg",
     "expected_sha256": "3267e7352d30d80741a1eb45f9b17ae20003ea776016b23235cb3d94d27aa8e1",
     "public_sha256": "3267e7352d30d80741a1eb45f9b17ae20003ea776016b23235cb3d94d27aa8e1",
+    "passed": true
+  },
+  "eleicoes-brasil-lula-flavio-04-10-2026": {
+    "url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/news-art/eleicoes-brasil-lula-flavio-04-10-2026.jpg",
+    "expected_sha256": "bbb05225936b53981aea676474bfc1fc7a2bd6a2ae0232dbe2d3bd31404fcc3a",
+    "public_sha256": "bbb05225936b53981aea676474bfc1fc7a2bd6a2ae0232dbe2d3bd31404fcc3a",
+    "passed": true
+  },
+  "raquel-lyra-reeleita-pernambuco-05-10-2026": {
+    "url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/news-art/raquel-lyra-reeleita-pernambuco-05-10-2026.jpg",
+    "expected_sha256": "f62bcab2fa6b49809773775ca3fc3de6bfc4f560598344d6241cf0b75ec3498b",
+    "public_sha256": "f62bcab2fa6b49809773775ca3fc3de6bfc4f560598344d6241cf0b75ec3498b",
+    "passed": true
+  },
+  "caiado-apoia-flavio-segundo-turno-06-10-2026": {
+    "url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/news-art/caiado-apoia-flavio-segundo-turno-06-10-2026.jpg",
+    "expected_sha256": "2f368f6e969a27b7e2c07a4a93e3f087e060e3f8875b9f7365c81ade11affad8",
+    "public_sha256": "2f368f6e969a27b7e2c07a4a93e3f087e060e3f8875b9f7365c81ade11affad8",
+    "passed": true
+  },
+  "incendio-ufpe-agu-forca-tarefa-09-10-2026": {
+    "url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/news-art/incendio-ufpe-agu-forca-tarefa-09-10-2026.jpg",
+    "expected_sha256": "fc000c59acc56940e296c683ea738793b89d2f279be9a2c7a46c61493dc10e43",
+    "public_sha256": "fc000c59acc56940e296c683ea738793b89d2f279be9a2c7a46c61493dc10e43",
+    "passed": true
+  },
+  "ipca-setembro-contas-luz-inflacao-09-10-2026": {
+    "url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/news-art/ipca-setembro-contas-luz-inflacao-09-10-2026.jpg",
+    "expected_sha256": "17639f40e614cfbcaf2edf0bce3ef316a813819af967fd8afbb978c96f42be82",
+    "public_sha256": "17639f40e614cfbcaf2edf0bce3ef316a813819af967fd8afbb978c96f42be82",
     "passed": true
   }
 }
