@@ -1,0 +1,30 @@
+{
+  "id": "ipca-setembro-contas-luz-inflacao-09-10-2026",
+  "title": "Inflação sobe 0,82% em setembro e energia pesa no bolso",
+  "summary": "IPCA teve a maior alta para setembro desde 2021; contas de luz avançaram 7,98% no mês, segundo dados do IBGE.",
+  "category": "ECONOMIA",
+  "date": "09 OUT 2026",
+  "location": "Brasil",
+  "credit": "Imagem ilustrativa: energia elétrica e custo de vida — via UOL",
+  "sourceImage": "https://conteudo.imguol.com.br/c/noticias/6f/2025/10/08/conta-de-luz-tarifa-de-energia-1759954608610_v2_900x506.jpg",
+  "imageCandidates": [
+    "https://conteudo.imguol.com.br/c/noticias/6f/2025/10/08/conta-de-luz-tarifa-de-energia-1759954608610_v2_900x506.jpg"
+  ],
+  "imageAlt": "Imagem ilustrativa relacionada à conta de energia elétrica",
+  "body": [
+    "O Índice Nacional de Preços ao Consumidor Amplo (IPCA), indicador oficial da inflação no Brasil, subiu 0,82% em setembro de 2026, segundo dados divulgados pelo IBGE. Foi a maior variação para o mês desde 2021.",
+    "O principal impacto veio da energia elétrica residencial, cujas tarifas avançaram 7,98% em setembro. A alta ocorreu após o fim do desconto associado ao Bônus de Itaipu e com a manutenção da bandeira tarifária amarela.",
+    "Em 12 meses, o IPCA acumulou 4,58%, acima do teto de tolerância da meta de inflação. Alimentação e bebidas também subiram 0,83%, com altas expressivas de tomate e batata-inglesa.",
+    "Os números mostram pressão sobre o orçamento das famílias, especialmente nas despesas com moradia, alimentação e transporte."
+  ],
+  "sources": [
+    {
+      "name": "UOL — Contas de luz disparam e guiam maior inflação para setembro desde 2021",
+      "url": "https://economia.uol.com.br/noticias/redacao/2026/10/09/ipca-setembro-2026.ghtm"
+    },
+    {
+      "name": "IBGE — Inflação oficial de setembro",
+      "url": "https://agenciadenoticias.ibge.gov.br/"
+    }
+  ]
+}
