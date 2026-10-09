@@ -1823,14 +1823,14 @@
       }
     },
     "incendio-ufpe-agu-forca-tarefa-09-10-2026": {
-      "state": "FEED_PENDENTE",
+      "state": "FEED_OK",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "18122736286872741",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
       "last_error": null,
@@ -1840,17 +1840,19 @@
         "sha256": "fc000c59acc56940e296c683ea738793b89d2f279be9a2c7a46c61493dc10e43",
         "failed": [],
         "checked_at": "2026-10-09T22:24:16.640999+00:00"
-      }
+      },
+      "feed_comment_id": "18114527942110470",
+      "published_at": "2026-10-09T22:45:04.195Z"
     },
     "ipca-setembro-contas-luz-inflacao-09-10-2026": {
-      "state": "FEED_PENDENTE",
+      "state": "FEED_OK",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "18118981085287570",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
       "last_error": null,
@@ -1860,7 +1862,9 @@
         "sha256": "17639f40e614cfbcaf2edf0bce3ef316a813819af967fd8afbb978c96f42be82",
         "failed": [],
         "checked_at": "2026-10-09T22:24:18.408842+00:00"
-      }
+      },
+      "feed_comment_id": "18356144686170025",
+      "published_at": "2026-10-09T22:45:04.196Z"
     }
   }
 }
