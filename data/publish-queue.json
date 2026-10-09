@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-06T22:21:40.484391+00:00",
+  "updated_at": "2026-10-09T22:24:18.446419+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -1820,6 +1820,46 @@
           "text_fit"
         ],
         "checked_at": "2026-10-06T22:21:13.169745+00:00"
+      }
+    },
+    "incendio-ufpe-agu-forca-tarefa-09-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "fc000c59acc56940e296c683ea738793b89d2f279be9a2c7a46c61493dc10e43",
+      "art_validation": {
+        "passed": true,
+        "sha256": "fc000c59acc56940e296c683ea738793b89d2f279be9a2c7a46c61493dc10e43",
+        "failed": [],
+        "checked_at": "2026-10-09T22:24:16.640999+00:00"
+      }
+    },
+    "ipca-setembro-contas-luz-inflacao-09-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "17639f40e614cfbcaf2edf0bce3ef316a813819af967fd8afbb978c96f42be82",
+      "art_validation": {
+        "passed": true,
+        "sha256": "17639f40e614cfbcaf2edf0bce3ef316a813819af967fd8afbb978c96f42be82",
+        "failed": [],
+        "checked_at": "2026-10-09T22:24:18.408842+00:00"
       }
     }
   }

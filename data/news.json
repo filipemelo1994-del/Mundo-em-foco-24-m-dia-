@@ -1,5 +1,69 @@
 [
   {
+    "id": "ipca-setembro-contas-luz-inflacao-09-10-2026",
+    "title": "Inflação sobe 0,82% em setembro e energia pesa no bolso",
+    "summary": "IPCA teve a maior alta para setembro desde 2021; contas de luz avançaram 7,98% no mês, segundo dados do IBGE.",
+    "category": "ECONOMIA",
+    "date": "09 OUT 2026",
+    "location": "Brasil",
+    "credit": "Imagem ilustrativa: energia elétrica e custo de vida — via UOL",
+    "sourceImage": "https://conteudo.imguol.com.br/c/noticias/6f/2025/10/08/conta-de-luz-tarifa-de-energia-1759954608610_v2_900x506.jpg",
+    "imageCandidates": [
+      "https://conteudo.imguol.com.br/c/noticias/6f/2025/10/08/conta-de-luz-tarifa-de-energia-1759954608610_v2_900x506.jpg"
+    ],
+    "imageAlt": "Imagem ilustrativa relacionada à conta de energia elétrica",
+    "body": [
+      "O Índice Nacional de Preços ao Consumidor Amplo (IPCA), indicador oficial da inflação no Brasil, subiu 0,82% em setembro de 2026, segundo dados divulgados pelo IBGE. Foi a maior variação para o mês desde 2021.",
+      "O principal impacto veio da energia elétrica residencial, cujas tarifas avançaram 7,98% em setembro. A alta ocorreu após o fim do desconto associado ao Bônus de Itaipu e com a manutenção da bandeira tarifária amarela.",
+      "Em 12 meses, o IPCA acumulou 4,58%, acima do teto de tolerância da meta de inflação. Alimentação e bebidas também subiram 0,83%, com altas expressivas de tomate e batata-inglesa.",
+      "Os números mostram pressão sobre o orçamento das famílias, especialmente nas despesas com moradia, alimentação e transporte."
+    ],
+    "sources": [
+      {
+        "name": "UOL — Contas de luz disparam e guiam maior inflação para setembro desde 2021",
+        "url": "https://economia.uol.com.br/noticias/redacao/2026/10/09/ipca-setembro-2026.ghtm"
+      },
+      {
+        "name": "IBGE — Inflação oficial de setembro",
+        "url": "https://agenciadenoticias.ibge.gov.br/"
+      }
+    ],
+    "image": "https://conteudo.imguol.com.br/c/noticias/6f/2025/10/08/conta-de-luz-tarifa-de-energia-1759954608610_v2_900x506.jpg",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/ipca-setembro-contas-luz-inflacao-09-10-2026.jpg"
+  },
+  {
+    "id": "incendio-ufpe-agu-forca-tarefa-09-10-2026",
+    "title": "AGU cria força-tarefa após incêndio na UFPE",
+    "summary": "Grupo acompanhará investigações e recuperação dos danos; prejuízos em laboratórios são estimados em R$ 100 milhões.",
+    "category": "PERNAMBUCO",
+    "date": "09 OUT 2026",
+    "location": "Recife, PE",
+    "credit": "Reprodução/Redes sociais — via UOL",
+    "sourceImage": "https://conteudo.imguol.com.br/c/noticias/cc/2026/10/07/incendio-atinge-predio-da-ufpe-no-recife-1791420805272_v2_900x506.png",
+    "imageCandidates": [
+      "https://conteudo.imguol.com.br/c/noticias/cc/2026/10/07/incendio-atinge-predio-da-ufpe-no-recife-1791420805272_v2_900x506.png"
+    ],
+    "imageAlt": "Incêndio no prédio da UFPE, no Recife, em 7 de outubro de 2026",
+    "body": [
+      "A Advocacia-Geral da União criou uma força-tarefa para oferecer suporte jurídico prioritário à Universidade Federal de Pernambuco após o incêndio que atingiu laboratórios e áreas de pesquisa no Campus Recife.",
+      "O grupo deverá acompanhar as investigações, apoiar a gestão da crise e organizar a documentação necessária para apurar prejuízos ao patrimônio público. A portaria prevê duração inicial de 60 dias, com possibilidade de prorrogação.",
+      "Segundo informações publicadas pelo UOL, as perdas com equipamentos, insumos e materiais são estimadas em cerca de R$ 100 milhões. Mais de 80 estudantes de iniciação científica, mestrado e doutorado foram afetados.",
+      "A Polícia Federal investiga tanto a origem do incêndio quanto os fatos que o antecederam. Até a publicação desta matéria, as causas ainda não haviam sido identificadas."
+    ],
+    "sources": [
+      {
+        "name": "UOL — AGU cria força-tarefa para dar suporte jurídico à UFPE após incêndio",
+        "url": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/10/09/agu-cria-forca-tarefa-para-dar-suporte-juridico-a-ufpe-apos-incendio.ghtm"
+      },
+      {
+        "name": "Agência Brasil — cobertura sobre o incêndio na UFPE",
+        "url": "https://agenciabrasil.ebc.com.br/"
+      }
+    ],
+    "image": "https://conteudo.imguol.com.br/c/noticias/cc/2026/10/07/incendio-atinge-predio-da-ufpe-no-recife-1791420805272_v2_900x506.png",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/incendio-ufpe-agu-forca-tarefa-09-10-2026.jpg"
+  },
+  {
     "id": "caiado-apoia-flavio-segundo-turno-06-10-2026",
     "published": "2026-10-06T19:20:00-03:00",
     "category": "POLÍTICA",
