@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-09T22:24:48.012854+00:00",
+  "updated_at": "2026-10-10T22:36:43.328Z",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -1865,6 +1865,20 @@
       },
       "feed_comment_id": "18356144686170025",
       "published_at": "2026-10-09T22:45:04.196Z"
+    },
+    "mcti-40-milhoes-equipamentos-pesquisa-ufpe-10-10-2026": {
+      "state": "FEED_OK",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": "17998045980011931",
+      "story_media_id": null,
+      "attempts": {
+        "feed": 1,
+        "story": 0
+      },
+      "last_error": null,
+      "note": "Matéria inserida em data/news.json; post do feed confirmado no Instagram. Arte visual reutilizada da matéria anterior sobre o incêndio da UFPE."
     }
   }
 }
