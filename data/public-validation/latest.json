@@ -28,17 +28,5 @@
     "expected_sha256": "2f368f6e969a27b7e2c07a4a93e3f087e060e3f8875b9f7365c81ade11affad8",
     "public_sha256": "2f368f6e969a27b7e2c07a4a93e3f087e060e3f8875b9f7365c81ade11affad8",
     "passed": true
-  },
-  "incendio-ufpe-agu-forca-tarefa-09-10-2026": {
-    "url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/news-art/incendio-ufpe-agu-forca-tarefa-09-10-2026.jpg",
-    "expected_sha256": "fc000c59acc56940e296c683ea738793b89d2f279be9a2c7a46c61493dc10e43",
-    "public_sha256": "fc000c59acc56940e296c683ea738793b89d2f279be9a2c7a46c61493dc10e43",
-    "passed": true
-  },
-  "ipca-setembro-contas-luz-inflacao-09-10-2026": {
-    "url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/news-art/ipca-setembro-contas-luz-inflacao-09-10-2026.jpg",
-    "expected_sha256": "17639f40e614cfbcaf2edf0bce3ef316a813819af967fd8afbb978c96f42be82",
-    "public_sha256": "17639f40e614cfbcaf2edf0bce3ef316a813819af967fd8afbb978c96f42be82",
-    "passed": true
   }
 }
