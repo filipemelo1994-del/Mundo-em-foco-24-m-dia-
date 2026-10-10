@@ -1,5 +1,46 @@
 [
   {
+    "id": "fumaca-queimadas-manaus-qualidade-ar-10-10-2026",
+    "title": "Fumaça de queimadas deixa qualidade do ar em Manaus em nível péssimo",
+    "summary": "Concentração de partículas finas chegou a 196,4 µg/m³; aulas municipais e atividades presenciais em órgãos da prefeitura foram suspensas preventivamente.",
+    "category": "MEIO AMBIENTE",
+    "date": "10 OUT 2026",
+    "published": "2026-10-10T09:11:00-03:00",
+    "location": "Manaus, Amazonas",
+    "credit": "Foto: AP Photo/Edmar Barros — imagem da Ponte Jornalista Phelippe Daou encoberta por fumaça",
+    "sourceImage": "https://dims.apnews.com/dims4/default/a2c6908/2147483647/strip/true/crop/3718x2479%2B0%2B0/resize/599x399%21/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fae%2F5e%2F30a986e82c12fc0d95c469ffba5a%2Ffffcf88ed1314502b1937e4c631d9783",
+    "imageCandidates": [
+      "https://dims.apnews.com/dims4/default/a2c6908/2147483647/strip/true/crop/3718x2479%2B0%2B0/resize/599x399%21/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fae%2F5e%2F30a986e82c12fc0d95c469ffba5a%2Ffffcf88ed1314502b1937e4c631d9783"
+    ],
+    "imageAlt": "Ponte Jornalista Phelippe Daou encoberta pela fumaça de queimadas em Manaus, em 9 de outubro de 2026",
+    "body": [
+      "A qualidade do ar em Manaus atingiu níveis considerados péssimos na sexta-feira (9), após a capital amazonense ser coberta por fumaça proveniente de queimadas registradas no interior do Amazonas e em áreas de estados vizinhos. Segundo a Prefeitura de Manaus, a concentração média de partículas finas chegou a 196,4 microgramas por metro cúbico (µg/m³), levando à suspensão excepcional das aulas da rede municipal e das atividades presenciais nas sedes administrativas do Executivo municipal.",
+      "A suspensão das aulas foi anunciada pela Secretaria Municipal de Educação como medida preventiva para proteger estudantes, profissionais e demais integrantes da comunidade escolar. A prefeitura também informou que os servidores administrativos trabalhariam remotamente. Serviços essenciais, incluindo o atendimento nas Unidades Básicas de Saúde, foram mantidos. As decisões foram divulgadas em notas oficiais publicadas em 9 de outubro.",
+      "A concentração registrada é de material particulado fino, conhecido como MP2,5, formado por partículas pequenas o suficiente para penetrar profundamente no sistema respiratório. A Agência Brasil informou que valores acima de 160 µg/m³ são classificados como péssimos na escala utilizada no monitoramento local. Na noite de quinta-feira (8), uma medição chegou a 200 µg/m³. Esses números indicam um episódio severo de poluição atmosférica, mas as condições podem variar de acordo com o vento, a chuva e a localização dos sensores.",
+      "A fumaça está associada a focos de incêndio em municípios do Amazonas e também em áreas próximas de Santarém, no Pará. Dados citados pela Associated Press, com base no monitoramento por satélite do Instituto Nacional de Pesquisas Espaciais (INPE), apontavam cerca de 33.556 focos de queimadas na Amazônia brasileira até quinta-feira (8). O total era quase 50% superior ao observado no mesmo período de 2025, embora permanecesse abaixo da média histórica, segundo a agência.",
+      "A situação reforça os riscos que períodos secos e incêndios florestais representam para a saúde pública. A fumaça pode agravar irritações nos olhos e nas vias respiratórias e causar maior preocupação para crianças, idosos e pessoas com doenças respiratórias ou cardiovasculares. Autoridades locais orientaram a população a acompanhar os comunicados oficiais e reduzir a exposição ao ar contaminado enquanto os níveis estiverem elevados.",
+      "O Ministério do Meio Ambiente informou à Associated Press que equipes e aeronaves foram mobilizadas para apoiar o combate aos incêndios no Amazonas, além do reforço de inspeções e ações para prevenir novas queimadas. A recuperação da qualidade do ar dependerá da evolução dos focos de fogo e das condições meteorológicas. Até a publicação desta reportagem, as suspensões anunciadas pela prefeitura referiam-se excepcionalmente à sexta-feira, 9 de outubro; não foi localizada confirmação de que tenham sido prorrogadas para o sábado."
+    ],
+    "sources": [
+      {
+        "name": "Prefeitura de Manaus — suspensão de atividades presenciais",
+        "url": "https://www.manaus.am.gov.br/semcom/nota-33/"
+      },
+      {
+        "name": "Prefeitura de Manaus — suspensão das aulas municipais",
+        "url": "https://www.manaus.am.gov.br/noticia/nota/prefeitura-qualidadedoar-suspensaoaulas/"
+      },
+      {
+        "name": "Agência Brasil — níveis graves de poluição do ar em Manaus",
+        "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/manaus-atinge-niveis-graves-de-poluicao-do-ar-por-fumaca-de-queimadas"
+      },
+      {
+        "name": "Associated Press — Wildfires worsen air quality in Manaus",
+        "url": "https://apnews.com/article/brazil-amazon-manaus-wildfires-5c35f5245cd2cc66dfb36722a416b363"
+      }
+    ]
+  },
+  {
     "id": "ipca-setembro-contas-luz-inflacao-09-10-2026",
     "title": "Inflação sobe 0,82% em setembro e energia pesa no bolso",
     "summary": "IPCA avançou 0,82% em setembro após queda em agosto; energia elétrica subiu 7,98%, enquanto alimentação e transportes também pressionaram o orçamento das famílias.",
