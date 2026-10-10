@@ -1,5 +1,43 @@
 [
   {
+    "id": "mcti-40-milhoes-equipamentos-pesquisa-ufpe-10-10-2026",
+    "published": "2026-10-10T19:28:00-03:00",
+    "category": "PERNAMBUCO",
+    "title": "MCTI anuncia R$ 40 milhões para repor equipamentos destruídos em incêndio na UFPE",
+    "summary": "Verba emergencial anunciada por Luciana Santos será destinada à compra de equipamentos de pesquisa; MEC também anunciou R$ 28 milhões para um novo prédio e manutenção de bolsas.",
+    "location": "Recife, Pernambuco",
+    "date": "10 OUT 2026",
+    "credit": "Foto: reprodução/UOL — imagem do incêndio na UFPE",
+    "sourceImage": "https://conteudo.imguol.com.br/c/noticias/cc/2026/10/07/incendio-atinge-predio-da-ufpe-no-recife-1791420805272_v2_900x506.png",
+    "image": "https://conteudo.imguol.com.br/c/noticias/cc/2026/10/07/incendio-atinge-predio-da-ufpe-no-recife-1791420805272_v2_900x506.png",
+    "imageCandidates": [
+      "https://conteudo.imguol.com.br/c/noticias/cc/2026/10/07/incendio-atinge-predio-da-ufpe-no-recife-1791420805272_v2_900x506.png"
+    ],
+    "imageAlt": "Prédio da UFPE atingido por incêndio no Recife, em outubro de 2026",
+    "body": [
+      "O Ministério da Ciência, Tecnologia e Inovação (MCTI) anunciou R$ 40 milhões para a compra de equipamentos destruídos no incêndio que atingiu laboratórios da Universidade Federal de Pernambuco (UFPE), no Recife. O anúncio foi feito na sexta-feira (9) pela ministra Luciana Santos, durante visita à universidade.",
+      "Segundo o ministério, os recursos serão destinados à reposição de equipamentos de pesquisa adquiridos por meio da Financiadora de Estudos e Projetos (Finep). A medida busca ajudar a recuperar a infraestrutura científica e permitir a retomada dos trabalhos nos laboratórios afetados.",
+      "O investimento se soma aos R$ 28 milhões anunciados pelo Ministério da Educação (MEC) para construir um novo prédio de aproximadamente sete mil metros quadrados, com área maior que a estrutura destruída. A previsão divulgada é de que as obras comecem após a conclusão das etapas necessárias de perícia e investigação.",
+      "O governo também informou que bolsas de mestrado, doutorado e pós-doutorado dos estudantes afetados serão mantidas, com possibilidade de extensão de prazos. Pesquisadores poderão ser encaminhados a outras instituições para dar continuidade a atividades que ficaram comprometidas pelo incêndio.",
+      "O fogo atingiu o prédio da antiga Diretoria de Inovação e Empreendedorismo (DINE), que abrigava laboratórios e pesquisas em áreas como fármacos, genética e informática. A universidade estima que os prejuízos possam ultrapassar R$ 100 milhões, mas o valor ainda depende de levantamentos sobre danos materiais e científicos.",
+      "A Polícia Federal investiga as causas do incêndio e apura possíveis relações com ameaças feitas à universidade e a estudantes. Até o momento, não há confirmação oficial de que as ameaças tenham relação com o fogo, e a causa do incêndio não foi determinada."
+    ],
+    "sources": [
+      {
+        "name": "CBN Recife — Ministério anuncia mais R$ 40 milhões para recuperar pesquisas perdidas em incêndio na UFPE",
+        "url": "https://www.cbnrecife.com/2026/10/09/ministerio-anuncia-mais-r-40-milhoes-para-recuperar-pesquisas-perdidas-em-incendio-na-ufpe/"
+      },
+      {
+        "name": "UOL / Agência Estado — Ministra anuncia mais R$ 40 milhões para compra de equipamentos após incêndio na UFPE",
+        "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/09/ministra-anuncia-mais-r-40-milhoes-para-compra-de-equipamentos-apos-incendio-na-ufpe.amp.htm"
+      },
+      {
+        "name": "CBN Recife — MEC anuncia R$ 28 milhões para novo prédio após incêndio na UFPE",
+        "url": "https://www.cbnrecife.com/2026/10/08/ministro-da-educacao-anuncia-r-28-milhoes-para-novo-predio-apos-incendio-na-ufpe/"
+      }
+    ]
+  },
+  {
     "id": "fumaca-queimadas-manaus-qualidade-ar-10-10-2026",
     "title": "Fumaça de queimadas deixa qualidade do ar em Manaus em nível péssimo",
     "summary": "Concentração de partículas finas chegou a 196,4 µg/m³; aulas municipais e atividades presenciais em órgãos da prefeitura foram suspensas preventivamente.",
