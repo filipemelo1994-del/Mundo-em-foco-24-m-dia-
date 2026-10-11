@@ -1,5 +1,57 @@
 [
   {
+    "id": "mega-sena-acumula-150-milhoes-11-10-2026",
+    "published": true,
+    "category": "BRASIL",
+    "title": "Mega-Sena acumula e prêmio chega a R$ 150 milhões",
+    "summary": "Concurso 3.069 não teve ganhador na faixa principal; dezenas sorteadas foram 05, 19, 22, 44, 47 e 57. Próximo sorteio será na quarta-feira (14).",
+    "location": "Brasil",
+    "date": "11 OUT 2026",
+    "image": "https://imagens.ebc.com.br/P7lxcGm8k6UohJ5Os3uzi8kr8QQ%3D/1170x700/smart/https%3A//agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/mega_sena_mcajr_abr_2904223680.jpg?itok=vZ2eHAv_",
+    "imageAlt": "Volantes de apostas da Mega-Sena",
+    "credit": "Marcello Casal Jr/Agência Brasil",
+    "body": [
+      "O prêmio principal da Mega-Sena acumulou neste domingo (11), e a estimativa para o próximo concurso é de R$ 150 milhões. Ninguém acertou as seis dezenas do concurso 3.069, sorteado no Espaço da Sorte, em São Paulo.",
+      "Os números sorteados foram 05, 19, 22, 44, 47 e 57. Segundo a Agência Brasil, 150 apostas acertaram cinco dezenas e receberão R$ 26.095,23 cada. Outras 9.096 apostas fizeram a quadra, com prêmio individual de R$ 709,33.",
+      "O próximo sorteio está previsto para quarta-feira, 14 de outubro. A aposta simples, com seis números, custa R$ 6. O valor estimado do prêmio pode mudar conforme a arrecadação e as regras da loteria.",
+      "A reportagem se baseia nos resultados divulgados pela Agência Brasil. Para conferir informações oficiais sobre apostas e premiações, consulte também os canais da Caixa Econômica Federal."
+    ],
+    "sources": [
+      {
+        "name": "Agência Brasil — Mega-Sena acumula para R$ 150 milhões; confira os números sorteados",
+        "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-acumula-para-r-150-milhoes-confira-os-numeros-sorteados"
+      }
+    ]
+  },
+  {
+    "id": "verstappen-vence-gp-singapura-11-10-2026",
+    "published": true,
+    "category": "ESPORTES",
+    "title": "Verstappen vence GP de Singapura; Antonelli amplia vantagem na F1",
+    "summary": "Piloto da Red Bull liderou a corrida de ponta a ponta. Charles Leclerc terminou em segundo e Kimi Antonelli ficou em terceiro.",
+    "location": "Singapura",
+    "date": "11 OUT 2026",
+    "imageAlt": "Max Verstappen venceu o Grande Prêmio de Singapura de Fórmula 1",
+    "credit": "Fonte: Fórmula 1",
+    "body": [
+      "Max Verstappen venceu neste domingo (11) o Grande Prêmio de Singapura de Fórmula 1. O piloto da Red Bull largou na pole position e manteve a liderança ao longo das 62 voltas no circuito de Marina Bay.",
+      "Charles Leclerc, da Ferrari, terminou em segundo, 7,335 segundos atrás do vencedor. Kimi Antonelli, da Mercedes, completou o pódio em terceiro, a 24,573 segundos de Verstappen.",
+      "A vitória foi a primeira de Verstappen no circuito de Singapura e a segunda consecutiva na temporada. O holandês também alcançou sua 73ª vitória na carreira, em sua 250ª largada na Fórmula 1.",
+      "Antonelli ampliou a vantagem na liderança do campeonato sobre seu companheiro de equipe George Russell. O brasileiro Gabriel Bortoleto abandonou a prova na oitava volta após um problema na transmissão de seu carro da Audi.",
+      "Os resultados foram confirmados pela página oficial da Fórmula 1. A próxima etapa está prevista para Austin, nos Estados Unidos."
+    ],
+    "sources": [
+      {
+        "name": "Fórmula 1 — Resultado oficial do GP de Singapura de 2026",
+        "url": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+      },
+      {
+        "name": "Agência Brasil — F1: Verstappen vence GP de Singapura e Antonelli fica perto do título",
+        "url": "https://agenciabrasil.ebc.com.br/ultimas"
+      }
+    ]
+  },
+  {
     "id": "assembleia-geral-onu-guerras-ia-20-09-2026",
     "published": true,
     "category": "MUNDO",
