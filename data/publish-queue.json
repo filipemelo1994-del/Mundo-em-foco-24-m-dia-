@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-10T22:36:43.328Z",
+  "updated_at": "2026-10-11T21:11:09.052453+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -1869,7 +1869,7 @@
     "mcti-40-milhoes-equipamentos-pesquisa-ufpe-10-10-2026": {
       "state": "FEED_OK",
       "portal": true,
-      "feed_art": true,
+      "feed_art": false,
       "story_art": false,
       "feed_media_id": "17998045980011931",
       "story_media_id": null,
@@ -1879,6 +1879,63 @@
       },
       "last_error": null,
       "note": "Matéria inserida em data/news.json; post do feed confirmado no Instagram. Arte visual reutilizada da matéria anterior sobre o incêndio da UFPE."
+    },
+    "incendio-doceria-piedade-jaboatao-12-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": false,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": "build_news_art_v2 exit=4",
+      "art_sha256": "50d9e7e7a1b4f6d921d0e0459253e9482fb7f0374aef9a3482674fdb018e63fb",
+      "art_validation": {
+        "passed": false,
+        "sha256": "50d9e7e7a1b4f6d921d0e0459253e9482fb7f0374aef9a3482674fdb018e63fb",
+        "failed": [
+          "text_fit"
+        ],
+        "checked_at": "2026-10-11T21:11:06.807043+00:00"
+      }
+    },
+    "uniao-reconhece-emergencia-36-municipios-amazonas-12-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": false,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": "build_news_art_v2 exit=4",
+      "art_sha256": "c7b48af4d350ab2623864b5924cfeea90e238077134e12b1f96732300caf8068",
+      "art_validation": {
+        "passed": false,
+        "sha256": "c7b48af4d350ab2623864b5924cfeea90e238077134e12b1f96732300caf8068",
+        "failed": [
+          "text_fit"
+        ],
+        "checked_at": "2026-10-11T21:11:09.023063+00:00"
+      }
+    },
+    "fumaca-queimadas-manaus-qualidade-ar-10-10-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
     }
   }
 }
