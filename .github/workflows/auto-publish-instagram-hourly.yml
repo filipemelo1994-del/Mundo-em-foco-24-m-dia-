@@ -1,5 +1,7 @@
 name: Auto Publish Instagram Every 30 Minutes
 on:
+  schedule:
+    - cron: '7,37 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -29,7 +31,7 @@ jobs:
           with open("data/news.json",encoding="utf-8") as f: news=json.load(f)
           with open("data/publish-queue.json",encoding="utf-8") as f: q=json.load(f)
           byid={n.get("id"):n for n in news}
-          cutoff=date(2026, 9, 27)
+          cutoff=date(2026, 10, 10)
           candidates=[]
           for nid,item in (q.get("items") or {}).items():
               n=byid.get(nid)
@@ -48,7 +50,7 @@ jobs:
                   if match:
                       try: story_date=datetime.strptime("-".join(match.groups()), "%d-%m-%Y").date()
                       except ValueError: pass
-              # Evita drenar pautas antigas, mas aceita qualquer data de pauta a partir de 27/09/2026.
+              # Não drena a fila antiga; aceita somente pautas de 10/10/2026 em diante.
               if story_date is None or story_date < cutoff: continue
               candidates.append((story_date.isoformat(), published, str(nid)))
           candidates.sort(reverse=True)
