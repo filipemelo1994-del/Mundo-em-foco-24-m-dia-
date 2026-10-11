@@ -64,6 +64,11 @@ jobs:
               else
                 python3 scripts/update_publish_queue.py --id "$id" --art-sha256 "$art_sha256"
               fi
+              # Matérias que o editor informa já terem sido publicadas manualmente no Instagram
+              # entram no portal, mas ficam fora da fila automática para evitar duplicação.
+              if python3 -c "import json,sys; sys.exit(0 if json.load(open(sys.argv[1],encoding='utf-8')).get('instagramAlreadyPublished') else 1)" "$req"; then
+                python3 scripts/update_publish_queue.py --id "$id" --state "INSTAGRAM_PUBLISHED_EXTERNALLY"
+              fi
               rm -f "$req"
             else
               echo "::warning::Falha ao gerar/validar arte de $id (build_news_art_v2 exit=$status)"
