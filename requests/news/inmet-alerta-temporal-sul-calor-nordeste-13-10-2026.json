@@ -1,0 +1,34 @@
+{
+  "id": "inmet-alerta-temporal-sul-calor-nordeste-13-10-2026",
+  "published": "2026-10-13T19:43:00-03:00",
+  "category": "MEIO AMBIENTE",
+  "title": "Alertas de tempestade continuam em parte do país enquanto calor e baixa umidade atingem o Nordeste",
+  "summary": "Previsão divulgada nesta terça-feira aponta risco de tempestades em áreas do Sul e faixa oeste do país; no semiárido nordestino, o tempo segue seco.",
+  "location": "Brasil",
+  "date": "13 OUT 2026",
+  "credit": "Foto: Rafa Neddermeyer/Agência Brasil",
+  "sourceImage": "https://imagens.ebc.com.br/e8AH9_It1R4dj1GzOhtKbjyjlV8%3D/1170x700/smart/https%3A//agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/12/img_1832.jpg.jpeg?itok=CsraS99I",
+  "imageCandidates": [
+    "https://imagens.ebc.com.br/e8AH9_It1R4dj1GzOhtKbjyjlV8%3D/1170x700/smart/https%3A//agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/12/img_1832.jpg.jpeg?itok=CsraS99I"
+  ],
+  "imageAlt": "Céu carregado de nuvens de tempestade sobre uma área urbana e um lago; imagem ilustrativa do tempo instável.",
+  "body": [
+    "O tempo continua dividido entre áreas com possibilidade de tempestades e regiões de calor e baixa umidade. Em boletim publicado nesta terça-feira, 13 de outubro, a Agência Brasil informou, com base em dados do Instituto Nacional de Meteorologia (Inmet), que ainda há aviso amarelo de perigo potencial para tempestades em uma faixa do oeste do país, do Amazonas até o norte do Rio Grande do Sul.",
+    "Na Região Sul, a previsão indicava continuidade de chuva com trovoadas isoladas no Paraná, em Santa Catarina e no extremo norte do Rio Grande do Sul. Para essa última área, o aviso laranja representa um nível maior de atenção para tempestades. As condições podem variar por município, por isso moradores devem acompanhar os comunicados oficiais atualizados.",
+    "Na Região Norte, o oeste do Amazonas também poderia registrar pancadas e trovoadas isoladas. Ao mesmo tempo, áreas do leste da região e partes do Tocantins enfrentavam calor e tempo seco, com aviso amarelo para baixa umidade. Esse contraste reforça a importância de consultar a previsão específica da cidade, em vez de considerar que todo um estado terá as mesmas condições.",
+    "No Nordeste, a previsão divulgada pela Agência Brasil apontava aviso amarelo para baixa umidade, especialmente no semiárido, e ausência de chuva prevista no litoral naquele boletim. O cenário pode mudar conforme a evolução das condições atmosféricas. A população deve verificar os avisos do Inmet e as orientações da Defesa Civil local, sobretudo quando houver mudanças rápidas no tempo.",
+    "Em períodos de baixa umidade, recomenda-se beber água regularmente, reduzir atividades físicas intensas nos horários mais quentes e manter ambientes ventilados. Pessoas idosas, crianças e quem tem doenças respiratórias podem sentir mais os efeitos do ar seco. Em caso de sintomas importantes, como falta de ar, confusão ou mal-estar intenso, é indicado procurar atendimento de saúde.",
+    "Durante tempestades, a orientação é evitar abrigo sob árvores, não permanecer em áreas abertas e manter distância de postes, estruturas metálicas e cursos d’água que possam subir rapidamente. Motoristas devem redobrar a atenção em pistas molhadas e não tentar atravessar ruas alagadas. Se houver raios, o mais seguro é procurar um edifício fechado ou um veículo com teto rígido.",
+    "Os alertas meteorológicos têm validade e áreas de abrangência determinadas e podem ser atualizados ao longo do dia. A matéria resume a previsão publicada em 13 de outubro de 2026; para decisões imediatas, a recomendação é conferir o aviso vigente no portal do Inmet e os canais oficiais da Defesa Civil. A fotografia que acompanha esta publicação mostra nuvens carregadas e é ilustrativa, não uma confirmação de que a imagem tenha sido feita no local de cada alerta."
+  ],
+  "sources": [
+    {
+      "name": "Agência Brasil — Chuvas diminuem no país, mas temporal persiste na Região Sul",
+      "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/chuvas-diminuem-no-pais-mas-temporal-persiste-na-regiao-sul"
+    },
+    {
+      "name": "Instituto Nacional de Meteorologia — Notícias e alertas",
+      "url": "https://portal.inmet.gov.br/noticias"
+    }
+  ]
+}
