@@ -13,6 +13,10 @@ POLITICAL_TERMS=(
 )
 def is_political(n):
  text=" ".join(str(n.get(k,"")) for k in ("category","title","summary","body")).lower()
+ # Exceção editorial restrita: notícia factual de direito trabalhista sobre a promulgação da escala 6x1.
+ # Continua sujeita à validação da arte, fonte e fila; não libera conteúdo eleitoral ou partidário.
+ if str(n.get("category","")).strip().lower()=="trabalho" and "escala 6x1" in text and ("promulga" in text or "promulgação" in text or "jornada" in text):
+  return False
  return any(term in text for term in POLITICAL_TERMS)
 def eligible_item(nid,item,n,pv):
  if not n or is_political(n): return False
