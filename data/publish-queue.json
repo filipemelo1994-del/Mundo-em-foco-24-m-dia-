@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-16T23:15:48.186985+00:00",
+  "updated_at": "2026-10-16T23:16:10.970012+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2022,8 +2022,8 @@
     },
     "tesla-roadster-manobras-ar-2026-10-16": {
       "state": "PORTAL_PENDENTE",
-      "portal": false,
-      "feed_art": false,
+      "portal": true,
+      "feed_art": true,
       "story_art": false,
       "feed_media_id": null,
       "story_media_id": null,
@@ -2032,14 +2032,12 @@
         "story": 0
       },
       "last_error": "build_news_art_v2 exit=4",
-      "art_sha256": "ab63a25fa58286b707d7ff3c281cef5d413d496b01ee625ee42455ea0d851610",
+      "art_sha256": "98784f2ade5d9d4e57d8f126b0e8741885d5015f02ae445868c2f6692bb38a8a",
       "art_validation": {
-        "passed": false,
-        "sha256": "ab63a25fa58286b707d7ff3c281cef5d413d496b01ee625ee42455ea0d851610",
-        "failed": [
-          "text_fit"
-        ],
-        "checked_at": "2026-10-16T23:15:19.584724+00:00"
+        "passed": true,
+        "sha256": "98784f2ade5d9d4e57d8f126b0e8741885d5015f02ae445868c2f6692bb38a8a",
+        "failed": [],
+        "checked_at": "2026-10-16T23:16:10.935624+00:00"
       }
     }
   }
