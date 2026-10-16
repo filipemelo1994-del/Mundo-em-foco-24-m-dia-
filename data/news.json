@@ -1,5 +1,41 @@
 [
   {
+    "id": "verstappen-vence-gp-singapura-antonelli-11-10-2026",
+    "published": "2026-10-11T18:40:00-03:00",
+    "category": "ESPORTES",
+    "title": "Verstappen vence GP de Singapura; Antonelli amplia liderança na F1",
+    "summary": "Piloto da Red Bull conquistou a segunda vitória consecutiva na temporada; Charles Leclerc terminou em segundo e Kimi Antonelli em terceiro.",
+    "location": "Singapura",
+    "date": "11 OUT 2026",
+    "credit": "Imagem de transmissão do GP de Singapura/ge",
+    "sourceImage": "https://s01.video.glbimg.com/x240/15048124.jpg",
+    "imageCandidates": [
+      "https://s01.video.glbimg.com/x240/15048124.jpg"
+    ],
+    "imageAlt": "Imagem da pista do Grande Prêmio de Singapura de Fórmula 1.",
+    "body": [
+      "Max Verstappen, da Red Bull, venceu neste domingo (11) o Grande Prêmio de Singapura de Fórmula 1, depois de largar na pole position e controlar a corrida no circuito de rua de Marina Bay. O resultado representou a segunda vitória consecutiva do piloto holandês na temporada, segundo reportagem publicada pela Agência Brasil com informações da Reuters.",
+      "Verstappen manteve a liderança desde o início e resistiu à pressão inicial de Charles Leclerc, da Ferrari, que terminou em segundo lugar. Kimi Antonelli, da Mercedes, completou o pódio na terceira posição e ampliou sua vantagem na classificação do campeonato em relação ao companheiro de equipe George Russell.",
+      "A vitória também marcou um resultado inédito para Verstappen em Singapura: ele nunca havia vencido anteriormente nesse circuito. O fim de semana foi especialmente positivo para o piloto da Red Bull, que também havia vencido a corrida sprint e conseguiu administrar o ritmo ao longo das voltas, inclusive na gestão dos pneus.",
+      "Com o terceiro lugar, Antonelli chegou ao 14º pódio da temporada e ampliou para 102 pontos a diferença sobre Russell, conforme os números citados na reportagem. O italiano pode conquistar matematicamente o título na próxima etapa, em Austin, dependendo dos resultados. Apesar da possibilidade, ele afirmou após a prova que pretende concentrar-se em executar um bom fim de semana de corrida.",
+      "A prova também teve dificuldades para outros nomes importantes do grid. Lewis Hamilton, agora na Ferrari, caiu para o sexto lugar após ser ultrapassado por pilotos da McLaren nas voltas finais, enquanto enfrentava problemas com os pneus. George Russell terminou em nono, depois de largar mais atrás por penalidades relacionadas ao motor.",
+      "O resultado em Singapura mexe com a disputa pelo campeonato e mantém a temporada aberta para os próximos capítulos. A sequência de vitórias recoloca Verstappen em evidência, enquanto Antonelli fortalece sua posição na liderança e pode chegar à etapa dos Estados Unidos com a chance matemática de assegurar o título.",
+      "A próxima etapa do calendário será disputada em Austin, nos Estados Unidos. A classificação e as possibilidades de título dependem da pontuação oficial e dos resultados das corridas seguintes. Os dados desta reportagem foram conferidos na cobertura da Agência Brasil publicada em 11 de outubro de 2026."
+    ],
+    "sources": [
+      {
+        "name": "ge — GP de Singapura: Verstappen quebra tabu com vitória; Bortoleto abandona",
+        "url": "https://ge.globo.com/motor/formula-1/noticia/2026/10/11/gp-de-singapura-verstappen-quebra-tabu-com-vitoria-bortoleto-abandona.ghtml"
+      },
+      {
+        "name": "Fórmula 1 — Resultados oficiais do GP de Singapura 2026",
+        "url": "https://www.formula1.com/en/results/2025/races/1296/singapore/starting-grid"
+      }
+    ],
+    "image": "https://s01.video.glbimg.com/x240/15048124.jpg",
+    "instagramImage": "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/${out_path}"
+  },
+  {
     "id": "uniao-reconhece-emergencia-36-municipios-amazonas-12-10-2026",
     "published": "2026-10-11T18:17:00-03:00",
     "category": "BRASIL",
