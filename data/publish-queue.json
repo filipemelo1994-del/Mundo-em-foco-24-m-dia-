@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-16T23:04:05.723543+00:00",
+  "updated_at": "2026-10-16T23:04:31.968580+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -1962,8 +1962,8 @@
     },
     "recife-mova-se-recompensas-2026-10-16": {
       "state": "PORTAL_PENDENTE",
-      "portal": false,
-      "feed_art": false,
+      "portal": true,
+      "feed_art": true,
       "story_art": false,
       "feed_media_id": null,
       "story_media_id": null,
@@ -1971,7 +1971,14 @@
         "feed": 0,
         "story": 0
       },
-      "last_error": "build_news_art_v2 exit=3"
+      "last_error": "build_news_art_v2 exit=3",
+      "art_sha256": "2bd63255929704792c12e456b9b80da73da84535ed2910a95a92f7d0f552a34e",
+      "art_validation": {
+        "passed": true,
+        "sha256": "2bd63255929704792c12e456b9b80da73da84535ed2910a95a92f7d0f552a34e",
+        "failed": [],
+        "checked_at": "2026-10-16T23:04:31.912127+00:00"
+      }
     },
     "pernambuco-ganhe-o-mundo-embarques-reino-unido-2026-10-16": {
       "state": "PORTAL_PENDENTE",

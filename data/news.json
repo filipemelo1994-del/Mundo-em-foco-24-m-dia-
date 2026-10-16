@@ -1,5 +1,45 @@
 [
   {
+    "id": "recife-mova-se-recompensas-2026-10-16",
+    "published": "2026-10-16",
+    "category": "Recife",
+    "title": "Recife transforma caminhadas e pedaladas em recompensas",
+    "summary": "Programa Mova-se pelo Futuro valida mais de 5,5 mil trajetos no primeiro mês e incentiva deslocamentos sustentáveis.",
+    "location": "Recife (PE)",
+    "date": "16 OUT 2026",
+    "credit": "Foto ilustrativa: Josenildo Gomes/NE10",
+    "sourceImage": "https://imagens.ne10.uol.com.br/veiculos/_midias/jpg/2024/11/08/rua_othon_paraiso___josenildo_gomes_35-33133411.jpg",
+    "imageCandidates": [
+      "https://imagens.ne10.uol.com.br/veiculos/_midias/jpg/2024/11/08/rua_othon_paraiso___josenildo_gomes_35-33133411.jpg"
+    ],
+    "imageAlt": "Ciclista e passageira em ciclovia do Recife, imagem ilustrativa sobre mobilidade ativa.",
+    "body": [
+      "O Recife está testando uma forma de incentivar a população a caminhar e pedalar nos deslocamentos do dia a dia: o programa Mova-se pelo Futuro. A iniciativa transforma trajetos sustentáveis validados em créditos que podem ser trocados por recompensas e benefícios oferecidos por parceiros. Segundo balanço divulgado pela Prefeitura do Recife em 8 de outubro de 2026, o projeto registrou mais de 5,5 mil trajetos validados durante o primeiro mês de funcionamento.",
+      "De acordo com os dados municipais, os participantes percorreram mais de 20 mil quilômetros e acumularam quase três mil horas de deslocamento. A Prefeitura também estimou que as viagens representaram mais de 2,2 mil quilos de dióxido de carbono evitados em comparação com os mesmos percursos realizados de carro. O balanço apontou ainda 116 recompensas resgatadas e mais de três mil pessoas cadastradas na plataforma.",
+      "O funcionamento do programa está integrado ao Conecta Recife. A pessoa participante registra o percurso realizado a pé ou de bicicleta, e o sistema utiliza informações de localização para avaliar se o trajeto atende às regras da experiência. Depois da validação, os créditos são contabilizados na plataforma e podem ser utilizados conforme as recompensas disponíveis. A proposta é reconhecer deslocamentos cotidianos, e não atividades esportivas ou de lazer que não se enquadrem nos critérios definidos.",
+      "A iniciativa está em fase de experimentação, por isso os resultados divulgados servem para acompanhar a adesão do público e avaliar como a solução funciona na prática. O serviço municipal informa que é necessário ter cadastro no Conecta Recife, permitir as autorizações solicitadas e realizar trajetos que contemplem alguma área do município. Também existem distâncias mínimas para validação: 200 metros para caminhada e 400 metros para bicicleta, conforme as regras publicadas no portal de serviços.",
+      "Além de oferecer benefícios aos participantes, o projeto busca estimular hábitos mais ativos e reduzir a dependência do automóvel em deslocamentos que podem ser feitos a pé ou de bicicleta. Os dados agregados sobre os trajetos também podem ajudar a compreender padrões de mobilidade e apoiar discussões sobre infraestrutura urbana, como calçadas, ciclovias e segurança viária. Os resultados futuros dependerão da continuidade da experiência, da participação dos moradores e da avaliação do funcionamento da plataforma.",
+      "Quem quiser conhecer as regras deve consultar os canais oficiais antes de começar a registrar percursos, pois o programa permanece em experimentação e os benefícios disponíveis podem variar. As informações sobre o balanço inicial foram divulgadas pela Prefeitura do Recife; os detalhes de acesso e os critérios de validação estão descritos no serviço Mova-se pelo Futuro, dentro do Conecta Recife.",
+      "A fotografia utilizada para ilustrar esta reportagem é de um registro municipal sobre circulação de pedestres e ciclistas, e não deve ser interpretada como uma imagem específica do aplicativo ou de usuários cadastrados no Mova-se pelo Futuro. Os números e as regras citados na matéria são atribuídos às fontes oficiais listadas ao final."
+    ],
+    "sources": [
+      {
+        "name": "Prefeitura do Recife",
+        "url": "https://www2.recife.pe.gov.br/noticias/08/10/2026/mova-se-pelo-futuro-registra-mais-de-55-mil-trajetos-no-primeiro-mes-no-recife"
+      },
+      {
+        "name": "Conecta Recife — Mova-se pelo Futuro",
+        "url": "https://conecta.recife.pe.gov.br/servico/1459"
+      },
+      {
+        "name": "EITA Labs Recife",
+        "url": "https://eitalabs.recife.pe.gov.br/solucoes-implantadas/mova-se-pelo-futuro/"
+      }
+    ],
+    "image": "https://imagens.ne10.uol.com.br/veiculos/_midias/jpg/2024/11/08/rua_othon_paraiso___josenildo_gomes_35-33133411.jpg",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/recife-mova-se-recompensas-2026-10-16.jpg"
+  },
+  {
     "id": "pernambuco-ganhe-o-mundo-embarques-reino-unido-2026-10-16",
     "published": "2026-10-16",
     "category": "Educação",
