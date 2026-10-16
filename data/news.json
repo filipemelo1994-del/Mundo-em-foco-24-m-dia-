@@ -1,5 +1,45 @@
 [
   {
+    "id": "promulgacao-fim-escala-6x1-2026-10-16",
+    "published": "2026-10-16",
+    "category": "Trabalho",
+    "date": "16 OUT 2026",
+    "title": "Congresso promulga fim da escala 6x1; veja quando muda",
+    "summary": "Emenda garante dois dias de descanso remunerado e reduz a jornada semanal gradualmente, sem corte salarial.",
+    "credit": "Foto: Sindicato dos Bancários (imagem de arquivo)",
+    "sourceImage": "https://spbancarios.com.br/sites/default/files/styles/max_1300x1300/public/destaques/2026-05/fim6por1camara.jpg?itok=tWNECwzw",
+    "imageCandidates": [
+      "https://spbancarios.com.br/sites/default/files/styles/max_1300x1300/public/destaques/2026-05/fim6por1camara.jpg?itok=tWNECwzw"
+    ],
+    "imageAlt": "Parlamentares comemoram aprovação da proposta que encerra a escala 6x1 em imagem de arquivo; não é fotografia da sessão de promulgação de 16 de outubro.",
+    "location": "Brasília, Brasil",
+    "body": [
+      "O Congresso Nacional promulgou nesta sexta-feira, 16 de outubro de 2026, a Emenda Constitucional 141/2026, que estabelece o fim da escala de seis dias de trabalho para um de descanso (6x1) como regra geral e prevê dois dias de repouso remunerado por semana. A cerimônia contou com a presença do presidente Luiz Inácio Lula da Silva, do presidente do Congresso, Davi Alcolumbre, e do presidente da Câmara, Hugo Motta. A medida conclui a tramitação da proposta no Legislativo.",
+      "A mudança não entra integralmente em vigor de imediato. O texto prevê um período de transição: após 60 dias da publicação da emenda, os trabalhadores abrangidos passarão a ter dois dias de descanso remunerado por semana, com jornada máxima de 42 horas semanais. A redução final para 40 horas por semana está prevista para 14 meses após a publicação, sem redução salarial.",
+      "A escala 5x2 significa cinco dias de trabalho e dois dias de descanso. A emenda prevê que um dos dias de folga seja preferencialmente aos domingos. A organização das jornadas deverá respeitar os limites previstos na nova regra, e setores que operam com escalas específicas terão de ajustar seus horários, com participação dos sindicatos nas negociações necessárias.",
+      "A proposta foi aprovada pelo Senado em dois turnos no dia 14 de outubro, por 75 votos favoráveis e um contrário em cada votação. Como o texto já havia passado pela Câmara sem alterações, não foi necessário reiniciar a tramitação. A promulgação transforma a mudança em emenda constitucional.",
+      "A regra prevê mecanismos de compensação e admite exceções estabelecidas por acordos ou convenções coletivas dentro dos limites constitucionais. Por isso, a aplicação concreta pode variar conforme a categoria, o regime de trabalho e as normas coletivas válidas. Empregados devem acompanhar as orientações de seus sindicatos e empregadores durante a transição.",
+      "Segundo dados do Ministério do Trabalho e Emprego referentes a dezembro de 2025, cerca de 14,7 milhões de trabalhadores com vínculo formal regido pela CLT estavam submetidos à escala 6x1. A mudança também exigirá ajustes em setores como comércio, serviços, indústria e logística, que precisam organizar cobertura e atendimento sem desrespeitar os novos limites.",
+      "A promulgação é um marco na legislação trabalhista brasileira, mas a implementação será gradual. O ponto principal para os trabalhadores é conferir as datas da transição, as regras específicas da categoria e eventuais acordos coletivos, lembrando que a redução prevista da jornada não autoriza corte salarial."
+    ],
+    "sources": [
+      {
+        "name": "Ministério do Trabalho e Emprego — promulgação e regras de transição",
+        "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/outubro/congresso-nacional-promulga-pec-que-reduz-jornada-de-trabalho-e-estabelece-dois-dias-de-descanso-remunerado"
+      },
+      {
+        "name": "Agência Senado — Congresso promulga o fim da escala 6x1",
+        "url": "https://www12.senado.leg.br/noticias/materias/2026/10/16/congresso-promulga-o-fim-da-escala-6x1-e-aposentadoria-de-agentes-de-saude"
+      },
+      {
+        "name": "Agência Brasil — detalhes da emenda e da transição",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/congresso-promulga-emenda-do-fim-da-6x1-escala-5x2-comeca-em-60-dias"
+      }
+    ],
+    "image": "https://spbancarios.com.br/sites/default/files/styles/max_1300x1300/public/destaques/2026-05/fim6por1camara.jpg?itok=tWNECwzw",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/promulgacao-fim-escala-6x1-2026-10-16.jpg"
+  },
+  {
     "id": "tesla-roadster-manobras-ar-2026-10-16",
     "published": "2026-10-16",
     "category": "Tecnologia",
