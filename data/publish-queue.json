@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-16T23:16:10.970012+00:00",
+  "updated_at": "2026-10-16T23:16:28.493Z",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2001,7 +2001,7 @@
       }
     },
     "amazonia-cerrado-desmatamento-cai-2026-10-16": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_PENDENTE",
       "portal": true,
       "feed_art": true,
       "story_art": false,
@@ -2011,7 +2011,7 @@
         "feed": 0,
         "story": 0
       },
-      "last_error": "build_news_art_v2 exit=3",
+      "last_error": null,
       "art_sha256": "18fd82bc04415d29ea43acb1b720dd7e8815b73ccba8d97fe3abf21dde086a02",
       "art_validation": {
         "passed": true,
@@ -2021,7 +2021,7 @@
       }
     },
     "tesla-roadster-manobras-ar-2026-10-16": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_PENDENTE",
       "portal": true,
       "feed_art": true,
       "story_art": false,
@@ -2031,7 +2031,7 @@
         "feed": 0,
         "story": 0
       },
-      "last_error": "build_news_art_v2 exit=4",
+      "last_error": null,
       "art_sha256": "98784f2ade5d9d4e57d8f126b0e8741885d5015f02ae445868c2f6692bb38a8a",
       "art_validation": {
         "passed": true,
