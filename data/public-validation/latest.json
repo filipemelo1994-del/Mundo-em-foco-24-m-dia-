@@ -28,5 +28,29 @@
     "expected_sha256": "2f368f6e969a27b7e2c07a4a93e3f087e060e3f8875b9f7365c81ade11affad8",
     "public_sha256": "2f368f6e969a27b7e2c07a4a93e3f087e060e3f8875b9f7365c81ade11affad8",
     "passed": true
+  },
+  "incendio-doceria-piedade-jaboatao-12-10-2026": {
+    "url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/news-art/incendio-doceria-piedade-jaboatao-12-10-2026.jpg",
+    "expected_sha256": "cc19abe1d411267af0a955550ac9986199bc9a46be04ce357d457f2116e3f22b",
+    "public_sha256": "cc19abe1d411267af0a955550ac9986199bc9a46be04ce357d457f2116e3f22b",
+    "passed": true
+  },
+  "uniao-reconhece-emergencia-36-municipios-amazonas-12-10-2026": {
+    "url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/news-art/uniao-reconhece-emergencia-36-municipios-amazonas-12-10-2026.jpg",
+    "expected_sha256": "c4bd3faecba02c705351b47b40b0147aa9096b05a9695e13da4c5afc5a8638ea",
+    "public_sha256": "c4bd3faecba02c705351b47b40b0147aa9096b05a9695e13da4c5afc5a8638ea",
+    "passed": true
+  },
+  "verstappen-vence-gp-singapura-antonelli-11-10-2026": {
+    "url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/news-art/verstappen-vence-gp-singapura-antonelli-11-10-2026.jpg",
+    "expected_sha256": "587f74637d6f0201b99d6bc60e58fabcf49caff955eed65c99deba7d577173f1",
+    "public_sha256": "587f74637d6f0201b99d6bc60e58fabcf49caff955eed65c99deba7d577173f1",
+    "passed": true
+  },
+  "amazonia-cerrado-desmatamento-cai-2026-10-16": {
+    "url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/news-art/amazonia-cerrado-desmatamento-cai-2026-10-16.jpg",
+    "expected_sha256": "18fd82bc04415d29ea43acb1b720dd7e8815b73ccba8d97fe3abf21dde086a02",
+    "public_sha256": "18fd82bc04415d29ea43acb1b720dd7e8815b73ccba8d97fe3abf21dde086a02",
+    "passed": true
   }
 }
