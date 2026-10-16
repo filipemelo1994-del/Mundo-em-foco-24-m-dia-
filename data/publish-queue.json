@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-16T23:04:58.119Z",
+  "updated_at": "2026-10-16T23:08:42.236648+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -1961,14 +1961,14 @@
       "art_sha256": "587f74637d6f0201b99d6bc60e58fabcf49caff955eed65c99deba7d577173f1"
     },
     "recife-mova-se-recompensas-2026-10-16": {
-      "state": "FEED_PENDENTE",
+      "state": "FEED_OK",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "17894012874613188",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
       "last_error": null,
