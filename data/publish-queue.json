@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-16T23:44:30.824415+00:00",
+  "updated_at": "2026-10-16T23:46:33.859Z",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2061,7 +2061,7 @@
       }
     },
     "concursos-abertos-pernambuco-links-inscricao-edital-2026-10-16": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_PENDENTE",
       "portal": true,
       "feed_art": true,
       "story_art": false,
