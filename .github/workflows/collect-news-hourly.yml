@@ -39,7 +39,12 @@ jobs:
               mv "$req" "requests/news/failed/$(basename "$req")"
               continue
             fi
-            python3 scripts/append_news_entry.py --entry "$req"
+            # Não deixar uma pauta curta/duplicada derrubar a execução nem bloquear as demais.
+            if ! python3 scripts/append_news_entry.py --entry "$req"; then
+              echo "::warning::Pauta $id não passou na validação editorial; movendo para failed e continuando."
+              mv "$req" "requests/news/failed/$(basename "$req")"
+              continue
+            fi
             source_image=$(python3 -c "import json;print(json.load(open('/tmp/result-$id.json'))['sourceImage'])")
             out_path=$(python3 -c "import json;print(json.load(open('/tmp/result-$id.json'))['path'])")
             art_sha=$(python3 -c "import json;print(json.load(open('/tmp/result-$id.json'))['sha256'])")
