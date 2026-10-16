@@ -1,5 +1,41 @@
 [
   {
+    "id": "amazonia-cerrado-desmatamento-cai-2026-10-16",
+    "published": "2026-10-16",
+    "category": "Meio Ambiente",
+    "date": "16 OUT 2026",
+    "title": "Desmatamento cai na Amazônia e no Cerrado, aponta Inpe",
+    "summary": "Monitoramento aponta redução de 41,8% na Amazônia e 23,8% no Cerrado entre agosto de 2025 e julho de 2026.",
+    "credit": "Foto: Fernando Frazão/Agência Brasil",
+    "sourceImage": "https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/06/18/dji_0104.jpg",
+    "imageCandidates": [
+      "https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/06/18/dji_0104.jpg"
+    ],
+    "imageAlt": "Vista aérea de rio cercado por floresta, fotografia ilustrativa publicada pela Agência Brasil; não representa necessariamente uma área de desmatamento.",
+    "location": "Amazônia e Cerrado, Brasil",
+    "body": [
+      "O desmatamento caiu 41,8% na Amazônia e 23,8% no Cerrado entre agosto de 2025 e julho de 2026, na comparação com os 12 meses anteriores. Os números foram divulgados pelo governo federal em 16 de outubro, com base no monitoramento do Instituto Nacional de Pesquisas Espaciais (Inpe), segundo reportagem da Agência Brasil. O resultado indica redução da área desmatada nos dois biomas durante o período analisado.",
+      "Na Amazônia, a área identificada como desmatada passou de 5.731 quilômetros quadrados para 3.335 km². De acordo com os dados divulgados, trata-se da menor extensão registrada na série histórica do bioma, iniciada em 1988. No Cerrado, a área caiu de 7.235,27 km² para 5.516,69 km², o menor resultado da série monitorada desde 2001.",
+      "Os indicadores se referem a um período de 12 meses, de agosto a julho, e não apenas ao ano-calendário de 2026. Essa diferença é importante para interpretar os percentuais corretamente. A comparação com o período imediatamente anterior mostra a variação da área identificada pelo monitoramento, mas, por si só, não significa que o desmatamento tenha sido eliminado ou que a pressão sobre a vegetação nativa tenha terminado.",
+      "Segundo declarações divulgadas pela Agência Brasil, o Ministério do Meio Ambiente atribuiu parte dos resultados à continuidade de políticas de combate ao desmatamento, à cooperação entre governo federal, estados e municípios e ao uso de informações científicas para orientar ações. O governo também citou operações da Polícia Federal, abertura de inquéritos ambientais, investimentos no Instituto Chico Mendes de Conservação da Biodiversidade e a criação de novas unidades de conservação.",
+      "O Cerrado e a Amazônia têm características ecológicas diferentes, mas ambos desempenham funções importantes para a biodiversidade, os ciclos da água e o equilíbrio climático. A perda de vegetação pode afetar habitats, aumentar a fragmentação de ecossistemas e alterar a dinâmica de rios e solos. Por isso, acompanhar as tendências dos dois biomas é relevante para políticas de conservação, planejamento territorial e atividades econômicas que dependem de recursos naturais.",
+      "Os percentuais nacionais também escondem diferenças regionais. A distribuição do desmatamento entre estados e municípios, as causas da supressão da vegetação e a capacidade de fiscalização variam de uma área para outra. Os dados completos por estado foram disponibilizados pelo governo federal junto ao anúncio, permitindo uma análise mais detalhada além dos números gerais dos dois biomas.",
+      "Embora a redução seja um sinal positivo no período analisado, a continuidade do monitoramento será necessária para verificar se a tendência se mantém. A avaliação ambiental depende de séries históricas, transparência dos dados e fiscalização constante. Os números desta reportagem são atribuídos ao monitoramento do Inpe divulgado pelo governo federal e reportado pela Agência Brasil em 16 de outubro de 2026."
+    ],
+    "sources": [
+      {
+        "name": "Agência Brasil — Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano",
+        "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/desmatamento-caiu-418-na-amazonia-e-238-no-cerrado-em-um-ano"
+      },
+      {
+        "name": "Governo Federal — portal oficial de dados ambientais",
+        "url": "https://www.gov.br"
+      }
+    ],
+    "image": "https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/06/18/dji_0104.jpg",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/amazonia-cerrado-desmatamento-cai-2026-10-16.jpg"
+  },
+  {
     "id": "recife-mova-se-recompensas-2026-10-16",
     "published": "2026-10-16",
     "category": "Recife",
