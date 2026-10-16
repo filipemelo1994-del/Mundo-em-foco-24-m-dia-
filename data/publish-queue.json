@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-16T23:35:25.534811+00:00",
+  "updated_at": "2026-10-16T23:44:30.824415+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2058,6 +2058,26 @@
         "sha256": "ad50923e25d569387efd717f22b9a70f2412663c984e1f95fa8b75401f72e913",
         "failed": [],
         "checked_at": "2026-10-16T23:33:41.404227+00:00"
+      }
+    },
+    "concursos-abertos-pernambuco-links-inscricao-edital-2026-10-16": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "9e3f0ea307b3f92aabd90694927f8591b85e62d733a306876e2a72372782c162",
+      "art_validation": {
+        "passed": true,
+        "sha256": "9e3f0ea307b3f92aabd90694927f8591b85e62d733a306876e2a72372782c162",
+        "failed": [],
+        "checked_at": "2026-10-16T23:44:30.773099+00:00"
       }
     }
   }
