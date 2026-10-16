@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-16T23:16:28.493Z",
+  "updated_at": "2026-10-16T23:17:06.699831+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2021,14 +2021,14 @@
       }
     },
     "tesla-roadster-manobras-ar-2026-10-16": {
-      "state": "FEED_PENDENTE",
+      "state": "FEED_OK",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "18116943299089971",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
       "last_error": null,
