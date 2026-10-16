@@ -48,9 +48,15 @@ def main():
    ctype=(r.headers.get("Content-Type") or "").lower(); data=r.read()
   if not data or not ctype.startswith("image/"): raise RuntimeError("Arte RAW inválida: "+ctype)
   caption=(n.get("title","").strip()+"\n\n"+n.get("summary","").strip()).strip()
-  source=((n.get("sources") or [{}])[0].get("name") or "").strip()
+  sources=n.get("sources") or []
+  source=((sources or [{}])[0].get("name") or "").strip()
   if source: caption+="\n\nFonte: "+source
-  caption=(caption+"\n\n#MundoEmFoco24")[:2200]
+  # Para guias de concursos, a legenda também traz links diretos para edital/inscrição.
+  if (n.get("category") or "").strip().lower() == "concursos":
+   official=[s for s in sources if any(k in (s.get("name") or "").lower() for k in ("cebraspe","instituto aocp","instituto igeduc")) and (s.get("url") or "").startswith("https://")]
+   if official:
+    caption+="\n\nEDITAIS E INSCRIÇÕES (links oficiais):\n"+"\n".join((s.get("name","").strip()+": "+s.get("url","").strip()) for s in official[:4])
+  caption=(caption+"\n\nConsulte os prazos e requisitos no edital atualizado.\n\n#MundoEmFoco24")[:2200]
   payload=json.dumps({"account":ACCOUNT,"action":"create_image_post","params":{"image_url":image_url,"caption":caption}},ensure_ascii=False).encode()
   url="https://connectors.windsor.ai/instagram/actions?api_key="+urllib.parse.quote(KEY,safe="")
   req=urllib.request.Request(url,data=payload,headers={"Content-Type":"application/json"},method="POST")
