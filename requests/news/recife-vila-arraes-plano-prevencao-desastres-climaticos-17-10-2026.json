@@ -1,0 +1,40 @@
+{
+  "id": "recife-vila-arraes-plano-prevencao-desastres-climaticos-17-10-2026",
+  "published": "2026-10-17T23:03:58.466Z",
+  "category": "CLIMA",
+  "date": "17 OUT 2026",
+  "title": "Comunidade do Recife cria plano para prevenir desastres climáticos",
+  "summary": "Moradores da Vila Arraes organizaram ações de monitoramento, evacuação e resposta a enchentes após a tragédia de 2022; experiência destaca o papel da preparação comunitária.",
+  "location": "Recife, Pernambuco",
+  "credit": "Imagem ilustrativa: Unsplash",
+  "sourceImage": "https://images.unsplash.com/photo-1547683905-f686c993aae5?auto=format&fit=crop&w=1600&q=85",
+  "imageCandidates": [
+    "https://images.unsplash.com/photo-1547683905-f686c993aae5?auto=format&fit=crop&w=1600&q=85",
+    "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=1600&q=85"
+  ],
+  "imageAlt": "Imagem ilustrativa de chuva e água; não representa uma fotografia da Vila Arraes.",
+  "body": [
+    "Uma comunidade do Recife atingida pelas chuvas de maio de 2022 estruturou um plano local para reduzir riscos e melhorar a resposta a futuros desastres climáticos. A iniciativa foi desenvolvida na Vila Arraes, com participação de moradores e apoio de parceiros, e reúne medidas de monitoramento, organização de evacuações e ações de resposta depois de enchentes. A experiência foi relatada pela Folha de S.Paulo em reportagem publicada nesta semana.",
+    "As chuvas de maio de 2022 provocaram uma das tragédias recentes mais graves de Pernambuco, com mortes, deslizamentos, alagamentos e milhares de pessoas afetadas. A lembrança daquele episódio orientou a comunidade a transformar a experiência vivida em um plano prático de preparação. A proposta busca definir responsabilidades antes de uma emergência, em vez de depender exclusivamente de decisões improvisadas quando a água já ameaça casas e ruas.",
+    "De acordo com a reportagem, o trabalho envolveu o mapeamento de áreas vulneráveis e a organização de brigadas comunitárias com funções específicas, como logística, saúde, comunicação e resposta à crise. O levantamento considerou imóveis e pontos de risco da região. Com a identificação prévia de moradores e locais vulneráveis, a comunidade pretende melhorar a circulação de alertas e reduzir o tempo necessário para ajudar pessoas que precisem deixar suas casas.",
+    "O plano também considera etapas posteriores ao evento, quando os riscos não terminam com a diminuição da chuva. Ações relacionadas à saúde, à retomada dos serviços e ao apoio às famílias fazem parte da preparação. Em situações de enchente, a água contaminada, a interrupção do abastecimento e a dificuldade de acesso a serviços podem prolongar os impactos mesmo depois de as ruas começarem a secar.",
+    "A experiência da Vila Arraes chama atenção para o papel dos moradores na prevenção, mas não substitui a responsabilidade do poder público por drenagem, habitação segura, alertas meteorológicos, obras de contenção e atendimento de emergência. Planos comunitários podem complementar políticas públicas ao organizar a comunicação e a resposta local; sua eficácia, porém, depende de recursos, treinamento, manutenção e integração com órgãos municipais e estaduais.",
+    "Entre as medidas que ajudam a reduzir riscos estão acompanhar avisos da Defesa Civil e da Agência Pernambucana de Águas e Clima (Apac), identificar rotas seguras, manter documentos e medicamentos essenciais protegidos e combinar previamente como pedir ajuda. Pessoas que vivem em áreas de encosta ou próximas a cursos d'água devem observar sinais de perigo, como rachaduras no terreno, inclinação de árvores ou postes, estalos e movimentação de barreiras, e seguir as orientações das autoridades.",
+    "A preparação antecipada não elimina o risco de eventos extremos, mas pode diminuir a exposição e melhorar a capacidade de resposta. Para comunidades que já enfrentaram perdas, o planejamento coletivo também ajuda a preservar informações importantes e a garantir que crianças, idosos e pessoas com deficiência sejam considerados nas estratégias de evacuação. O caso reforça a importância de combinar conhecimento local, ciência e investimento público para enfrentar os efeitos das mudanças climáticas.",
+    "Fontes: Folha de S.Paulo, reportagem sobre o plano comunitário da Vila Arraes publicada em outubro de 2026; informações públicas sobre prevenção e resposta a riscos climáticos."
+  ],
+  "sources": [
+    {
+      "name": "Folha de S.Paulo — Em Recife, comunidade atingida por chuvas de 2022 cria plano de prevenção a desastres climáticos",
+      "url": "https://www1.folha.uol.com.br/cotidiano/2026/10/em-recife-comunidade-atingida-por-chuvas-de-2022-cria-plano-de-prevencao-a-desastres-climaticos.shtml"
+    },
+    {
+      "name": "Agência Pernambucana de Águas e Clima (Apac)",
+      "url": "https://www.apac.pe.gov.br/"
+    },
+    {
+      "name": "Defesa Civil do Recife",
+      "url": "https://www2.recife.pe.gov.br/servico/defesa-civil"
+    }
+  ]
+}
