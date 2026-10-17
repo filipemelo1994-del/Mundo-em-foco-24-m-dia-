@@ -1,5 +1,8 @@
 name: Collect New News Every Hour
 on:
+  push:
+    paths:
+      - 'requests/news/*.json'
   schedule:
     - cron: '5 * * * *'
   workflow_dispatch:
@@ -53,6 +56,8 @@ jobs:
             python3 scripts/update_publish_queue.py --id "$id" --state FEED_PENDENTE --feed-art --art-sha256 "$art_sha" --error ""
             rm -f "$req"
           done
+      - name: Sync portal and validated art state into publish queue
+        run: python3 scripts/update_publish_queue.py --sync-news
       - name: Commit new story and validated art
         run: |
           git config user.name 'Mundo em Foco 24 Bot'
