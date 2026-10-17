@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-17T23:05:03.374015+00:00",
+  "updated_at": "2026-10-17T23:06:24.542Z",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2081,28 +2081,28 @@
       }
     },
     "recife-vila-arraes-plano-prevencao-desastres-climaticos-17-10-2026": {
-      "state": "FEED_PENDENTE",
+      "state": "FEED_OK",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "18132238906687691",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
       "last_error": null,
       "art_sha256": "d8cce97eade08dc7a254be7975bf57d9438d8a5633f45be869493f4b1b77a5ff"
     },
     "tre-pe-transporte-eleitores-abstencao-segundo-turno-17-10-2026": {
-      "state": "FEED_PENDENTE",
+      "state": "FEED_OK",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "18120807929033400",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
       "last_error": null,
