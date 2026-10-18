@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-18T09:29:57.370Z",
+  "updated_at": "2026-10-18T09:30:09.865Z",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2148,7 +2148,8 @@
         "sha256": "bc01fa96eccbd27ba86e4d5a7058ca4e4e036eea44b6e668acb2d655bffad8b3",
         "failed": [],
         "checked_at": "2026-10-18T09:24:35.075378+00:00"
-      }
+      },
+      "comment_id": "18245390980311743"
     }
   }
 }
