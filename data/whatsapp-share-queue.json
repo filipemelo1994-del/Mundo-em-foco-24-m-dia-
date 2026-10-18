@@ -7,7 +7,7 @@
     "source_must_be_verified": true,
     "prevent_duplicates_by_news_id": true
   },
-  "updated_at": "2026-10-18T21:34:42.871313+00:00",
+  "updated_at": "2026-10-18T21:36:25.640Z",
   "items": {
     "amazonia-incendios-amazonas-fumaca-combate-18-10-2026": {
       "news_id": "amazonia-incendios-amazonas-fumaca-combate-18-10-2026",
@@ -86,7 +86,31 @@
       "share_text": "📰 *TSE muda locais de 4.352 seções para o 2º turno*\n\nEleitores devem conferir o endereço antes de votar em 25 de outubro.\n\nLeia a matéria completa: https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id=tse-altera-4352-secoes-locais-votacao-segundo-turno-18-10-2026\n\nMundo em Foco 24 | Fontes: TSE, Agência Brasil e UOL\n\n📲 Siga o canal Mundo em Foco 24: https://whatsapp.com/channel/0029Vb98zQ5AzNbvFs8pQm1x",
       "state": "PRONTO_PARA_REVISAO_MANUAL",
       "prepared_at": "2026-10-18T21:34:42.871125+00:00",
-      "shared_at": null
+      "shared_at": null,
+      "instagram_media_id": "18492448429110456"
+    },
+    "finep-450-milhoes-inovacao-norte-nordeste-centro-oeste-18-10-2026": {
+      "news_id": "finep-450-milhoes-inovacao-norte-nordeste-centro-oeste-18-10-2026",
+      "title": "Finep libera R$ 450 milhões para inovação",
+      "summary": "114 projetos serão apoiados; três cidades de Pernambuco estão entre as contempladas.",
+      "article_url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id=finep-450-milhoes-inovacao-norte-nordeste-centro-oeste-18-10-2026",
+      "image_url": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/finep-450-milhoes-inovacao-norte-nordeste-centro-oeste-18-10-2026.jpg",
+      "source_credit": "Mundo em Foco 24 | Fontes: Agência Brasil, Finep e MCTI",
+      "sources": [
+        {
+          "name": "Agência Brasil — Empresas de três regiões terão aporte de R$ 450 milhões para inovação",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/empresas-de-tres-regioes-terao-aporte-de-r-450-milhoes-para-inovacao"
+        },
+        {
+          "name": "Finep — MCTI e Finep anunciam aporte de R$ 450 milhões para 114 empresas",
+          "url": "https://finep.gov.br/w/mcti-e-finep-anunciam-aporte-de-r-450-milh%C3%B5es-para-114-empresas-das-regi%C3%B5es-norte-nordeste-e-centro-oeste"
+        }
+      ],
+      "share_text": "📰 *Finep libera R$ 450 milhões para inovação*\n\n114 projetos serão apoiados; três cidades de Pernambuco estão entre as contempladas.\n\nLeia a matéria completa: https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id=finep-450-milhoes-inovacao-norte-nordeste-centro-oeste-18-10-2026\n\nMundo em Foco 24 | Fontes: Agência Brasil, Finep e MCTI\n\n📲 Siga o canal Mundo em Foco 24: https://whatsapp.com/channel/0029Vb98zQ5AzNbvFs8pQm1x",
+      "state": "PRONTO_PARA_REVISAO_MANUAL",
+      "prepared_at": "2026-10-18T21:36:25.640Z",
+      "shared_at": null,
+      "instagram_media_id": "18137643994867343"
     }
   }
 }
