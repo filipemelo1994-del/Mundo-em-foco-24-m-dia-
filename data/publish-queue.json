@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-18T21:38:33.785553+00:00",
+  "updated_at": "2026-10-18T21:40:00Z",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2244,14 +2244,14 @@
       "feed_comment_id": "17973862260151730"
     },
     "furacao-trudy-chuvas-fortes-oeste-mexico-18-10-2026": {
-      "state": "FEED_PENDENTE",
+      "state": "FEED_OK",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "17959011285256389",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
       "last_error": null,
@@ -2261,7 +2261,9 @@
         "sha256": "4859a513ccdc71e2524e2a55aaf0250c48e95fa995743397d821601bccc88324",
         "failed": [],
         "checked_at": "2026-10-18T21:38:33.726596+00:00"
-      }
+      },
+      "comment_id": "18091813748211965",
+      "instagram_published_at": "2026-10-18T21:40:00Z"
     }
   }
 }
