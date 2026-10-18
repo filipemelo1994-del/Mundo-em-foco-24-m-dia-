@@ -7,6 +7,38 @@
     "source_must_be_verified": true,
     "prevent_duplicates_by_news_id": true
   },
-  "updated_at": "2026-10-18T15:08:42.067Z",
-  "items": {}
+  "updated_at": "2026-10-18T15:11:44.736Z",
+  "items": {
+    "amazonia-incendios-amazonas-fumaca-combate-18-10-2026": {
+      "news_id": "amazonia-incendios-amazonas-fumaca-combate-18-10-2026",
+      "title": "Incêndios no Amazonas avançam e fumaça dificulta combate ao fogo",
+      "summary": "O Amazonas enfrenta uma nova escalada de queimadas. A fumaça já prejudicou voos de combate, afetou a qualidade do ar e levou autoridades a reforçar a mobilização de aeronaves e brigadistas.",
+      "article_url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id=amazonia-incendios-amazonas-fumaca-combate-18-10-2026",
+      "image_url": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/amazonia-incendios-amazonas-fumaca-combate-18-10-2026.jpg",
+      "source_credit": "Mundo em Foco 24 | Fontes: Folha de S.Paulo, Reuters e INPE",
+      "sources": [
+        {
+          "name": "Folha de S.Paulo — Governo amplia frota aérea e mobiliza militares contra incêndios no Amazonas",
+          "url": "https://www1.folha.uol.com.br/cotidiano/2026/10/governo-amplia-frota-aerea-e-mobiliza-militares-contra-incendios-no-amazonas.shtml"
+        },
+        {
+          "name": "Folha de S.Paulo — Fumaça impede voos de aviões que combatem incêndios florestais no AM",
+          "url": "https://www1.folha.uol.com.br/ambiente/2026/10/fumaca-impede-voos-de-avioes-que-combatem-incendios-florestais-no-am.shtml"
+        },
+        {
+          "name": "Reuters — Fires surge in Brazil's Amazon, fueled by El Niño and climate change",
+          "url": "https://www.reuters.com/business/environment/fires-surge-brazils-amazon-fueled-by-el-nio-climate-change-2026-10-14/"
+        },
+        {
+          "name": "INPE — Programa Queimadas: situação atual",
+          "url": "https://data.inpe.br/queimadas/situacao_atual/"
+        }
+      ],
+      "share_text": "📰 *Incêndios no Amazonas avançam e fumaça dificulta combate ao fogo*\n\nO Amazonas enfrenta uma nova escalada de queimadas. A fumaça já prejudicou voos de combate, afetou a qualidade do ar e levou autoridades a reforçar a mobilização de aeronaves e brigadistas.\n\nA fumaça dificulta o combate aos incêndios e preocupa moradores da região. Acompanhe a matéria completa e as fontes consultadas:\nhttps://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id=amazonia-incendios-amazonas-fumaca-combate-18-10-2026\n\n📌 Mundo em Foco 24 | Fontes: Folha de S.Paulo, Reuters e INPE\n\n📲 Siga o canal Mundo em Foco 24: https://whatsapp.com/channel/0029Vb98zQ5AzNbvFs8pQm1x",
+      "state": "PRONTO_PARA_COMPARTILHAMENTO_MANUAL",
+      "prepared_at": "2026-10-18T15:11:44.732Z",
+      "shared_at": null,
+      "instagram_media_id": "18100605275673797"
+    }
+  }
 }
