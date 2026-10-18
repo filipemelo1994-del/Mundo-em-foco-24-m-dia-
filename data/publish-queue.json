@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-18T05:45:11.828394+00:00",
+  "updated_at": "2026-10-18T09:24:35.115505+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2129,6 +2129,26 @@
       },
       "comment_id": "18023652299714314",
       "instagram_published_at": "2026-10-18T00:02:00Z"
+    },
+    "amazonia-incendios-amazonas-fumaca-combate-18-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "bc01fa96eccbd27ba86e4d5a7058ca4e4e036eea44b6e668acb2d655bffad8b3",
+      "art_validation": {
+        "passed": true,
+        "sha256": "bc01fa96eccbd27ba86e4d5a7058ca4e4e036eea44b6e668acb2d655bffad8b3",
+        "failed": [],
+        "checked_at": "2026-10-18T09:24:35.075378+00:00"
+      }
     }
   }
 }
