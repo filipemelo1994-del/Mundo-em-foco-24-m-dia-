@@ -1,5 +1,41 @@
 [
   {
+    "id": "furacao-trudy-chuvas-fortes-oeste-mexico-18-10-2026",
+    "published": "2026-10-18T18:37:00-03:00",
+    "category": "Mundo",
+    "title": "Furacão Trudy ameaça áreas do México com chuva forte",
+    "summary": "O sistema segue pelo Pacífico, com ventos de até 100 mph; autoridades alertam para alagamentos, deslizamentos e ondas perigosas.",
+    "location": "Oeste do México",
+    "date": "18 OUT 2026",
+    "credit": "CIRA / NOAA / NESDIS / STAR",
+    "sourceImage": "https://cdn.star.nesdis.noaa.gov/FLOATER/EP212026/GEOCOLOR/20262911400_GOES18-ABI-FL-GEOCOLOR-EP212026-1000x1000.jpg",
+    "imageCandidates": [
+      "https://cdn.star.nesdis.noaa.gov/FLOATER/EP212026/GEOCOLOR/20262911400_GOES18-ABI-FL-GEOCOLOR-EP212026-1000x1000.jpg"
+    ],
+    "imageAlt": "Imagem de satélite GeoColor do furacão Trudy sobre o Pacífico oriental, captada pelo satélite GOES-West em 18 de outubro de 2026.",
+    "body": [
+      "O furacão Trudy continuava afetando áreas do sudoeste e do centro-oeste do México neste domingo (18), com chuva intensa, rajadas de vento e risco de condições perigosas no litoral. O Centro Nacional de Furacões dos Estados Unidos (NHC) informou que o sistema passava a sudoeste de Cabo Corrientes, no Pacífico, e seguia em direção noroeste, paralelamente à costa.",
+      "No boletim divulgado às 11h, no horário local do México, o NHC estimou ventos máximos sustentados próximos de 100 milhas por hora, cerca de 155 quilômetros por hora, e pressão central de 974 milibares. O centro do sistema estava a aproximadamente 105 milhas, ou 170 quilômetros, a sudoeste de Cabo Corrientes e a cerca de 165 milhas, ou 265 quilômetros, a oeste de Manzanillo.",
+      "A previsão indicava que Trudy começaria a enfraquecer rapidamente durante a noite de domingo. Mesmo com a tendência de perda de força, os efeitos da chuva poderiam continuar em áreas atingidas pelas bandas externas do sistema. O NHC alertou para precipitação forte em partes dos estados de Michoacán, Colima e Jalisco, com possibilidade de alagamentos repentinos e deslizamentos de terra, sobretudo em regiões montanhosas.",
+      "Os riscos não se limitam à chuva. O boletim também destacou a possibilidade de ondas fortes, correntezas perigosas e elevação do nível do mar em trechos expostos aos ventos que sopram em direção à costa. Essas condições podem afetar atividades marítimas, pescadores e comunidades costeiras, mesmo quando o centro do furacão permanece afastado da terra.",
+      "O NHC informou que avisos de furacão permaneciam em vigor em parte do litoral entre Manzanillo e Cabo Corrientes, enquanto alertas de tempestade tropical abrangiam outros trechos da costa e as Ilhas Marías. As áreas sob aviso podem mudar conforme a trajetória e a intensidade do sistema, por isso a orientação é acompanhar as atualizações das autoridades meteorológicas mexicanas e do NHC.",
+      "A evolução de Trudy também mostra por que o enfraquecimento de um ciclone não elimina imediatamente seus riscos. A circulação pode continuar transportando umidade para o continente e produzir chuva volumosa, enquanto o mar permanece agitado. O impacto local depende da quantidade de precipitação acumulada, da condição dos rios e encostas e da exposição de cada comunidade.",
+      "A reportagem foi preparada com base nos boletins mais recentes do NHC disponíveis neste domingo e na cobertura da Reuters. Os números de intensidade e posição correspondem ao horário indicado no boletim oficial e podem mudar em novas atualizações. Para decisões de segurança, moradores e visitantes devem seguir as orientações locais e consultar os avisos meteorológicos atualizados."
+    ],
+    "sources": [
+      {
+        "name": "National Hurricane Center (NOAA) — Hurricane Trudy, Public Advisory 21A",
+        "url": "https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.public_a.021.shtml"
+      },
+      {
+        "name": "Reuters — Hurricane Trudy lashes Mexico's Pacific coast, but is set to weaken tonight",
+        "url": "https://www.reuters.com/business/environment/hurricane-trudy-lashes-mexicos-pacific-coast-is-set-weaken-tonight-2026-10-18/"
+      }
+    ],
+    "image": "https://cdn.star.nesdis.noaa.gov/FLOATER/EP212026/GEOCOLOR/20262911400_GOES18-ABI-FL-GEOCOLOR-EP212026-1000x1000.jpg",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/furacao-trudy-chuvas-fortes-oeste-mexico-18-10-2026.jpg"
+  },
+  {
     "id": "finep-450-milhoes-inovacao-norte-nordeste-centro-oeste-18-10-2026",
     "published": "2026-10-18T18:29:00-03:00",
     "category": "ECONOMIA",
