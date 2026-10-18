@@ -7,7 +7,7 @@
     "source_must_be_verified": true,
     "prevent_duplicates_by_news_id": true
   },
-  "updated_at": "2026-10-18T21:36:25.640Z",
+  "updated_at": "2026-10-18T21:37:38.595643+00:00",
   "items": {
     "amazonia-incendios-amazonas-fumaca-combate-18-10-2026": {
       "news_id": "amazonia-incendios-amazonas-fumaca-combate-18-10-2026",
@@ -111,6 +111,18 @@
       "prepared_at": "2026-10-18T21:36:25.640Z",
       "shared_at": null,
       "instagram_media_id": "18137643994867343"
+    },
+    "papa-leao-xiv-agradece-apoio-retomada-gradual-atividades-18-10-2026": {
+      "news_id": "papa-leao-xiv-agradece-apoio-retomada-gradual-atividades-18-10-2026",
+      "title": "Papa agradece apoio e promete retomada gradual",
+      "summary": "Após a alta hospitalar, Leão XIV conduziu o Angelus e agradeceu à equipe médica e aos fiéis.",
+      "article_url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id=papa-leao-xiv-agradece-apoio-retomada-gradual-atividades-18-10-2026",
+      "image_url": "https://www.vaticannews.va/content/dam/vaticannews/agenzie/images/srv/2026/10/18/2026-10-18-angelus/1792318515975.JPG/_jcr_content/renditions/cq5dam.thumbnail.cropped.750.422.jpeg",
+      "source_credit": "Vatican Media / Vatican News",
+      "share_text": "📰 *Papa agradece apoio e promete retomada gradual*\n\nApós a alta hospitalar, Leão XIV conduziu o Angelus e agradeceu à equipe médica e aos fiéis.\n\nLeia a matéria completa: https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id=papa-leao-xiv-agradece-apoio-retomada-gradual-atividades-18-10-2026\n\nVatican Media / Vatican News\n\n📲 Siga o canal Mundo em Foco 24: https://whatsapp.com/channel/0029Vb98zQ5AzNbvFs8pQm1x",
+      "state": "PRONTO_PARA_REVISAO_MANUAL",
+      "prepared_at": "2026-10-18T21:37:38.595430+00:00",
+      "shared_at": null
     }
   }
 }
