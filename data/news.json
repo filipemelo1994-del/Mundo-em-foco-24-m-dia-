@@ -1,5 +1,45 @@
 [
   {
+    "id": "tse-meta-multa-diaria-isonomia-postagens-eleitorais-18-10-2026",
+    "published": "2026-10-18T09:50:00-03:00",
+    "category": "POLÍTICA",
+    "title": "TSE mantém multa diária de R$ 500 mil contra Meta por restrições eleitorais",
+    "summary": "O Tribunal Superior Eleitoral confirmou por unanimidade ordem que proíbe a Meta de reduzir a distribuição ou restringir buscas e recomendações de conteúdos eleitorais de Lula e Flávio Bolsonaro. A multa só incide se houver descumprimento.",
+    "date": "18 OUT 2026",
+    "location": "Brasília, DF",
+    "credit": "Mundo em Foco 24 | Fontes: Agência Brasil, CNN Brasil e Meta",
+    "body": [
+      "O Tribunal Superior Eleitoral (TSE) confirmou por unanimidade, em 16 de outubro, uma decisão que obriga a Meta, controladora de Facebook, Instagram e WhatsApp, a aplicar tratamento igualitário às candidaturas de Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) durante o segundo turno das eleições presidenciais de 2026.",
+      "A ordem proíbe a empresa de reduzir a distribuição de publicações eleitorais, retirar recomendações ou restringir resultados de busca de conteúdo relacionado aos candidatos. A decisão prevê multa diária de R$ 500 mil em caso de descumprimento. Isso não significa que a Meta já tenha sido multada nem que o dinheiro tenha sido determinado como pagamento ao PT: a penalidade é condicionada a eventual descumprimento da ordem judicial.",
+      "O caso começou após a campanha de Lula relatar ao TSE dificuldades para criar e distribuir determinados conteúdos e alegar tratamento desigual nos sistemas da plataforma, inclusive na ferramenta de inteligência artificial Meta AI. A campanha sustentou que alguns pedidos de imagens ligados a Lula eram bloqueados, enquanto solicitações relacionadas a Flávio Bolsonaro eram aceitas.",
+      "A decisão do ministro Marco Aurélio Bellizze também estabeleceu obrigações sobre anúncios eleitorais, revisão de bloqueios automatizados e apuração de perfis suspeitos de comportamento inautêntico e publicações que possam ter sido produzidas com inteligência artificial. A ordem vale até o fim do segundo turno, previsto para 25 de outubro de 2026.",
+      "A Meta negou favorecer qualquer candidatura. Em manifestação pública, a empresa atribuiu os episódios a falhas técnicas e afirmou que suas regras se aplicam igualmente a todos os candidatos. A companhia também declarou ter corrigido uma lacuna em suas proteções para impedir que a ferramenta de IA gerasse materiais eleitorais por meio de combinações de nomes comuns e números de urna.",
+      "Segundo a Agência Brasil, o plenário do TSE manteve a decisão por unanimidade. A medida busca prevenir tratamento desigual na reta final da disputa, mas não representa uma conclusão judicial de que a empresa tenha manipulado deliberadamente a distribuição de conteúdo em favor ou contra um candidato.",
+      "O caso segue relevante para o debate sobre transparência algorítmica, liberdade de expressão e igualdade de condições nas campanhas digitais. A aplicação de eventual multa dependerá da verificação de descumprimento das determinações estabelecidas pela Justiça Eleitoral."
+    ],
+    "sources": [
+      {
+        "name": "Agência Brasil — TSE decide manter ordem para Meta garantir isonomia a candidatos",
+        "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-decide-manter-ordem-para-meta-garantir-isonomia-candidatos"
+      },
+      {
+        "name": "CNN Brasil — TSE mantém decisão que barra interferência da Meta no conteúdo eleitoral",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/tse-mantem-decisao-que-barra-interferencia-da-meta-no-conteudo-eleitoral/"
+      },
+      {
+        "name": "Meta — A Meta não está interferindo nas eleições brasileiras. Estes são os fatos.",
+        "url": "https://about.fb.com/br/news/2026/10/a-meta-nao-esta-interferindo-nas-eleicoes-brasileiras-estes-sao-os-fatos/"
+      }
+    ],
+    "imageCandidates": [
+      "https://about.fb.com/wp-content/uploads/2021/10/Meta-Logo.jpg"
+    ],
+    "imageAlt": "Logotipo da Meta em imagem ilustrativa sobre a decisão da Justiça Eleitoral",
+    "creditImage": "Imagem ilustrativa; reportagem baseada em fontes jornalísticas e comunicado oficial da Meta",
+    "sourceImage": "https://about.fb.com/wp-content/uploads/2021/10/Meta-Logo.jpg",
+    "image": "https://about.fb.com/wp-content/uploads/2021/10/Meta-Logo.jpg"
+  },
+  {
     "id": "amazonia-incendios-amazonas-fumaca-combate-18-10-2026",
     "title": "Incêndios no Amazonas avançam e fumaça dificulta combate ao fogo",
     "summary": "O Amazonas enfrenta uma nova escalada de queimadas. A fumaça já prejudicou voos de combate, afetou a qualidade do ar e levou autoridades a reforçar a mobilização de aeronaves e brigadistas.",
