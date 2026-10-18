@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-18T21:33:35.186955+00:00",
+  "updated_at": "2026-10-18T21:34:15.634Z",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2223,14 +2223,14 @@
       }
     },
     "tse-altera-4352-secoes-locais-votacao-segundo-turno-18-10-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_OK",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "18492448429110456",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
       "last_error": null,
@@ -2240,7 +2240,8 @@
         "sha256": "a8423b0c5864378dea7893cf4f4b193c3d27a45ba04964bd3600d785c6a45416",
         "failed": [],
         "checked_at": "2026-10-18T21:33:13.150496+00:00"
-      }
+      },
+      "feed_comment_id": "17973862260151730"
     }
   }
 }
