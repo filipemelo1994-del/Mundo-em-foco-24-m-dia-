@@ -1,5 +1,49 @@
 [
   {
+    "id": "tse-altera-4352-secoes-locais-votacao-segundo-turno-18-10-2026",
+    "published": "2026-10-18T18:30:00-03:00",
+    "category": "ELEIÇÕES",
+    "title": "TSE muda locais de 4.352 seções para o 2º turno",
+    "summary": "Eleitores devem conferir o endereço antes de votar em 25 de outubro.",
+    "date": "18 OUT 2026",
+    "location": "Brasília, DF",
+    "credit": "Mundo em Foco 24 | Fontes: TSE, Agência Brasil e UOL",
+    "body": [
+      "O Tribunal Superior Eleitoral (TSE) informou que o endereço de 4.352 seções eleitorais foi alterado para o segundo turno das eleições de 2026, marcado para 25 de outubro. O total equivale a cerca de 0,87% das 499.248 seções registradas no país no primeiro turno. A orientação da Justiça Eleitoral é que eleitoras e eleitores consultem novamente o local de votação, mesmo que tenham comparecido ao mesmo endereço em 4 de outubro.",
+      "Segundo informações divulgadas pelo TSE e pela Agência Brasil, as mudanças ocorreram por razões práticas e de segurança. Entre os motivos estão reformas de última hora, melhorias de acessibilidade e danos em prédios causados por chuvas e ventos fortes. Em algumas situações, a seção foi transferida para um endereço alternativo considerado mais adequado para receber o eleitorado.",
+      "As alterações não significam, por si só, cancelamento de votos ou redução do número total de seções. A Justiça Eleitoral explica que cada zona eleitoral avalia as condições de funcionamento e define os ajustes necessários para garantir a votação. A distribuição das mudanças varia entre os estados; os dados divulgados apontaram maior número de seções com endereço alterado em São Paulo, Minas Gerais, Rio de Janeiro e Bahia.",
+      "A consulta pode ser feita pelo aplicativo e-Título ou pelo portal oficial do TSE, na área de Autoatendimento Eleitoral. O tribunal também divulgou canais digitais adicionais para conferir os dados. O eleitor deve conferir o endereço apresentado para o segundo turno e, se houver dúvida, buscar orientação diretamente nos canais oficiais da Justiça Eleitoral, em vez de confiar apenas em mensagens encaminhadas por redes sociais.",
+      "A recomendação vale inclusive para quem votou normalmente no primeiro turno. Mudanças de endereço podem ocorrer entre as duas etapas por necessidade de manutenção, acessibilidade ou segurança do local. Conferir a informação com antecedência ajuda a evitar deslocamentos desnecessários e permite que o eleitor planeje o trajeto, especialmente quando o novo prédio fica em outra rua ou bairro.",
+      "A votação do segundo turno está prevista para domingo, 25 de outubro, das 8h às 17h, pelo horário de Brasília. Em todo o país, os eleitores votarão para presidente da República. No Distrito Federal e em cinco estados — Acre, Amazonas, Espírito Santo, Rio Grande do Norte e Tocantins — haverá também disputa para governador. É importante verificar as regras e os horários oficiais divulgados pelo tribunal.",
+      "No primeiro turno, 1.904 urnas eletrônicas precisaram ser substituídas, número equivalente a aproximadamente 0,35% do total, segundo dados citados pela Justiça Eleitoral. O TSE informou que não foi necessário recorrer à votação manual em nenhum local. Esse dado é distinto das alterações de endereço das seções e não deve ser confundido com a quantidade de eleitores afetados.",
+      "O número de 4.352 refere-se a seções eleitorais que tiveram o endereço alterado, e não a 4.352 pessoas. Uma seção atende diversos eleitores, de modo que o total de cidadãos que podem precisar consultar o novo endereço é maior. Como informações operacionais podem ser atualizadas pelas zonas eleitorais, a orientação mais segura é consultar diretamente o sistema oficial antes de sair de casa no dia da votação.",
+      "O Mundo em Foco 24 reuniu as informações publicadas pela Justiça Eleitoral e por veículos jornalísticos. A matéria tem caráter de serviço público: não atribui as mudanças a qualquer candidatura e não indica que os ajustes tenham sido feitos para beneficiar um lado político. Para confirmar o próprio endereço, utilize o e-Título ou o Autoatendimento Eleitoral do TSE."
+    ],
+    "sources": [
+      {
+        "name": "TSE — Consulte com antecedência o local onde você irá votar no 2º turno",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/consulte-com-antecedencia-o-local-onde-voce-ira-votar-no-2o-turno"
+      },
+      {
+        "name": "Agência Brasil — Mais de 4 mil eleitores tiveram locais de votação alterados",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/mais-de-4-mil-eleitores-tiveram-locais-votacao-alterados"
+      },
+      {
+        "name": "UOL — Mais de 4.000 seções mudaram endereço para o 2º turno; veja como consultar",
+        "url": "https://noticias.uol.com.br/eleicoes/2026/10/18/tse-muda-local-de-votacao-de-4352-secoes-no-2-turno.ghtm"
+      }
+    ],
+    "imageCandidates": [
+      "https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?auto=format&fit=crop&w=1600&q=85"
+    ],
+    "imageAlt": "Imagem ilustrativa de materiais eleitorais; não retrata uma seção específica que teve o endereço alterado.",
+    "creditImage": "Imagem ilustrativa: Unsplash",
+    "sourceImage": "https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?auto=format&fit=crop&w=1600&q=85",
+    "image": "https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?auto=format&fit=crop&w=1600&q=85",
+    "instagramAlreadyPublished": false,
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/tse-altera-4352-secoes-locais-votacao-segundo-turno-18-10-2026.jpg"
+  },
+  {
     "id": "eleitor-sem-biometria-pode-votar-segundo-turno-18-10-2026",
     "published": "2026-10-18T18:29:00-03:00",
     "category": "ELEIÇÕES",
