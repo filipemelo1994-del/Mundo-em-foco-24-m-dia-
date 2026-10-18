@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "channel_url": "https://whatsapp.com/channel/0029Vb98zQ5AzNbvFs8pQm1x",
+  "policy": {
+    "auto_publish_to_channel": false,
+    "require_manual_share_confirmation": true,
+    "source_must_be_verified": true,
+    "prevent_duplicates_by_news_id": true
+  },
+  "updated_at": "2026-10-18T15:08:42.067Z",
+  "items": {}
+}
