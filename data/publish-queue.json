@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-18T21:29:00.000Z",
+  "updated_at": "2026-10-18T21:32:02.655528+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2189,7 +2189,7 @@
     },
     "eleitor-sem-biometria-pode-votar-segundo-turno-18-10-2026": {
       "state": "PORTAL_PENDENTE",
-      "portal": false,
+      "portal": true,
       "feed_art": false,
       "story_art": false,
       "feed_media_id": null,
