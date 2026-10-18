@@ -1,5 +1,40 @@
 [
   {
+    "id": "eleitor-sem-biometria-pode-votar-segundo-turno-18-10-2026",
+    "published": "2026-10-18T18:29:00-03:00",
+    "category": "ELEIÇÕES",
+    "title": "Eleitor pode votar no 2º turno mesmo sem biometria cadastrada",
+    "summary": "O TSE esclarece que a falta de biometria não impede o voto em 25 de outubro, desde que o título esteja regular. Quem não votou no primeiro turno também pode participar do segundo.",
+    "date": "18 OUT 2026",
+    "location": "Brasil",
+    "credit": "Mundo em Foco 24 | Fonte: Tribunal Superior Eleitoral",
+    "body": [
+      "Eleitoras e eleitores que não têm biometria cadastrada poderão votar no segundo turno das Eleições 2026, marcado para 25 de outubro, desde que a situação eleitoral esteja regular. A orientação foi reforçada pelo Tribunal Superior Eleitoral (TSE) neste domingo (18).",
+      "A ausência no primeiro turno, realizado em 4 de outubro, também não impede a participação no segundo. Cada turno é considerado uma eleição independente para fins de comparecimento às urnas. A regra não vale para inscrições eleitorais que estejam canceladas ou suspensas.",
+      "Segundo o TSE, quem não possui biometria deve apresentar um documento oficial de identificação com foto. A equipe da seção eleitoral fará a confirmação da identidade seguindo os procedimentos previstos pela Justiça Eleitoral.",
+      "Quem deixou de votar no primeiro turno precisa justificar a ausência, mas isso não impede automaticamente o voto no segundo. O prazo para justificar a falta no primeiro turno termina em 3 de dezembro de 2026. Para quem não votar no segundo turno, o prazo informado pelo TSE é 8 de janeiro de 2027.",
+      "A justificativa pode ser feita pelo aplicativo e-Título, pelo Autoatendimento Eleitoral nos portais da Justiça Eleitoral ou presencialmente em um cartório eleitoral. Após a votação, a solicitação poderá exigir documentos que comprovem o motivo da ausência.",
+      "A recomendação é consultar a situação do título e conferir com antecedência o local de votação nos canais oficiais. A falta de biometria, por si só, não é motivo para impedir o exercício do voto quando a inscrição eleitoral está regular."
+    ],
+    "sources": [
+      {
+        "name": "Tribunal Superior Eleitoral — Eleitor pode votar no 2º turno mesmo sem ter comparecido ao 1º",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/faltam-7-dias-eleitor-pode-votar-no-2o-turno-mesmo-sem-ter-comparecido-ao-1o"
+      },
+      {
+        "name": "Tribunal Superior Eleitoral — Biometria é obrigatória para votar?",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/faltam-11-dias-biometria-e-obrigatoria-para-votar"
+      }
+    ],
+    "imageCandidates": [
+      "https://www.tse.jus.br/imagens/fotos/faltam-7-dias-eleicoes-2026/%40%40images/image-1140-dcfd173fa25879af33d3f1e6651d0398.jpeg"
+    ],
+    "imageAlt": "Arte informativa do TSE sobre a contagem regressiva para o segundo turno das Eleições 2026.",
+    "creditImage": "Imagem: Tribunal Superior Eleitoral (TSE).",
+    "sourceImage": "https://www.tse.jus.br/imagens/fotos/faltam-7-dias-eleicoes-2026/%40%40images/image-1140-dcfd173fa25879af33d3f1e6651d0398.jpeg",
+    "image": "https://www.tse.jus.br/imagens/fotos/faltam-7-dias-eleicoes-2026/%40%40images/image-1140-dcfd173fa25879af33d3f1e6651d0398.jpeg"
+  },
+  {
     "id": "tse-meta-multa-diaria-isonomia-postagens-eleitorais-18-10-2026",
     "published": "2026-10-18T09:50:00-03:00",
     "category": "POLÍTICA",
