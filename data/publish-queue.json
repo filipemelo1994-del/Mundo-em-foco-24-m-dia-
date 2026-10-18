@@ -2166,7 +2166,7 @@
       "sources_verified": true
     },
     "papa-leao-xiv-agradece-apoio-retomada-gradual-atividades-18-10-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_PENDENTE",
       "portal": true,
       "feed_art": true,
       "story_art": false,
@@ -2176,7 +2176,7 @@
         "feed": 0,
         "story": 0
       },
-      "last_error": "Validação editorial falhou; revisar texto/fontes antes de nova tentativa.",
+      "last_error": null,
       "art_sha256": "9f5b55d510aab608473c4aecac20bf37b160fcf217dbfaded3ae6e5f169e1d91",
       "art_validation": {
         "passed": true,
