@@ -1,0 +1,40 @@
+{
+  "id": "amazonia-incendios-amazonas-fumaca-combate-18-10-2026",
+  "title": "Incêndios no Amazonas avançam e fumaça dificulta combate ao fogo",
+  "summary": "O Amazonas enfrenta uma nova escalada de queimadas. A fumaça já prejudicou voos de combate, afetou a qualidade do ar e levou autoridades a reforçar a mobilização de aeronaves e brigadistas.",
+  "category": "Meio Ambiente",
+  "date": "18 OUT 2026",
+  "credit": "Mundo em Foco 24 | Fontes: Folha de S.Paulo, Reuters e INPE",
+  "imageCandidates": [
+    "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=1600&q=85"
+  ],
+  "body": [
+    "O estado do Amazonas enfrenta uma temporada crítica de incêndios florestais, com fumaça afetando cidades e dificultando o trabalho das equipes de combate. A situação ganhou novo destaque neste fim de semana, quando aeronaves tiveram dificuldades para operar devido à baixa visibilidade em aeroportos da região de Manaus.",
+    "Segundo informações publicadas pela Folha de S.Paulo em 17 de outubro, o governo federal anunciou o envio de mais cinco aeronaves para reforçar a operação, elevando a frota mobilizada de 11 para 16 aviões. Entre os equipamentos citados estão dois KC-390, capazes de lançar grandes volumes de água. Também foram mobilizados militares e órgãos federais para apoiar as ações.",
+    "A operação depende das condições de visibilidade e segurança de voo. A fumaça densa pode impedir temporariamente o uso de aeronaves, justamente quando o apoio aéreo é necessário para alcançar áreas de difícil acesso. A Folha informou que cerca de 250 brigadistas atuavam em campo e que os esforços incluíam combate direto, transporte de equipes e equipamentos.",
+    "Os impactos também chegam à população. A fumaça piora a qualidade do ar e pode agravar sintomas respiratórios, sobretudo em crianças, idosos e pessoas com doenças pulmonares ou cardíacas. Em Manaus e em municípios do interior, atividades escolares e eventos ao ar livre foram suspensos ou restringidos como medida preventiva, conforme a evolução das condições locais.",
+    "Os dados de focos de calor precisam ser interpretados com cuidado: eles são detecções por satélite e não equivalem automaticamente a incêndios confirmados ou à área total queimada. Reportagens publicadas nesta semana, com dados atribuídos ao INPE, apontaram aumento expressivo dos focos no Amazonas em comparação com o ano anterior. Os números podem ser atualizados conforme novas observações e validações forem divulgadas.",
+    "As causas de cada foco ainda precisam ser investigadas. Autoridades levantaram a possibilidade de incêndios provocados intencionalmente em áreas florestais, mas a responsabilização depende de investigação. A estiagem, o calor e a vegetação mais seca também favorecem a propagação das chamas e tornam o combate mais difícil.",
+    "O governo anunciou recursos emergenciais e reforço logístico, enquanto órgãos ambientais e de segurança investigam possíveis crimes. Especialistas alertam que a combinação de fogo, seca e fumaça ameaça a biodiversidade, a saúde pública e as comunidades que vivem na região. A situação exige acompanhamento contínuo e informações atualizadas das autoridades.",
+    "A reportagem foi elaborada com base em informações publicadas pela Folha de S.Paulo e pela Reuters e em dados de monitoramento do Programa Queimadas do INPE. Os totais e o estado operacional das equipes podem mudar rapidamente; por isso, números preliminares devem ser atribuídos às fontes e não tratados como balanço definitivo."
+  ],
+  "sources": [
+    {
+      "name": "Folha de S.Paulo — Governo amplia frota aérea e mobiliza militares contra incêndios no Amazonas",
+      "url": "https://www1.folha.uol.com.br/cotidiano/2026/10/governo-amplia-frota-aerea-e-mobiliza-militares-contra-incendios-no-amazonas.shtml"
+    },
+    {
+      "name": "Folha de S.Paulo — Fumaça impede voos de aviões que combatem incêndios florestais no AM",
+      "url": "https://www1.folha.uol.com.br/ambiente/2026/10/fumaca-impede-voos-de-avioes-que-combatem-incendios-florestais-no-am.shtml"
+    },
+    {
+      "name": "Reuters — Fires surge in Brazil's Amazon, fueled by El Niño and climate change",
+      "url": "https://www.reuters.com/business/environment/fires-surge-brazils-amazon-fueled-by-el-nio-climate-change-2026-10-14/"
+    },
+    {
+      "name": "INPE — Programa Queimadas: situação atual",
+      "url": "https://data.inpe.br/queimadas/situacao_atual/"
+    }
+  ],
+  "instagramAlreadyPublished": false
+}
