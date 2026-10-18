@@ -1,5 +1,47 @@
 [
   {
+    "id": "franca-protestos-custo-de-vida-violencia-17-10-2026",
+    "published": "2026-10-17T23:59:00.000Z",
+    "category": "MUNDO",
+    "date": "17 OUT 2026",
+    "title": "França registra protestos em massa contra custo de vida e serviços públicos",
+    "summary": "Manifestações reuniram centenas de milhares de pessoas; confrontos, saques e incêndios foram registrados em várias cidades, enquanto autoridades prometem responsabilizar envolvidos em atos violentos.",
+    "location": "França",
+    "credit": "Imagem ilustrativa: Paris; arte editorial Mundo em Foco 24",
+    "sourceImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1600&q=85",
+    "imageCandidates": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1600&q=85"
+    ],
+    "imageAlt": "Vista ilustrativa de Paris; a imagem não retrata os confrontos ocorridos durante as manifestações.",
+    "body": [
+      "A França viveu neste sábado (17) uma das jornadas de protestos mais tensas dos últimos anos. Manifestações contra o alto custo de vida, a desigualdade e a deterioração de serviços públicos mobilizaram multidões em Paris e em outras cidades. Embora grande parte dos atos tenha começado de forma pacífica, episódios de violência, incêndios, saques e confrontos com a polícia foram registrados em diferentes pontos do país.",
+      "Os números de participação variam conforme a fonte. O ministro do Interior, Laurent Nuñez, estimou cerca de 550 mil participantes em 110 marchas pelo território francês. A central sindical CGT, uma das organizações envolvidas na mobilização, apresentou uma estimativa de aproximadamente 800 mil pessoas. As contagens foram divulgadas por autoridades e organizadores, que usam métodos diferentes para calcular o tamanho das manifestações.",
+      "Entre as principais reivindicações estão o aumento do custo de vida, o preço dos combustíveis, as condições das escolas, a falta de professores e a percepção de que as políticas públicas não respondem às dificuldades de famílias de baixa e média renda. O movimento começou com mobilizações estudantis em áreas periféricas de Paris e ganhou adesão de sindicatos e grupos ligados a protestos sociais anteriores, incluindo participantes associados ao movimento dos Coletes Amarelos.",
+      "Em algumas cidades, a situação se agravou após o fim ou durante o percurso das marchas. Foram relatados danos a lojas e prédios públicos, veículos incendiados e confrontos entre grupos de manifestantes e forças de segurança. Em Limoges, um incêndio atingiu a prefeitura; em Lyon, houve fogo em instalações ligadas ao turismo; e em Paris foram relatados saques e uso de gás lacrimogêneo pela polícia. Os episódios foram registrados por diferentes veículos de imprensa.",
+      "O governo francês condenou os ataques e afirmou que pessoas envolvidas em saques e depredações serão investigadas e responsabilizadas. O presidente Emmanuel Macron declarou oposição à violência e defendeu que os atos criminosos não impeçam a manifestação pacífica de reivindicações. Autoridades também atribuíram parte dos confrontos a grupos radicais e pessoas que teriam aproveitado a concentração para cometer delitos; essa caracterização é uma avaliação oficial, não uma descrição de todos os participantes.",
+      "A atuação policial também passou a ser questionada após relatos de feridos durante os confrontos. A imprensa francesa informou que foi aberta uma investigação após um jovem sofrer uma grave lesão na mão, atribuída preliminarmente a uma granada policial. O caso deve ser apurado pelas autoridades competentes. A existência de investigação não determina, por si só, responsabilidade individual nem esclarece todas as circunstâncias do ocorrido.",
+      "A dimensão dos protestos amplia a pressão sobre o governo em um momento de dificuldades econômicas, debate sobre gastos públicos e polarização política. Ainda assim, os atos não devem ser tratados como se todos os manifestantes tivessem participado de confrontos: os relatos apontam que muitas pessoas compareceram para reivindicar mudanças de maneira pacífica, enquanto os episódios violentos ocorreram em locais e momentos específicos.",
+      "O cenário permanece sujeito a atualizações, especialmente quanto ao número de detenções, feridos e extensão dos danos. O Mundo em Foco 24 acompanha as informações divulgadas por veículos internacionais e autoridades francesas. Novos balanços devem ser comparados com cuidado, pois números preliminares podem mudar à medida que as operações policiais e as investigações avançam.",
+      "Fontes: Associated Press (AP), 17/10/2026; Reuters, 17/10/2026; Le Monde, cobertura ao vivo das manifestações de 17/10/2026."
+    ],
+    "sources": [
+      {
+        "name": "Associated Press — Clashes, fires and looting break out as protesters rally across France",
+        "url": "https://apnews.com/article/44b9d3ba91ffad4029f975dced7e31cb"
+      },
+      {
+        "name": "Reuters — Mass protests in France spiral into worst riots in years",
+        "url": "https://www.reuters.com/world/students-trade-unions-yellow-vests-set-protest-across-france-2026-10-17/"
+      },
+      {
+        "name": "Le Monde — Cobertura ao vivo das manifestações de 17 de outubro",
+        "url": "https://www.lemonde.fr/societe/live/2026/10/17/en-direct-manifestations-du-17-octobre-le-gouvernement-annonce-550-000-manifestants-les-organisateurs-800-000-environ-400-interpellations-des-violences-urbaines-d-une-gravite-inouie-se-sont-deroulees-et-se-deroulent-encore_6795855_3224.html"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1600&q=85",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/franca-protestos-custo-de-vida-violencia-17-10-2026.jpg"
+  },
+  {
     "id": "tre-pe-transporte-eleitores-abstencao-segundo-turno-17-10-2026",
     "published": "2026-10-17T23:04:17.440Z",
     "category": "PERNAMBUCO",

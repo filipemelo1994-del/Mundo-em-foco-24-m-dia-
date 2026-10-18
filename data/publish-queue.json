@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-17T23:06:24.542Z",
+  "updated_at": "2026-10-18T00:00:59.101225+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2107,6 +2107,26 @@
       },
       "last_error": null,
       "art_sha256": "12a1667904e6002fd3fb589d8fc273bd26d4d7c0449fd77be8fc3d1c68495738"
+    },
+    "franca-protestos-custo-de-vida-violencia-17-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "172eb29bf734d6c4e1bec0c1ae538480fa8df02c2bed2857439ecef906be0997",
+      "art_validation": {
+        "passed": true,
+        "sha256": "172eb29bf734d6c4e1bec0c1ae538480fa8df02c2bed2857439ecef906be0997",
+        "failed": [],
+        "checked_at": "2026-10-18T00:00:59.066934+00:00"
+      }
     }
   }
 }
