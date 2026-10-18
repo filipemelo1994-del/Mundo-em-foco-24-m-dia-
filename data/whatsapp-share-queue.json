@@ -7,7 +7,7 @@
     "source_must_be_verified": true,
     "prevent_duplicates_by_news_id": true
   },
-  "updated_at": "2026-10-18T15:11:44.736Z",
+  "updated_at": "2026-10-18T21:31:16.700680+00:00",
   "items": {
     "amazonia-incendios-amazonas-fumaca-combate-18-10-2026": {
       "news_id": "amazonia-incendios-amazonas-fumaca-combate-18-10-2026",
@@ -39,6 +39,42 @@
       "prepared_at": "2026-10-18T15:11:44.732Z",
       "shared_at": null,
       "instagram_media_id": "18100605275673797"
+    },
+    "franca-protestos-custo-de-vida-violencia-17-10-2026": {
+      "news_id": "franca-protestos-custo-de-vida-violencia-17-10-2026",
+      "title": "França registra protestos em massa contra custo de vida e serviços públicos",
+      "summary": "Manifestações reuniram centenas de milhares de pessoas; confrontos, saques e incêndios foram registrados em várias cidades, enquanto autoridades prometem responsabilizar envolvidos em atos violentos.",
+      "article_url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id=franca-protestos-custo-de-vida-violencia-17-10-2026",
+      "image_url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1600&q=85",
+      "source_credit": "Imagem ilustrativa: Paris; arte editorial Mundo em Foco 24",
+      "share_text": "📰 *França registra protestos em massa contra custo de vida e serviços públicos*\n\nManifestações reuniram centenas de milhares de pessoas; confrontos, saques e incêndios foram registrados em várias cidades, enquanto autoridades prometem responsabilizar envolvidos em atos violentos.\n\nLeia a matéria completa: https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id=franca-protestos-custo-de-vida-violencia-17-10-2026\n\nImagem ilustrativa: Paris; arte editorial Mundo em Foco 24\n\n📲 Siga o canal Mundo em Foco 24: https://whatsapp.com/channel/0029Vb98zQ5AzNbvFs8pQm1x",
+      "state": "PRONTO_PARA_REVISAO_MANUAL",
+      "prepared_at": "2026-10-18T21:31:16.700498+00:00",
+      "shared_at": null
+    },
+    "tre-pe-transporte-eleitores-abstencao-segundo-turno-17-10-2026": {
+      "news_id": "tre-pe-transporte-eleitores-abstencao-segundo-turno-17-10-2026",
+      "title": "TRE-PE recebe cobrança por medidas para reduzir abstenção no segundo turno",
+      "summary": "Aliados políticos pediram providências para facilitar o deslocamento de eleitores em 25 de outubro; transporte e acesso às urnas estão no centro da discussão.",
+      "article_url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id=tre-pe-transporte-eleitores-abstencao-segundo-turno-17-10-2026",
+      "image_url": "https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?auto=format&fit=crop&w=1600&q=85",
+      "source_credit": "Imagem ilustrativa: Unsplash",
+      "share_text": "📰 *TRE-PE recebe cobrança por medidas para reduzir abstenção no segundo turno*\n\nAliados políticos pediram providências para facilitar o deslocamento de eleitores em 25 de outubro; transporte e acesso às urnas estão no centro da discussão.\n\nLeia a matéria completa: https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id=tre-pe-transporte-eleitores-abstencao-segundo-turno-17-10-2026\n\nImagem ilustrativa: Unsplash\n\n📲 Siga o canal Mundo em Foco 24: https://whatsapp.com/channel/0029Vb98zQ5AzNbvFs8pQm1x",
+      "state": "PRONTO_PARA_REVISAO_MANUAL",
+      "prepared_at": "2026-10-18T21:31:16.700510+00:00",
+      "shared_at": null
+    },
+    "recife-vila-arraes-plano-prevencao-desastres-climaticos-17-10-2026": {
+      "news_id": "recife-vila-arraes-plano-prevencao-desastres-climaticos-17-10-2026",
+      "title": "Comunidade do Recife cria plano para prevenir desastres climáticos",
+      "summary": "Moradores da Vila Arraes organizaram ações de monitoramento, evacuação e resposta a enchentes após a tragédia de 2022; experiência destaca o papel da preparação comunitária.",
+      "article_url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id=recife-vila-arraes-plano-prevencao-desastres-climaticos-17-10-2026",
+      "image_url": "https://images.unsplash.com/photo-1547683905-f686c993aae5?auto=format&fit=crop&w=1600&q=85",
+      "source_credit": "Imagem ilustrativa: Unsplash",
+      "share_text": "📰 *Comunidade do Recife cria plano para prevenir desastres climáticos*\n\nMoradores da Vila Arraes organizaram ações de monitoramento, evacuação e resposta a enchentes após a tragédia de 2022; experiência destaca o papel da preparação comunitária.\n\nLeia a matéria completa: https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id=recife-vila-arraes-plano-prevencao-desastres-climaticos-17-10-2026\n\nImagem ilustrativa: Unsplash\n\n📲 Siga o canal Mundo em Foco 24: https://whatsapp.com/channel/0029Vb98zQ5AzNbvFs8pQm1x",
+      "state": "PRONTO_PARA_REVISAO_MANUAL",
+      "prepared_at": "2026-10-18T21:31:16.700516+00:00",
+      "shared_at": null
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-18T20:32:58.753570+00:00",
+  "updated_at": "2026-10-18T21:31:16.671869+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2164,6 +2164,41 @@
       },
       "last_error": "Tentativa de publicação rejeitada pelo Instagram: URL de imagem não aceita como mídia. Nenhum post publicado. Necessário gerar/obter arte JPG pública válida para retomar o fluxo.",
       "sources_verified": true
+    },
+    "papa-leao-xiv-agradece-apoio-retomada-gradual-atividades-18-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": false,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": "build_news_art_v2 exit=4",
+      "art_sha256": "8376a35c54c978248b4185dce7ee927009587225170d0a1d2c54d64a19125293",
+      "art_validation": {
+        "passed": false,
+        "sha256": "8376a35c54c978248b4185dce7ee927009587225170d0a1d2c54d64a19125293",
+        "failed": [
+          "text_fit"
+        ],
+        "checked_at": "2026-10-18T21:31:16.638540+00:00"
+      }
+    },
+    "eleitor-sem-biometria-pode-votar-segundo-turno-18-10-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null
     }
   }
 }
