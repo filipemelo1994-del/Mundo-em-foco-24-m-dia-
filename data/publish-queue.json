@@ -2244,7 +2244,7 @@
       "feed_comment_id": "17973862260151730"
     },
     "furacao-trudy-chuvas-fortes-oeste-mexico-18-10-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_PENDENTE",
       "portal": true,
       "feed_art": true,
       "story_art": false,
@@ -2254,7 +2254,7 @@
         "feed": 0,
         "story": 0
       },
-      "last_error": "build_news_art_v2 exit=3",
+      "last_error": null,
       "art_sha256": "4859a513ccdc71e2524e2a55aaf0250c48e95fa995743397d821601bccc88324",
       "art_validation": {
         "passed": true,
