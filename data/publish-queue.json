@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-18T21:32:23.218843+00:00",
+  "updated_at": "2026-10-18T21:32:52.699446+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2176,7 +2176,7 @@
         "feed": 0,
         "story": 0
       },
-      "last_error": "build_news_art_v2 exit=4",
+      "last_error": "Validação editorial falhou; revisar texto/fontes antes de nova tentativa.",
       "art_sha256": "8376a35c54c978248b4185dce7ee927009587225170d0a1d2c54d64a19125293",
       "art_validation": {
         "passed": false,
