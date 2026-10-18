@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-18T21:34:42.839481+00:00",
+  "updated_at": "2026-10-18T21:36:03.885Z",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2200,24 +2200,25 @@
       "sources_verified": true
     },
     "finep-450-milhoes-inovacao-norte-nordeste-centro-oeste-18-10-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_OK",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "18137643994867343",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
-      "last_error": "build_news_art_v2 exit=4",
+      "last_error": null,
       "art_sha256": "216380d3c85e7ed2cfcc862286e67d4016e5f8de1977b09b97396f2780f71e40",
       "art_validation": {
         "passed": true,
         "sha256": "216380d3c85e7ed2cfcc862286e67d4016e5f8de1977b09b97396f2780f71e40",
         "failed": [],
         "checked_at": "2026-10-18T21:34:42.784602+00:00"
-      }
+      },
+      "feed_comment_id": "18423407581156538"
     },
     "tse-altera-4352-secoes-locais-votacao-segundo-turno-18-10-2026": {
       "state": "FEED_OK",
