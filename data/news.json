@@ -32,12 +32,12 @@
       }
     ],
     "imageCandidates": [
-      "https://about.fb.com/wp-content/uploads/2021/10/Meta-Logo.jpg"
+      "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1600&q=85"
     ],
-    "imageAlt": "Logotipo da Meta em imagem ilustrativa sobre a decisão da Justiça Eleitoral",
-    "creditImage": "Imagem ilustrativa; reportagem baseada em fontes jornalísticas e comunicado oficial da Meta",
-    "sourceImage": "https://about.fb.com/wp-content/uploads/2021/10/Meta-Logo.jpg",
-    "image": "https://about.fb.com/wp-content/uploads/2021/10/Meta-Logo.jpg"
+    "imageAlt": "Imagem ilustrativa de um martelo da Justiça, relacionada à decisão do Tribunal Superior Eleitoral sobre regras para plataformas digitais.",
+    "creditImage": "Imagem ilustrativa de Justiça; não representa uma fotografia do julgamento do TSE.",
+    "sourceImage": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1600&q=85",
+    "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1600&q=85"
   },
   {
     "id": "amazonia-incendios-amazonas-fumaca-combate-18-10-2026",
