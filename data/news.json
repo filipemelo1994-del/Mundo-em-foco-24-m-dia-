@@ -1,5 +1,44 @@
 [
   {
+    "id": "finep-450-milhoes-inovacao-norte-nordeste-centro-oeste-18-10-2026",
+    "published": "2026-10-18T18:29:00-03:00",
+    "category": "ECONOMIA",
+    "title": "Finep libera R$ 450 milhões para inovação",
+    "summary": "114 projetos serão apoiados; três cidades de Pernambuco estão entre as contempladas.",
+    "date": "18 OUT 2026",
+    "location": "Recife, PE / Brasília, DF",
+    "credit": "Mundo em Foco 24 | Fontes: Agência Brasil, Finep e MCTI",
+    "body": [
+      "A Financiadora de Estudos e Projetos (Finep) ampliou de R$ 300 milhões para R$ 450 milhões os recursos destinados à segunda rodada da chamada Mais Inovação Brasil – Subvenção Econômica. O programa apoia empresas com projetos inovadores e de risco tecnológico nas regiões Norte, Nordeste e Centro-Oeste. A complementação de R$ 150 milhões foi anunciada em 16 de outubro pela ministra da Ciência, Tecnologia e Inovação, Luciana Santos, durante agenda no Recife.",
+      "De acordo com a Agência Brasil e a Finep, a chamada deve beneficiar 114 projetos. O orçamento inicial contemplava 78 propostas; com a suplementação, outras 36 iniciativas que já haviam sido analisadas e recomendadas para contratação poderão ser incluídas. A medida aumenta em 50% o volume originalmente previsto, mas não significa que o dinheiro esteja disponível para qualquer empresa solicitar imediatamente: trata-se de uma rodada de seleção que já recebeu e avaliou propostas.",
+      "O processo recebeu 587 propostas de empresas das três regiões. Destas, 400 foram habilitadas para avaliação técnica realizada pela Finep em parceria com analistas do Sebrae e das superintendências regionais de desenvolvimento. A seleção considera o potencial de inovação, o risco tecnológico e a relação dos projetos com missões da política industrial brasileira. Os recursos são classificados como subvenção econômica, modalidade de apoio não reembolsável, condicionada às regras e aos instrumentos de contratação aplicáveis a cada projeto.",
+      "Pernambuco aparece entre os estados beneficiados. A Finep informou que empresas de 35 cidades das regiões contempladas receberão apoio e que sete municípios serão atendidos pela primeira vez em uma chamada da agência. Entre eles estão Salgueiro, Goiana e Agrestina. A presença dessas cidades amplia a distribuição territorial dos recursos para além dos polos tradicionais e pode aproximar empresas locais de instituições de ciência e tecnologia.",
+      "Na distribuição inicial de R$ 300 milhões, estavam previstos R$ 50 milhões para a Região Norte, R$ 100 milhões para o Centro-Oeste e R$ 150 milhões para o Nordeste. Como o anúncio posterior acrescentou R$ 150 milhões ao orçamento, esses valores regionais iniciais não devem ser interpretados, sem uma nova planilha oficial, como a divisão final de todo o montante de R$ 450 milhões.",
+      "A Finep também informou que 75% das propostas aprovadas inicialmente eram de microempresas e empresas de pequeno porte. Além disso, 44 empresas selecionadas receberão subvenção da agência pela primeira vez, o equivalente a 56% das propostas aprovadas naquela etapa. Os números apontam a presença de negócios menores entre os contemplados, embora os resultados dependam da execução dos projetos e do cumprimento dos contratos.",
+      "Para empresas interessadas em futuros editais, a recomendação é acompanhar os canais oficiais da Finep, do Ministério da Ciência, Tecnologia e Inovação e do Sebrae. É importante verificar prazos, critérios de elegibilidade, contrapartidas e documentação antes de preparar uma proposta. O anúncio dos R$ 450 milhões se refere a uma seleção específica já em andamento, não à abertura automática de novas inscrições.",
+      "A iniciativa busca apoiar a transformação de pesquisa e desenvolvimento em produtos, processos e serviços, além de estimular a atividade econômica regional. O resultado prático dependerá da contratação e da execução dos projetos selecionados, da capacidade das empresas de desenvolver as soluções e da continuidade de políticas de inovação. O Mundo em Foco 24 reuniu informações publicadas pela Agência Brasil e pela Finep; os dados podem ser atualizados nos comunicados oficiais."
+    ],
+    "sources": [
+      {
+        "name": "Agência Brasil — Empresas de três regiões terão aporte de R$ 450 milhões para inovação",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/empresas-de-tres-regioes-terao-aporte-de-r-450-milhoes-para-inovacao"
+      },
+      {
+        "name": "Finep — MCTI e Finep anunciam aporte de R$ 450 milhões para 114 empresas",
+        "url": "https://finep.gov.br/w/mcti-e-finep-anunciam-aporte-de-r-450-milh%C3%B5es-para-114-empresas-das-regi%C3%B5es-norte-nordeste-e-centro-oeste"
+      }
+    ],
+    "imageCandidates": [
+      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1600&q=85"
+    ],
+    "imageAlt": "Imagem ilustrativa de profissionais trabalhando em ambiente de tecnologia e inovação; não retrata um dos projetos selecionados.",
+    "creditImage": "Imagem ilustrativa: Unsplash",
+    "sourceImage": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1600&q=85",
+    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1600&q=85",
+    "instagramAlreadyPublished": false,
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/finep-450-milhoes-inovacao-norte-nordeste-centro-oeste-18-10-2026.jpg"
+  },
+  {
     "id": "papa-leao-xiv-agradece-apoio-retomada-gradual-atividades-18-10-2026",
     "published": "2026-10-18T18:29:00-03:00",
     "category": "Mundo",

@@ -7,7 +7,7 @@
     "source_must_be_verified": true,
     "prevent_duplicates_by_news_id": true
   },
-  "updated_at": "2026-10-18T21:33:35.239788+00:00",
+  "updated_at": "2026-10-18T21:34:42.871313+00:00",
   "items": {
     "amazonia-incendios-amazonas-fumaca-combate-18-10-2026": {
       "news_id": "amazonia-incendios-amazonas-fumaca-combate-18-10-2026",
@@ -74,6 +74,18 @@
       "share_text": "📰 *Comunidade do Recife cria plano para prevenir desastres climáticos*\n\nMoradores da Vila Arraes organizaram ações de monitoramento, evacuação e resposta a enchentes após a tragédia de 2022; experiência destaca o papel da preparação comunitária.\n\nLeia a matéria completa: https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id=recife-vila-arraes-plano-prevencao-desastres-climaticos-17-10-2026\n\nImagem ilustrativa: Unsplash\n\n📲 Siga o canal Mundo em Foco 24: https://whatsapp.com/channel/0029Vb98zQ5AzNbvFs8pQm1x",
       "state": "PRONTO_PARA_REVISAO_MANUAL",
       "prepared_at": "2026-10-18T21:31:16.700516+00:00",
+      "shared_at": null
+    },
+    "tse-altera-4352-secoes-locais-votacao-segundo-turno-18-10-2026": {
+      "news_id": "tse-altera-4352-secoes-locais-votacao-segundo-turno-18-10-2026",
+      "title": "TSE muda locais de 4.352 seções para o 2º turno",
+      "summary": "Eleitores devem conferir o endereço antes de votar em 25 de outubro.",
+      "article_url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id=tse-altera-4352-secoes-locais-votacao-segundo-turno-18-10-2026",
+      "image_url": "https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?auto=format&fit=crop&w=1600&q=85",
+      "source_credit": "Mundo em Foco 24 | Fontes: TSE, Agência Brasil e UOL",
+      "share_text": "📰 *TSE muda locais de 4.352 seções para o 2º turno*\n\nEleitores devem conferir o endereço antes de votar em 25 de outubro.\n\nLeia a matéria completa: https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id=tse-altera-4352-secoes-locais-votacao-segundo-turno-18-10-2026\n\nMundo em Foco 24 | Fontes: TSE, Agência Brasil e UOL\n\n📲 Siga o canal Mundo em Foco 24: https://whatsapp.com/channel/0029Vb98zQ5AzNbvFs8pQm1x",
+      "state": "PRONTO_PARA_REVISAO_MANUAL",
+      "prepared_at": "2026-10-18T21:34:42.871125+00:00",
       "shared_at": null
     }
   }
