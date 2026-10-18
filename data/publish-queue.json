@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-18T21:33:13.209704+00:00",
+  "updated_at": "2026-10-18T21:33:35.186955+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2167,8 +2167,8 @@
     },
     "papa-leao-xiv-agradece-apoio-retomada-gradual-atividades-18-10-2026": {
       "state": "PORTAL_PENDENTE",
-      "portal": false,
-      "feed_art": false,
+      "portal": true,
+      "feed_art": true,
       "story_art": false,
       "feed_media_id": null,
       "story_media_id": null,
@@ -2177,14 +2177,12 @@
         "story": 0
       },
       "last_error": "Validação editorial falhou; revisar texto/fontes antes de nova tentativa.",
-      "art_sha256": "8376a35c54c978248b4185dce7ee927009587225170d0a1d2c54d64a19125293",
+      "art_sha256": "9f5b55d510aab608473c4aecac20bf37b160fcf217dbfaded3ae6e5f169e1d91",
       "art_validation": {
-        "passed": false,
-        "sha256": "8376a35c54c978248b4185dce7ee927009587225170d0a1d2c54d64a19125293",
-        "failed": [
-          "text_fit"
-        ],
-        "checked_at": "2026-10-18T21:31:16.638540+00:00"
+        "passed": true,
+        "sha256": "9f5b55d510aab608473c4aecac20bf37b160fcf217dbfaded3ae6e5f169e1d91",
+        "failed": [],
+        "checked_at": "2026-10-18T21:33:35.122744+00:00"
       }
     },
     "eleitor-sem-biometria-pode-votar-segundo-turno-18-10-2026": {
