@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-18T09:30:09.865Z",
+  "updated_at": "2026-10-18T09:34:58.183Z",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2150,6 +2150,20 @@
         "checked_at": "2026-10-18T09:24:35.075378+00:00"
       },
       "comment_id": "18245390980311743"
+    },
+    "tse-meta-multa-diaria-isonomia-postagens-eleitorais-18-10-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": true,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": "Arte V2 ainda não foi gerada/publicada; Instagram não publicado para evitar postagem fora do fluxo editorial.",
+      "sources_verified": true
     }
   }
 }
