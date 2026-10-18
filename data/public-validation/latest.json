@@ -46,17 +46,5 @@
     "expected_sha256": "587f74637d6f0201b99d6bc60e58fabcf49caff955eed65c99deba7d577173f1",
     "public_sha256": "587f74637d6f0201b99d6bc60e58fabcf49caff955eed65c99deba7d577173f1",
     "passed": true
-  },
-  "recife-vila-arraes-plano-prevencao-desastres-climaticos-17-10-2026": {
-    "url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/news-art/recife-vila-arraes-plano-prevencao-desastres-climaticos-17-10-2026.jpg",
-    "expected_sha256": "d8cce97eade08dc7a254be7975bf57d9438d8a5633f45be869493f4b1b77a5ff",
-    "public_sha256": "d8cce97eade08dc7a254be7975bf57d9438d8a5633f45be869493f4b1b77a5ff",
-    "passed": true
-  },
-  "tre-pe-transporte-eleitores-abstencao-segundo-turno-17-10-2026": {
-    "url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/news-art/tre-pe-transporte-eleitores-abstencao-segundo-turno-17-10-2026.jpg",
-    "expected_sha256": "12a1667904e6002fd3fb589d8fc273bd26d4d7c0449fd77be8fc3d1c68495738",
-    "public_sha256": "12a1667904e6002fd3fb589d8fc273bd26d4d7c0449fd77be8fc3d1c68495738",
-    "passed": true
   }
 }
