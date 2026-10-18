@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-18T23:00:45.555224+00:00",
+  "updated_at": "2026-10-18T21:00:00Z",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2264,6 +2264,26 @@
       },
       "comment_id": "18091813748211965",
       "instagram_published_at": "2026-10-18T21:40:00Z"
+    },
+    "franca-balanco-protestos-macron-custo-de-vida-18-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": false,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "sources_verified": true,
+      "image_credits": "Jorge Jaramillo / JJxFile.com — Wikimedia Commons, CC BY-SA 4.0",
+      "image_urls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Paris_riots%2C_17_October_2026_-_Crowd_and_tear_gas_at_Place_de_la_R%C3%A9publique_-_JJxFile_0006.jpg/1280px-Paris_riots%2C_17_October_2026_-_Crowd_and_tear_gas_at_Place_de_la_R%C3%A9publique_-_JJxFile_0006.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Paris_riots%2C_17_October_2026_-_Crowd_facing_Place_de_la_R%C3%A9publique_in_tear_gas_-_JJxFile_0014.jpg/1280px-Paris_riots%2C_17_October_2026_-_Crowd_facing_Place_de_la_R%C3%A9publique_in_tear_gas_-_JJxFile_0014.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Paris_riots%2C_17_October_2026_-_Crowd_outside_a_looted_shop_-_JJxFile_0020.jpg/1280px-Paris_riots%2C_17_October_2026_-_Crowd_outside_a_looted_shop_-_JJxFile_0020.jpg"
+      ]
     }
   }
 }
