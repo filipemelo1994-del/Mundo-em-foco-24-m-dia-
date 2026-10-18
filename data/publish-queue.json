@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-18T21:00:00Z",
+  "updated_at": "2026-10-18T21:06:00Z",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2266,24 +2266,28 @@
       "instagram_published_at": "2026-10-18T21:40:00Z"
     },
     "franca-balanco-protestos-macron-custo-de-vida-18-10-2026": {
-      "state": "PORTAL_PENDENTE",
-      "portal": false,
+      "state": "FEED_OK",
+      "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "18018901154740704",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
-      "last_error": null,
+      "last_error": "Publicação em carrossel confirmada pelo Instagram; link da matéria comentado. Registro da matéria commitado no GitHub; verificação direta da página pública não ficou disponível pela ferramenta web.",
       "sources_verified": true,
       "image_credits": "Jorge Jaramillo / JJxFile.com — Wikimedia Commons, CC BY-SA 4.0",
       "image_urls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Paris_riots%2C_17_October_2026_-_Crowd_and_tear_gas_at_Place_de_la_R%C3%A9publique_-_JJxFile_0006.jpg/1280px-Paris_riots%2C_17_October_2026_-_Crowd_and_tear_gas_at_Place_de_la_R%C3%A9publique_-_JJxFile_0006.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Paris_riots%2C_17_October_2026_-_Crowd_facing_Place_de_la_R%C3%A9publique_in_tear_gas_-_JJxFile_0014.jpg/1280px-Paris_riots%2C_17_October_2026_-_Crowd_facing_Place_de_la_R%C3%A9publique_in_tear_gas_-_JJxFile_0014.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Paris_riots%2C_17_October_2026_-_Crowd_outside_a_looted_shop_-_JJxFile_0020.jpg/1280px-Paris_riots%2C_17_October_2026_-_Crowd_outside_a_looted_shop_-_JJxFile_0020.jpg"
-      ]
+      ],
+      "feed_comment_id": "18070807124751341",
+      "comment_id": "18070807124751341",
+      "instagram_published_at": "2026-10-18T21:05:00Z",
+      "portal_live_verified": false
     }
   }
 }
