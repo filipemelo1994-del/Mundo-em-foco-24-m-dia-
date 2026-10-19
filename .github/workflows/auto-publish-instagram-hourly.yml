@@ -1,7 +1,5 @@
 name: Auto Publish Instagram Every Hour
 on:
-  schedule:
-    - cron: '20 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -39,7 +37,10 @@ jobs:
               if item.get("state")!="FEED_PENDENTE" or item.get("feed_media_id"): continue
               if not item.get("portal") or not item.get("feed_art"): continue
               image=(n.get("instagramImage") or "").strip()
-              if not image.startswith("https://raw.githubusercontent.com/"): continue
+              expected=f"https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/{nid}.jpg"
+              if image != expected: continue
+              validation=(json.load(open("data/public-validation/latest.json",encoding="utf-8")).get(nid) or {})
+              if validation.get("passed") is not True or not validation.get("sha256"): continue
               published=str(n.get("published") or "")
               if not published: continue
               try:
