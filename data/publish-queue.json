@@ -2300,7 +2300,7 @@
         "feed": 2,
         "story": 0
       },
-      "last_error": null,
+      "last_error": "Foto do portal corrigida para imagem real do debate da Band. A arte V2 anterior usava imagem de votação e precisa ser refeita com a foto correta antes de nova republicação no Instagram.",
       "sources_verified": true,
       "comment_id": "18105439922227341",
       "instagram_published_at": "2026-10-19T20:43:53.456Z",
@@ -2308,15 +2308,19 @@
       "image_credits": "Imagem ilustrativa: Unsplash; retratos oficiais dos candidatos disponíveis nas fontes do artigo.",
       "art_sha256": "175020bc86a884899a287129b0d67d4dccd08707c55a9c619781addb9782ba91",
       "art_validation": {
-        "passed": true,
+        "passed": false,
         "sha256": "175020bc86a884899a287129b0d67d4dccd08707c55a9c619781addb9782ba91",
-        "failed": [],
-        "checked_at": "2026-10-19T20:42:46.538834+00:00"
+        "failed": [
+          "image_match"
+        ],
+        "checked_at": "2026-10-19T21:10:00Z"
       },
       "previous_feed_media_id": "18119308252898202",
       "previous_comment_id": "18138929839652607",
       "previous_instagram_permalink": "https://www.instagram.com/p/Deq1mVEAnnE/",
-      "reposted_with_v2": true
+      "reposted_with_v2": true,
+      "review_required": true,
+      "image_mismatch_detected": true
     },
     "franca-macron-mantem-ministro-interior-apos-tumultos-19-10-2026": {
       "state": "FEED_OK",
