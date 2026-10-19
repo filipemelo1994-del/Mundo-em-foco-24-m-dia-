@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-19T07:40:03.705909+00:00",
+  "updated_at": "2026-10-19T08:35:00+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2288,6 +2288,60 @@
       "comment_id": "18070807124751341",
       "instagram_published_at": "2026-10-18T21:05:00Z",
       "portal_live_verified": false
+    },
+    "debate-lula-flavio-primeiro-encontro-18-10-2026": {
+      "state": "FEED_OK",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": "18119308252898202",
+      "story_media_id": null,
+      "attempts": {
+        "feed": 1,
+        "story": 0
+      },
+      "last_error": "Instagram e comentário do link confirmados. Imagem ilustrativa creditada; página pública não foi verificável pelo navegador nesta execução.",
+      "sources_verified": true,
+      "comment_id": "18138929839652607",
+      "instagram_published_at": "2026-10-19T08:30:00Z",
+      "portal_live_verified": false,
+      "image_credits": "Imagem ilustrativa: Unsplash; retratos oficiais dos candidatos disponíveis nas fontes do artigo."
+    },
+    "franca-macron-mantem-ministro-interior-apos-tumultos-19-10-2026": {
+      "state": "FEED_OK",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": "17875123998594034",
+      "story_media_id": null,
+      "attempts": {
+        "feed": 1,
+        "story": 0
+      },
+      "last_error": "Instagram e comentário do link confirmados. Foto de arquivo creditada; página pública não foi verificável pelo navegador nesta execução.",
+      "sources_verified": true,
+      "comment_id": "18054240827591435",
+      "instagram_published_at": "2026-10-19T08:29:00Z",
+      "portal_live_verified": false,
+      "image_credits": "Aurore Martignoni / União Europeia, 2026 — CC BY 4.0; foto de arquivo."
+    },
+    "programa-alimentar-mundial-reduz-ajuda-gaza-falta-recursos-19-10-2026": {
+      "state": "FEED_OK",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": "17973615189158098",
+      "story_media_id": null,
+      "attempts": {
+        "feed": 1,
+        "story": 0
+      },
+      "last_error": "Instagram e comentário do link confirmados. Foto de arquivo em domínio público; página pública não foi verificável pelo navegador nesta execução.",
+      "sources_verified": true,
+      "comment_id": "18146022040564810",
+      "instagram_published_at": "2026-10-19T08:28:00Z",
+      "portal_live_verified": false,
+      "image_credits": "U.S. Army Security Assistance Command / DVIDS, dezembro de 2023 — domínio público."
     }
   }
 }
