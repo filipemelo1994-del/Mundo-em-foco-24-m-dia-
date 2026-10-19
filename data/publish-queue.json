@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-19T15:31:25.486981+00:00",
+  "updated_at": "2026-10-19T20:42:47.508721+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2306,7 +2306,14 @@
       "instagram_published_at": "2026-10-19T08:33:13Z",
       "portal_live_verified": false,
       "image_credits": "Imagem ilustrativa: Unsplash; retratos oficiais dos candidatos disponíveis nas fontes do artigo.",
-      "instagram_permalink": "https://www.instagram.com/p/Deq1mVEAnnE/"
+      "instagram_permalink": "https://www.instagram.com/p/Deq1mVEAnnE/",
+      "art_sha256": "175020bc86a884899a287129b0d67d4dccd08707c55a9c619781addb9782ba91",
+      "art_validation": {
+        "passed": true,
+        "sha256": "175020bc86a884899a287129b0d67d4dccd08707c55a9c619781addb9782ba91",
+        "failed": [],
+        "checked_at": "2026-10-19T20:42:46.538834+00:00"
+      }
     },
     "franca-macron-mantem-ministro-interior-apos-tumultos-19-10-2026": {
       "state": "FEED_OK",
@@ -2319,13 +2326,22 @@
         "feed": 1,
         "story": 0
       },
-      "last_error": "ATENÇÃO: publicação existente foi feita com foto original, sem arte V2 da página. Não republicar; arte precisa ser gerada e validada para publicações futuras.",
+      "last_error": "build_news_art_v2 exit=4",
       "sources_verified": true,
       "comment_id": "18054240827591435",
       "instagram_published_at": "2026-10-19T08:33:33Z",
       "portal_live_verified": false,
       "image_credits": "Aurore Martignoni / União Europeia, 2026 — CC BY 4.0; foto de arquivo.",
-      "instagram_permalink": "https://www.instagram.com/p/Deq1pnTjDT3/"
+      "instagram_permalink": "https://www.instagram.com/p/Deq1pnTjDT3/",
+      "art_sha256": "0a1607839aaaf8dd840f7d8bb723b57d0f8e51fc08b256c692fee8a1140d98df",
+      "art_validation": {
+        "passed": false,
+        "sha256": "0a1607839aaaf8dd840f7d8bb723b57d0f8e51fc08b256c692fee8a1140d98df",
+        "failed": [
+          "text_fit"
+        ],
+        "checked_at": "2026-10-19T20:42:47.483590+00:00"
+      }
     },
     "programa-alimentar-mundial-reduz-ajuda-gaza-falta-recursos-19-10-2026": {
       "state": "FEED_OK",
