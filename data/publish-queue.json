@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-19T08:35:00+00:00",
+  "updated_at": "2026-10-19T09:43:31.806Z",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2292,7 +2292,7 @@
     "debate-lula-flavio-primeiro-encontro-18-10-2026": {
       "state": "FEED_OK",
       "portal": true,
-      "feed_art": true,
+      "feed_art": false,
       "story_art": false,
       "feed_media_id": "18119308252898202",
       "story_media_id": null,
@@ -2300,7 +2300,7 @@
         "feed": 1,
         "story": 0
       },
-      "last_error": "Instagram e comentário do link confirmados. Imagem ilustrativa creditada; página pública não foi verificável pelo navegador nesta execução.",
+      "last_error": "ATENÇÃO: publicação existente foi feita com foto original, sem arte V2 da página. Não republicar; arte precisa ser gerada e validada para publicações futuras.",
       "sources_verified": true,
       "comment_id": "18138929839652607",
       "instagram_published_at": "2026-10-19T08:33:13Z",
@@ -2311,7 +2311,7 @@
     "franca-macron-mantem-ministro-interior-apos-tumultos-19-10-2026": {
       "state": "FEED_OK",
       "portal": true,
-      "feed_art": true,
+      "feed_art": false,
       "story_art": false,
       "feed_media_id": "17875123998594034",
       "story_media_id": null,
@@ -2319,7 +2319,7 @@
         "feed": 1,
         "story": 0
       },
-      "last_error": "Instagram e comentário do link confirmados. Foto de arquivo creditada; página pública não foi verificável pelo navegador nesta execução.",
+      "last_error": "ATENÇÃO: publicação existente foi feita com foto original, sem arte V2 da página. Não republicar; arte precisa ser gerada e validada para publicações futuras.",
       "sources_verified": true,
       "comment_id": "18054240827591435",
       "instagram_published_at": "2026-10-19T08:33:33Z",
@@ -2330,7 +2330,7 @@
     "programa-alimentar-mundial-reduz-ajuda-gaza-falta-recursos-19-10-2026": {
       "state": "FEED_OK",
       "portal": true,
-      "feed_art": true,
+      "feed_art": false,
       "story_art": false,
       "feed_media_id": "17973615189158098",
       "story_media_id": null,
@@ -2338,7 +2338,7 @@
         "feed": 1,
         "story": 0
       },
-      "last_error": "Instagram e comentário do link confirmados. Foto de arquivo em domínio público; página pública não foi verificável pelo navegador nesta execução.",
+      "last_error": "ATENÇÃO: publicação existente foi feita com foto original, sem arte V2 da página. Não republicar; arte precisa ser gerada e validada para publicações futuras.",
       "sources_verified": true,
       "comment_id": "18146022040564810",
       "instagram_published_at": "2026-10-19T08:33:51Z",
