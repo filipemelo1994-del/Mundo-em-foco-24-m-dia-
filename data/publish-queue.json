@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-19T20:43:53.458Z",
+  "updated_at": "2026-10-19T20:44:25.908Z",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2323,19 +2323,18 @@
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": "17875123998594034",
+      "feed_media_id": "18127278962486232",
       "story_media_id": null,
       "attempts": {
-        "feed": 1,
+        "feed": 2,
         "story": 0
       },
-      "last_error": "build_news_art_v2 exit=4",
+      "last_error": null,
       "sources_verified": true,
-      "comment_id": "18054240827591435",
-      "instagram_published_at": "2026-10-19T08:33:33Z",
+      "comment_id": "18451674262122965",
+      "instagram_published_at": "2026-10-19T20:44:25.908Z",
       "portal_live_verified": false,
       "image_credits": "Aurore Martignoni / União Europeia, 2026 — CC BY 4.0; foto de arquivo.",
-      "instagram_permalink": "https://www.instagram.com/p/Deq1pnTjDT3/",
       "art_sha256": "0a1607839aaaf8dd840f7d8bb723b57d0f8e51fc08b256c692fee8a1140d98df",
       "art_validation": {
         "passed": false,
@@ -2344,7 +2343,11 @@
           "text_fit"
         ],
         "checked_at": "2026-10-19T20:42:47.483590+00:00"
-      }
+      },
+      "previous_feed_media_id": "17875123998594034",
+      "previous_comment_id": "18054240827591435",
+      "previous_instagram_permalink": "https://www.instagram.com/p/Deq1pnTjDT3/",
+      "reposted_with_v2": true
     },
     "programa-alimentar-mundial-reduz-ajuda-gaza-falta-recursos-19-10-2026": {
       "state": "FEED_OK",
