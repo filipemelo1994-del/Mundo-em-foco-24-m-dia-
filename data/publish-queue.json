@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-19T20:43:37.290689+00:00",
+  "updated_at": "2026-10-19T20:43:53.458Z",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2294,26 +2294,29 @@
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": "18119308252898202",
+      "feed_media_id": "17950871784322947",
       "story_media_id": null,
       "attempts": {
-        "feed": 1,
+        "feed": 2,
         "story": 0
       },
-      "last_error": "ATENÇÃO: publicação existente foi feita com foto original, sem arte V2 da página. Não republicar; arte precisa ser gerada e validada para publicações futuras.",
+      "last_error": null,
       "sources_verified": true,
-      "comment_id": "18138929839652607",
-      "instagram_published_at": "2026-10-19T08:33:13Z",
+      "comment_id": "18105439922227341",
+      "instagram_published_at": "2026-10-19T20:43:53.456Z",
       "portal_live_verified": false,
       "image_credits": "Imagem ilustrativa: Unsplash; retratos oficiais dos candidatos disponíveis nas fontes do artigo.",
-      "instagram_permalink": "https://www.instagram.com/p/Deq1mVEAnnE/",
       "art_sha256": "175020bc86a884899a287129b0d67d4dccd08707c55a9c619781addb9782ba91",
       "art_validation": {
         "passed": true,
         "sha256": "175020bc86a884899a287129b0d67d4dccd08707c55a9c619781addb9782ba91",
         "failed": [],
         "checked_at": "2026-10-19T20:42:46.538834+00:00"
-      }
+      },
+      "previous_feed_media_id": "18119308252898202",
+      "previous_comment_id": "18138929839652607",
+      "previous_instagram_permalink": "https://www.instagram.com/p/Deq1mVEAnnE/",
+      "reposted_with_v2": true
     },
     "franca-macron-mantem-ministro-interior-apos-tumultos-19-10-2026": {
       "state": "FEED_OK",
