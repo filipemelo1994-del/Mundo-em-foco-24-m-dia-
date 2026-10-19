@@ -21,8 +21,10 @@ def is_political(n):
 def eligible_item(nid,item,n,pv):
  if not n or is_political(n): return False
  if item.get("state")!="FEED_PENDENTE" or item.get("feed_media_id"): return False
+ expected=f"https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/{nid}.jpg"
  image=(n.get("instagramImage") or "").strip()
- return bool(item.get("portal") and item.get("feed_art") and image.startswith("https://raw.githubusercontent.com/"))
+ return bool(item.get("portal") and item.get("feed_art") and image==expected
+             and pv.get("passed") is True and pv.get("sha256"))
 def save(q):
  q["updated_at"]=datetime.now(timezone.utc).isoformat()
  with open(QUEUE,"w",encoding="utf-8") as f: json.dump(q,f,ensure_ascii=False,indent=2); f.write("\n")
@@ -40,13 +42,17 @@ def main():
  eligible.sort(key=lambda x: str(x[0]))
  if not eligible:
   print("Nenhuma matéria elegível"+((" para "+target) if target else "")+"."); return 0
- _,nid,item,n,pv=eligible[0]; image_url=(n.get("instagramImage") or "").strip()
+ _,nid,item,n,pv=eligible[0]
+ image_url=f"https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/{nid}.jpg"
  try:
-  # Confirma que a arte RAW existe e é realmente uma imagem antes de publicar.
+  # Fail closed: only publish the branded artwork generated for this exact article.
+  # Never fall back to n.image/sourceImage or any original news photograph.
   req_img=urllib.request.Request(image_url,headers={"User-Agent":"MundoEmFoco24/1.0"})
   with urllib.request.urlopen(req_img,timeout=30) as r:
    ctype=(r.headers.get("Content-Type") or "").lower(); data=r.read()
-  if not data or not ctype.startswith("image/"): raise RuntimeError("Arte RAW inválida: "+ctype)
+  if not data or not ctype.startswith("image/"): raise RuntimeError("Arte V2 ausente ou inválida: "+ctype)
+  actual_hash=hashlib.sha256(data).hexdigest()
+  if actual_hash != pv.get("sha256"): raise RuntimeError("Arte V2 não corresponde ao SHA validado; publicação bloqueada.")
   caption=(n.get("title","").strip()+"\n\n"+n.get("summary","").strip()).strip()
   sources=n.get("sources") or []
   source=((sources or [{}])[0].get("name") or "").strip()
