@@ -6,7 +6,7 @@ const V2_ONLY=new Set(['g7-reservas-foto-corrigida-02-10-2026','g7-libera-100-mi
 const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
 const href=n=>'noticia.html?id='+encodeURIComponent(n.id);
 const imageUrl=n=>VERIFIED_IMAGES[n.id]||(V2_ONLY.has(n.id)?n.instagramImage:(n.image||n.sourceImage||n.instagramImage))||LOGO;
-const imageFallback=n=>VERIFIED_IMAGES[n.id]||V2_ONLY.has(n.id)?(n.instagramImage||LOGO):(n.instagramImage||LOGO);
+const imageFallback=n=>n.id==='debate-lula-flavio-primeiro-encontro-18-10-2026'?LOGO:(VERIFIED_IMAGES[n.id]||V2_ONLY.has(n.id)?(n.instagramImage||LOGO):(n.instagramImage||LOGO));
 const safeImg=n=>'<img src="'+esc(imageUrl(n))+'" alt="'+esc(n.imageAlt||n.title)+'" onerror="if(!this.dataset.fallback){this.dataset.fallback=\'1\';this.src=\''+esc(imageFallback(n))+'\'}else{this.onerror=null;this.src=\''+LOGO+'\'}">';
 const id=new URLSearchParams(location.search).get('id');
 Promise.all([
