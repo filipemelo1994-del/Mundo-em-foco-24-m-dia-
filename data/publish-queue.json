@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-20T07:56:00Z",
+  "updated_at": "2026-10-20T07:57:00Z",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2398,7 +2398,7 @@
       "instagram_published_at": "2026-10-20T07:55:50Z",
       "portal_live_verified": false,
       "image_credits": "Jorge Jaramillo / JJxFile — CC BY-SA 4.0; imagem adaptada.",
-      "instagram_permalink": null
+      "instagram_permalink": "https://www.instagram.com/p/DetWGiqAn42/"
     },
     "franca-toques-recolher-ajudaram-conter-disturbios-20-10-2026": {
       "state": "FEED_OK",
@@ -2425,7 +2425,7 @@
       "instagram_published_at": "2026-10-20T07:55:40Z",
       "portal_live_verified": false,
       "image_credits": "Jorge Jaramillo / JJxFile — CC BY-SA 4.0; imagem adaptada.",
-      "instagram_permalink": null
+      "instagram_permalink": "https://www.instagram.com/p/DetWEaVjHD3/"
     },
     "terremoto-magnitude-69-atlantico-1900-km-recife-20-10-2026": {
       "state": "FEED_OK",
@@ -2452,7 +2452,7 @@
       "instagram_published_at": "2026-10-20T07:55:30Z",
       "portal_live_verified": false,
       "image_credits": "Mapa sísmico: USGS — domínio público.",
-      "instagram_permalink": null
+      "instagram_permalink": "https://www.instagram.com/p/DetWCvTiKIu/"
     }
   }
 }
