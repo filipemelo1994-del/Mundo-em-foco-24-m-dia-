@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-20T05:55:27.223678+00:00",
+  "updated_at": "2026-10-20T07:54:03.634528+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2372,6 +2372,66 @@
       "portal_live_verified": false,
       "image_credits": "U.S. Army Security Assistance Command / DVIDS, dezembro de 2023 — domínio público.",
       "instagram_permalink": "https://www.instagram.com/p/Deq1rxykbqo/"
+    },
+    "franca-protestos-custo-vida-combustiveis-pressao-politica-20-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "7689459bda35491a56f2c957663b55136e5a7c03fc4b48283cc5495318dea193",
+      "art_validation": {
+        "passed": true,
+        "sha256": "7689459bda35491a56f2c957663b55136e5a7c03fc4b48283cc5495318dea193",
+        "failed": [],
+        "checked_at": "2026-10-20T07:53:59.952726+00:00"
+      }
+    },
+    "franca-toques-recolher-ajudaram-conter-disturbios-20-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "963706541cd43ba4ad28d0bead686684d64914aa30a2cb121dd7275340d3270a",
+      "art_validation": {
+        "passed": true,
+        "sha256": "963706541cd43ba4ad28d0bead686684d64914aa30a2cb121dd7275340d3270a",
+        "failed": [],
+        "checked_at": "2026-10-20T07:54:01.883274+00:00"
+      }
+    },
+    "terremoto-magnitude-69-atlantico-1900-km-recife-20-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "4b3af99783bbfb2e51c02771f459321c6a422b51bb23d8dc1bebec16530313de",
+      "art_validation": {
+        "passed": true,
+        "sha256": "4b3af99783bbfb2e51c02771f459321c6a422b51bb23d8dc1bebec16530313de",
+        "failed": [],
+        "checked_at": "2026-10-20T07:54:03.575107+00:00"
+      }
     }
   }
 }

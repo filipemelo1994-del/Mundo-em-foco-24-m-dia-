@@ -1,5 +1,125 @@
 [
   {
+    "id": "terremoto-magnitude-69-atlantico-1900-km-recife-20-10-2026",
+    "published": "2026-10-20T04:50:00-03:00",
+    "category": "PERNAMBUCO",
+    "title": "Terremoto de magnitude 6,9 é registrado no Atlântico, a cerca de 1,9 mil km do Recife",
+    "summary": "Abalo ocorreu na Dorsal Mesoatlântica em 13 de outubro; dados consultados não indicaram ameaça de tsunami ao litoral pernambucano.",
+    "location": "Oceano Atlântico",
+    "date": "20 OUT 2026",
+    "credit": "Mapa sísmico: USGS — domínio público.",
+    "imageCandidates": [
+      "https://commons.wikimedia.org/wiki/File:2026-10-13_central_Mid-Atlantic_Ridge_M6.9_earthquake_shakemap_(USGS).jpg",
+      "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u214"
+    ],
+    "body": [
+      "Um terremoto de magnitude 6,9 foi registrado no Oceano Atlântico em 13 de outubro, na região central da Dorsal Mesoatlântica, a aproximadamente 1,9 mil quilômetros do Recife. O evento chamou atenção pela intensidade, mas ocorreu em alto-mar, longe da costa brasileira. A informação foi divulgada pelo Diario de Pernambuco e pode ser conferida no catálogo do Serviço Geológico dos Estados Unidos (USGS).",
+      "Segundo o registro oficial do USGS, o tremor ocorreu às 12h23 UTC, com profundidade estimada em 10 quilômetros e epicentro próximo de 0,4 grau ao sul da linha do Equador e 19,4 graus a oeste. O catálogo classifica o evento como revisado. Horas antes, outro terremoto de magnitude 6,7 havia sido registrado na mesma região, mostrando que houve mais de um abalo importante na área durante aquele dia.",
+      "A Dorsal Mesoatlântica é uma extensa cadeia submarina associada ao afastamento gradual de placas tectônicas. À medida que as placas se separam, a crosta oceânica sofre fraturas e acumula tensões que podem ser liberadas na forma de terremotos. Esse processo faz parte da dinâmica geológica do fundo do Atlântico e não significa que o tremor tenha ocorrido perto da costa pernambucana.",
+      "A distância do epicentro é um fator relevante para avaliar possíveis efeitos sobre o Brasil, mas não é o único. A possibilidade de um tsunami depende também do tipo de falha, da profundidade e do deslocamento vertical do fundo do mar. Por isso, a magnitude isolada não permite afirmar que uma onda perigosa será formada. Os dados de avaliação consultados para esse evento não indicaram ameaça de tsunami para o litoral brasileiro.",
+      "O episódio não deve ser confundido com um terremoto sentido na Região Metropolitana do Recife. Não há, nas fontes consultadas, registro de que esse abalo tenha sido percebido pela população pernambucana ou provocado danos no estado. A localização em mar aberto e a grande distância da costa são elementos importantes para interpretar corretamente a notícia e evitar alarmes sem fundamento.",
+      "Embora o Brasil esteja situado majoritariamente no interior da Placa Sul-Americana, o país não é completamente livre de atividade sísmica. Tremores podem ocorrer no interior das placas, normalmente com menor frequência e intensidade do que em zonas tectônicas muito ativas. Já a Dorsal Mesoatlântica é uma região geologicamente ativa, onde os movimentos das placas produzem sismicidade recorrente.",
+      "O registro serve como lembrete da importância de consultar fontes sismológicas oficiais quando um terremoto ocorre no oceano. O USGS disponibiliza horário, magnitude, profundidade e localização do evento, enquanto os sistemas de alerta para tsunami avaliam separadamente o risco de ondas perigosas. Até a publicação desta matéria, as fontes consultadas não apontavam risco associado a esse episódio para o litoral de Pernambuco."
+    ],
+    "sources": [
+      {
+        "name": "Diario de Pernambuco — Terremoto de magnitude 6,9 é registrado no Oceano Atlântico a 1,9 mil km do Recife",
+        "url": "https://www.diariodepernambuco.com.br/vida-urbana/2026/10/11726865-terremoto-de-magnitude-69-e-registrado-no-oceano-atlantico-a-19-mil-km-do-recife.html"
+      },
+      {
+        "name": "USGS — M 6.9, central Mid-Atlantic Ridge, 13 October 2026",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u214"
+      },
+      {
+        "name": "GDACS — avaliação do evento sísmico no Atlântico",
+        "url": "https://www.gdacs.org/report.aspx?episodeid=1739786&eventid=1571305&eventtype=EQ"
+      }
+    ],
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/e/e7/2026-10-13_central_Mid-Atlantic_Ridge_M6.9_earthquake_shakemap_%28USGS%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/2026-10-13_central_Mid-Atlantic_Ridge_M6.9_earthquake_shakemap_%28USGS%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/terremoto-magnitude-69-atlantico-1900-km-recife-20-10-2026.jpg"
+  },
+  {
+    "id": "franca-toques-recolher-ajudaram-conter-disturbios-20-10-2026",
+    "published": "2026-10-20T04:51:00-03:00",
+    "category": "MUNDO",
+    "title": "Governo francês diz que toque de recolher ajudou a conter novos distúrbios",
+    "summary": "Primeiro-ministro afirmou que as restrições localizadas mantiveram a tranquilidade durante a noite; autoridades podem retomá-las.",
+    "location": "França",
+    "date": "20 OUT 2026",
+    "credit": "Foto: Jorge Jaramillo / JJxFile — CC BY-SA 4.0; imagem adaptada.",
+    "imageCandidates": [
+      "https://commons.wikimedia.org/wiki/File:Paris_riots,_17_October_2026_-_Police_line_and_street_fires_at_dusk_-_JJxFile_0091.jpg",
+      "https://commons.wikimedia.org/wiki/File:Paris_riots,_17_October_2026_-_Crowd_and_tear_gas_at_Place_de_la_R%C3%A9publique_-_JJxFile_0006.jpg"
+    ],
+    "body": [
+      "O primeiro-ministro francês, Sébastien Lecornu, afirmou nesta terça-feira (20) que os toques de recolher localizados ajudaram a manter a tranquilidade durante a noite, depois de vários dias de protestos que terminaram em confrontos, saques e incêndios em diferentes cidades do país. Segundo a Reuters, as medidas foram adotadas em áreas específicas de Paris e de outras localidades para reduzir o risco de novos episódios de violência.",
+      "Lecornu declarou que autoridades locais poderão impor novamente restrições durante a noite desta terça-feira, caso considerem necessário. A estratégia do governo é concentrar as medidas em pontos considerados sensíveis, em vez de anunciar um toque de recolher nacional. A decisão final sobre cada área fica nas mãos das autoridades responsáveis pela segurança local.",
+      "Na capital, as restrições incluíram áreas próximas à Praça da República e ao distrito comercial de Les Halles. Também houve limitações para manifestações em determinados locais e horários. Em cidades do norte francês, medidas específicas foram aplicadas a menores de idade. As regras variam conforme a localidade, por isso moradores e visitantes precisam consultar os avisos oficiais de cada prefeitura antes de circular à noite.",
+      "A onda de protestos começou com reivindicações estudantis relacionadas às condições das escolas e se ampliou para críticas ao custo de vida, aos preços dos combustíveis e à qualidade dos serviços públicos. A tensão aumentou durante o fim de semana, quando manifestações em várias cidades foram acompanhadas por danos a estabelecimentos comerciais e prédios públicos, além de confrontos com a polícia.",
+      "A dimensão da resposta policial e a preparação das autoridades também viraram tema de debate. O ministro do Interior, Laurent Nuñez, reconheceu falhas na antecipação dos distúrbios e ofereceu deixar o cargo, mas o presidente Emmanuel Macron rejeitou a renúncia e cobrou revisão dos procedimentos de segurança. O governo afirmou que pretende avaliar o planejamento e a atuação das forças responsáveis pela ordem pública.",
+      "O uso de restrições localizadas procura diminuir a circulação em áreas onde houve episódios violentos sem impedir a rotina de toda a população. Ao mesmo tempo, as medidas geram discussões sobre liberdade de manifestação, proporcionalidade e impacto sobre comerciantes e moradores. A distinção entre protestos pacíficos e atos de vandalismo continua central no debate político francês.",
+      "A situação permanece em acompanhamento e pode mudar conforme as autoridades avaliem as condições de segurança. O governo ainda não anunciou uma suspensão geral das medidas, e a possibilidade de novos toques de recolher depende das decisões locais. A reportagem se baseia nas informações publicadas pela Reuters e em relatos da imprensa sobre as medidas adotadas após o fim de semana de tumultos."
+    ],
+    "sources": [
+      {
+        "name": "Reuters — Targeted curfews helped keep the peace overnight in France, PM says",
+        "url": "https://www.reuters.com/world/targeted-curfews-helped-keep-peace-overnight-france-pm-says-2026-10-20/"
+      },
+      {
+        "name": "Associated Press — Paris police issue overnight curfew in parts of French capital",
+        "url": "https://apnews.com/article/75825aafc5412ae389c6d41443b4082e"
+      },
+      {
+        "name": "Folha de S.Paulo — Protesto fecha Louvre e governo anuncia toques de recolher",
+        "url": "https://www1.folha.uol.com.br/mundo/2026/10/protesto-fecha-louvre-e-governo-anuncia-toques-de-recolher-para-conter-onda-de-violencia-na-franca.shtml"
+      }
+    ],
+    "sourceImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Paris_riots%2C_17_October_2026_-_Police_line_and_street_fires_at_dusk_-_JJxFile_0091.jpg/1280px-Paris_riots%2C_17_October_2026_-_Police_line_and_street_fires_at_dusk_-_JJxFile_0091.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Paris_riots%2C_17_October_2026_-_Police_line_and_street_fires_at_dusk_-_JJxFile_0091.jpg/1280px-Paris_riots%2C_17_October_2026_-_Police_line_and_street_fires_at_dusk_-_JJxFile_0091.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/franca-toques-recolher-ajudaram-conter-disturbios-20-10-2026.jpg"
+  },
+  {
+    "id": "franca-protestos-custo-vida-combustiveis-pressao-politica-20-10-2026",
+    "published": "2026-10-20T04:52:00-03:00",
+    "category": "MUNDO",
+    "title": "Alta dos combustíveis amplia protestos e pressão política na França",
+    "summary": "A crise do custo de vida e a alta da energia alimentam manifestações e ampliam o debate político antes da eleição presidencial.",
+    "location": "França e Europa",
+    "date": "20 OUT 2026",
+    "credit": "Foto: Jorge Jaramillo / JJxFile — CC BY-SA 4.0; imagem adaptada.",
+    "imageCandidates": [
+      "https://commons.wikimedia.org/wiki/File:Paris_riots,_17_October_2026_-_Crowd_facing_Place_de_la_R%C3%A9publique_in_tear_gas_-_JJxFile_0018.jpg",
+      "https://commons.wikimedia.org/wiki/File:Paris_riots,_17_October_2026_-_Masked_crowd_at_night_-_JJxFile_0094.jpg"
+    ],
+    "body": [
+      "A alta dos combustíveis e o aumento do custo de vida estão ampliando a tensão social na França e em outros países europeus, segundo uma análise publicada pela Reuters nesta terça-feira (20). Na França, manifestações que começaram com reivindicações estudantis sobre as condições das escolas se transformaram em protestos mais amplos contra preços elevados, serviços públicos considerados insuficientes e dificuldades para manter o orçamento doméstico.",
+      "O contexto econômico também tem impacto político. Partidos de diferentes correntes tentam transformar a insatisfação com o preço da energia em propostas para as próximas disputas eleitorais. Na França, a eleição presidencial está prevista para 2027, e o debate sobre combustíveis, impostos e poder de compra ganhou espaço entre os temas que pressionam o governo de Emmanuel Macron.",
+      "A Reuters relata que a guerra entre Estados Unidos e Irã, iniciada em fevereiro de 2026, afetou mercados de energia e cadeias de comércio. De acordo com estimativa da Comissão Europeia citada pela agência, o conflito já teria custado cerca de 100 bilhões de euros à Europa por meio de perturbações comerciais e energéticas. A mesma reportagem aponta alta expressiva nos preços do gás e duplicação do diesel, fatores que pressionam famílias e empresas.",
+      "Na França, os protestos foram marcados por reivindicações sociais e também por episódios de violência. Lojas foram saqueadas, prédios sofreram danos e uma prefeitura histórica em Limoges foi incendiada durante a onda de distúrbios. O presidente reconheceu que as reclamações sobre custo de vida são legítimas, mas condenou atos de vandalismo e pediu que as reivindicações não sejam confundidas com a destruição de patrimônio.",
+      "O impacto dos combustíveis é especialmente forte para trabalhadores que dependem de carro para chegar ao emprego e para empresas que usam veículos ou máquinas no dia a dia. Agricultores e transportadores de outros países europeus também têm relatado dificuldades com os custos operacionais. Quando energia, alimentos e moradia sobem ao mesmo tempo, famílias com rendimentos mais baixos tendem a sentir o efeito de forma mais intensa.",
+      "A disputa política se concentra em como reduzir os preços e quem deve arcar com os custos. Algumas forças defendem cortes de impostos sobre combustíveis; outras ressaltam a necessidade de políticas sociais e de serviços públicos mais fortes. Analistas citados pela Reuters observam que partidos populistas podem ganhar apoio ao atribuir a crise a decisões governamentais, embora os choques internacionais de energia também tenham papel importante.",
+      "Os protestos e a resposta das autoridades continuam em evolução. O governo francês enfrenta pressão para restaurar a segurança, apurar falhas no planejamento policial e responder às preocupações econômicas. Ainda não é possível determinar como a crise afetará o cenário eleitoral, mas a combinação de preços elevados, insatisfação com serviços públicos e episódios de violência tornou o custo de vida um dos principais temas da agenda política francesa."
+    ],
+    "sources": [
+      {
+        "name": "Reuters — As France erupts, Europe's far right gains from fuel-price anger ahead of elections",
+        "url": "https://www.reuters.com/world/europe/france-erupts-europes-far-right-gains-fuel-price-anger-ahead-elections-2026-10-20/"
+      },
+      {
+        "name": "Reuters — Targeted curfews helped keep the peace overnight in France, PM says",
+        "url": "https://www.reuters.com/world/targeted-curfews-helped-keep-peace-overnight-france-pm-says-2026-10-20/"
+      },
+      {
+        "name": "DW Brasil — Protestos na França deixam um morto e quase 1.800 detidos",
+        "url": "https://amp.dw.com/pt-br/protestos-na-fran%C3%A7a-deixam-um-morto-e-quase-1800-detidos/a-79692651"
+      }
+    ],
+    "sourceImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Paris_riots%2C_17_October_2026_-_Crowd_facing_Place_de_la_R%C3%A9publique_in_tear_gas_-_JJxFile_0018.jpg/1280px-Paris_riots%2C_17_October_2026_-_Crowd_facing_Place_de_la_R%C3%A9publique_in_tear_gas_-_JJxFile_0018.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Paris_riots%2C_17_October_2026_-_Crowd_facing_Place_de_la_R%C3%A9publique_in_tear_gas_-_JJxFile_0018.jpg/1280px-Paris_riots%2C_17_October_2026_-_Crowd_facing_Place_de_la_R%C3%A9publique_in_tear_gas_-_JJxFile_0018.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/franca-protestos-custo-vida-combustiveis-pressao-politica-20-10-2026.jpg"
+  },
+  {
     "id": "debate-lula-flavio-primeiro-encontro-18-10-2026",
     "published": "2026-10-19T05:30:00-03:00",
     "category": "ELEIÇÕES",
