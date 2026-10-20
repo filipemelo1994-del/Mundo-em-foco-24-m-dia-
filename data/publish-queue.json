@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-20T07:54:03.634528+00:00",
+  "updated_at": "2026-10-20T07:56:00Z",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2374,14 +2374,14 @@
       "instagram_permalink": "https://www.instagram.com/p/Deq1rxykbqo/"
     },
     "franca-protestos-custo-vida-combustiveis-pressao-politica-20-10-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_OK",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "17944313118089616",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
       "last_error": null,
@@ -2391,17 +2391,24 @@
         "sha256": "7689459bda35491a56f2c957663b55136e5a7c03fc4b48283cc5495318dea193",
         "failed": [],
         "checked_at": "2026-10-20T07:53:59.952726+00:00"
-      }
+      },
+      "sources_verified": true,
+      "comment_id": "18116250359585080",
+      "feed_comment_id": "18116250359585080",
+      "instagram_published_at": "2026-10-20T07:55:50Z",
+      "portal_live_verified": false,
+      "image_credits": "Jorge Jaramillo / JJxFile — CC BY-SA 4.0; imagem adaptada.",
+      "instagram_permalink": null
     },
     "franca-toques-recolher-ajudaram-conter-disturbios-20-10-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_OK",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "18234176725321171",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
       "last_error": null,
@@ -2411,17 +2418,24 @@
         "sha256": "963706541cd43ba4ad28d0bead686684d64914aa30a2cb121dd7275340d3270a",
         "failed": [],
         "checked_at": "2026-10-20T07:54:01.883274+00:00"
-      }
+      },
+      "sources_verified": true,
+      "comment_id": "18146658826587860",
+      "feed_comment_id": "18146658826587860",
+      "instagram_published_at": "2026-10-20T07:55:40Z",
+      "portal_live_verified": false,
+      "image_credits": "Jorge Jaramillo / JJxFile — CC BY-SA 4.0; imagem adaptada.",
+      "instagram_permalink": null
     },
     "terremoto-magnitude-69-atlantico-1900-km-recife-20-10-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_OK",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "18107442368458663",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
       "last_error": null,
@@ -2431,7 +2445,14 @@
         "sha256": "4b3af99783bbfb2e51c02771f459321c6a422b51bb23d8dc1bebec16530313de",
         "failed": [],
         "checked_at": "2026-10-20T07:54:03.575107+00:00"
-      }
+      },
+      "sources_verified": true,
+      "comment_id": "18121631177014048",
+      "feed_comment_id": "18121631177014048",
+      "instagram_published_at": "2026-10-20T07:55:30Z",
+      "portal_live_verified": false,
+      "image_credits": "Mapa sísmico: USGS — domínio público.",
+      "instagram_permalink": null
     }
   }
 }
