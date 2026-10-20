@@ -1,0 +1,37 @@
+{
+  "id": "terremoto-magnitude-69-atlantico-1900-km-recife-20-10-2026",
+  "published": "2026-10-20T04:50:00-03:00",
+  "category": "PERNAMBUCO",
+  "title": "Terremoto de magnitude 6,9 é registrado no Atlântico, a cerca de 1,9 mil km do Recife",
+  "summary": "Abalo ocorreu na Dorsal Mesoatlântica em 13 de outubro; dados consultados não indicaram ameaça de tsunami ao litoral pernambucano.",
+  "location": "Oceano Atlântico",
+  "date": "20 OUT 2026",
+  "credit": "Mapa sísmico: USGS — domínio público.",
+  "imageCandidates": [
+    "https://commons.wikimedia.org/wiki/File:2026-10-13_central_Mid-Atlantic_Ridge_M6.9_earthquake_shakemap_(USGS).jpg",
+    "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u214"
+  ],
+  "body": [
+    "Um terremoto de magnitude 6,9 foi registrado no Oceano Atlântico em 13 de outubro, na região central da Dorsal Mesoatlântica, a aproximadamente 1,9 mil quilômetros do Recife. O evento chamou atenção pela intensidade, mas ocorreu em alto-mar, longe da costa brasileira. A informação foi divulgada pelo Diario de Pernambuco e pode ser conferida no catálogo do Serviço Geológico dos Estados Unidos (USGS).",
+    "Segundo o registro oficial do USGS, o tremor ocorreu às 12h23 UTC, com profundidade estimada em 10 quilômetros e epicentro próximo de 0,4 grau ao sul da linha do Equador e 19,4 graus a oeste. O catálogo classifica o evento como revisado. Horas antes, outro terremoto de magnitude 6,7 havia sido registrado na mesma região, mostrando que houve mais de um abalo importante na área durante aquele dia.",
+    "A Dorsal Mesoatlântica é uma extensa cadeia submarina associada ao afastamento gradual de placas tectônicas. À medida que as placas se separam, a crosta oceânica sofre fraturas e acumula tensões que podem ser liberadas na forma de terremotos. Esse processo faz parte da dinâmica geológica do fundo do Atlântico e não significa que o tremor tenha ocorrido perto da costa pernambucana.",
+    "A distância do epicentro é um fator relevante para avaliar possíveis efeitos sobre o Brasil, mas não é o único. A possibilidade de um tsunami depende também do tipo de falha, da profundidade e do deslocamento vertical do fundo do mar. Por isso, a magnitude isolada não permite afirmar que uma onda perigosa será formada. Os dados de avaliação consultados para esse evento não indicaram ameaça de tsunami para o litoral brasileiro.",
+    "O episódio não deve ser confundido com um terremoto sentido na Região Metropolitana do Recife. Não há, nas fontes consultadas, registro de que esse abalo tenha sido percebido pela população pernambucana ou provocado danos no estado. A localização em mar aberto e a grande distância da costa são elementos importantes para interpretar corretamente a notícia e evitar alarmes sem fundamento.",
+    "Embora o Brasil esteja situado majoritariamente no interior da Placa Sul-Americana, o país não é completamente livre de atividade sísmica. Tremores podem ocorrer no interior das placas, normalmente com menor frequência e intensidade do que em zonas tectônicas muito ativas. Já a Dorsal Mesoatlântica é uma região geologicamente ativa, onde os movimentos das placas produzem sismicidade recorrente.",
+    "O registro serve como lembrete da importância de consultar fontes sismológicas oficiais quando um terremoto ocorre no oceano. O USGS disponibiliza horário, magnitude, profundidade e localização do evento, enquanto os sistemas de alerta para tsunami avaliam separadamente o risco de ondas perigosas. Até a publicação desta matéria, as fontes consultadas não apontavam risco associado a esse episódio para o litoral de Pernambuco."
+  ],
+  "sources": [
+    {
+      "name": "Diario de Pernambuco — Terremoto de magnitude 6,9 é registrado no Oceano Atlântico a 1,9 mil km do Recife",
+      "url": "https://www.diariodepernambuco.com.br/vida-urbana/2026/10/11726865-terremoto-de-magnitude-69-e-registrado-no-oceano-atlantico-a-19-mil-km-do-recife.html"
+    },
+    {
+      "name": "USGS — M 6.9, central Mid-Atlantic Ridge, 13 October 2026",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u214"
+    },
+    {
+      "name": "GDACS — avaliação do evento sísmico no Atlântico",
+      "url": "https://www.gdacs.org/report.aspx?episodeid=1739786&eventid=1571305&eventtype=EQ"
+    }
+  ]
+}
