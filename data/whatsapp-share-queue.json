@@ -7,7 +7,7 @@
     "source_must_be_verified": true,
     "prevent_duplicates_by_news_id": true
   },
-  "updated_at": "2026-10-20T07:54:03.669035+00:00",
+  "updated_at": "2026-10-21T21:36:23.319830+00:00",
   "items": {
     "amazonia-incendios-amazonas-fumaca-combate-18-10-2026": {
       "news_id": "amazonia-incendios-amazonas-fumaca-combate-18-10-2026",
@@ -182,6 +182,42 @@
       "share_text": "📰 *Furacão Trudy ameaça áreas do México com chuva forte*\n\nO sistema segue pelo Pacífico, com ventos de até 100 mph; autoridades alertam para alagamentos, deslizamentos e ondas perigosas.\n\nLeia a matéria completa: https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id=furacao-trudy-chuvas-fortes-oeste-mexico-18-10-2026\n\nCIRA / NOAA / NESDIS / STAR\n\n📲 Siga o canal Mundo em Foco 24: https://whatsapp.com/channel/0029Vb98zQ5AzNbvFs8pQm1x",
       "state": "PRONTO_PARA_REVISAO_MANUAL",
       "prepared_at": "2026-10-19T20:42:47.530257+00:00",
+      "shared_at": null
+    },
+    "terremoto-magnitude-69-atlantico-1900-km-recife-20-10-2026": {
+      "news_id": "terremoto-magnitude-69-atlantico-1900-km-recife-20-10-2026",
+      "title": "Terremoto de magnitude 6,9 é registrado no Atlântico, a cerca de 1,9 mil km do Recife",
+      "summary": "Abalo ocorreu na Dorsal Mesoatlântica em 13 de outubro; dados consultados não indicaram ameaça de tsunami ao litoral pernambucano.",
+      "article_url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id=terremoto-magnitude-69-atlantico-1900-km-recife-20-10-2026",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/2026-10-13_central_Mid-Atlantic_Ridge_M6.9_earthquake_shakemap_%28USGS%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+      "source_credit": "Mapa sísmico: USGS — domínio público.",
+      "share_text": "📰 *Terremoto de magnitude 6,9 é registrado no Atlântico, a cerca de 1,9 mil km do Recife*\n\nAbalo ocorreu na Dorsal Mesoatlântica em 13 de outubro; dados consultados não indicaram ameaça de tsunami ao litoral pernambucano.\n\nLeia a matéria completa: https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id=terremoto-magnitude-69-atlantico-1900-km-recife-20-10-2026\n\nMapa sísmico: USGS — domínio público.\n\n📲 Siga o canal Mundo em Foco 24: https://whatsapp.com/channel/0029Vb98zQ5AzNbvFs8pQm1x",
+      "state": "PRONTO_PARA_REVISAO_MANUAL",
+      "prepared_at": "2026-10-21T21:36:23.319617+00:00",
+      "shared_at": null
+    },
+    "franca-toques-recolher-ajudaram-conter-disturbios-20-10-2026": {
+      "news_id": "franca-toques-recolher-ajudaram-conter-disturbios-20-10-2026",
+      "title": "Governo francês diz que toque de recolher ajudou a conter novos distúrbios",
+      "summary": "Primeiro-ministro afirmou que as restrições localizadas mantiveram a tranquilidade durante a noite; autoridades podem retomá-las.",
+      "article_url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id=franca-toques-recolher-ajudaram-conter-disturbios-20-10-2026",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Paris_riots%2C_17_October_2026_-_Police_line_and_street_fires_at_dusk_-_JJxFile_0091.jpg/1280px-Paris_riots%2C_17_October_2026_-_Police_line_and_street_fires_at_dusk_-_JJxFile_0091.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "source_credit": "Foto: Jorge Jaramillo / JJxFile — CC BY-SA 4.0; imagem adaptada.",
+      "share_text": "📰 *Governo francês diz que toque de recolher ajudou a conter novos distúrbios*\n\nPrimeiro-ministro afirmou que as restrições localizadas mantiveram a tranquilidade durante a noite; autoridades podem retomá-las.\n\nLeia a matéria completa: https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id=franca-toques-recolher-ajudaram-conter-disturbios-20-10-2026\n\nFoto: Jorge Jaramillo / JJxFile — CC BY-SA 4.0; imagem adaptada.\n\n📲 Siga o canal Mundo em Foco 24: https://whatsapp.com/channel/0029Vb98zQ5AzNbvFs8pQm1x",
+      "state": "PRONTO_PARA_REVISAO_MANUAL",
+      "prepared_at": "2026-10-21T21:36:23.319632+00:00",
+      "shared_at": null
+    },
+    "franca-protestos-custo-vida-combustiveis-pressao-politica-20-10-2026": {
+      "news_id": "franca-protestos-custo-vida-combustiveis-pressao-politica-20-10-2026",
+      "title": "Alta dos combustíveis amplia protestos e pressão política na França",
+      "summary": "A crise do custo de vida e a alta da energia alimentam manifestações e ampliam o debate político antes da eleição presidencial.",
+      "article_url": "https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id=franca-protestos-custo-vida-combustiveis-pressao-politica-20-10-2026",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Paris_riots%2C_17_October_2026_-_Crowd_facing_Place_de_la_R%C3%A9publique_in_tear_gas_-_JJxFile_0018.jpg/1280px-Paris_riots%2C_17_October_2026_-_Crowd_facing_Place_de_la_R%C3%A9publique_in_tear_gas_-_JJxFile_0018.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "source_credit": "Foto: Jorge Jaramillo / JJxFile — CC BY-SA 4.0; imagem adaptada.",
+      "share_text": "📰 *Alta dos combustíveis amplia protestos e pressão política na França*\n\nA crise do custo de vida e a alta da energia alimentam manifestações e ampliam o debate político antes da eleição presidencial.\n\nLeia a matéria completa: https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id=franca-protestos-custo-vida-combustiveis-pressao-politica-20-10-2026\n\nFoto: Jorge Jaramillo / JJxFile — CC BY-SA 4.0; imagem adaptada.\n\n📲 Siga o canal Mundo em Foco 24: https://whatsapp.com/channel/0029Vb98zQ5AzNbvFs8pQm1x",
+      "state": "PRONTO_PARA_REVISAO_MANUAL",
+      "prepared_at": "2026-10-21T21:36:23.319640+00:00",
       "shared_at": null
     }
   }

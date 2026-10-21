@@ -1,5 +1,85 @@
 [
   {
+    "id": "tse-proposta-canais-politicos-whatsapp-segundo-turno-21-10-2026",
+    "published": true,
+    "category": "POLÍTICA",
+    "title": "TSE avalia suspender grandes canais políticos do WhatsApp perto da eleição",
+    "summary": "Minuta em análise prevê desativar canais político-eleitorais com mais de 200 mil seguidores por 48 horas antes e 24 horas depois do segundo turno; proposta ainda depende de aprovação do plenário.",
+    "location": "Brasília, DF",
+    "date": "21 OUT 2026",
+    "body": [
+      "O Tribunal Superior Eleitoral (TSE) avalia uma proposta para suspender temporariamente canais de WhatsApp de natureza político-eleitoral com mais de 200 mil seguidores durante o período mais próximo do segundo turno presidencial, marcado para domingo, 25 de outubro. A minuta prevê a desativação nas 48 horas anteriores à votação e nas 24 horas posteriores. A medida ainda não está em vigor: o texto precisa ser aprovado pelo plenário da Corte.",
+      "A proposta foi redigida pelo vice-presidente do TSE, ministro André Mendonça, e começou a circular entre os ministros após discussões realizadas nos dias 16 e 20 de outubro. Segundo nota do gabinete do ministro, a elaboração do texto seguiu a prática institucional de atribuir ao vice-presidente a redação de normas eleitorais. A justificativa apresentada é proteger a integridade da eleição em um período no qual há pouco tempo para responder a conteúdos ilícitos ou corrigir informações capazes de afetar a decisão dos eleitores.",
+      "De acordo com a minuta relatada pela Agência Brasil, os critérios seriam objetivos e aplicados igualmente a canais de grande alcance, independentemente de candidato, partido ou orientação política. O texto considera que canais com audiência muito elevada podem disseminar conteúdo ilícito em escala desproporcional e propõe estender a eles restrições semelhantes às aplicadas à propaganda eleitoral impulsionada por pagamento.",
+      "Se aprovada, a medida poderá atingir canais ligados às duas campanhas presidenciais. A reportagem da Agência Brasil informa que o canal “Exército do Lula” alcançou cerca de 7 milhões de inscritos em 21 de outubro, enquanto o “Tropa do Flávio” tinha aproximadamente 2 milhões. Os números são de seguidores dos canais e não representam, por si só, apoio eleitoral ou intenção de voto.",
+      "A discussão ocorre após uma sequência de decisões judiciais sobre o funcionamento do canal “Exército do Lula”. O canal foi suspenso e posteriormente restabelecido em meio a divergências processuais e à exigência de registro perante a Justiça Eleitoral. A disputa levantou questionamentos sobre os limites da atuação administrativa do tribunal e sobre a aplicação das regras a canais que apoiam candidaturas.",
+      "A minuta, portanto, não deve ser interpretada como uma decisão definitiva nem como uma suspensão já determinada para todos os canais. Até que o plenário vote o texto, os termos podem mudar. O ponto central do debate é como reduzir o risco de circulação de propaganda irregular perto da votação sem aplicar critérios seletivos ou limitar de forma desproporcional a comunicação política legítima.",
+      "O Mundo em Foco 24 seguirá acompanhando a deliberação do TSE e atualizará esta reportagem caso a Corte aprove, rejeite ou altere a proposta. Para os eleitores, a recomendação é conferir informações eleitorais em fontes confiáveis e consultar os canais oficiais da Justiça Eleitoral diante de mensagens duvidosas."
+    ],
+    "sources": [
+      {
+        "name": "Agência Brasil — TSE estuda desativar canais políticos no WhatsApp 48h antes da eleição",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/tse-estuda-desativar-canais-politicos-no-whatsapp-48h-antes-da-eleicao"
+      },
+      {
+        "name": "Radioagência Nacional — TSE estuda proibir canais de WhatsApp 48 horas antes do 2º turno",
+        "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/justica/audio/2026-10/tse-estuda-proibir-canais-de-whatsapp-48-horas-antes-do-2o-turno"
+      },
+      {
+        "name": "Agência Brasil — TSE define regras para canais de WhatsApp durante a campanha",
+        "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-define-regras-para-canais-de-whatsapp-durante-campanha"
+      }
+    ],
+    "sourceImage": "https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/tse_1908200982.jpg",
+    "imageCandidates": [
+      "https://imagens.ebc.com.br/Sl_y6XyUJcyLk6TLPrymfGz1LTA%3D/1170x700/smart/https%3A//agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/tse_1908200982.jpg?itok=j_pHDaMT",
+      "https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/tse_1908200982.jpg"
+    ],
+    "imageAlt": "Fachada do Tribunal Superior Eleitoral, em Brasília",
+    "credit": "Marcello Casal Jr/Agência Brasil",
+    "instagramAlreadyPublished": false,
+    "image": "https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/tse_1908200982.jpg",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/tse-proposta-canais-politicos-whatsapp-segundo-turno-21-10-2026.jpg"
+  },
+  {
+    "id": "quaest-flavio-45-lula-44-pesquisa-21-10-2026",
+    "published": true,
+    "category": "ELEIÇÕES 2026",
+    "title": "Quaest mostra Flávio com 45% e Lula com 44% a quatro dias do segundo turno",
+    "summary": "Pesquisa divulgada em 21 de outubro aponta diferença de um ponto entre os candidatos; margem de erro de dois pontos indica disputa tecnicamente empatada.",
+    "location": "São Paulo, SP",
+    "date": "21 OUT 2026",
+    "body": [
+      "A nova pesquisa Genial/Quaest divulgada nesta quarta-feira, 21 de outubro, mostra o senador Flávio Bolsonaro com 45% das intenções de voto e o presidente Luiz Inácio Lula da Silva com 44% na disputa presidencial. O segundo turno está marcado para domingo, 25 de outubro. Os números indicam uma corrida apertada e uma redução da vantagem registrada por Flávio no levantamento anterior.",
+      "Segundo a Reuters, a pesquisa ouviu 2.154 pessoas entre 17 e 20 de outubro e tem margem de erro de dois pontos percentuais. Como a diferença entre os candidatos é de apenas um ponto, o resultado não permite afirmar que um deles tenha vantagem estatisticamente consolidada: os percentuais são compatíveis com um empate técnico dentro da margem informada.",
+      "No levantamento anterior da Quaest, divulgado uma semana antes, Flávio aparecia com 46% e Lula com 44%. A nova rodada registra uma redução de um ponto para o senador, enquanto o percentual do presidente permanece estável. A variação entre pesquisas deve ser interpretada com cautela, porque pequenas oscilações podem refletir tanto mudanças de opinião quanto a incerteza própria de uma amostra.",
+      "O levantamento é o primeiro da Quaest divulgado após o debate entre os dois candidatos realizado pela TV Bandeirantes no domingo, 18 de outubro. No encontro, os presidenciáveis trocaram acusações e discutiram temas como segurança pública, direitos trabalhistas, saúde e relações internacionais. A proximidade entre a pesquisa e o debate não prova, por si só, que o programa tenha causado qualquer mudança nas intenções de voto.",
+      "A pesquisa é uma fotografia do momento em que as entrevistas foram realizadas, não uma previsão do resultado das urnas. A decisão final depende da participação dos eleitores, dos votos válidos apurados e de eventuais mudanças até o dia da votação. O cenário também pode variar entre regiões, faixas etárias e grupos sociais, detalhes que precisam ser analisados nos dados completos do levantamento antes de tirar conclusões mais amplas.",
+      "Em disputas apertadas, a margem de erro é especialmente importante. Uma diferença numérica de um ponto percentual não deve ser tratada como liderança definitiva, e percentuais de intenção de voto não equivalem ao resultado oficial. A apuração do Tribunal Superior Eleitoral no domingo será a referência para saber quem venceu o segundo turno.",
+      "O Mundo em Foco 24 apresenta os números com a margem de erro e a data do levantamento para evitar interpretações exageradas. A cobertura seguirá acompanhando novas pesquisas, os compromissos dos candidatos e as informações oficiais da Justiça Eleitoral até a votação."
+    ],
+    "sources": [
+      {
+        "name": "Reuters — Bolsonaro's lead over Lula narrows ahead Brazil runoff, Quaest poll shows",
+        "url": "https://www.reuters.com/world/americas/bolsonaros-lead-over-lula-narrows-ahead-brazil-runoff-quaest-poll-shows-2026-10-21/"
+      },
+      {
+        "name": "Agência Brasil — Lula e Flávio fazem primeiro debate das eleições na TV Band",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-e-flavio-fazem-primeiro-debate-das-eleicoes-na-band"
+      }
+    ],
+    "sourceImage": "https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/18/sem_titulo_1.jpg",
+    "imageCandidates": [
+      "https://imagens.ebc.com.br/Pkh0ccdLTbr4TlGANDhx23COeek%3D/1170x700/smart/https%3A//agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/18/sem_titulo_1.jpg?itok=WGMsot7n",
+      "https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/18/sem_titulo_1.jpg"
+    ],
+    "imageAlt": "Lula e Flávio Bolsonaro durante o debate presidencial realizado na TV Band em 18 de outubro",
+    "credit": "Renato Pizzutto/Band",
+    "instagramAlreadyPublished": false,
+    "image": "https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/18/sem_titulo_1.jpg",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/quaest-flavio-45-lula-44-pesquisa-21-10-2026.jpg"
+  },
+  {
     "id": "terremoto-magnitude-69-atlantico-1900-km-recife-20-10-2026",
     "published": "2026-10-20T04:50:00-03:00",
     "category": "PERNAMBUCO",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-21T20:03:52.803064+00:00",
+  "updated_at": "2026-10-21T21:36:23.279189+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2453,6 +2453,46 @@
       "portal_live_verified": false,
       "image_credits": "Mapa sísmico: USGS — domínio público.",
       "instagram_permalink": "https://www.instagram.com/p/DetWCvTiKIu/"
+    },
+    "quaest-flavio-45-lula-44-pesquisa-21-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "fabd26c9580c6c6dabe69f45b74dba80ebf9009d228f6e4a61f46203cce99aa5",
+      "art_validation": {
+        "passed": true,
+        "sha256": "fabd26c9580c6c6dabe69f45b74dba80ebf9009d228f6e4a61f46203cce99aa5",
+        "failed": [],
+        "checked_at": "2026-10-21T21:36:14.842904+00:00"
+      }
+    },
+    "tse-proposta-canais-politicos-whatsapp-segundo-turno-21-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "f1c574d41f93b5fa47895b751a764b872a965694a12ec260ae7091c5eb4f15d6",
+      "art_validation": {
+        "passed": true,
+        "sha256": "f1c574d41f93b5fa47895b751a764b872a965694a12ec260ae7091c5eb4f15d6",
+        "failed": [],
+        "checked_at": "2026-10-21T21:36:23.216164+00:00"
+      }
     }
   }
 }
