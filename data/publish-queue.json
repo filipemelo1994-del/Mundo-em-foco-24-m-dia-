@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-21T21:37:10.079117+00:00",
+  "updated_at": "2026-10-21T21:39:24.594Z",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2455,14 +2455,14 @@
       "instagram_permalink": "https://www.instagram.com/p/DetWCvTiKIu/"
     },
     "quaest-flavio-45-lula-44-pesquisa-21-10-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_OK",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "18397352791203283",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
       "last_error": null,
@@ -2471,18 +2471,22 @@
         "passed": true,
         "sha256": "fabd26c9580c6c6dabe69f45b74dba80ebf9009d228f6e4a61f46203cce99aa5",
         "failed": [],
-        "checked_at": "2026-10-21T21:36:14.842904+00:00"
-      }
+        "checked_at": "2026-10-21T21:39:24.594Z"
+      },
+      "comment_id": "18002617799800302",
+      "feed_comment_id": "18002617799800302",
+      "instagram_published_at": "2026-10-21T21:39:24.594Z",
+      "portal_live_verified": false
     },
     "tse-proposta-canais-politicos-whatsapp-segundo-turno-21-10-2026": {
-      "state": "PORTAL_PENDENTE",
+      "state": "FEED_OK",
       "portal": true,
       "feed_art": true,
       "story_art": false,
-      "feed_media_id": null,
+      "feed_media_id": "17991831240113146",
       "story_media_id": null,
       "attempts": {
-        "feed": 0,
+        "feed": 1,
         "story": 0
       },
       "last_error": null,
@@ -2491,8 +2495,12 @@
         "passed": true,
         "sha256": "f1c574d41f93b5fa47895b751a764b872a965694a12ec260ae7091c5eb4f15d6",
         "failed": [],
-        "checked_at": "2026-10-21T21:36:23.216164+00:00"
-      }
+        "checked_at": "2026-10-21T21:39:24.594Z"
+      },
+      "comment_id": "18087973775289454",
+      "feed_comment_id": "18087973775289454",
+      "instagram_published_at": "2026-10-21T21:39:24.594Z",
+      "portal_live_verified": false
     }
   }
 }
