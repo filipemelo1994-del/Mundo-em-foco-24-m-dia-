@@ -1,5 +1,46 @@
 [
   {
+    "id": "falha-critica-php-alerta-seguranca-global-23-10-2026",
+    "category": "TECNOLOGIA",
+    "title": "Falha crítica no PHP acende alerta global",
+    "summary": "Duas vulnerabilidades graves levaram a equipe do PHP a lançar correções emergenciais. Administradores devem atualizar os sistemas afetados.",
+    "location": "Mundo",
+    "date": "23 OUT 2026",
+    "body": [
+      "Uma falha de segurança de alto risco na linguagem PHP levou desenvolvedores e equipes de tecnologia a reforçar a proteção de servidores e sites em diferentes países. Em 21 de outubro, a equipe oficial do PHP publicou atualizações para corrigir duas vulnerabilidades classificadas com nota 9,2 em 10 na escala CVSS v4.0. O alerta envolve sistemas que processam requisições web e pode afetar aplicações hospedadas em diferentes tipos de servidor.",
+      "Segundo o aviso oficial do projeto PHP, as vulnerabilidades CVE-2026-109618 e CVE-2026-109619 podem permitir execução remota de código sem autenticação em configurações vulneráveis. Em termos simples, um invasor poderia tentar executar comandos no servidor sem precisar primeiro entrar com uma conta legítima. O risco concreto depende da versão, da configuração e da exposição do ambiente, por isso administradores precisam verificar seus próprios sistemas.",
+      "A equipe do PHP disponibilizou versões corrigidas para as linhas mantidas: PHP 8.5.12, 8.4.27, 8.3.36 e 8.2.35. O projeto recomenda a atualização imediata e afirma que não existe uma mitigação completa que substitua a instalação das correções. Organizações que usam versões antigas ou fora de suporte devem consultar seu fornecedor ou responsável técnico para definir uma migração segura.",
+      "O episódio também teve reflexos no Brasil. Reportagens da Folha de S.Paulo e do UOL relataram que órgãos públicos, incluindo tribunais federais e a Anatel, restringiram temporariamente o acesso a sistemas eletrônicos como medida preventiva enquanto avaliavam a exposição. A interrupção de um serviço por precaução não significa, por si só, que houve invasão ou roubo de dados; são situações distintas que precisam ser comunicadas com clareza.",
+      "O PHP é utilizado por muitos sites, sistemas de gestão de conteúdo e aplicações corporativas. Por isso, uma vulnerabilidade na camada de execução pode exigir atenção não apenas de grandes empresas, mas também de pequenas organizações, lojas virtuais, agências e administradores de hospedagens compartilhadas. Mesmo quando o site parece funcionar normalmente, isso não garante que o servidor esteja corrigido.",
+      "Especialistas recomendam inventariar as instalações PHP, identificar versões e serviços expostos, aplicar atualizações testadas, revisar registros de acesso e manter cópias de segurança protegidas. A atualização deve ser feita por profissionais responsáveis pelo ambiente, com validação de compatibilidade e plano de recuperação. Se não for possível corrigir imediatamente um sistema exposto, a equipe de segurança deve avaliar medidas temporárias de isolamento.",
+      "A inteligência artificial apareceu na cobertura do caso como uma ferramenta que pode ajudar pesquisadores a identificar falhas, mas o fator decisivo para reduzir o risco continua sendo a resposta operacional: corrigir sistemas, acompanhar alertas oficiais e investigar sinais de exploração. A velocidade com que uma vulnerabilidade é divulgada pode encurtar o tempo disponível para que administradores ajam.",
+      "A orientação central é acompanhar os avisos do projeto PHP e do fornecedor de hospedagem, confirmar a versão efetivamente instalada e não depender apenas do número exibido no painel quando o provedor aplicar correções retroativas. O Mundo em Foco 24 seguirá acompanhando os desdobramentos e novas recomendações técnicas sobre o caso."
+    ],
+    "sources": [
+      {
+        "name": "PHP.net — Security advisory: Critical remote code execution vulnerabilities, update now",
+        "url": "https://www.php.net/archive/2026.php#2026-10-21-5"
+      },
+      {
+        "name": "Folha de S.Paulo — Falha descoberta por IA força governos e tribunais no Brasil a suspenderem sistemas",
+        "url": "https://www1.folha.uol.com.br/tec/2026/10/falha-descoberta-por-ia-gera-correria-dos-governos-por-correcao-em-meio-a-milhoes-de-tentativas-de-invasao.shtml"
+      },
+      {
+        "name": "UOL Tilt — Falha no PHP: entenda a gravidade e como hackers podem usá-la",
+        "url": "https://www.uol.com.br/tilt/noticias/redacao/2026/10/22/falha-no-php-entenda-a-gravidade-e-como-hackers-podem-usa-la.ghtm"
+      }
+    ],
+    "imageCandidates": [
+      "https://cc.emsiservices.com/images/us/onet2019/careers/15-1299.01.jpg?width=1200"
+    ],
+    "imageAlt": "Profissional de tecnologia trabalhando em servidores de um data center",
+    "credit": "Imagem ilustrativa: O*NET / EMSI",
+    "instagramAlreadyPublished": false,
+    "sourceImage": "https://cc.emsiservices.com/images/us/onet2019/careers/15-1299.01.jpg?width=1200",
+    "image": "https://cc.emsiservices.com/images/us/onet2019/careers/15-1299.01.jpg?width=1200",
+    "instagramImage": "https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/falha-critica-php-alerta-seguranca-global-23-10-2026.jpg"
+  },
+  {
     "id": "pernambuco-transporte-gratuito-eleicao-segundo-turno-23-10-2026",
     "category": "PERNAMBUCO",
     "title": "PE terá ônibus grátis no 2º turno",

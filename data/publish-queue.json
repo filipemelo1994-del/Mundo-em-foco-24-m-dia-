@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-23T09:05:02.286Z",
+  "updated_at": "2026-10-23T09:13:07.695473+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2549,6 +2549,48 @@
       "feed_comment_id": "18035147939664628",
       "instagram_published_at": "2026-10-23T09:04:34.032Z",
       "portal_live_verified": true
+    },
+    "falha-critica-php-alerta-seguranca-global-23-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": true,
+      "feed_art": true,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "art_sha256": "64e22e85e4f9d83adb693ddbf7885ab4bc4cfb0581108f99452c6aefd8819bc3",
+      "art_validation": {
+        "passed": true,
+        "sha256": "64e22e85e4f9d83adb693ddbf7885ab4bc4cfb0581108f99452c6aefd8819bc3",
+        "failed": [],
+        "checked_at": "2026-10-23T09:13:06.310960+00:00"
+      }
+    },
+    "outubro-negro-saude-saberes-e-protagonismo-negro-23-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": false,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": "build_news_art_v2 exit=4",
+      "art_sha256": "ac9864e2ec6dba4fa80a33027212af6961903391b20e49f25807fd5714effd39",
+      "art_validation": {
+        "passed": false,
+        "sha256": "ac9864e2ec6dba4fa80a33027212af6961903391b20e49f25807fd5714effd39",
+        "failed": [
+          "text_fit"
+        ],
+        "checked_at": "2026-10-23T09:13:07.657087+00:00"
+      }
     }
   }
 }
