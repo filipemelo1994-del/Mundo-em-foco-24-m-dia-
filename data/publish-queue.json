@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-23T09:13:54.386559+00:00",
+  "updated_at": "2026-10-23T09:14:40.777720+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2572,8 +2572,8 @@
     },
     "outubro-negro-saude-saberes-e-protagonismo-negro-23-10-2026": {
       "state": "PORTAL_PENDENTE",
-      "portal": false,
-      "feed_art": false,
+      "portal": true,
+      "feed_art": true,
       "story_art": false,
       "feed_media_id": null,
       "story_media_id": null,
@@ -2582,14 +2582,12 @@
         "story": 0
       },
       "last_error": "build_news_art_v2 exit=4",
-      "art_sha256": "d42a9f344ec71cd1d847e20bb961b75699df2fce9d1642fd9b7ee515dbff03db",
+      "art_sha256": "cffb83ede375b45ef024f7cb10d33fe918d350914c79671e9573e178abdcbe94",
       "art_validation": {
-        "passed": false,
-        "sha256": "d42a9f344ec71cd1d847e20bb961b75699df2fce9d1642fd9b7ee515dbff03db",
-        "failed": [
-          "text_fit"
-        ],
-        "checked_at": "2026-10-23T09:13:54.362344+00:00"
+        "passed": true,
+        "sha256": "cffb83ede375b45ef024f7cb10d33fe918d350914c79671e9573e178abdcbe94",
+        "failed": [],
+        "checked_at": "2026-10-23T09:14:40.727927+00:00"
       }
     }
   }
