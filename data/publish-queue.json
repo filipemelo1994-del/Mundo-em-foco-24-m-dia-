@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-23T04:35:26.558461+00:00",
+  "updated_at": "2026-10-23T09:02:19.446184+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2501,6 +2501,50 @@
       "feed_comment_id": "18087973775289454",
       "instagram_published_at": "2026-10-21T21:39:24.594Z",
       "portal_live_verified": false
+    },
+    "debate-globo-lula-flavio-horario-regras-23-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": false,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": "build_news_art_v2 exit=4",
+      "art_sha256": "40b5e68f4e76ceef4fdb840cd4028c57cb52da87b4b209a2000a1f4f4024f670",
+      "art_validation": {
+        "passed": false,
+        "sha256": "40b5e68f4e76ceef4fdb840cd4028c57cb52da87b4b209a2000a1f4f4024f670",
+        "failed": [
+          "text_fit"
+        ],
+        "checked_at": "2026-10-23T09:02:18.109182+00:00"
+      }
+    },
+    "pernambuco-transporte-gratuito-eleicao-segundo-turno-23-10-2026": {
+      "state": "PORTAL_PENDENTE",
+      "portal": false,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": "build_news_art_v2 exit=4",
+      "art_sha256": "a38c82d158cefb345ecd906464ee71d55917a44ec5b744c9ff4e10309e9fbe99",
+      "art_validation": {
+        "passed": false,
+        "sha256": "a38c82d158cefb345ecd906464ee71d55917a44ec5b744c9ff4e10309e9fbe99",
+        "failed": [
+          "text_fit"
+        ],
+        "checked_at": "2026-10-23T09:02:19.313439+00:00"
+      }
     }
   }
 }
