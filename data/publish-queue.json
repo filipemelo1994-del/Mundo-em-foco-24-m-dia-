@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-23T09:13:29.655104+00:00",
+  "updated_at": "2026-10-23T09:13:54.386559+00:00",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2582,14 +2582,14 @@
         "story": 0
       },
       "last_error": "build_news_art_v2 exit=4",
-      "art_sha256": "ac9864e2ec6dba4fa80a33027212af6961903391b20e49f25807fd5714effd39",
+      "art_sha256": "d42a9f344ec71cd1d847e20bb961b75699df2fce9d1642fd9b7ee515dbff03db",
       "art_validation": {
         "passed": false,
-        "sha256": "ac9864e2ec6dba4fa80a33027212af6961903391b20e49f25807fd5714effd39",
+        "sha256": "d42a9f344ec71cd1d847e20bb961b75699df2fce9d1642fd9b7ee515dbff03db",
         "failed": [
           "text_fit"
         ],
-        "checked_at": "2026-10-23T09:13:07.657087+00:00"
+        "checked_at": "2026-10-23T09:13:54.362344+00:00"
       }
     }
   }
