@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29T20:12:33.425031+00:00",
+  "updated_at": "2026-10-29T22:43:36.646Z",
   "items": {
     "samba-recife-22-edicao-26-09-2026": {
       "state": "FEED_OK",
@@ -2597,6 +2597,36 @@
       "comment_id": "18356340526170451",
       "feed_comment_id": "18356340526170451",
       "instagram_published_at": "2026-10-23T09:17:13.705Z"
+    },
+    "pf-apura-saida-flavio-bolsonaro-miami-29-10-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": false,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "sources_verified": true,
+      "editorial_draft": "data/pending/pf-apura-saida-flavio-bolsonaro-miami-29-10-2026.json"
+    },
+    "agenda-lula-alvorada-pronunciamento-adiado-29-10-2026": {
+      "state": "ARTE_PENDENTE",
+      "portal": false,
+      "feed_art": false,
+      "story_art": false,
+      "feed_media_id": null,
+      "story_media_id": null,
+      "attempts": {
+        "feed": 0,
+        "story": 0
+      },
+      "last_error": null,
+      "sources_verified": true,
+      "editorial_draft": "data/pending/agenda-lula-alvorada-pronunciamento-adiado-29-10-2026.json"
     }
   }
 }
