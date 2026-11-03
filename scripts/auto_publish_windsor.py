@@ -81,13 +81,13 @@ def main():
  # Salva o media_id antes do comentário: falha no comentário nunca provoca republicação.
  item["instagram_published_at"]=datetime.now(timezone.utc).isoformat(); save(q)
  article_url="https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id="+urllib.parse.quote(nid,safe="")
- comment="Leia a matéria completa no portal: "+article_url+"\\n\\nSiga o Mundo em Foco 24 pelo link da bio."
+ comment="Leia a matéria completa no portal: "+article_url+"\n\nSiga o Mundo em Foco 24 pelo link da bio."
  try:
   comment_payload=json.dumps({"account":ACCOUNT,"action":"create_comment","params":{"media_id":m.group(1),"message":comment}},ensure_ascii=False).encode()
   comment_req=urllib.request.Request(url,data=comment_payload,headers={"Content-Type":"application/json"},method="POST")
   with urllib.request.urlopen(comment_req,timeout=60) as r: comment_response=json.loads(r.read().decode())
   comment_result=str(comment_response.get("result",""))
-  cm=re.search(r"(?:comment id|id):\\s*(\\d+)",comment_result,re.I)
+  cm=re.search(r"(?:comment id|id):\s*(\d+)",comment_result,re.I)
   if cm: item["feed_comment_id"]=cm.group(1)
   item["comment_status"]="POSTED" if comment_response.get("success",True) else "UNKNOWN"
  except Exception as comment_error:
