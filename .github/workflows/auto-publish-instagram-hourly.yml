@@ -1,5 +1,7 @@
-name: Auto Publish Instagram Every Hour
+name: Auto Publish Instagram Every 30 Minutes
 on:
+  schedule:
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -40,7 +42,7 @@ jobs:
               expected=f"https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/{nid}.jpg"
               if image != expected: continue
               validation=(json.load(open("data/public-validation/latest.json",encoding="utf-8")).get(nid) or {})
-              if validation.get("passed") is not True or not validation.get("sha256"): continue
+              if validation.get("passed") is not True or not (validation.get("public_sha256") or validation.get("sha256")) or (validation.get("expected_sha256") and validation.get("public_sha256") and validation.get("expected_sha256") != validation.get("public_sha256")): continue
               published=str(n.get("published") or "")
               if not published: continue
               try:
