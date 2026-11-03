@@ -24,7 +24,9 @@ def eligible_item(nid,item,n,pv):
  expected=f"https://raw.githubusercontent.com/filipemelo1994-del/Mundo-em-foco-24-m-dia-/main/public/news-art/{nid}.jpg"
  image=(n.get("instagramImage") or "").strip()
  return bool(item.get("portal") and item.get("feed_art") and image==expected
-             and pv.get("passed") is True and pv.get("sha256"))
+             and pv.get("passed") is True and (pv.get("public_sha256") or pv.get("sha256"))
+             and (not pv.get("expected_sha256") or not pv.get("public_sha256") or pv.get("expected_sha256")==pv.get("public_sha256"))
+             and (not item.get("art_sha256") or item.get("art_sha256")== (pv.get("public_sha256") or pv.get("sha256"))))
 def save(q):
  q["updated_at"]=datetime.now(timezone.utc).isoformat()
  with open(QUEUE,"w",encoding="utf-8") as f: json.dump(q,f,ensure_ascii=False,indent=2); f.write("\n")
@@ -52,7 +54,9 @@ def main():
    ctype=(r.headers.get("Content-Type") or "").lower(); data=r.read()
   if not data or not ctype.startswith("image/"): raise RuntimeError("Arte V2 ausente ou inválida: "+ctype)
   actual_hash=hashlib.sha256(data).hexdigest()
-  if actual_hash != pv.get("sha256"): raise RuntimeError("Arte V2 não corresponde ao SHA validado; publicação bloqueada.")
+  validated_hash=pv.get("public_sha256") or pv.get("sha256")
+  if pv.get("expected_sha256") and pv.get("public_sha256") and pv.get("expected_sha256") != pv.get("public_sha256"): raise RuntimeError("SHA público diverge do SHA esperado; publicação bloqueada.")
+  if actual_hash != validated_hash: raise RuntimeError("Arte V2 não corresponde ao SHA validado; publicação bloqueada.")
   caption=(n.get("title","").strip()+"\n\n"+n.get("summary","").strip()).strip()
   sources=n.get("sources") or []
   source=((sources or [{}])[0].get("name") or "").strip()
@@ -73,6 +77,22 @@ def main():
   item.setdefault("attempts",{}); item["attempts"]["feed"]=item["attempts"].get("feed",0)+1
   item["last_error"]=str(e)[:300]; save(q); raise
  item["feed_media_id"]=m.group(1); item.setdefault("attempts",{}); item["attempts"]["feed"]=item["attempts"].get("feed",0)+1
- item["last_error"]=None; item["state"]="FEED_OK"; save(q)
- print("Publicado "+nid+"; media_id="+m.group(1)); return 0
+ item["last_error"]=None; item["state"]="FEED_OK"
+ # Salva o media_id antes do comentário: falha no comentário nunca provoca republicação.
+ item["instagram_published_at"]=datetime.now(timezone.utc).isoformat(); save(q)
+ article_url="https://filipemelo1994-del.github.io/Mundo-em-foco-24-m-dia-/noticia.html?id="+urllib.parse.quote(nid,safe="")
+ comment="Leia a matéria completa no portal: "+article_url+"\\n\\nSiga o Mundo em Foco 24 pelo link da bio."
+ try:
+  comment_payload=json.dumps({"account":ACCOUNT,"action":"create_comment","params":{"media_id":m.group(1),"message":comment}},ensure_ascii=False).encode()
+  comment_req=urllib.request.Request(url,data=comment_payload,headers={"Content-Type":"application/json"},method="POST")
+  with urllib.request.urlopen(comment_req,timeout=60) as r: comment_response=json.loads(r.read().decode())
+  comment_result=str(comment_response.get("result",""))
+  cm=re.search(r"(?:comment id|id):\\s*(\\d+)",comment_result,re.I)
+  if cm: item["feed_comment_id"]=cm.group(1)
+  item["comment_status"]="POSTED" if comment_response.get("success",True) else "UNKNOWN"
+ except Exception as comment_error:
+  item["comment_status"]="PENDING"
+  item["comment_error"]=str(comment_error)[:250]
+ save(q)
+ print("Publicado "+nid+"; media_id="+m.group(1)+"; comentário="+item["comment_status"]); return 0
 if __name__=="__main__": sys.exit(main())
